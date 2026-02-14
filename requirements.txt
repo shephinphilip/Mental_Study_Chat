@@ -1,0 +1,38 @@
+# Zenarck Deep Agent — Frontend (Streamlit Cloud)
+# Pin versions for reproducible cloud builds
+
+streamlit>=1.35.0,<2.0.0
+requests>=2.31.0,<3.0.0
+
+# Core
+langchain
+langchain-core
+langgraph
+
+langchain-openai
+langsmith
+
+# FastAPI
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# Async
+httpx
+aiohttp
+python-multipart
+
+# Env
+python-dotenv
+typing-extensions
+
+# Dev
+pytest
+pytest-asyncio
+black
+
+langchain-community
+sse-starlette
+
+deepagents
