@@ -36,3 +36,5 @@ langchain-community
 sse-starlette
 
 deepagents
+
+psutil
