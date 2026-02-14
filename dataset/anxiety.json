@@ -1,0 +1,1566 @@
+{
+  "category": "anxiety",
+  "data": [
+    {
+      "empathic_question": "It sounds like you're feeling really overwhelmed right now. Can you tell me a little more about what's making you feel this way?",
+      "empathic_response": "Oh, honey, that’s completely understandable that you’re feeling nervous. It’s brave of you to share that with me. It’s okay to feel scared and anxious sometimes, and you're not alone.",
+      "next_question": "What’s the first thing that comes to mind when you think about how you’re feeling?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for expression.",
+      "id": "dsm_l1_11"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really overwhelmed lately, and worrying is making it hard to feel calm.  It’s okay to feel this way, and you’re not alone.",
+      "empathic_response": "I hear you, and it’s understandable to feel anxious. It takes a lot of courage to acknowledge those worries.",
+      "next_question": "Can you tell me a little bit about what’s been making you feel so worried?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for them to express themselves.",
+      "id": "dsm_l1_12"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about what people are thinking, and that’s a tough feeling to deal with. Can you tell me a little more about what’s making you feel nervous when you try to do things?",
+      "empathic_response": "Oh, honey, that’s completely understandable. It’s so brave of you to share that, and it’s okay to feel nervous when you’re worried about what others think.  It’s like a little storm inside your head.",
+      "next_question": "What’s one small thing you could try to do right now to feel a little bit calmer?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering gentle support.",
+      "id": "dsm_l1_13"
+    },
+    {
+      "empathic_question": "It sounds like you were worried about something really tough, and that’s okay to feel that way. Can you tell me a little bit about what you were thinking?",
+      "empathic_response": "Oh, honey, that’s a really brave thing to admit. It takes a lot of courage to feel worried, and I’m so glad you’re sharing that with me. It’s completely normal to feel anxious sometimes.",
+      "next_question": "Can you tell me a little more about what’s been going on?",
+      "system_prompt": "Focus on validating the adolescent's feelings and providing a safe space for them to express themselves.",
+      "id": "anx_l2_01"
+    },
+    {
+      "empathic_question": "Hey, have you been feeling a little worried or uneasy lately?",
+      "empathic_response": "It’s totally okay to feel nervous sometimes, and you’re feeling brave for bringing it up.  It’s a really normal part of being a teenager.",
+      "next_question": "Can you tell me a little bit about what’s making you feel that way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space to explore their emotions.",
+      "id": "anx_l2_02"
+    },
+    {
+      "empathic_question": "It’s okay to feel scared sometimes. Can you tell me a little bit about what you were feeling when that happened?",
+      "empathic_response": "It sounds like you're going through a really tough time, and that’s completely understandable that you’re feeling scared.  It takes a lot of courage to acknowledge those feelings.",
+      "next_question": "Can you tell me a little more about what’s making you feel scared?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space to explore their emotions without judgment.",
+      "id": "anx_l2_03"
+    },
+    {
+      "empathic_question": "It sounds like you were feeling a little stressed lately. Can you tell me a little more about what that felt like?",
+      "empathic_response": "It’s completely okay to feel stressed, and it’s brave of you to acknowledge it. Just remember you're not alone, and it’s alright to take things one step at a time.",
+      "next_question": "What’s something that usually helps you feel a little calmer?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently guiding them toward identifying potential coping mechanisms.",
+      "id": "anx_l2_13"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried and on edge. That’s okay to feel, and it’s brave of you to share that with me.",
+      "empathic_response": "I hear you, and it’s completely understandable to feel nervous or anxious sometimes. It’s a really common feeling, and you’re not alone in experiencing it.  It’s like your body is telling you something’s different, and that can be really tough.",
+      "next_question": "Can you tell me a little bit about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying potential triggers for their anxiety.",
+      "id": "gad7_1"
+    },
+    {
+      "empathic_question": "It sounds like you're really struggling to feel calm when you’re worrying. That’s a really tough feeling, and it’s okay to feel this way.",
+      "empathic_response": "I hear how overwhelming it feels to try and stop worrying. It takes a lot of courage to acknowledge those feelings, and I want you to know I’m here to listen without judgment.",
+      "next_question": "Can you tell me a little bit about what kind of things you’re worrying about most right now?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of their anxieties.",
+      "id": "gad7_2"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about a lot of things lately. That’s a big feeling, and it’s okay to feel that way sometimes. ",
+      "empathic_response": "I hear you, and it takes a lot of courage to share that. It’s completely normal to worry, and you’re not alone in feeling this way.",
+      "next_question": "Can you tell me a little bit about what’s making you feel so worried?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration of their worries.",
+      "id": "gad7_3"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really stressed lately.  Can you tell me a little bit about what’s making it hard to relax?",
+      "empathic_response": "Oh, honey, it’s completely okay to feel overwhelmed sometimes.  It’s brave of you to acknowledge that you’re struggling with relaxation.  It’s a really common feeling, and you’re not alone.",
+      "next_question": "What does relaxation look like for you?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering gentle support, acknowledging the difficulty of managing anxiety.",
+      "id": "gad7_4"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really restless and having a hard time staying still. That must be really frustrating.",
+      "empathic_response": "Oh, that’s a really tough feeling to deal with. It’s okay to feel that way sometimes, and it’s brave of you to share it.",
+      "next_question": "Can you tell me a little bit about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and exploring the underlying cause of their restlessness.",
+      "id": "gad7_5"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really frustrated right now, and that’s okay to feel.  It’s like a little storm inside you.",
+      "empathic_response": "I hear you saying you’re feeling annoyed and irritable, and that’s a really tough feeling to deal with. It takes courage to acknowledge those emotions.",
+      "next_question": "Can you tell me a little bit about what’s been making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying potential triggers.",
+      "id": "gad7_6"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried and scared. Can you tell me a little bit about what’s making you feel that way?",
+      "empathic_response": "Oh, sweetheart, it’s completely okay to feel scared sometimes. It’s brave of you to share that with me.  It’s like your mind is telling you something important, and that can be really unsettling.",
+      "next_question": "Can you tell me a little more about what’s happening that’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for them to express themselves without judgment.",
+      "id": "gad7_7"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried when you're scared. Can you tell me a little bit about what that feeling is like for you?",
+      "empathic_response": "Oh, that’s so brave of you to share that. It’s completely okay to feel scared, and it’s really understandable that it feels hard to breathe when you’re worried.  It’s a really powerful feeling, and you’re doing a wonderful thing by talking about it.",
+      "next_question": "What’s the most intense part of the feeling when you’re scared?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for expression.",
+      "id": "SCARED_01"
+    },
+    {
+      "empathic_question": "Hey, it sounds like you’re feeling a bit worried about your headaches. It’s okay to feel that way, and I want you to know I’m here to listen.",
+      "empathic_response": "That must be really uncomfortable, and it’s understandable that you’re feeling anxious about it. It’s brave of you to share this with me.",
+      "next_question": "Can you tell me a little more about when these headaches usually happen, and how they feel?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to elaborate on their physical sensations.",
+      "id": "SCARED_02"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little shy or worried when you’re around new people.  That’s a really valid feeling.",
+      "empathic_response": "It’s completely okay to feel that way, and it’s brave of you to share it.  Many people feel the same way sometimes.",
+      "next_question": "Can you tell me a little bit about what makes you feel uncomfortable when you’re around new people?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying the root cause of their discomfort.",
+      "id": "SCARED_03"
+    },
+    {
+      "empathic_question": "It’s totally okay to feel a little nervous about going somewhere new, like staying at a friend’s house or away from home.  It’s a big change, and it’s normal to feel a bit worried.",
+      "empathic_response": "I hear you. It sounds like you're feeling a little apprehensive about that, and that's a really brave thing to acknowledge. It’s understandable to feel that way when things are different.",
+      "next_question": "What specifically makes you feel most scared?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering reassurance.",
+      "id": "SCARED_04"
+    },
+    {
+      "empathic_question": "It makes me wonder if people see how you feel, doesn't it?",
+      "empathic_response": "Oh, honey, that’s a really important question, and it’s okay to feel that way. It’s a natural feeling to think about how others perceive you.  It’s brave of you to share that.",
+      "next_question": "Can you tell me a little bit about what makes you feel that way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently exploring the root of their anxiety about social acceptance.  Avoid offering solutions at this stage.",
+      "id": "SCARED_05"
+    },
+    {
+      "empathic_question": "It’s okay to feel scared, and it’s brave of you to share that with me. What does that feeling of being scared feel like for you?",
+      "empathic_response": "That’s a really understandable feeling – it’s completely normal to feel anxious when you’re scared. It’s like your body is trying to protect you, and it’s okay to feel that way.  It’s like your head is going to spin a little bit.",
+      "next_question": "Can you tell me a little more about what’s making you feel scared?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying the specific sensations associated with their fear.",
+      "id": "SCARED_06"
+    },
+    {
+      "empathic_question": "Do you ever feel like you're worried or a little nervous, like something might happen?",
+      "empathic_response": "It’s really brave of you to share that. It’s okay to feel nervous sometimes, and you’re not alone in feeling that way. Many people do.",
+      "next_question": "Can you tell me a little bit more about what that feeling feels like for you?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to explore the specific nature of their anxiety.",
+      "id": "SCARED_07"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really connected to your parents, and that’s wonderful! Sometimes, when we feel really close to people we love, it can be a little tricky. Do you ever feel like you need to be around them a lot?",
+      "empathic_response": "It’s completely understandable to feel that way – it’s a natural feeling to want to feel secure and loved. It’s okay to feel like you need to be close to your parents.",
+      "next_question": "What’s the hardest part about feeling this way?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently exploring the underlying reasons for their behavior.",
+      "id": "SCARED_08"
+    },
+    {
+      "empathic_question": "It makes me feel a little unsure sometimes, do you think?",
+      "empathic_response": "Oh, honey, it’s really brave of you to share that. It’s okay to feel unsure, and it’s wonderful that you’re feeling comfortable enough to tell me.  It sounds like you’re feeling a bit worried or anxious, and that’s completely understandable.",
+      "next_question": "Can you tell me a little more about what you’re feeling nervous about?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for them to express themselves.",
+      "id": "SCARED_09"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried when you’re around new people.  That’s completely okay to feel that way.",
+      "empathic_response": "I hear you, and it’s brave of you to share that. It’s really common to feel nervous in new situations, and you're not alone in feeling this way.",
+      "next_question": "Can you tell me a little bit about what that nervousness feels like for you?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging self-exploration.",
+      "id": "SCARED_10"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about your stomachaches at school. That must be really uncomfortable.",
+      "empathic_response": "Oh, that’s so tough to deal with. It’s completely understandable that you’re feeling anxious about it.  It’s okay to feel that way.",
+      "next_question": "Can you tell me a little bit more about how these stomachaches are making you feel?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently encouraging them to explore the underlying emotions associated with their discomfort.",
+      "id": "SCARED_11"
+    },
+    {
+      "empathic_question": "It’s totally okay to feel scared, and it can feel like your mind is running a little fast sometimes.  Do you ever wonder if you’re imagining things?",
+      "empathic_response": "That’s a really brave thought – it takes courage to admit you’re feeling scared.  It’s understandable to feel overwhelmed by those feelings.",
+      "next_question": "Can you tell me a little bit about what makes you feel scared?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for them to explore their feelings.",
+      "id": "SCARED_12"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling a bit worried about sleeping alone. That’s okay to feel that way, and it’s brave of you to share it.",
+      "empathic_response": "I hear you, and it’s completely understandable to feel anxious about that. It’s a really common feeling, and you're not alone in feeling this way.",
+      "next_question": "Can you tell me a little more about what makes you feel worried about sleeping alone?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently guiding them to explore the root of their anxiety.",
+      "id": "SCARED_13"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling a bit worried about how you compare to your friends, and that’s really okay to feel that way.  It’s a common feeling, and it’s brave of you to share it.",
+      "empathic_response": "I hear you, and it takes a lot of courage to admit that.  It’s completely normal to worry about how you’re doing compared to others, and you’re doing a great job noticing that.",
+      "next_question": "Can you tell me a little bit about what makes you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently encouraging exploration of the underlying reasons for their worry.",
+      "id": "SCARED_14"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried when you’re scared. Can you tell me a little bit about what that feeling is like for you?",
+      "empathic_response": "Oh, honey, it’s completely okay to feel that way. It’s brave of you to share that with me. It’s like your brain might be playing tricks on you, and it’s really scary to think things aren’t real.  It’s a really important feeling to acknowledge.",
+      "next_question": "What’s the *scariest* thing that happened to you recently?",
+      "system_prompt": "Focus on validating the adolescent’s experience and exploring the source of their anxiety.  Use open-ended questions to encourage them to elaborate.",
+      "id": "SCARED_15"
+    },
+    {
+      "empathic_question": "It sounds like you're really worried about your parents, and that’s a really brave thing to acknowledge.  It’s okay to feel scared when you have worries about loved ones.",
+      "empathic_response": "I hear how much you’re feeling, and it’s completely understandable to be anxious about things happening to your parents.  It takes a lot of courage to talk about these feelings.",
+      "next_question": "Can you tell me a little bit more about what you’re imagining in your dreams?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to explore their feelings without judgment.",
+      "id": "SCARED_16"
+    },
+    {
+      "empathic_question": "Hey, it makes sense that you're feeling anxious about school. It’s okay to feel worried sometimes. ",
+      "empathic_response": "I hear you – it’s completely understandable to worry about things like that. It’s brave of you to share this.",
+      "next_question": "Can you tell me a little bit about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for them to express themselves.",
+      "id": "SCARED_17"
+    },
+    {
+      "empathic_question": "It’s totally okay to feel scared, and your heart can really beat fast when you’re worried.  It’s like your body is trying to protect you.",
+      "empathic_response": "That’s a really brave feeling to acknowledge, and it’s understandable that your heart would race when you’re scared.  It shows you care about yourself.",
+      "next_question": "Can you tell me a little bit about what you were feeling when you noticed your heart beating fast?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering gentle support.  Use language appropriate for a young person.",
+      "id": "SCARED_18"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a bit unsteady, and that’s okay. Can you tell me a little bit about what you’re experiencing?",
+      "empathic_response": "Oh, honey, it’s really brave of you to share that. It’s completely normal to feel shaky sometimes, and it’s a sign that you’re feeling something deeply.  Let’s just take a little time to understand where you’re coming from.",
+      "next_question": "Can you tell me a little more about when you notice this feeling?",
+      "system_prompt": "Focus on validating the user's feelings and offering a safe space for exploration.",
+      "id": "SCARED_19"
+    },
+    {
+      "empathic_question": "It sounds like you’re worried about something, and that’s okay to feel worried about dreams.  Can you tell me a little bit about what you’re experiencing?",
+      "empathic_response": "Oh, honey, it’s really brave of you to share that.  Dreams can be really confusing, and it’s completely normal to feel anxious about them.  It’s okay to feel worried, and I’m here to listen without judgment.",
+      "next_question": "Can you tell me a little more about what you’re imagining in your dreams?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for them to express their anxieties related to dreams.",
+      "id": "SCARED_20"
+    },
+    {
+      "empathic_question": "It’s totally okay to feel worried about the future, you know? It’s a big thing to think about.",
+      "empathic_response": "It sounds like you’re feeling a lot of pressure about what’s going to happen. That’s a really normal feeling, and it’s brave of you to acknowledge it.",
+      "next_question": "Can you tell me a little bit about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for exploration.",
+      "id": "SCARED_21"
+    },
+    {
+      "empathic_question": "It’s totally okay to feel scared, isn’t it? Sometimes when we’re nervous, our bodies get a little hot. Do you notice that happening when you feel scared?",
+      "empathic_response": "Oh, that’s a really good observation – it’s brave of you to notice that! It’s completely normal to feel that way, and it’s okay to feel scared.  It’s a sign your body is reacting to something you’re feeling.",
+      "next_question": "Can you tell me a little bit about what’s making you feel scared?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering gentle reassurance.",
+      "id": "SCARED_22"
+    },
+    {
+      "empathic_question": "Do you ever feel like you’re constantly thinking about things, and it feels a little overwhelming?",
+      "empathic_response": "It sounds like you’re carrying a lot of worry right now, and that’s really brave of you to share. It’s okay to feel that way sometimes, and you’re not alone.",
+      "next_question": "Can you tell me a little bit about what kinds of things are making you feel this worried?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for them to express themselves.",
+      "id": "SCARED_23"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried sometimes, and that’s okay to feel.  It’s brave of you to share that with me.",
+      "empathic_response": "I hear you, and it’s completely understandable to feel scared when you don’t know why.  It’s a really normal feeling to have.",
+      "next_question": "Can you tell me a little bit about what makes you feel that way sometimes?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of their feelings.",
+      "id": "SCARED_24"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about being alone, and that’s okay to feel that way.  It’s brave of you to share that with me.",
+      "empathic_response": "I hear you – it’s completely normal to feel anxious about being alone sometimes, and it’s good that you’re acknowledging those feelings.  It takes a lot of courage to admit that.",
+      "next_question": "Can you tell me a little bit more about what makes you feel that way?",
+      "system_prompt": "Focus on validating the adolescent’s emotional experience and gently exploring the underlying reasons for their anxiety.",
+      "id": "SCARED_25"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about connecting with new people.  It’s okay to feel that way sometimes.",
+      "empathic_response": "I hear you, and it’s completely understandable that you’re feeling anxious about that. It takes a lot of courage to reach out, and it’s brave of you to acknowledge those feelings.",
+      "next_question": "Can you tell me a little more about what makes it feel difficult to talk to people you don’t know?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering gentle support.",
+      "id": "SCARED_26"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried when you're scared. Can you tell me a little bit about what that feeling is like for you?",
+      "empathic_response": "It’s completely okay to feel scared, and it’s brave of you to share that with me. It’s really understandable to feel like you’re struggling, and I’m here to listen without judgment.",
+      "next_question": "What’s the biggest thing that’s making you feel scared right now?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of their emotions.",
+      "id": "SCARED_27"
+    },
+    {
+      "empathic_question": "It makes me feel a little uneasy to think about that, isn't it?  It's okay to feel worried sometimes, and it’s good to know you're safe and loved.",
+      "empathic_response": "That’s a really important feeling to acknowledge – it takes courage to share that.  It’s completely normal to worry, and you’re not alone in feeling this way.",
+      "next_question": "Can you tell me a little bit about what you’re feeling when you think about that?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering reassurance.",
+      "id": "SCARED_28"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling a little lonely when you're not with your family.  Can you tell me a bit more about what that feeling is like?",
+      "empathic_response": "Oh, honey, it’s completely understandable to feel that way sometimes. It’s okay to miss your family, and it’s brave of you to acknowledge those feelings.  It’s a really common feeling, and you’re not alone in feeling this way.",
+      "next_question": "What’s the strongest part of your family for you?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently encouraging exploration of their emotions.",
+      "id": "SCARED_29"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about having a panic attack. It’s okay to feel that way, and it’s brave of you to share what you’re going through.",
+      "empathic_response": "I hear you, and it’s completely understandable to feel anxious about a panic attack. It’s a scary feeling, and you’re right to acknowledge that.",
+      "next_question": "Can you tell me a little bit about what you’ve been feeling lately that’s making you worried about this?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for them to express their fears.",
+      "id": "SCARED_30"
+    },
+    {
+      "empathic_question": "It makes me feel a little worried when I think about your parents. Can you tell me a little bit about what you’re feeling right now?",
+      "empathic_response": "Oh honey, it’s completely okay to feel worried about your parents. It’s a really normal feeling, and you’re brave for sharing it with me.  It’s good to acknowledge those feelings.",
+      "next_question": "What’s the hardest part about feeling worried about them?",
+      "system_prompt": "Focus on validating the adolescent's emotional experience and offering a safe space for them to express their concerns.",
+      "id": "SCARED_31"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about meeting new people. It’s totally okay to feel a bit shy sometimes, and it’s brave of you to share that with me.",
+      "empathic_response": "I hear you, and it’s understandable to feel that way when you’re not used to being around new people.  It’s a really common feeling, and you’re not alone in feeling this way.",
+      "next_question": "Can you tell me a little bit about what makes you feel shy when you’re with people you don’t know well?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space to explore their experience.",
+      "id": "SCARED_32"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a lot of worry about things that might happen later. That’s completely understandable to feel that way, and it’s brave of you to share it with me.",
+      "empathic_response": "I hear you, and it’s okay to feel anxious about the future. It’s a really common feeling, and you’re not alone in feeling this way.",
+      "next_question": "Can you tell me a little bit about what kinds of things make you worry the most right now?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them toward identifying specific anxieties.",
+      "id": "SCARED_33"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried when you get scared. Do you ever feel like you have to do something like that to calm yourself down?",
+      "empathic_response": "It’s completely okay to feel scared, and it’s brave of you to share that with me. It’s really understandable to feel overwhelmed when you’re feeling that way.  Let’s just take a little time to figure out what’s happening.",
+      "next_question": "Can you tell me a little bit more about what that feeling is like for you when you’re scared?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying the root of their anxiety.",
+      "id": "SCARED_34"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling a bit worried about things – school and your interests. That’s completely okay to feel that way, and it’s brave of you to share it with me.",
+      "empathic_response": "I hear you, and it takes a lot of courage to acknowledge those worries. It’s understandable to feel anxious about things you’re working towards.",
+      "next_question": "Can you tell me a little bit about what's making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently guiding them towards identifying the root of their anxiety.",
+      "id": "SCARED_35"
+    },
+    {
+      "empathic_question": "It sounds like school can be a little scary sometimes, doesn't it?",
+      "empathic_response": "Oh, that’s completely understandable to feel that way. It’s okay to feel scared, and you’re not alone in feeling this way. It takes a lot of courage to admit that.",
+      "next_question": "What specifically about school makes you feel scared?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them to identify the root of their anxiety.",
+      "id": "SCARED_36"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling a lot of worry about things that have already passed, and that's really tough.  It’s okay to feel this way.",
+      "empathic_response": "I hear you, and it makes sense that you're thinking about those things. It’s like your mind is trying to replay them, and that can be really overwhelming.",
+      "next_question": "Can you tell me a little bit about what’s making you feel this worried?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for exploration.",
+      "id": "SCARED_37"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried when you get scared. Do you feel like your head is spinning or spinning around?",
+      "empathic_response": "It’s completely okay to feel scared, and it’s brave of you to share that with me. Those feelings can be really intense, and it’s important to know you’re not alone.",
+      "next_question": "Can you tell me a little more about what happens when you feel scared?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to explore the physical sensations associated with anxiety.",
+      "id": "SCARED_38"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried or uneasy when you have to do something in front of people, like reading or speaking. That must be really tough.",
+      "empathic_response": "Oh, honey, it’s completely okay to feel nervous about that. It’s a really common feeling, and you’re not alone in feeling this way. It’s brave of you to share what you’re going through.",
+      "next_question": "Can you tell me a little bit about what that feeling feels like when it happens?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently encouraging exploration of the underlying emotions.",
+      "id": "SCARED_39"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about going to parties or new places. That’s completely understandable – it can be a bit scary sometimes!",
+      "empathic_response": "It’s okay to feel nervous, and it’s brave of you to share that with me. Many people feel that way, and it’s a sign you care about feeling safe and comfortable.",
+      "next_question": "Can you tell me a little bit about what makes you feel most nervous when you’re anticipating a party or a new place?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for exploration of their anxiety.",
+      "id": "SCARED_40"
+    },
+    {
+      "empathic_question": "Do you ever feel a little nervous or worried about talking to people?",
+      "empathic_response": "It’s really brave of you to acknowledge those feelings. It’s okay to feel shy sometimes, and it’s a normal part of growing up.  Just remember you’re safe here.",
+      "next_question": "Can you tell me a little bit about when you notice you feel shy?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space to explore their feelings.",
+      "id": "SCARED_41"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a bit worried about things. That’s okay to feel, and it’s brave of you to share that with me.",
+      "empathic_response": "I hear you, and it’s completely understandable to feel anxious sometimes. It’s a really normal feeling, and you’re not alone in feeling this way.",
+      "next_question": "Can you tell me a little bit about what’s making you feel anxious right now?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration of anxiety.",
+      "id": "RCADS_01"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a bit worried about something. Do you ever notice a funny feeling in your tummy when you’re stressed or worried?",
+      "empathic_response": "Oh, honey, that’s a really common feeling! It’s okay to feel worried, and it’s brave of you to share that with me. It’s like your body is trying to tell you something.",
+      "next_question": "Can you tell me a little bit about what’s been going on that’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of their emotions.",
+      "id": "RCADS_03"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about things, and that’s okay.  It’s brave of you to share that with me.",
+      "empathic_response": "I hear how tough that feeling is, and it’s completely understandable to worry when you feel like you’ve let yourself down.  It’s a really common experience, and you’re not alone in feeling this way.",
+      "next_question": "Can you tell me a little bit more about what’s making you feel worried about doing something well?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently guiding them toward identifying the root of their anxiety.",
+      "id": "RCADS_04"
+    },
+    {
+      "empathic_question": "It’s okay to feel a little worried about being alone at home. What thoughts are going through your head when you think about that?",
+      "empathic_response": "It’s completely normal to feel a little nervous or worried when you’re alone, especially at home. Just know that you're feeling your feelings is a good first step.",
+      "next_question": "Can you tell me a little bit about what makes you feel that way?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of their anxieties.",
+      "id": "RCADS_05"
+    },
+    {
+      "empathic_question": "It’s okay to feel a little nervous before a test, isn’t it? It’s a big thing to do!",
+      "empathic_response": "I hear you – it sounds like you’re feeling worried about the test. That’s a completely normal feeling, and it’s brave of you to acknowledge it.",
+      "next_question": "What specifically about the test makes you feel scared?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently encouraging them to explore the source of their anxiety.",
+      "id": "RCADS_07"
+    },
+    {
+      "empathic_question": "It’s okay to feel a little worried when you think someone is upset, isn’t it? What does that feeling feel like for you?",
+      "empathic_response": "That’s a really brave thing to acknowledge – feeling worried when someone is angry is completely normal, especially when you’re feeling sensitive. It’s like a little knot in your stomach.",
+      "next_question": "Can you tell me a little more about what that feeling feels like?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently encouraging exploration of their emotional state.",
+      "id": "RCADS_08"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling a little worried about being separated from your parents. That’s a really big feeling to have, and it’s okay to feel worried. ",
+      "empathic_response": "I hear you, and it makes sense that you're feeling anxious about that. It’s completely normal to worry about things like that, especially when you have people you love.",
+      "next_question": "Can you tell me a little bit more about what you’re feeling when you think about being away from your parents?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space to explore their concerns.",
+      "id": "RCADS_09"
+    },
+    {
+      "empathic_question": "It sounds like you're noticing some thoughts that feel a little unsettling, or even funny, in your head.  It’s okay to notice those thoughts – they’re part of being a human!",
+      "empathic_response": "I hear you. It’s really brave of you to acknowledge these thoughts, and it takes strength to notice them. They can feel a bit overwhelming sometimes.",
+      "next_question": "Can you tell me a little bit about what kind of thoughts are making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of difficult emotions.",
+      "id": "RCADS_10"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling a little worried about your schoolwork, and that’s okay to feel that way. It’s really brave of you to share that with me.",
+      "empathic_response": "I hear you, and it takes a lot of courage to admit when you're feeling anxious. It’s completely normal to worry about things like this, especially when you’re striving for something important.",
+      "next_question": "Can you tell me a little more about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of their feelings.",
+      "id": "RCADS_12"
+    },
+    {
+      "empathic_question": "It’s really brave of you to think about that. It’s okay to feel worried sometimes, and it’s a sign of caring.",
+      "empathic_response": "I hear you, and it sounds like you’re feeling a lot of worry about your family. That’s a very thoughtful concern.",
+      "next_question": "Can you tell me a little bit about what makes you feel that way?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for them to express themselves without judgment.",
+      "id": "RCADS_13"
+    },
+    {
+      "empathic_question": "It sounds like you're really worried and stressed right now. Can you tell me a little bit about what's making you feel this way?",
+      "empathic_response": "Oh, honey, that’s so brave of you to share that. It’s completely okay to feel worried when you’re not sure why, and it’s really good that you’re acknowledging it.  It’s a sign of strength.",
+      "next_question": "What’s the first thing that comes to mind when you think about this feeling of not being able to breathe?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for them to express their feelings.",
+      "id": "RCADS_14"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about things being perfect, and that’s a really big feeling. It’s okay to feel that way sometimes, and it’s brave of you to share it.",
+      "empathic_response": "I hear you, and it makes sense that you'd be concerned about things being right. It’s like you want everything to be perfect, and that can be really stressful.",
+      "next_question": "Can you tell me a little more about what makes you feel this way about things being 'right'?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration of anxiety.",
+      "id": "RCADS_16"
+    },
+    {
+      "empathic_question": "It’s okay to feel a little nervous about sleeping alone, isn’t it? It’s a big step.",
+      "empathic_response": "It sounds like you’re feeling a bit worried about that, and that’s completely understandable. It’s brave of you to acknowledge those feelings.",
+      "next_question": "What specifically about sleeping alone makes you feel a little scared?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently exploring the root of their anxiety.",
+      "id": "RCADS_17"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about going to school in the mornings. That’s completely understandable to feel nervous or afraid sometimes, and it’s okay to acknowledge those feelings.",
+      "empathic_response": "I hear you, and it takes a lot of courage to share that. It’s really brave of you to talk about it.",
+      "next_question": "Can you tell me a little bit about what makes you feel most nervous when you get ready for school?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to explore the root of their anxiety.",
+      "id": "RCADS_18"
+    },
+    {
+      "empathic_question": "Hey, it sounds like you're feeling a little worried about how you're being seen. That’s a really tough feeling to carry around. ",
+      "empathic_response": "It’s completely okay to feel worried about that. Everyone worries sometimes, and it’s brave of you to acknowledge it. ",
+      "next_question": "Can you tell me a little bit more about what makes you feel that way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging self-compassion.",
+      "id": "RCADS_20"
+    },
+    {
+      "empathic_question": "It makes me sad to think about things that could go wrong, doesn't it?",
+      "empathic_response": "Oh, honey, that’s a really tough feeling to have. It’s okay to feel worried, and it’s brave of you to share that with me.",
+      "next_question": "Can you tell me a little bit about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for them to express themselves.",
+      "id": "RCADS_22"
+    },
+    {
+      "empathic_question": "It sounds like you're really struggling to quiet those tricky thoughts. It’s okay to feel overwhelmed by them sometimes.",
+      "empathic_response": "I hear how frustrating that must feel. It’s like your mind is racing, and it’s hard to feel calm.",
+      "next_question": "Can you tell me a little more about what those thoughts feel like for you?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them toward identifying the specific nature of the anxiety.",
+      "id": "RCADS_23"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried when things get tough. Your heart beating fast can be a sign of anxiety, and it’s okay to feel that way.",
+      "empathic_response": "I hear you, and it’s completely understandable that you’re feeling that way. It’s brave of you to share this with me.",
+      "next_question": "Can you tell me a little more about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying the source of their anxiety.",
+      "id": "RCADS_24"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried or nervous sometimes. Can you tell me a little bit about what you're experiencing when you feel like you're trembling or shaking?",
+      "empathic_response": "Oh, that’s so brave of you to share that. It’s completely okay to feel worried or nervous, and it’s good that you’re noticing it.  It’s like your body is trying to tell you something, and it’s okay to acknowledge those feelings.",
+      "next_question": "Can you think of a time when you felt this way before?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to explore the physical sensations associated with their anxiety.",
+      "id": "RCADS_26"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about something, and that’s okay to feel that way.  Sometimes when we’re worried, our bodies feel a bit shaky, like we’re a little unsteady.",
+      "empathic_response": "I hear you. It’s really brave of you to share that, and it’s understandable to feel shaky when you’re struggling with something.  It’s okay to feel that way.",
+      "next_question": "Can you tell me a little bit more about what’s making you feel shaky right now?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for them to express their feelings without judgment.",
+      "id": "RCADS_28"
+    },
+    {
+      "empathic_question": "It’s totally okay to feel worried about making mistakes, you know? It’s a really common feeling, and it’s brave of you to acknowledge it.",
+      "empathic_response": "I hear you – it sounds like you’re feeling a little anxious about things, and that’s understandable. It’s a natural part of growing up and trying to do your best.",
+      "next_question": "Can you tell me a little bit about what makes you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering support without judgment.",
+      "id": "RCADS_30"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about things happening. Do you ever feel like you need to think really hard to calm down?",
+      "empathic_response": "It’s completely okay to feel anxious, and it’s brave of you to share this with me. It’s a really common feeling, and you’re not alone.",
+      "next_question": "Can you tell me a little bit about what kind of 'bad things' you’re worrying about?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently encouraging exploration of their anxieties.",
+      "id": "RCADS_31"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about what others think. That’s a tough feeling to carry around.",
+      "empathic_response": "It’s completely okay to feel worried about what others think. Everyone’s different, and it’s brave of you to acknowledge those thoughts.",
+      "next_question": "Can you tell me a little bit more about when you start feeling this worried?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the underlying reasons for the worry.",
+      "id": "RCADS_32"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling worried about being in crowded places. That’s completely understandable to feel anxious about that.",
+      "empathic_response": "It takes a lot of courage to feel this way, and it’s okay to feel scared. I’m here to listen if you want to talk more about it.",
+      "next_question": "Can you tell me a little bit about what makes you feel most anxious in crowded spaces?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently encouraging them to explore the source of their anxiety.",
+      "id": "RCADS_33"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried and scared, and that’s okay to feel that way. Can you tell me a little more about what’s making you feel this way?",
+      "empathic_response": "Oh, that’s really tough to talk about, and it’s completely understandable that you’re feeling scared. It takes a lot of courage to acknowledge those feelings.",
+      "next_question": "Is there anything specific that triggered these feelings, or is it more of a general feeling of unease?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of their emotions.",
+      "id": "RCADS_34"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about things, and that's okay to feel that way.  It’s brave of you to share that with me.",
+      "empathic_response": "I hear you, and it’s completely understandable to feel anxious about the future.  It’s a big thing to think about.",
+      "next_question": "Can you tell me a little bit about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for exploration.",
+      "id": "RCADS_35"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about this, and it’s okay to feel that way. Can you tell me a little more about what you're experiencing when you feel dizzy or faint?",
+      "empathic_response": "Oh, that sounds really unsettling. It’s brave of you to share this with me. It’s completely normal to feel anxious when you're experiencing something like that, and I want you to know you’re not alone.",
+      "next_question": "Have you noticed anything else that might be contributing to this feeling, like stress or anything else happening in your life?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them to explore potential contributing factors.",
+      "id": "RCADS_36"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about talking in front of your class. That’s completely understandable – it can be a big thing to feel nervous about. ",
+      "empathic_response": "It takes courage to admit that you’re feeling anxious, and I want you to know I’m here to listen without judgment. It’s okay to feel this way.",
+      "next_question": "Can you tell me a little more about what makes you feel afraid?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for expression.",
+      "id": "RCADS_38"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried and maybe a little scared right now. Your heart racing can be really intense, and it’s okay to feel that way. Can you tell me a little bit about what's making you feel this way?",
+      "empathic_response": "Oh, honey, that sounds incredibly uncomfortable. It’s brave of you to share that, and it’s completely understandable that you’re feeling this way.  It’s like your body is reacting to something, and that can be really overwhelming.",
+      "next_question": "Is there anything specific that triggered this feeling, or is it just a general feeling of unease?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying potential triggers without offering solutions.",
+      "id": "RCADS_39"
+    },
+    {
+      "empathic_question": "It’s really okay to feel a little worried sometimes, isn’t it? It’s like, what if something unexpected happens, and you’re not sure how to react?",
+      "empathic_response": "Oh, honey, that’s a really common feeling. It’s completely normal to feel a little anxious about things you don’t know, and it’s brave of you to acknowledge it.  It sounds like you’re worried about a sudden scare, and that’s a big and important feeling.",
+      "next_question": "Can you tell me a little more about what that ‘nothing to be afraid of’ feels like for you?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a supportive space for exploration of their feelings.",
+      "id": "RCADS_41"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little overwhelmed with having to do the same things over and over. That can be really tough, and it’s okay to feel that way.  Do you feel like you’re struggling with feeling like you have to do things repeatedly?",
+      "empathic_response": "Oh, honey, that sounds really frustrating. It’s completely understandable to feel that way when something feels like it’s piling up.  It’s brave of you to share this with me.",
+      "next_question": "Can you tell me a little bit more about what that feeling is like for you when you’re doing those things?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for them to express their emotions without judgment.",
+      "id": "RCADS_42"
+    },
+    {
+      "empathic_question": "It sounds like you’re worried about how you’re being seen by others, and that’s really brave of you to share that with me.  It’s okay to feel nervous sometimes, and it’s a sign of strength to acknowledge those feelings.",
+      "empathic_response": "I hear how upsetting that must feel, and it makes perfect sense that you're feeling anxious.  It’s a really common worry, and you're not alone in feeling this way.",
+      "next_question": "Can you tell me a little bit more about what that ‘fooling yourself’ feeling is like for you?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for emotional exploration.",
+      "id": "RCADS_43"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling worried about things happening, and that’s okay to feel that way.  It’s like you’re wondering if there’s a 'right' way to handle everything, and that can be really stressful.  Do you ever feel like you need to be perfect at everything?",
+      "empathic_response": "Oh, honey, it’s completely normal to feel anxious about things. It’s like you’re trying to control everything, and that can be really hard.  It’s okay to feel worried, and it’s brave of you to share that with me.",
+      "next_question": "Can you tell me a little bit about what makes you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration of anxiety.",
+      "id": "RCADS_44"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about bedtime. That’s okay to acknowledge.",
+      "empathic_response": "It’s completely normal to feel worried about things, and you’re not alone in feeling that way. Many people worry about bedtime sometimes.",
+      "next_question": "Can you tell me a little bit about what makes you feel worried about bedtime?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently encouraging them to explore the source of their anxiety.",
+      "id": "RCADS_45"
+    },
+    {
+      "empathic_question": "It’s okay to feel a little worried about staying home overnight.  It’s a big change, and that can be a little scary.",
+      "empathic_response": "I hear you. It’s completely normal to feel a bit nervous about something new and a little scary.  It’s brave of you to share this with me.",
+      "next_question": "Can you tell me a little bit about what you’re most worried about?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration.",
+      "id": "RCADS_46"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a bit unsettled. Can you tell me a little bit about what that feeling is like?",
+      "empathic_response": "It’s completely okay to feel restless sometimes. It’s a normal feeling, and it’s brave of you to share it. Just let yourself feel it without judgment.",
+      "next_question": "What’s happening that makes you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them toward identifying the root cause of their restlessness.",
+      "id": "RCADS_47"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a bit worried about things. That’s really brave of you to share that with me.",
+      "empathic_response": "It’s completely okay to feel worried sometimes, and you're not alone. Many people experience anxiety, and it’s important to know it’s alright to acknowledge those feelings.",
+      "next_question": "Can you tell me a little bit about what's making you feel worried right now?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying the source of their anxiety.",
+      "id": "SCAS_01"
+    },
+    {
+      "empathic_question": "It makes sense to feel a little worried when it’s dark, isn’t it? What thoughts are going through your head when you think about it?",
+      "empathic_response": "It’s completely okay to feel worried when you’re afraid of the dark. It’s a really common feeling, and you’re not alone in feeling this way.  Many people experience similar feelings.",
+      "next_question": "Can you tell me a little bit about what that feeling is like for you?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the nature of their anxiety.",
+      "id": "SCAS_02"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about something. Do you ever notice a funny feeling in your tummy when you’re stressed or worried?",
+      "empathic_response": "Oh, honey, that’s a really common feeling – it’s like your body is saying, ‘Something’s not right!’ It’s okay to feel that way, and it’s brave of you to share it with me.",
+      "next_question": "Can you tell me a little bit more about what’s been going on?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for them to express their feelings.",
+      "id": "SCAS_03"
+    },
+    {
+      "empathic_question": "Do you feel like something might be scary or worrying right now?",
+      "empathic_response": "It’s totally okay to feel worried sometimes. It’s brave of you to acknowledge that you’re feeling afraid.",
+      "next_question": "Can you tell me a little bit about what’s making you feel that way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration.",
+      "id": "SCAS_04"
+    },
+    {
+      "empathic_question": "It’s okay to feel a little worried about being alone at home, isn’t it? What thoughts are going through your head when you think about that?",
+      "empathic_response": "It sounds like you’re feeling a bit anxious about being alone. That’s completely understandable, and it’s brave of you to acknowledge those feelings.  It’s okay to feel worried, and we can explore what’s making you feel that way.",
+      "next_question": "Can you tell me a little bit about what usually happens when you think about being alone?",
+      "system_prompt": "Focus on validating the adolescent’s emotional experience and gently guiding them towards identifying the root cause of their anxiety.",
+      "id": "SCAS_05"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about the test. It’s really okay to feel that way, and it’s brave of you to share it.",
+      "empathic_response": "I hear you. It’s completely normal to feel scared before a test, and it’s okay to acknowledge those feelings. You’re not alone in feeling this way.",
+      "next_question": "Can you tell me a little more about what makes you feel scared?",
+      "system_prompt": "Focus on validating the adolescent's emotional experience and gently encouraging them to explore the specific triggers of their anxiety.",
+      "id": "SCAS_06"
+    },
+    {
+      "empathic_question": "Hey, it’s totally okay to feel a little nervous about using public restrooms. It’s a big step, and it’s understandable to feel a bit worried about it. ",
+      "empathic_response": "I hear you – it sounds like you’re feeling a bit anxious about that. It’s brave of you to share that with me.  It’s normal to feel that way when you’re facing something new.",
+      "next_question": "Can you tell me a little more about what you’re feeling when you think about using public restrooms?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for them to express their concerns.",
+      "id": "SCAS_07"
+    },
+    {
+      "empathic_question": "It makes sense that you’re feeling worried about being separated from your parents, and it’s okay to feel that way. It’s a really big thing to think about.",
+      "empathic_response": "I hear you, and it sounds like you’re feeling a lot of worry right now. It’s brave of you to share that with me.",
+      "next_question": "Can you tell me a little bit more about what that worry feels like for you?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for exploration of anxiety.",
+      "id": "SCAS_08"
+    },
+    {
+      "empathic_question": "It sounds like you’re worried about how you’re being seen, and that’s a really brave thing to acknowledge.  It’s completely normal to feel nervous about that kind of thing.",
+      "empathic_response": "I hear how worried you are, and it takes a lot of courage to admit that.  It’s okay to feel this way, and you’re not alone.",
+      "next_question": "Can you tell me a little bit about what makes you feel like you might make a mistake?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration of anxiety.",
+      "id": "SCAS_09"
+    },
+    {
+      "empathic_question": "It’s totally okay to feel worried about schoolwork, and it’s brave of you to share that with me.  It sounds like you’re feeling a bit stressed.",
+      "empathic_response": "I hear you, and it’s understandable to feel anxious about things like that.  It’s a really common feeling, and you’re not alone in feeling this way.",
+      "next_question": "Can you tell me a little bit more about what’s making you feel worried?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration of their anxieties.",
+      "id": "SCAS_10"
+    },
+    {
+      "empathic_question": "It makes me wonder if anything bad could happen to your family, and it’s okay to feel worried about that.",
+      "empathic_response": "That’s a really brave feeling to acknowledge, and it’s completely normal to feel anxious when you think about family.  It’s good that you’re thinking about it.",
+      "next_question": "Can you tell me a little bit more about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for them to express their concerns without judgment.",
+      "id": "SCAS_12"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really overwhelmed right now, and that’s okay to feel that way.  Can you tell me a little bit about what’s going on that makes you feel like you can’t breathe?",
+      "empathic_response": "Oh, honey, that sounds really scary and difficult. It’s brave of you to share this with me.  It’s completely understandable to feel anxious when you’re feeling like you’re struggling to breathe, and I want you to know I’m here to listen without judgment.",
+      "next_question": "Is there anything specific that’s triggering these feelings?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of their anxiety.",
+      "id": "SCAS_13"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling worried about things being perfect, and that’s okay to feel that way sometimes.  It’s like you’re wanting to feel safe and secure, and it’s a really good feeling to want that.",
+      "empathic_response": "I hear you, and it makes sense that you’d be concerned about things being right. It’s brave of you to share that, and it’s completely normal to feel anxious about things that feel important to you.",
+      "next_question": "Can you tell me a little bit more about what makes you feel this way when you’re checking things?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration of anxiety.",
+      "id": "SCAS_14"
+    },
+    {
+      "empathic_question": "It’s totally okay to feel a little worried about sleeping alone, isn’t it? It’s a really common feeling.",
+      "empathic_response": "I hear you – it sounds like you’re feeling a bit anxious about that. It’s brave of you to acknowledge those feelings.",
+      "next_question": "What’s the *feeling* you’re experiencing when you think about sleeping alone?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards exploring the specific emotions associated with the fear.",
+      "id": "SCAS_15"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about going to school in the mornings. That must be really tough.",
+      "empathic_response": "Oh, honey, I can understand why that would feel overwhelming. It’s okay to feel nervous and afraid, and it’s brave of you to share that with me.",
+      "next_question": "Can you tell me a little bit about what makes you feel most nervous when you think about going to school?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for them to express themselves.",
+      "id": "SCAS_16"
+    },
+    {
+      "empathic_question": "It makes sense that you might feel a little nervous about dogs. It’s okay to feel that way.",
+      "empathic_response": "I hear you, and it’s completely normal to feel a bit worried about something new. It’s brave of you to share this with me.",
+      "next_question": "Can you tell me a little bit more about what you’re feeling when you think about dogs?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently exploring the root of their anxiety related to dogs.",
+      "id": "SCAS_18"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really overwhelmed with thoughts, and it’s hard to shake them.  Do you feel like they’re bouncing around in your head a lot?",
+      "empathic_response": "Oh, honey, that’s a really tough feeling. It’s completely understandable to feel stuck with thoughts, especially when they feel overwhelming.  It’s brave of you to share that with me.",
+      "next_question": "Can you tell me a little bit about what kind of thoughts are the hardest to get out of your head?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space to explore their feelings.",
+      "id": "SCAS_19"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really stressed when things are tough. Your heart beating fast can be a sign of worry, and it’s okay to feel that way. ",
+      "empathic_response": "I hear how overwhelming that must feel. It’s brave of you to share that with me.",
+      "next_question": "Can you tell me a little more about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them toward identifying the root cause of their anxiety.",
+      "id": "SCAS_20"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried or nervous, and that’s okay to feel. Can you tell me a little bit about what’s been going on that makes you feel this way?",
+      "empathic_response": "Oh, that’s so brave of you to share that. It’s completely normal to feel worried sometimes, and it’s good that you’re noticing it.  It’s like your body is trying to tell you something.",
+      "next_question": "Is there anything specific that’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently guiding them towards identifying potential triggers.",
+      "id": "SCAS_21"
+    },
+    {
+      "empathic_question": "It makes me sad to think about things that could go wrong, doesn't it?",
+      "empathic_response": "Oh, honey, it’s completely okay to feel worried about things. It’s a really normal feeling to have those thoughts, and it’s brave of you to share them with me.",
+      "next_question": "Can you tell me a little bit about what’s making you feel worried?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for exploration of their anxieties.",
+      "id": "SCAS_22"
+    },
+    {
+      "empathic_question": "It’s totally okay to feel a little nervous about going to the doctor or dentist. It’s a big step, and it’s normal to feel a bit worried.",
+      "empathic_response": "I hear you – it’s understandable to feel a little scared. It’s brave of you to acknowledge those feelings.",
+      "next_question": "What specifically about going to the dentist or doctor makes you feel the most worried?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering reassurance.",
+      "id": "SCAS_23"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about something.  Sometimes when we're stressed, our bodies feel a little shaky, like we’re not quite sure what to do. ",
+      "empathic_response": "That’s completely understandable. It’s okay to feel shaky when you’re struggling with something.  It shows you’re really trying to cope.",
+      "next_question": "Can you tell me a little bit about what’s been going on that’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them toward identifying the root of their feelings.",
+      "id": "SCAS_24"
+    },
+    {
+      "empathic_question": "Hey, it sounds like you’re feeling a little worried about heights, and that’s totally okay to feel that way. It’s brave of you to share that.",
+      "empathic_response": "I hear you – it’s understandable to feel anxious about things that seem a bit scary. It’s okay to acknowledge those feelings.",
+      "next_question": "Can you tell me a little more about what makes you feel that way?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for exploration.",
+      "id": "SCAS_25"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about things happening. Do you ever feel like you have to 'think' about something to calm down?",
+      "empathic_response": "Oh, honey, it’s completely okay to feel worried. It’s brave of you to share this with me. It’s like your mind is trying to protect you, and sometimes that feeling can be really overwhelming.",
+      "next_question": "Can you tell me a little bit about what kind of 'bad things' are you worrying about?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them to explore the source of their anxiety.",
+      "id": "SCAS_27"
+    },
+    {
+      "empathic_question": "It’s totally okay to feel a little nervous about traveling, isn’t it? What thoughts or feelings come up when you think about it?",
+      "empathic_response": "It sounds like you’re feeling a bit worried about traveling. That’s a really normal feeling, and it’s brave of you to share that with me.  Many people feel that way too, and it’s okay to acknowledge those feelings.",
+      "next_question": "Can you tell me a little more about what makes you feel scared?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of their emotions.",
+      "id": "SCAS_28"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about what others think. That’s a tough feeling to carry around.",
+      "empathic_response": "It’s completely understandable that you’re feeling anxious about how others perceive you. It’s brave of you to acknowledge those feelings.",
+      "next_question": "Can you tell me a little bit about when you start feeling this worried?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging exploration of the source of their anxiety.",
+      "id": "SCAS_29"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about going to crowded places. That’s completely understandable – it can be a bit overwhelming sometimes.",
+      "empathic_response": "Oh, honey, it’s okay to feel that way. It’s brave of you to share what you’re going through.  It’s really normal to feel anxious in crowded situations.",
+      "next_question": "Can you tell me a little more about what makes you feel most anxious about being in those places?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for exploration of their anxiety.",
+      "id": "SCAS_30"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried and scared, and that’s okay to feel that way. Can you tell me a little bit about what’s making you feel this way?",
+      "empathic_response": "Oh, honey, that’s a really tough feeling to have. It’s brave of you to share that with me. It’s completely normal to feel scared sometimes, even when you don’t know why.",
+      "next_question": "Is there anything specific that happened recently that you’re worried about?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to explore the root of their fear.",
+      "id": "SCAS_32"
+    },
+    {
+      "empathic_question": "Hey, it’s totally okay to feel a little nervous about bugs and spiders. It’s a really common feeling! ",
+      "empathic_response": "I hear you – it sounds like you’re feeling a little worried about those things. It’s brave of you to share that with me.",
+      "next_question": "Can you tell me a little bit more about what that feeling is like for you?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space to explore their feelings.",
+      "id": "SCAS_33"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about this, and that’s okay to feel.  Can you tell me a little more about what you’re experiencing when you feel dizzy or faint?",
+      "empathic_response": "Oh, honey, that sounds really frightening. It’s brave of you to share this with me.  It’s understandable to feel anxious when you’re experiencing something unexpected like that.  Let’s just take a moment to figure out what’s going on.",
+      "next_question": "Have you noticed anything else happening around the time you feel dizzy or faint, like a racing heart or feeling cold?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them to explore potential triggers without judgment.",
+      "id": "SCAS_34"
+    },
+    {
+      "empathic_question": "It’s totally okay to feel a little nervous before speaking up in class, isn’t it? It’s brave of you to acknowledge that feeling.",
+      "empathic_response": "I hear you – it sounds really tough to worry about speaking up. It’s completely normal to feel anxious about that.",
+      "next_question": "Can you tell me a little bit about what that feeling is like for you?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration.",
+      "id": "SCAS_35"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about this, and it’s okay to feel that way. Your heart can feel really fast sometimes, and it’s a sign that something might be going on.  Do you feel like it’s always happening, or is it more frequent lately?",
+      "empathic_response": "Oh, that’s really brave of you to share that with me. It’s completely understandable to feel anxious when your heart feels so quick, and it’s okay to acknowledge those feelings.  It’s like your body is trying to tell you something.",
+      "next_question": "Can you tell me a little bit about what else might be making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to explore the underlying cause of their anxiety.",
+      "id": "SCAS_36"
+    },
+    {
+      "empathic_question": "It’s okay to feel a little worried sometimes, isn’t it? It’s like, what if something unexpected happens, and you feel a bit unsure?",
+      "empathic_response": "Oh, honey, that’s a really brave feeling to acknowledge. It’s completely normal to feel a little anxious about things we don’t know, and it’s okay to let yourself feel those worries.  They’re just a part of being a person.",
+      "next_question": "Can you tell me a little bit about what makes you feel that way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration of anxiety.",
+      "id": "SCAS_37"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling a little worried about going into small, enclosed spaces. That’s completely understandable – it’s okay to feel a little nervous about that.",
+      "empathic_response": "I hear you, and it takes a lot of courage to acknowledge those feelings. It’s brave of you to share this with me.",
+      "next_question": "Can you tell me a little more about what you feel when you think about those places?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the root of their anxiety.",
+      "id": "SCAS_39"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little overwhelmed by having to do the same things over and over. That can be really tough, and it’s okay to feel that way.",
+      "empathic_response": "I hear you, and it’s understandable that you’re feeling stressed about that. It’s brave of you to share this with me.",
+      "next_question": "Can you tell me a little bit more about what makes you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the source of their anxiety.",
+      "id": "SCAS_40"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about those thoughts popping into your head. It’s okay to feel that way, and it’s brave of you to share it with me.",
+      "empathic_response": "That’s completely understandable to feel that way – it’s like having little worries swirling around.  It’s not a sign you’re being silly, it’s just your brain processing things.",
+      "next_question": "Can you tell me a little bit about when you notice these thoughts the most?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of difficult emotions.",
+      "id": "SCAS_41"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about things happening, and it's okay to feel that way.  Do you ever worry about doing things perfectly to avoid problems?",
+      "empathic_response": "Oh, honey, it’s completely normal to feel anxious about things.  It’s like you’re trying to protect yourself, and that’s a really brave thing to do.  It’s okay to feel worried, and we can explore why you’re feeling this way.",
+      "next_question": "Can you tell me a little bit about what kind of 'bad things' you’re worried about?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration of anxieties.",
+      "id": "SCAS_42"
+    },
+    {
+      "empathic_question": "It’s okay to feel a little worried about staying away from home overnight, isn’t it? What thoughts are going through your head when you think about that?",
+      "empathic_response": "It sounds like you’re feeling a bit anxious about that, and that’s completely understandable. It’s brave of you to share those feelings with me.",
+      "next_question": "Can you tell me a little bit more about what makes you feel scared?",
+      "system_prompt": "Focus on validating the adolescent’s emotional experience and exploring the underlying reasons for their anxiety.",
+      "id": "SCAS_44"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a bit restless sometimes. Can you tell me a little more about what that feels like for you?",
+      "empathic_response": "It’s really okay to feel that way, and it’s brave of you to share. It’s like your body’s trying to find a comfortable place to be.",
+      "next_question": "What usually makes you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the physical sensations associated with their fidgeting.",
+      "id": "YPSC_01"
+    },
+    {
+      "empathic_question": "Do you ever feel like you’re not enjoying things, or that things aren’t going your way?",
+      "empathic_response": "It’s completely okay to feel sad or unhappy sometimes, and you’re feeling brave for sharing that with me. It takes a really strong person to acknowledge those feelings.",
+      "next_question": "Can you tell me a little bit about what’s been making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of their emotions.",
+      "id": "YPSC_02"
+    },
+    {
+      "empathic_question": "It sounds like you've been thinking a lot lately. It’s okay to daydream, and sometimes that can be a really helpful way to process things. But sometimes it can feel a little overwhelming, right?",
+      "empathic_response": "I hear you saying you’re feeling a bit lost in your thoughts, and that’s completely understandable. It’s brave of you to acknowledge that feeling.",
+      "next_question": "Can you tell me a little bit about what you’re daydreaming about when you’re feeling that way?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently encouraging them to explore the underlying cause of their daydreaming.  Prioritize creating a safe and non-judgmental space.",
+      "id": "YPSC_03"
+    },
+    {
+      "empathic_question": "It sounds like you're really noticing how people feel, and that's a wonderful thing! Sometimes it can be tricky to understand what others are going through, can it be a bit overwhelming?",
+      "empathic_response": "That’s completely understandable – it’s a really big part of being human to try and grasp other people’s emotions. It’s okay to feel a little confused sometimes.",
+      "next_question": "Can you tell me a little bit about a time when you felt like you didn’t understand someone else’s feelings?",
+      "system_prompt": "Focus on validating the adolescent's experience and exploring the feelings behind the difficulty in understanding others.",
+      "id": "YPSC_05"
+    },
+    {
+      "empathic_question": "Do you ever feel like things aren't going to get better, like you're stuck in a dark place?",
+      "empathic_response": "It sounds like you're going through a really tough time, and it’s completely okay to feel hopeless sometimes.  Anyone feels that way sometimes, and you're not alone.",
+      "next_question": "Can you tell me a little bit about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering gentle support.  Recognize the potential for underlying distress.",
+      "id": "YPSC_06"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really overwhelmed right now.  Can you tell me a little bit about what’s making it hard to concentrate?",
+      "empathic_response": "Oh, honey, that’s really tough to hear. It’s okay to feel like that sometimes, and it’s brave of you to share it with me.  It’s like your brain is struggling to keep up.",
+      "next_question": "What’s the hardest part about concentrating right now?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for them to express their feelings.",
+      "id": "YPSC_07"
+    },
+    {
+      "empathic_question": "Do you ever feel like you're not good enough?",
+      "empathic_response": "It’s really brave of you to share that, and it takes a lot of strength to admit when you’re feeling down.  It’s okay to feel this way sometimes.",
+      "next_question": "Can you tell me a little bit about what makes you feel that way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering gentle support.",
+      "id": "YPSC_09"
+    },
+    {
+      "empathic_question": "Hey, it sounds like you’re feeling a little down lately.  Are you noticing that you’re not having as much fun as you used to?",
+      "empathic_response": "Oh, that’s really tough to hear. It’s okay to feel like you’re not having fun, and it’s a sign that you’re feeling something.  I’m here to listen.",
+      "next_question": "Can you tell me a little bit about what’s been going on that makes you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for expression.",
+      "id": "YPSC_11"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really busy and like you’re always rushing around. Do you ever feel like you’re trying to do *everything*?",
+      "empathic_response": "That’s a really tough feeling to deal with, and it’s okay to feel overwhelmed sometimes. It’s brave of you to share that with me.",
+      "next_question": "Can you tell me a little bit about what makes you feel like you’re always on the go?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently exploring the underlying reasons for their feelings of being driven.",
+      "id": "YPSC_13"
+    },
+    {
+      "empathic_question": "Do you ever feel like you're worried a lot?",
+      "empathic_response": "It sounds like you're going through a really tough time, and it’s okay to feel worried.  Many people experience anxiety, and you’re not alone.",
+      "next_question": "Can you tell me a little bit about what’s making you feel worried?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently encouraging them to explore the source of their anxiety.",
+      "id": "YPSC_15"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little overwhelmed sometimes, and that’s okay.  Do you ever find yourself having trouble focusing on things?",
+      "empathic_response": "Oh, that’s really tough to admit, but it’s completely normal to feel distracted sometimes. It’s like your brain is a little buzzing with thoughts, and it can be hard to keep everything straight.",
+      "next_question": "Can you tell me a little bit about when you notice you’re distracted?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently guiding them towards identifying the root cause of the distraction without judgment.",
+      "id": "YPSC_17"
+    },
+    {
+      "empathic_question": "It sounds like you were feeling a bit down about some things.  Can you tell me a little bit about what was happening?",
+      "empathic_response": "Oh, honey, it’s completely okay to feel upset about little things. It’s brave of you to share that with me.  I'm here to listen.",
+      "next_question": "What kind of things were those little things, and how did it make you feel?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for expression.",
+      "id": "DASSY_01"
+    },
+    {
+      "empathic_question": "It sounds like you were feeling really worried and maybe a little scared. Can you tell me a little more about what you were experiencing?",
+      "empathic_response": "Oh, that sounds really difficult, and it’s okay to feel overwhelmed. It’s brave of you to share this with me.",
+      "next_question": "What was happening right before you felt dizzy?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them to explore the sensations they’re describing.",
+      "id": "DASSY_02"
+    },
+    {
+      "empathic_question": "It sounds like you were really worried about your breathing, even when you weren't doing anything active. That must have been really tough.",
+      "empathic_response": "I hear you – it’s okay to feel worried and anxious, and it’s brave of you to share that with me.  It’s understandable to feel that way when you’re feeling stressed.",
+      "next_question": "Can you tell me a little more about what you were feeling when you noticed your breathing was quick?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently encouraging them to explore their feelings.",
+      "id": "DASSY_04"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been feeling really overwhelmed lately. Can you tell me a little more about what’s been going on that makes you feel like you’re overreacting?",
+      "empathic_response": "Oh, honey, it’s completely okay to feel that way sometimes. It’s brave of you to acknowledge it.  Feeling stressed and reacting intensely is a really common experience, and you’re not alone in feeling this way.",
+      "next_question": "What’s something that feels particularly difficult to manage right now?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them toward identifying specific triggers for their over-reactions.",
+      "id": "DASSY_06"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a bit worried about your hands.  Can you tell me a little bit about what you’re experiencing?",
+      "empathic_response": "Oh, honey, that’s really brave of you to share that. It’s okay to feel worried, and it’s good that you’re recognizing it.  It’s understandable to feel anxious sometimes.",
+      "next_question": "Can you tell me a little more about when you notice your hands feeling shaky?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for them to express themselves.",
+      "id": "DASSY_07"
+    },
+    {
+      "empathic_question": "It sounds like you've been carrying a lot on your mind lately.  Can you tell me a little bit about what's been making you feel stressed?",
+      "empathic_response": "Oh, honey, that’s really tough to hear. It’s okay to feel stressed, and it’s brave of you to share that with me.  It’s like a heavy feeling, isn’t it?",
+      "next_question": "What’s the biggest thing you’re feeling stressed about right now?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for them to express themselves without judgment.",
+      "id": "DASSY_08"
+    },
+    {
+      "empathic_question": "It’s okay to feel scared sometimes, isn’t it? What’s making you feel that way?",
+      "empathic_response": "I hear you. It’s completely normal to feel anxious, and it’s brave of you to share that with me.  Feeling scared is a really powerful emotion, and it’s okay to acknowledge it.",
+      "next_question": "Can you tell me a little more about what’s happening that’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration.",
+      "id": "DASSY_09"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been feeling a bit frustrated lately. Can you tell me a little more about what makes you feel irritated?",
+      "empathic_response": "Oh, that’s really tough to talk about. It’s okay to feel frustrated, and it’s brave of you to share that with me.  It’s completely understandable to feel that way sometimes.",
+      "next_question": "What’s been going on that's making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space to explore the root of their irritation.",
+      "id": "DASSY_11"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been feeling a little stressed lately.  Can you tell me a bit more about what’s been on your mind?",
+      "empathic_response": "It’s completely okay to feel stressed, and it takes a lot of courage to acknowledge that.  Just know that you're not alone in feeling this way.",
+      "next_question": "What's been the hardest part about feeling this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying the root of their anxiety.",
+      "id": "DASSY_12"
+    },
+    {
+      "empathic_question": "It sounds like you were feeling a little frustrated when people interrupted you. That must have been really tough.",
+      "empathic_response": "I hear that you were feeling annoyed, and it’s okay to feel that way when someone cuts you off. It’s a really common feeling.",
+      "next_question": "Can you tell me a little more about what that feeling was like?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space to explore their emotions.",
+      "id": "DASSY_14"
+    },
+    {
+      "empathic_question": "It sounds like you were feeling really worried and scared. Can you tell me a little bit about what was going through your mind when you felt that way?",
+      "empathic_response": "Oh, that’s so brave of you to share that. It’s completely okay to feel overwhelmed sometimes, and it’s good that you’re recognizing those feelings.  It’s really important to know you’re not alone in feeling this way.",
+      "next_question": "Can you tell me a little more about what was happening when you felt that way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them to explore the source of their anxiety.",
+      "id": "DASSY_15"
+    },
+    {
+      "empathic_question": "Sometimes feelings can feel really intense, like they’re buzzing around inside. Do you ever find yourself getting annoyed easily?",
+      "empathic_response": "It sounds like you're feeling a lot of things right now, and that’s completely okay. It’s brave of you to acknowledge those feelings.  It’s normal to feel annoyed sometimes, even if it doesn’t feel like it’s a good feeling.",
+      "next_question": "Can you tell me a little bit about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying the root of the annoyance. Use open-ended questions to encourage detailed responses.",
+      "id": "DASSY_18"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried or anxious, and your heart racing is a sign that you’re feeling a lot of pressure.  It’s okay to feel that way sometimes, even when you don’t know why. ",
+      "empathic_response": "I hear you, and it’s completely understandable to feel overwhelmed when your heart races. It’s like your body is trying to react to something, and that can be really intense.  You’re not alone in feeling this.",
+      "next_question": "Can you tell me a little bit about what you think might be making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of their feelings.",
+      "id": "DASSY_19"
+    },
+    {
+      "empathic_question": "It’s okay to feel worried sometimes, isn’t it?  Sometimes things just feel a little unsettling, and it’s alright to acknowledge those feelings.",
+      "empathic_response": "I hear you. It sounds like you were feeling a little anxious, and that’s completely understandable.  It’s brave of you to acknowledge those feelings.",
+      "next_question": "Can you tell me a little bit about what was going on when you felt that way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them towards identifying the root of their anxiety.",
+      "id": "DASSY_20"
+    },
+    {
+      "empathic_question": "It sounds like you've been feeling a little stressed lately. Can you tell me a little more about what’s been making it hard to relax?",
+      "empathic_response": "Oh, honey, it’s completely okay to feel stressed. It’s brave of you to acknowledge it, and I want you to know I’m here to listen without judgment. It’s really important to find ways to calm down when you’re feeling overwhelmed.",
+      "next_question": "What does relaxation look like for you?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of their feelings.",
+      "id": "DASS21_01"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little uncomfortable. Can you tell me a little more about that feeling?",
+      "empathic_response": "That must be really tough to notice, and it’s okay to feel that way. It’s brave of you to share this with me.",
+      "next_question": "What’s been going on that makes you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently encouraging them to explore the underlying emotions.",
+      "id": "DASS21_02"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been feeling really worried lately. Can you tell me a little bit about what’s been going on that makes you feel like you’re struggling to breathe?",
+      "empathic_response": "Oh, honey, that sounds really tough. It’s okay to feel worried and uncomfortable when you’re having trouble breathing. It’s brave of you to share this with me.",
+      "next_question": "Can you tell me a little more about when you start feeling this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for them to express their feelings without judgment.",
+      "id": "DASS21_04"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been feeling really overwhelmed lately. It’s okay to feel like you react strongly to things – that’s a really normal part of being a young person. ",
+      "empathic_response": "I hear you, and it takes a lot of courage to acknowledge those feelings. It’s completely understandable to feel that way sometimes.",
+      "next_question": "Can you tell me a little bit about what situations trigger those strong reactions?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them towards identifying specific triggers.",
+      "id": "DASS21_06"
+    },
+    {
+      "empathic_question": "It sounds like you were feeling a little uneasy, like your hands might be a little shaky.  Can you tell me a little bit about what that feeling was like?",
+      "empathic_response": "Oh, honey, that sounds really uncomfortable. It’s okay to feel that way sometimes, and it’s brave of you to share it.  It’s understandable to feel worried or uneasy when you’re experiencing those feelings.",
+      "next_question": "What’s been going on that might be making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying potential triggers without pushing for a diagnosis.",
+      "id": "DASS21_07"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been carrying a lot of worry lately.  Can you tell me a little bit about what that nervous energy feels like for you?",
+      "empathic_response": "Oh, honey, that’s really brave of you to share that. It’s okay to feel nervous, and it’s good that you’re recognizing it. It’s like a little storm inside you, and it’s understandable to feel overwhelmed by it.",
+      "next_question": "What’s the most intense feeling when you notice that nervous energy?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying the specific nature of their anxiety.",
+      "id": "DASS21_08"
+    },
+    {
+      "empathic_question": "It’s okay to feel worried sometimes, and it’s brave of you to acknowledge that.  It’s a really common feeling to worry about things that could make you feel embarrassed.",
+      "empathic_response": "I hear you. It sounds like you’re feeling a lot of pressure and anxiety about potential mistakes or embarrassing moments. That’s completely understandable.",
+      "next_question": "Can you tell me a little bit about what kind of situations you’re thinking about?",
+      "system_prompt": "Focus on validating the adolescent's experience and exploring the root of their anxiety.",
+      "id": "DASS21_09"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been feeling a bit restless lately. Can you tell me a little more about what that feels like?",
+      "empathic_response": "It’s really brave of you to share these feelings. It’s okay to feel restless sometimes, and it means you’re paying attention to your body and mind.  Just let’s explore what’s going on.",
+      "next_question": "What's been happening in your life recently that might be contributing to this feeling?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for them to express their emotions without judgment.",
+      "id": "DASS21_11"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been feeling a bit stressed lately. Can you tell me a little bit about what’s been making you feel that way?",
+      "empathic_response": "Oh, honey, it’s completely okay to feel stressed. It’s brave of you to share that with me. It’s so hard to let things feel overwhelming sometimes.",
+      "next_question": "What’s the hardest part about relaxing for you right now?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space to explore their experience.",
+      "id": "DASS21_12"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling frustrated when things don’t go your way. Can you tell me a little bit about what makes you feel annoyed?",
+      "empathic_response": "Oh, honey, that’s really brave of you to share that. It’s okay to feel annoyed when things don’t go as planned, and it’s a really good feeling to be honest about those feelings.",
+      "next_question": "Can you give me a specific example of something that happened recently that made you feel that way?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently guiding them towards identifying specific triggers.",
+      "id": "DASS21_14"
+    },
+    {
+      "empathic_question": "It sounds like you were feeling really overwhelmed. Can you tell me a little more about what was going on?",
+      "empathic_response": "That’s really brave of you to share that with me. It takes a lot of strength to acknowledge those feelings.",
+      "next_question": "What’s the most intense feeling you experienced?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them to identify the root of their anxiety.",
+      "id": "DASS21_15"
+    },
+    {
+      "empathic_question": "It sounds like you've been noticing some feelings of being a little bothered or easily upset lately.  That’s completely okay to feel that way, and it’s brave of you to acknowledge it.",
+      "empathic_response": "I hear you, and it takes a lot of strength to recognize when you're feeling something strongly.  It’s okay to not always be okay.",
+      "next_question": "Can you tell me a little bit about when you notice these feelings popping up?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the nature of their feelings.",
+      "id": "DASS21_18"
+    },
+    {
+      "empathic_question": "It’s really interesting that you noticed your heart doing that! It’s okay to feel curious about your body and how it feels.",
+      "empathic_response": "That’s a really perceptive thing to notice – it’s brave of you to pay attention to your body and how it’s feeling. It’s completely normal to wonder about things like that.",
+      "next_question": "Can you tell me a little more about when you notice this feeling?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging exploration of their sensations.",
+      "id": "DASS21_19"
+    },
+    {
+      "empathic_question": "It’s okay to feel worried sometimes, even when things seem calm. Can you tell me a little about what you were feeling when you felt scared?",
+      "empathic_response": "That sounds really tough, and it’s completely understandable to feel scared when you’re not sure what’s happening.  Just know that you're not alone in feeling this way.",
+      "next_question": "Can you tell me a bit more about what was happening when you felt scared?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space to explore their feelings.",
+      "id": "DASS21_20"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about talking to your classmates on the phone. That’s completely understandable to feel anxious about that.",
+      "empathic_response": "It takes a lot of courage to share things with people, and it’s really brave of you to want to do that.  It’s okay to feel anxious, and you’re not alone in feeling this way.",
+      "next_question": "Can you tell me a little bit more about what’s making you feel anxious about it?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for exploration of their anxiety.",
+      "id": "LSAS_01_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about talking to your classmates on the phone, and that’s completely okay to feel that way.  It’s brave of you to acknowledge those feelings.",
+      "empathic_response": "I hear you, and it makes sense that you’d feel anxious about that. It’s a really common feeling, and you’re not alone in feeling this way.",
+      "next_question": "Can you tell me a little more about what makes you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and exploring the underlying reasons for their anxiety related to phone conversations.",
+      "id": "LSAS_01_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about participating in group work, is that right?",
+      "empathic_response": "It’s completely normal to feel nervous about new things, and it’s okay to have those feelings.  It’s brave of you to share this with me.",
+      "next_question": "Can you tell me a little bit more about what makes you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and exploring the specific aspects of group work that are causing anxiety.",
+      "id": "LSAS_02_fear"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling a little worried about being in groups, and that’s okay to feel that way.  It’s brave of you to share this with me.",
+      "empathic_response": "I hear you – it’s completely understandable to feel anxious about things like that, especially when you’re feeling like you might miss out on something.  It’s okay to feel this way.",
+      "next_question": "Can you tell me a little more about what makes you feel that way about the groups?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently exploring the root of their anxiety.",
+      "id": "LSAS_02_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about eating in front of people. That’s a big feeling, and it’s okay to feel that way.  Can you tell me a little bit about what that fear feels like for you?",
+      "empathic_response": "Oh, honey, it’s completely understandable that you’re feeling anxious about this. It’s brave of you to share that with me. It’s like a little storm inside you, and it’s okay to let it show.",
+      "next_question": "What’s the worst thing that might happen if you did eat in front of people?",
+      "system_prompt": "Focus on validating the adolescent's experience and exploring the specific anxieties associated with this situation.  Use gentle and supportive language.",
+      "id": "LSAS_03_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about eating in front of people. That’s a big feeling, and it’s okay to feel that way. Can you tell me a little bit about what you’re experiencing when you think about it?",
+      "empathic_response": "I hear you, and it takes a lot of courage to share something like that. It’s completely understandable to feel anxious about social situations, and you're not alone in feeling this way. Your feelings are valid.",
+      "next_question": "What’s the hardest part about this feeling of avoiding eating in front of others?",
+      "system_prompt": "Focus on validating the adolescent's experience and exploring the root of their anxiety related to social situations.",
+      "id": "LSAS_03_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about asking someone you don't know to help you. That can be a big and scary feeling, and it’s okay to feel that way.",
+      "empathic_response": "I hear you, and it’s completely understandable that you’re feeling anxious about this. It’s brave of you to reach out, and it’s okay to feel worried.  Let’s just take a little time to understand why this feels so difficult.",
+      "next_question": "Can you tell me a little bit more about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration of their anxiety.",
+      "id": "LSAS_04_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about asking for help, and that’s okay. It’s brave of you to acknowledge those feelings.  It’s normal to feel nervous when you don’t know someone well.",
+      "empathic_response": "I hear that you’re feeling anxious about asking for help, and that’s a really important feeling to acknowledge.  It shows you care about feeling safe and supported.",
+      "next_question": "Can you tell me a little more about what makes you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging exploration of their feelings.",
+      "id": "LSAS_04_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really nervous about giving the presentation. It’s completely normal to feel anxious about things like that, especially when you’re trying to do something new.  It’s brave of you to acknowledge those feelings.",
+      "empathic_response": "I hear you. It’s okay to feel scared, and it’s really understandable that you’re worried. You’re putting yourself out there, and that takes a lot of courage.",
+      "next_question": "What specifically about the presentation is making you feel most anxious?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently guiding them towards identifying the root of their anxiety.",
+      "id": "LSAS_05_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about giving the presentation, and that’s okay to feel that way. It’s brave of you to acknowledge it.",
+      "empathic_response": "I hear how much you’re struggling with this, and it’s completely understandable to feel anxious about it. It’s a big step, and it’s normal to feel nervous.",
+      "next_question": "Can you tell me a little more about what specifically makes you feel anxious about it?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering gentle support.",
+      "id": "LSAS_05_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about going to parties or school events. That’s completely understandable – it’s a big step, and it’s okay to feel nervous about it.",
+      "empathic_response": "I hear you, and it makes sense that you’re anxious. It’s brave of you to share this with me. Let’s just take a moment to feel what you’re feeling without judgment.",
+      "next_question": "Can you tell me a little bit about what specifically makes you feel anxious about these events?",
+      "system_prompt": "Focus on validating the adolescent's feelings and exploring the root of their anxiety.",
+      "id": "LSAS_06_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about going to parties or school events.  It’s okay to feel anxious about that, and you're not alone.",
+      "empathic_response": "I hear you, and it’s completely understandable that you’re feeling anxious. It takes a lot of courage to even think about it, and that’s a really brave thing to do.",
+      "next_question": "Can you tell me a little bit more about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently encouraging them to explore the source of their anxiety.",
+      "id": "LSAS_06_avoid"
+    },
+    {
+      "empathic_question": "Hey, it sounds like you're feeling a little worried about writing on the board today. It’s totally okay to feel anxious, and it’s brave of you to share that with me.",
+      "empathic_response": "I hear you, and it makes sense that you’d be feeling anxious about that. It’s a big thing to do, and it’s okay to feel that way.",
+      "next_question": "Can you tell me a little bit more about what’s making you feel so anxious about it?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration of anxiety.",
+      "id": "LSAS_07_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about writing on the board, and that’s okay to feel that way. It’s brave of you to share this with me.",
+      "empathic_response": "I hear you, and it makes sense that you’re feeling anxious about it. It’s completely normal to feel that way when you’re worried about something you’re doing.  It’s a really important skill, and it’s okay to acknowledge those feelings.",
+      "next_question": "Can you tell me a little more about what’s making you feel so anxious about it?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them toward identifying the root of their anxiety.",
+      "id": "LSAS_07_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about talking to new people. That’s completely understandable – it can be a bit nerve-wracking!",
+      "empathic_response": "It’s brave of you to acknowledge these feelings, and it’s okay to feel anxious. You’re handling this in a really thoughtful way.",
+      "next_question": "What specifically about talking to new people makes you feel anxious?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them to explore the root of their anxiety.",
+      "id": "LSAS_08_fear"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling a little worried about talking to people you don't know, and that's completely okay to feel that way.  It’s brave of you to acknowledge those feelings.",
+      "empathic_response": "I hear that you’re feeling anxious about this, and it makes sense that you’d want to keep things to yourself.  It’s a really common feeling, and you're not alone in feeling this way.",
+      "next_question": "Can you tell me a little more about what makes you feel this way when you think about talking to people you don’t know?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently guiding them to explore the root of their anxiety.",
+      "id": "LSAS_08_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling a little nervous about starting new conversations, and that's totally okay to feel that way. It’s brave of you to want to connect with people.",
+      "empathic_response": "I hear you – it can feel a little scary sometimes, especially when you don't know anyone. It’s really normal to feel anxious about that.",
+      "next_question": "What’s making you feel most anxious about this?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering gentle reassurance.",
+      "id": "LSAS_09_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little nervous about starting new conversations, and that’s totally okay. It’s brave of you to acknowledge those feelings. ",
+      "empathic_response": "I hear how worried you are about this, and it’s understandable to feel that way. It takes a lot of courage to step outside your comfort zone.",
+      "next_question": "What specifically makes you feel most anxious about starting conversations?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently guiding them toward identifying the root of their anxiety.",
+      "id": "LSAS_09_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about using the school or public bathroom. That’s a big and important thing to feel, and it’s okay to feel anxious about it.  Can you tell me a little bit about what’s making you feel this way?",
+      "empathic_response": "Oh, honey, it’s completely understandable that you’re feeling anxious about that. It’s brave of you to share this, and it shows you care about feeling safe and comfortable.  It’s okay to acknowledge those feelings.",
+      "next_question": "What specifically about using the bathroom makes you feel most anxious?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for them to express their concerns without judgment.",
+      "id": "LSAS_10_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re really feeling worried about going to school or the bathroom, and that’s okay to feel that way. Can you tell me a little more about what’s making you feel this way?",
+      "empathic_response": "I hear you, and it takes a lot of courage to talk about these feelings. It’s completely understandable to feel anxious about things that feel difficult or scary.",
+      "next_question": "What specifically about using school or the bathroom is causing you the most worry?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of their emotions.",
+      "id": "LSAS_10_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about stepping into a room full of people, and that’s completely understandable. It’s okay to feel nervous sometimes. ",
+      "empathic_response": "I hear you, and it’s brave of you to share this. It’s normal to feel anxious in situations where you feel like you might be judged or uncomfortable.  Just remember you’re safe and you’re allowed to feel what you’re feeling.",
+      "next_question": "Can you tell me a little more about what that feeling is like when you’re about to enter the room?",
+      "system_prompt": "Focus on validating the adolescent's experience and exploring the specific sensations and thoughts associated with their anxiety.",
+      "id": "LSAS_11_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really nervous about stepping into a room, and that’s completely understandable. It’s okay to feel that way when you’re worried about what might happen.",
+      "empathic_response": "I hear you – it’s brave of you to acknowledge that feeling of anxiety. It’s like your brain is trying to protect you, and that’s a really good thing.",
+      "next_question": "Can you tell me a little bit more about what that feeling is like when you think about walking into a room?",
+      "system_prompt": "Focus on validating the adolescent's experience and exploring the root of their anxiety.",
+      "id": "LSAS_11_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really nervous about being the center of attention, especially on your birthday. That must feel a bit overwhelming, right?",
+      "empathic_response": "Oh, honey, it’s completely okay to feel that way. It’s really brave of you to share these feelings with me. It’s understandable to feel anxious when you’re worried about being the focus.",
+      "next_question": "Can you tell me a little bit about what that feeling of being the center of attention is like for you?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for emotional exploration.",
+      "id": "LSAS_12_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really nervous about being the center of attention, especially on your birthday. That must feel a little overwhelming, right?",
+      "empathic_response": "Oh, honey, that’s completely understandable. It’s really brave of you to share that – it takes a lot of courage to feel that way. It’s okay to feel a little anxious about being the center of attention.",
+      "next_question": "Can you tell me a little more about what that feeling is like for you when you feel like you’re the center of attention?",
+      "system_prompt": "Focus on validating the adolescent’s experience and exploring the underlying reasons for their anxiety related to attention.",
+      "id": "LSAS_12_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about asking questions in class. That’s completely normal to feel that way sometimes, and it’s brave of you to share that.",
+      "empathic_response": "I hear you, and it’s okay to feel anxious about that. It’s a big step to speak up in a group, and it’s understandable to feel nervous.",
+      "next_question": "Can you tell me a little bit about what makes you feel most anxious about asking questions?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for them to express their anxieties.",
+      "id": "LSAS_13_fear"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling a little worried about asking questions in class. That's completely okay to feel that way.",
+      "empathic_response": "I hear you, and it’s brave of you to acknowledge these feelings. It’s normal to feel anxious about things, and you’re doing a great job recognizing it.",
+      "next_question": "Can you tell me a little bit more about what makes you feel most anxious about asking questions?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of their anxieties.",
+      "id": "LSAS_13_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about answering questions in class. That must be a big deal.",
+      "empathic_response": "It’s completely understandable that you’re feeling anxious about that. It’s okay to feel worried when something feels challenging.",
+      "next_question": "Can you tell me a little bit about what specifically makes answering questions feel difficult?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently guiding them toward identifying the root of their anxiety.",
+      "id": "LSAS_14_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about answering questions in class, and that’s okay to feel that way. It’s a big thing for a lot of people.",
+      "empathic_response": "I hear you. It’s completely understandable to feel anxious about things that feel challenging, and it takes courage to acknowledge that.  It’s okay to feel this way.",
+      "next_question": "Can you tell me a little bit about what makes answering questions in class feel so difficult?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for them to express their anxieties.",
+      "id": "LSAS_14_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about reading aloud in class. That’s a big thing to worry about, and it’s okay to feel nervous about it. Can you tell me a little more about what’s making you feel this way?",
+      "empathic_response": "Oh, honey, it’s completely understandable that you’re feeling anxious about that. It’s brave of you to share this with me. It’s okay to feel worried, and you’re not alone in feeling this way.",
+      "next_question": "What specifically about reading aloud worries you the most?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for them to express their anxiety.",
+      "id": "LSAS_15_fear"
+    },
+    {
+      "empathic_question": "It sounds like reading aloud in class is making you feel a little anxious, and that’s completely understandable.  It’s okay to feel that way.",
+      "empathic_response": "I hear you. It’s brave of you to acknowledge that you’re feeling anxious about that, and I want you to know I’m here to listen without judgment.",
+      "next_question": "Can you tell me a little more about what you’re feeling when you’re anticipating reading aloud?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently guiding them to explore the underlying reasons for their anxiety.",
+      "id": "LSAS_15_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really nervous about these tests. It’s okay to feel that way, and it’s brave of you to share what’s going on.",
+      "empathic_response": "I hear you, and it’s completely understandable that you’re feeling anxious about these tests. It’s a big thing to face, and it’s okay to feel worried.",
+      "next_question": "Can you tell me a little bit about what specifically makes you feel anxious about them?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently guiding them to explore the root of their anxiety.",
+      "id": "LSAS_16_fear"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about tests, and that’s okay to feel that way.  It’s like your mind is trying to protect you from something, and that’s a really brave thing to do.",
+      "empathic_response": "I hear you saying you're avoiding tests because you're feeling anxious about them. That must be really tough.  It’s completely understandable to feel that way when you’re worried.",
+      "next_question": "Can you tell me a little bit more about what you’re feeling when you think about taking a test?",
+      "system_prompt": "Focus on validating the adolescent’s experience and exploring the root of their anxiety around tests.",
+      "id": "LSAS_16_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about saying no, and that’s a really brave thing to acknowledge. It’s okay to feel anxious about that.",
+      "empathic_response": "I hear you, and it’s completely understandable to feel anxious when you’re worried about disappointing others. It’s a big feeling.",
+      "next_question": "Can you tell me a little bit about what makes you feel this way when you have to say no?",
+      "system_prompt": "Focus on validating the adolescent’s experience and exploring the underlying reasons for their anxiety.",
+      "id": "LSAS_17_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about saying no, and that’s okay. It’s brave to feel those feelings. ",
+      "empathic_response": "I hear how tough it is to say no, and it’s completely understandable to feel anxious about it.  It’s a really important skill to learn.",
+      "next_question": "Can you tell me a little more about what makes you feel this way when you’re asked to say no?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying the root of their anxiety.",
+      "id": "LSAS_17_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about sharing your thoughts with others, and that’s completely understandable. It’s brave of you to acknowledge those feelings.",
+      "empathic_response": "I hear how much you’re struggling with this, and it’s okay to feel anxious about it. It’s a big step to share your views, and it’s natural to feel apprehensive.",
+      "next_question": "Can you tell me a little more about what makes you feel this way when you think about sharing your opinions?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration of their anxieties.",
+      "id": "LSAS_18_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about sharing your thoughts, and that’s completely understandable. It’s brave of you to acknowledge that feeling.",
+      "empathic_response": "I hear how frustrating it is to avoid talking about disagreements, and it’s okay to feel anxious about that.  It’s a really common feeling, and you’re not alone in feeling this way.",
+      "next_question": "Can you tell me a little bit about what makes you feel this way about sharing your thoughts?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration of the anxiety surrounding disagreement.",
+      "id": "LSAS_18_avoid"
+    },
+    {
+      "empathic_question": "It makes you feel a little nervous, doesn’t it?  Like you’re expecting something bad to happen?",
+      "empathic_response": "It’s completely okay to feel that way. It’s a really common feeling, and you’re not alone in feeling this way.  It sounds like it's causing you some worry.",
+      "next_question": "Can you tell me a little bit about what that feeling is like for you?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently exploring the underlying reasons for the anxiety.",
+      "id": "LSAS_19_fear"
+    },
+    {
+      "empathic_question": "It feels a little scary sometimes when you notice people you don’t know, and you quickly look away.  Do you feel like you're hiding something?",
+      "empathic_response": "It’s completely okay to feel that way. It’s brave of you to acknowledge that you're feeling anxious about it.  Everyone feels a little nervous sometimes when they’re trying to be polite or protect themselves.",
+      "next_question": "Can you tell me a little more about what that feeling is like for you?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently exploring the underlying reasons for the avoidance.",
+      "id": "LSAS_19_avoid"
+    },
+    {
+      "empathic_question": "It feels a little scary, doesn't it, when you have to return something?  What’s making you feel that way?",
+      "empathic_response": "Oh, honey, it’s completely okay to feel a little worried about returning something. It’s a big step, and it’s natural to feel a bit nervous.  Just remember you’re safe and I’m here to help you through it.",
+      "next_question": "Can you tell me a little bit about what’s worrying you about this return?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering reassurance.",
+      "id": "LSAS_20_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about going back to the store to return something, is that right?",
+      "empathic_response": "I hear you, and it’s completely okay to feel worried about that. It’s brave of you to acknowledge those feelings.",
+      "next_question": "Can you tell me a little bit more about what’s making you feel anxious about returning something?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the underlying reasons for their anxiety.",
+      "id": "LSAS_20_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really nervous about playing sports or being in front of people. That’s completely okay to feel that way, and it’s brave of you to share it with me.",
+      "empathic_response": "I hear you, and it’s understandable to feel anxious about those situations. It takes a lot of courage to acknowledge those feelings.",
+      "next_question": "Can you tell me a little more about what specifically makes you feel anxious?",
+      "system_prompt": "Focus on validating the adolescent's experience and exploring the underlying reasons for their anxiety.",
+      "id": "LSAS_21_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re really feeling worried about trying new things, and it’s okay to feel anxious about that.  Can you tell me a little more about what that anxiety feels like for you when you think about playing sports or being in front of people?",
+      "empathic_response": "Oh, honey, it’s completely understandable to feel anxious about that. It takes a lot of courage to step outside your comfort zone, and it’s brave of you to acknowledge those feelings.  It’s okay to feel nervous, and you’re not alone in feeling this way.",
+      "next_question": "What specifically about those activities makes you feel most anxious?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging exploration of their feelings without judgment.",
+      "id": "LSAS_21_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about joining a new club or group. It’s totally normal to feel nervous about that – it’s a big step! ",
+      "empathic_response": "That’s a really brave thing to acknowledge, and it’s okay to feel anxious. It’s a sign of you caring about making new friends and feeling good about yourself.",
+      "next_question": "What specifically about the club or group is making you feel anxious?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently guiding them toward identifying the root of their anxiety.",
+      "id": "LSAS_22_fear"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling a little worried about joining a new group, and that’s completely okay to feel that way. It’s brave of you to acknowledge those feelings.",
+      "empathic_response": "I hear you, and it’s understandable to feel anxious about trying something new. It’s a big step, and it’s normal to have a bit of apprehension.",
+      "next_question": "Can you tell me a little bit about what specifically makes you feel worried about joining a group?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the root of their anxiety.",
+      "id": "LSAS_22_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling a little nervous about meeting new people. It’s totally okay to feel that way!  It’s a big step.",
+      "empathic_response": "Oh, that’s a really brave thing to feel, and it’s understandable that you’re feeling anxious. It’s a natural response to wanting to connect with others.",
+      "next_question": "What specifically about meeting new people makes you feel anxious?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently guiding them towards identifying the root of their anxiety.",
+      "id": "LSAS_23_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about trying new things, and that’s okay. It’s brave of you to acknowledge those feelings. ",
+      "empathic_response": "I hear that you’re feeling anxious about meeting new people, and that’s a really understandable feeling. It’s important to feel safe and comfortable, and it’s okay to feel worried about that.",
+      "next_question": "What specifically about meeting new people makes you feel anxious?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them toward identifying the root of their anxiety.",
+      "id": "LSAS_23_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling a little worried about asking your teacher for permission. That’s totally okay to feel that way.",
+      "empathic_response": "I hear you, and it’s brave of you to share this with me. It’s understandable to feel anxious when you’re facing a new situation like that.",
+      "next_question": "Can you tell me a little bit more about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space to explore their anxiety.",
+      "id": "LSAS_24_fear"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little worried about asking for permission, and that’s okay. It’s brave of you to share that with me.",
+      "empathic_response": "I hear how anxious you are about that, and it makes sense that you’d feel that way. It’s completely normal to feel nervous about things like that, especially when you’re feeling a bit overwhelmed.",
+      "next_question": "Can you tell me a little more about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently guiding them to explore the root of their anxiety.",
+      "id": "LSAS_24_avoid"
+    },
+    {
+      "empathic_question": "It sounds like you've been going through a really tough time lately, and I want you to know that it’s okay to feel overwhelmed. Can you tell me a little bit about what you’ve been experiencing?",
+      "empathic_response": "That’s a really brave thing to share, and it takes a lot of courage to talk about these feelings. It’s completely understandable that you’re feeling anxious, and I’m here to listen without judgment.",
+      "next_question": "Can you tell me more about what triggers these feelings?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards a more detailed explanation of their anxiety.",
+      "id": "PDSS_01"
+    },
+    {
+      "empathic_question": "Can you tell me more about what you were feeling when you heard about that?",
+      "empathic_response": "It sounds like you're feeling really worried, and that's completely okay to feel that way. It’s brave of you to share what’s going on.",
+      "next_question": "What specifically about it made you feel that way?",
+      "system_prompt": "Focus on validating the adolescent's emotional experience and gently guiding them toward identifying the root of their anxiety.",
+      "id": "PDSS_02"
+    },
+    {
+      "empathic_question": "It sounds like you were really worried about that, and that’s okay to feel that way. Can you tell me a little more about what was going through your mind?",
+      "empathic_response": "I hear you, and it’s completely understandable to feel anxious about things like that. It’s brave of you to share this with me.",
+      "next_question": "What’s the hardest part about feeling this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging exploration of their feelings.",
+      "id": "PDSS_03"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been feeling really worried about something lately. Can you tell me a little bit about what’s been on your mind when you feel this anxiety?",
+      "empathic_response": "Oh, honey, it’s completely okay to feel anxious. It’s brave of you to share this with me. It’s like your mind is racing with thoughts, and that can be really tough.",
+      "next_question": "What’s the *one* thing that feels the most scary or worrying right now?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently guiding them towards identifying the specific source of their anxiety.",
+      "id": "PDSS_04"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been feeling really worried about this, and it’s okay to feel that way. Can you tell me a little bit about what’s going on when you think about avoiding things?",
+      "empathic_response": "Oh, honey, that’s really tough to deal with. It makes sense that you’re feeling anxious about it. It’s brave of you to share this with me.",
+      "next_question": "What’s the *feeling* you’re experiencing when you think about it?",
+      "system_prompt": "Focus on validating the adolescent's emotional experience and gently encouraging them to explore the root of their anxiety.",
+      "id": "PDSS_05"
+    },
+    {
+      "empathic_question": "It sounds like this situation was really tough for you, and I want to understand how it’s been affecting your daily life. Can you tell me a little bit more about how it’s been impacting your schoolwork or your home life?",
+      "empathic_response": "Oh, that’s so hard to talk about, and it makes perfect sense that it would be causing you stress. It’s okay to feel overwhelmed by that.",
+      "next_question": "What specifically feels most difficult about this right now?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently guiding them towards a more detailed explanation of the situation.",
+      "id": "PDSS_06"
+    },
+    {
+      "empathic_question": "It sounds like this situation was really tough for you, and it’s okay to feel overwhelmed. Can you tell me a little more about how it made it hard to connect with your friends?",
+      "empathic_response": "I hear you, and it’s completely understandable that you're feeling this way. It’s tough when things feel like they’re pulling you away from the people you care about.  It takes courage to talk about these feelings.",
+      "next_question": "What specifically felt the most difficult about it?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them to identify the core feelings driving their distress.",
+      "id": "PDSS_07"
+    }
+  ]
+}

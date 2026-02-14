@@ -1,0 +1,117 @@
+{
+  "category": "bipolar",
+  "data": [
+    {
+      "empathic_question": "It sounds like you’ve been going through some really tough feelings lately, and it’s okay to feel confused and like things aren’t quite right. Have you ever felt like you weren’t yourself, or like you were acting differently, and that made other people notice or worry about you?",
+      "empathic_response": "That sounds incredibly difficult to deal with, and it’s brave of you to share this with me. It takes a lot of strength to acknowledge these feelings and recognize when they feel out of control.  It’s understandable to feel this way when things feel overwhelming.",
+      "next_question": "Can you tell me a little bit more about what you're feeling when you think about that time, even if it’s just a small part of it?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them toward identifying the underlying emotions rather than dwelling on the specific event.  Prioritize creating a safe space for exploration.",
+      "id": "mdq_1"
+    },
+    {
+      "empathic_question": "It sounds like you were really feeling frustrated and angry lately, and that’s okay to feel those strong emotions. Can you tell me a little more about what was going on when those feelings happened?",
+      "empathic_response": "Oh, honey, that’s really tough to hear. It takes a lot of courage to admit when you’re feeling this way, and I want you to know I’m here to listen without judgment. It’s understandable to feel overwhelmed when you’re struggling.",
+      "next_question": "What do you think might be causing you to feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying potential triggers for their irritability and anger.",
+      "id": "mdq_2"
+    },
+    {
+      "empathic_question": "Wow, that’s a really exciting feeling! It sounds like you’re feeling incredibly strong about yourself right now.",
+      "empathic_response": "It’s completely normal to feel that way when you’re feeling so confident. It’s wonderful to see you embracing that feeling.",
+      "next_question": "Can you tell me a little more about what makes you feel so confident?",
+      "system_prompt": "Focus on validating the adolescent’s emotional experience and gently exploring the root of the confidence, acknowledging potential underlying feelings if appropriate.",
+      "id": "mdq_3"
+    },
+    {
+      "empathic_question": "It sounds like you've been having a really tough time lately, and that’s okay to feel sad or worried.  It’s like you’re missing the sleep, and that’s a really big deal, isn’t it?",
+      "empathic_response": "Oh, honey, that sounds incredibly stressful. It’s completely understandable to feel down when you’re not getting enough sleep and feeling like things aren’t right.  You’re allowed to feel all the feelings that come up when you’re going through this.",
+      "next_question": "Can you tell me a little bit about what you’re feeling the most right now?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging exploration of their emotions.  Prioritize creating a safe and non-judgmental space.",
+      "id": "mdq_4"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been feeling really energetic and talking a lot lately. That can be exciting, but it’s also okay to feel a little overwhelmed sometimes. Can you tell me a little more about what’s been going on?",
+      "empathic_response": "Oh, honey, that sounds really tough. It’s completely understandable to feel that way when things feel intense. You're allowed to feel everything you're feeling, and it’s brave of you to share it.",
+      "next_question": "What's the most overwhelming thing you’ve been experiencing right now?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for them to express their emotions without judgment.",
+      "id": "mdq_5"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really overwhelmed right now.  Anyone feels that way sometimes, even when their thoughts are racing.",
+      "empathic_response": "It’s okay to feel this way.  It takes a lot of courage to acknowledge those racing thoughts, and I’m here to listen.",
+      "next_question": "Can you tell me a little bit about what those thoughts are telling you?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to explore the underlying emotions associated with their thoughts.",
+      "id": "mdq_6"
+    },
+    {
+      "empathic_question": "It sounds like you’re having a really tough time focusing, and that’s incredibly frustrating.  It’s okay to feel overwhelmed sometimes, and you’re not alone.",
+      "empathic_response": "I hear you, and it takes a lot of courage to share that.  Those feelings of being pulled away are really hard to deal with.",
+      "next_question": "Can you tell me a little bit about what kinds of things usually distract you, or what makes it harder to concentrate?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying specific triggers for their difficulty concentrating, acknowledging the difficulty of expressing emotions.",
+      "id": "mdq_7"
+    },
+    {
+      "empathic_question": "Wow, it sounds like you’ve been feeling really energetic lately! That’s a big shift.",
+      "empathic_response": "It’s completely okay to feel overwhelmed sometimes, and it’s brave of you to share that with me.  Feeling like you have a lot of energy can be really confusing.",
+      "next_question": "Can you tell me a little bit about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying potential underlying causes.",
+      "id": "mdq_8"
+    },
+    {
+      "empathic_question": "It sounds like you've been feeling really energetic and busy lately. Can you tell me a little bit about what’s been going on that’s making you feel this way?",
+      "empathic_response": "Oh, honey, that’s really brave of you to share that. It’s okay to feel overwhelmed sometimes, and it takes strength to acknowledge those feelings.  It’s like your body and mind are telling you something important.",
+      "next_question": "What’s been the most noticeable change in your energy levels or activities recently?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them toward identifying potential underlying causes of their emotional state.",
+      "id": "mdq_9"
+    },
+    {
+      "empathic_question": "It sounds like you were really enjoying spending time with your friends lately, and that’s wonderful! Sometimes, when we’re feeling really excited or happy, we can be a little more out and about, and that can be exciting too.  It’s okay to feel that way, but it’s also important to remember that it’s okay to feel different moods too.",
+      "empathic_response": "That makes me feel a little worried, but I want to understand more about what you’re experiencing. It’s completely normal to feel a bit overwhelmed sometimes, and it’s good to acknowledge those feelings.",
+      "next_question": "Can you tell me a little bit about what you were feeling when you were most active with your friends?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to explore their emotions without judgment.",
+      "id": "mdq_10"
+    },
+    {
+      "empathic_question": "Hey, I've noticed you've been really focused on things related to sex lately. That’s a lot to process, and it’s okay to feel a little confused or overwhelmed. Can you tell me a little bit about what’s been going on?",
+      "empathic_response": "It sounds like you’re going through a lot right now, and it takes courage to talk about it. I want you to know I'm here to listen without judgment.",
+      "next_question": "What’s been on your mind lately that’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration of complex emotions, particularly in the context of bipolar disorder.",
+      "id": "mdq_11"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been feeling a lot of things lately, and it’s okay to feel confused and maybe a little worried about what’s going on. Can you tell me a little bit about what’s been on your mind?",
+      "empathic_response": "I hear you, and it takes a lot of courage to share something like that. It’s completely understandable to feel overwhelmed when you’re dealing with these kinds of thoughts and feelings. You’re not alone in feeling this way.",
+      "next_question": "Can you tell me about a specific situation that made you feel that way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of difficult emotions.",
+      "id": "mdq_12"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about the money situation. That’s a tough feeling to carry around, and it’s okay to feel that way.",
+      "empathic_response": "I hear you, and it’s understandable that you’re concerned about how this is affecting your family. It’s brave of you to share this.",
+      "next_question": "Can you tell me a little more about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of difficult emotions related to financial stress.",
+      "id": "mdq_13"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a lot right now. It’s okay to feel confused about these things. Have you ever felt like you were experiencing multiple emotions at the same time, or feeling strongly about several things happening around you?",
+      "empathic_response": "That’s a really brave thing to acknowledge – recognizing multiple feelings can be really challenging. It’s completely understandable to feel overwhelmed when you’re experiencing a lot of different emotions.",
+      "next_question": "Can you tell me a little bit about what’s been going on that makes you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them towards identifying potential triggers for these feelings.  Prioritize creating a safe and non-judgmental space.",
+      "id": "mdq_14"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really overwhelmed right now, and I want to understand what’s going on. Can you tell me a little bit about what’s been on your mind lately?",
+      "empathic_response": "That sounds incredibly difficult to deal with, and it’s okay to feel like you’re struggling.  It takes a lot of courage to talk about these things, and I’m here to listen without judgment.",
+      "next_question": "Can you give me an example of one thing that’s been particularly challenging for you right now?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for expression. Acknowledge the difficulty of the situation.",
+      "id": "mdq_15"
+    },
+    {
+      "empathic_question": "Hey there, it’s okay to feel like this. Let’s just take a little time to figure out how we can best understand what you’re going through.  Do you feel like the paragraph captures what you’re experiencing, and if not, why do you think that is?",
+      "empathic_response": "It sounds like you’re feeling really overwhelmed, and that's completely understandable.  It takes a lot of courage to even ask that question, so I want to acknowledge that.",
+      "next_question": "Can you tell me a little bit about what’s been making you feel this way today?",
+      "system_prompt": "Focus on validating feelings and offering a safe space for exploration.  Prioritize understanding the emotional experience without judgment.",
+      "id": "bsds_1"
+    }
+  ]
+}

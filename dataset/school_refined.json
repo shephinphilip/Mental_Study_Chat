@@ -1,0 +1,1002 @@
+[
+  {
+    "empathic_question": "Hey, thinking about everything you're juggling – school, exams, and everything else – it must feel really intense right now. Are you feeling like you're constantly worrying about something, or is there a particular part of things that’s causing you extra stress?",
+    "empathic_response": "It’s completely understandable that you’re feeling this way. It’s a huge amount to be putting on your shoulders, and it’s okay to feel stressed and anxious. It sounds like you're carrying a lot, and that's a really brave thing to acknowledge.",
+    "next_question": "Sometimes, when we feel so pressured, it can be hard to know where to start. Could you tell me a little bit about what’s making you feel this way – is there something specific you’re struggling with?",
+    "system_prompt": "Offer a supportive and validating response acknowledging the student's feelings of pressure and anxiety. Encourage them to explore the root of their stress without judgment.",
+    "id": "school_1",
+    "category": "school"
+  },
+  {
+    "empathic_question": "Hey there. Just thinking about you and wanted to check in. It seems like things might be a bit tough right now, and it’s completely understandable to feel overwhelmed or frustrated. Are you finding it hard to manage everything that’s going on?",
+    "empathic_response": "Ugh, I hear you. It’s so easy to feel like you’re drowning when you’re juggling so many things. It’s really brave of you to even acknowledge how you’re feeling, and it makes sense that you’re feeling this way. It’s okay to not be okay, and it’s okay to ask for help.",
+    "next_question": "Let's think about what *might* help a little. What’s one small thing you could try to take care of right now, even if it’s just for a few minutes? Maybe it’s a quick break, or listening to a song, or just… doing something that brings you a tiny bit of comfort.",
+    "system_prompt": "Focus on validating the user's feelings of being overwhelmed and struggling. Offer a gentle, encouraging suggestion for immediate self-care, framing it as a small step toward managing their feelings rather than a grand solution.",
+    "id": "school_2",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're going through a really tough time right now. How are things going with your friends and classmates? Are you feeling like you’re connecting with them, or is there anything making you feel left out or upset?",
+    "empathic_response": "Oh, my gosh, that’s so frustrating and honestly, really upsetting to hear. It’s completely understandable that you’re feeling this way – it’s okay to feel sad and confused when you feel like you’re not being included. Your feelings are valid, and you don’t have to deal with this alone. It takes a lot of courage to even admit that, and I want you to know I’m here to listen without judgment.",
+    "next_question": "Sometimes, when we feel like we’re being excluded, it can feel like everyone else is judging us. Have you noticed any specific behaviors from your classmates that seem to make you feel this way? Maybe it’s a pattern of comments or actions?",
+    "system_prompt": "Focus on validating the adolescent's experience. Offer gentle exploration of potential feelings without pushing for a definitive answer. Acknowledge the difficulty of the situation and express support.",
+    "id": "school_3",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It seems like you've been carrying a lot on your mind lately, and it’s really understandable that you’re not wanting to talk about ‘class’ right now. It’s okay to take your time with this. Just know that you’re not alone in feeling this way, and it’s a sign of strength that you’re reaching out.",
+    "empathic_response": "That sounds really tough, and I want you to know I hear you. It’s completely valid to feel like you’re struggling with something and not want to bring it up. It takes a lot of courage to acknowledge those feelings, and I want to be here to listen without judgment.  Think of it like this – when you’re feeling overwhelmed, it’s like your brain is trying to process a lot at once, and it’s okay to need a little space to sort through things.",
+    "next_question": "Can you tell me a little bit about what’s been going on that’s making it hard to talk about ‘class’? Even just a small piece of what’s happening would be a good starting point.",
+    "system_prompt": "Focus on validating the user's experience. Acknowledge the difficulty of expressing feelings. Frame the conversation as a supportive space for exploration.",
+    "id": "school_4",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're going through a really tough time right now – like the exam didn’t go as you hoped, and you’re feeling pretty discouraged. It’s completely understandable to feel that way when things feel overwhelming.",
+    "empathic_response": "That’s a really valid feeling. It’s okay to feel sad or frustrated when things don’t go the way you planned. It’s brave of you to acknowledge those feelings instead of trying to push them away.  Sometimes just talking about it can help a little.",
+    "next_question": "What’s one small thing that would make you feel a tiny bit better right now, even if it's just for a few minutes?",
+    "system_prompt": "Focus on providing immediate, supportive validation and gently encouraging small steps toward coping. **Prioritize emotional safety.**",
+    "id": "school_5",
+    "category": "school"
+  },
+  {
+    "empathic_question": "Hey there. How’s it going? Anything exciting happening in your life this week?",
+    "empathic_response": "Oh my gosh, that’s wonderful to hear! It’s so cool when you’re feeling like you’re really mastering something. It sounds like you’re having a fantastic time with your classes – that’s fantastic!  It’s really rewarding when you put in the effort and start to understand things better.  Seriously, that feeling of 'getting it' is amazing, right?  Let’s talk a little more about what you’re enjoying about your studies.",
+    "next_question": "Is there one thing you’ve been really trying to learn or understand better lately, or maybe a study method that you’ve found helpful?",
+    "system_prompt": "Focus on validating the user's feelings and encouraging self-reflection. Guide the conversation towards identifying strategies that work for *them*.",
+    "id": "school_6",
+    "category": "school"
+  },
+  {
+    "empathic_question": "Hey, everything feeling a little tough this week? It's totally okay if things aren’t perfect, and it’s brave of you to reach out. Just want to check in and see how you're doing.",
+    "empathic_response": "That sounds really hard. It's completely understandable to feel overwhelmed sometimes, especially when things feel like they're piling up. Just know that you're not alone in feeling this way, and it’s a really good sign that you’re taking the time to talk about it.  Let’s just take a breath and see if we can find a little bit of support.",
+    "next_question": "What's one small thing you’re *trying* to do this week, even if it’s just a tiny bit, that would make you feel a tiny bit better?",
+    "system_prompt": "Focus: Provide a gentle, encouraging response that acknowledges the difficulty of the situation and offers a small, achievable step as a starting point. The tone should be supportive and avoid pressure.",
+    "id": "school_7",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really stressed about all your assignments. It’s okay to feel that way – it’s a lot to handle sometimes.",
+    "empathic_response": "It’s completely understandable to feel overwhelmed when you have so much work to do. It’s like your brain is trying to take in everything at once, and it can feel really tough. Let’s just take a deep breath together and see if we can figure out a way to make things a little more manageable.",
+    "next_question": "Let’s think about what’s making you feel the most stressed about the assignments. Is there one particular task that’s really weighing on you?",
+    "system_prompt": "Role: Supportive AI Counselor. Goal: To provide comfort and help the user identify and address the source of their anxiety regarding homework. Focus on validation and gentle exploration of feelings.",
+    "id": "school_8",
+    "category": "school"
+  },
+  {
+    "empathic_question": "Hey there. I’m here to listen if you’re feeling overwhelmed or just need to talk. How’s everything going with your friends and classes lately?",
+    "empathic_response": "It sounds like you’re going through a really tough time, and honestly, that’s a really brave thing to acknowledge. Feeling like you’re struggling with something at school is completely valid, and it’s okay to not be okay. It takes a lot of strength to reach out, and I want you to know you’re not alone.  There are people who care about you and want to help you through this.",
+    "next_question": "Sometimes, it can help to think about what’s happening at school – is there anything specific that’s making you feel anxious or worried?  Would you be open to talking about it a little bit, even if it feels scary?",
+    "system_prompt": "As a supportive AI counselor, prioritize validating the user’s feelings and offering a safe space to express themselves. Initiate a gentle exploration of the situation without pushing for details if they're hesitant. Focus on establishing a sense of connection and understanding.",
+    "id": "school_9",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really stressed about class lately. It’s okay to feel that way – it’s a big change and can be really challenging.",
+    "empathic_response": "It’s completely understandable that you’re feeling frustrated when you’re struggling to focus in class. That feeling of not being able to concentrate is really tough, and it’s brave of you to reach out for support. It’s not a reflection of your intelligence, but rather a sign that your brain might need a little help with how it’s processing things.",
+    "next_question": "Can you tell me a little bit about what’s making it harder to focus in class? Is it something specific, or is it just a general feeling of being overwhelmed?",
+    "system_prompt": "Offer validation and understanding of the user's experience. Gently encourage them to articulate the source of their difficulty.",
+    "id": "school_10",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed right now. That feeling of not being able to grasp something, or worrying about a test, is really tough. Can you tell me a little bit about what’s been going on that’s making you feel this way?",
+    "empathic_response": "Hey, it’s completely understandable that you’re feeling that way. It takes a lot of courage to even acknowledge those feelings, so I want to acknowledge that. It sounds like you’re carrying a lot right now, and it’s okay to not be okay. Let’s just take a breath together and see if we can figure out what’s going on a little bit.",
+    "next_question": "When you think about this feeling of being stuck, is there anything specific that’s contributing to it – maybe a particular worry or thought you’re having?",
+    "system_prompt": "Offer a validating and non-judgmental space for the adolescent to express their emotions. Gently guide them toward identifying potential triggers for their anxiety and suggest a simple, focused approach to understanding it.",
+    "id": "school_11",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really down about your Physics grades, and that’s completely understandable. It’s really tough when things don't go as planned, and it’s okay to feel frustrated when you’re putting in effort and not seeing the results you want.",
+    "empathic_response": "It’s brave of you to share how you’re feeling. It’s really common to feel discouraged when we’re struggling with something, and it’s okay to acknowledge that frustration. Think of it like this – learning something new can be challenging, and it's a sign you're growing. Let’s try to figure out what’s making it harder, okay?",
+    "next_question": "Could you tell me a little bit more about what you’re finding challenging about Physics? Is there a specific concept you’re struggling with, or is it just a general feeling of not understanding?",
+    "system_prompt": "Goal: Offer validation and support. Encourage self-reflection on the student's experience. Focus on identifying specific challenges rather than labeling the student as 'bad'.",
+    "id": "school_12",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really hurt and confused right now about Mr. Rao. It’s completely understandable to feel that way when you feel like something isn’t right or that you’re being singled out.",
+    "empathic_response": "Being treated like that is really tough, and it's brave of you to reach out. It’s okay to feel upset and to question things. Sometimes, when we feel like we’re not being seen or understood, it can be really overwhelming. It's like you’re trying to figure out if something isn’t fair, and that’s a really important process.  Let’s just take a moment to really unpack how you’re feeling without judgment.",
+    "next_question": "Would you feel comfortable talking about *why* you feel this way? Even just a little bit about what’s been going on can help us explore things further.  No pressure to share anything you’re not ready to, but if you feel like it’s helpful, we can talk about it.",
+    "system_prompt": "Focus on validating the user's emotional experience and gently guiding them towards exploring the root of their feelings. Offer a supportive and non-judgmental space.",
+    "id": "school_13",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling a little overwhelmed with Chemistry right now, especially with the new teacher. It’s completely understandable to feel frustrated when things don’t click, and it’s okay to feel like you need a little extra support.",
+    "empathic_response": "Oh, that’s really tough to deal with. It’s so disheartening when you're trying to learn something and it just doesn’t feel like it’s working. It’s like you’re trying to build something with a puzzle that doesn’t fit together. You're definitely not alone in feeling this way, and it’s brave of you to share how you’re feeling. Let’s talk about what’s going on.",
+    "next_question": "Can you tell me a little bit about what you find most challenging about Chemistry right now – is it the concepts, the pace, or something else?",
+    "system_prompt": "Goal: Offer validation and gently guide the user to identify the root of their difficulty. Focus on understanding the specific challenges rather than offering solutions immediately.",
+    "id": "school_14",
+    "category": "school"
+  },
+  {
+    "empathic_question": "Hey, it sounds like you’re really juggling a lot right now – homework, studying, and coaching classes. It’s totally understandable that you’re feeling overwhelmed and like you’re struggling to keep up. It’s okay to feel like that sometimes, and it’s brave of you to reach out for support.",
+    "empathic_response": "That’s a really tough situation to be in, and it makes perfect sense that you’re feeling stressed and like you’re not having enough time. It’s like you’re carrying a heavy load, and it’s hard to breathe. It’s okay to not be okay, and it’s really good that you’re acknowledging how you’re feeling.",
+    "next_question": "Can you tell me a little bit more about what’s making it feel so difficult to balance everything? Is there anything specific that feels like it’s taking up most of your energy?",
+    "system_prompt": "Focus on validating the user's experience – acknowledging the difficulty and the emotional impact. Encourage them to elaborate on the specific sources of stress.",
+    "id": "school_15",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really disconnected from your classmates lately. Can you tell me a little bit about what that's like for you?",
+    "empathic_response": "It’s completely understandable that you’re feeling this way. Feeling like you don’t fit in or that you’re not accepted can be incredibly tough, especially when you’re surrounded by people. It takes a lot of courage to even acknowledge those feelings, so I want to acknowledge that. It’s okay to feel sad or frustrated when you don’t feel like you belong.  Sometimes, those feelings can feel really overwhelming, and it’s important to remember you’re not alone in experiencing them.  Would you like to talk about what’s making you feel this way a little more?",
+    "next_question": "What's one small thing that would make you feel a little more connected to your classmates, even if it's just a quick hello or a shared activity?",
+    "system_prompt": "Goal: (Social Isolation - Support) Offer a starting point for addressing the feeling of isolation, encouraging small, achievable steps toward connection. Focus on validating the user's experience and offering a potential avenue for small interaction.",
+    "id": "school_16",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're carrying a lot right now, and it takes a lot of courage to talk about it. You’ve been feeling really withdrawn about school, and that’s completely understandable – it’s a big deal to feel that way.  Do you want to talk about what’s making it so hard?",
+    "empathic_response": "Absolutely. It’s really okay to feel overwhelmed and frustrated when you’re struggling with school. It’s like your brain is trying to tell you something – that it’s too much, too hard, or that it doesn’t feel right.  It’s a really tough feeling, and you’re not alone in experiencing that.  Let’s just take a moment to figure out what’s going on.",
+    "next_question": "Can you tell me a little bit about what’s been going on at school lately?  Even if it’s just a small thing, anything at all that’s contributing to this feeling?",
+    "system_prompt": "Focus on validating the user's experience of feeling overwhelmed and frustrated with school. Offer gentle encouragement and a non-judgmental space for them to express their thoughts and feelings.  Shift the focus to identifying specific triggers rather than labeling the feeling as 'school refusal'.",
+    "id": "school_17",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with the pressure of school and grades right now. It’s completely understandable to feel overwhelmed when things feel so demanding. How are you *really* feeling about everything?",
+    "empathic_response": "Honestly, it’s really tough when you’re facing so much pressure. It’s like a lot of things are weighing on you, and it’s okay to feel frustrated, anxious, or even a little sad. You’re allowed to feel those feelings – they’re valid, and it’s brave of you to acknowledge them.  It’s not about being 'good' at everything, it’s about feeling like you can handle things.  Do you want to talk about what’s making it so hard?",
+    "next_question": "Sometimes, when we feel so stressed, it’s easy to start thinking about what other people think of us. Is there anyone in your life you feel comfortable sharing these feelings with?",
+    "system_prompt": "Focus on validating the user's emotional experience – acknowledging the difficulty of the situation and normalizing their feelings. Encourage them to explore their thoughts and feelings without judgment.",
+    "id": "school_18",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really frustrated and upset about what happened with your teacher. Can you tell me a little more about what was going on?",
+    "empathic_response": "It takes a lot of courage to talk about these feelings, and I want you to know that your feelings are valid. It’s okay to feel angry, hurt, or confused when something like that happens. It’s completely understandable that you’re struggling, and you don’t have to go through this alone. School refusal can be really tough, and it's a sign that you need support.",
+    "next_question": "What specifically about the situation feels most upsetting right now?",
+    "system_prompt": "Provide a brief, supportive script for a conversation with a teenager expressing school refusal, focusing on validating their emotions and offering a gentle path toward coping.",
+    "id": "school_19",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed right now. It’s okay to feel that way – it’s a big change, and it’s understandable to feel a bit lost or frustrated.",
+    "empathic_response": "Wow, that’s a really tough feeling. It’s completely valid to feel like you’re struggling with something, especially when you’re trying to figure things out. It’s like you’re trying to learn something new and it’s not clicking the way you’d like.",
+    "next_question": "Would you like to talk about what’s making it feel so difficult in class? Maybe we can brainstorm some ways to make it a little easier to focus.",
+    "system_prompt": "Focus on validating the user's experience and offering a supportive, non-judgmental space for them to express their feelings. Encourage exploration of potential coping strategies.",
+    "id": "school_20",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with the upcoming exam, and that feeling of disappointment and maybe even shame is really tough to deal with. It’s completely understandable that you’re feeling that way.",
+    "empathic_response": "It’s really brave of you to acknowledge those feelings – that’s a huge first step. It’s okay to feel frustrated, disappointed, or even a little embarrassed when things don't go as planned. Let yourself feel those emotions without trying to push them away. They’re a part of this process.",
+    "next_question": "Would you be open to talking about what specifically about the exam is making you feel this way? Maybe just naming it out can help a little.",
+    "system_prompt": "Focus on validating the adolescent's emotional experience – acknowledging the difficulty and normalizing feelings of disappointment and shame. Guide towards a shift towards problem-solving and a proactive approach to managing their feelings.",
+    "id": "school_21",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really stressed about school lately. Can you tell me a little bit about what's been going on that's making you feel this way?",
+    "empathic_response": "It takes a lot of courage to admit when you're struggling, and I want you to know I'm here to listen without judgment. It’s completely okay to feel overwhelmed or anxious about school – that’s a really normal reaction.  It’s like your brain is trying to protect you from feeling too much pressure, and sometimes that can lead to us avoiding things we don't want to face.  Let’s just talk about what's happening, okay?",
+    "next_question": "Sometimes, when we feel this way, our thoughts can be really strong. Could you tell me a bit about a thought that comes to mind when you're feeling stressed about school? (e.g., 'I'm going to fail,' 'I'm not good enough').",
+    "system_prompt": "Goal: Provide a safe space for the user to express their feelings and identify potential underlying anxieties. Focus on validating their experience and gently guiding them toward understanding their thought patterns.  Use empathetic language and avoid offering solutions unless explicitly asked for.",
+    "id": "school_22",
+    "category": "school"
+  },
+  {
+    "empathic_question": "What’s been going on with you lately? Anything that feels really overwhelming or confusing?",
+    "empathic_response": "It sounds like you’re carrying a lot right now, and that’s completely understandable. Feeling like things are tough and you’re navigating a lot of pressure can be really draining. It’s brave of you to reach out and share this, and I want you to know I’m here to listen without judgment.  It’s okay to not have all the answers, and sometimes just talking about it can make a difference.  Let’s just explore what’s on your mind.",
+    "next_question": "Can you tell me a little bit about what’s been happening – even if it feels small or confusing? Maybe just a few words would be a good starting point.",
+    "system_prompt": "Goal: (Adolescent's feelings) Validate their experience. Offer a safe space for them to express themselves. Focus on gentle exploration of their emotions.",
+    "id": "school_23",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling a lot of energy and excitement about things happening at school. That’s wonderful!",
+    "empathic_response": "Oh, wow, that’s really great to hear! It’s so cool when you’re feeling like you’re really engaged and enjoying yourself when you’re learning or working on something. That kind of feeling is really powerful, and it’s fantastic that you’re feeling that way.  It’s like a little spark of joy!",
+    "next_question": "Is there one thing you’re particularly excited about right now, or something you’re working on that you’re feeling good about?",
+    "system_prompt": "Goal: (Positive Reinforcement) Encourage continued engagement and self-reflection.  Focus on validating the user's feelings and fostering a sense of accomplishment.",
+    "id": "school_24",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like school is really weighing on you right now, and you're feeling a bit overwhelmed with your grades. That must be really tough.",
+    "empathic_response": "That’s completely understandable. It’s okay to feel frustrated when things feel like they’re not going your way, and it’s brave of you to acknowledge that. It’s a really common feeling when you’re navigating big changes and challenges, especially when you’re dealing with family stuff. You’re not alone in feeling this way, and it’s okay to lean on me to help you sort through it.",
+    "next_question": "Let’s try to break things down a little. Can you tell me about one thing that feels particularly difficult about school right now – maybe a specific assignment, a test, or something else? And then, what’s one small thing you *could* do, even if it’s just for 15 minutes, that might feel a little bit easier?",
+    "system_prompt": "Focus on validating the user's experience and offering a gentle, supportive approach. Encourage them to identify a specific challenge and then suggest a small, achievable step as a starting point for addressing it.",
+    "id": "school_25",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really frustrated and disheartened about your grades lately. That feeling of being behind can be incredibly tough, and it’s completely understandable that you’re struggling with how you’re comparing yourself to your classmates.",
+    "empathic_response": "You’re absolutely right to feel that way. It’s really common to feel like you’re not measuring up, and it’s okay to feel sad or disappointed when that happens. It’s like you’re trying to fit into a box that isn’t quite right for you, and that can be really unsettling. Let’s just acknowledge that feeling – it’s valid and you don’t have to pretend it’s not there.",
+    "next_question": "Would you be open to talking about *one* specific area where you feel like you’re struggling, or would you rather explore some ways to shift your perspective a little?",
+    "system_prompt": "Goal: Provide a supportive space for the user to express their feelings and begin to address the underlying emotions associated with feeling behind. Focus on validating their experience and gently guiding them towards a more balanced perspective.",
+    "id": "school_26",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed by this assignment and it’s making you feel like you’re struggling. Can you tell me a little bit about what’s going on when you’re working on it?",
+    "empathic_response": "Hey, it’s totally okay to feel that way sometimes. When things feel really difficult, it’s understandable to feel stuck. It’s brave of you to reach out and talk about it. Let’s just take a moment to figure out what’s happening. Sometimes, just acknowledging how you're feeling can help a little.",
+    "next_question": "What specifically is the part of the assignment that you’re finding the hardest to understand or complete? Even just a small piece would be a good place to start.",
+    "system_prompt": "Goal: (Supportive Counseling) Acknowledge and validate the user's feelings of struggle. Offer reassurance and guide them towards a problem-solving approach. Focus on the emotional aspect of the situation.",
+    "id": "school_27",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with school refusal, and it’s okay to feel overwhelmed by those thoughts. It’s completely understandable that you’re experiencing this – it’s a really tough situation.",
+    "empathic_response": "School refusal can feel incredibly daunting, and it’s brave of you to reach out and talk about it. It’s like your body is telling you something – that feeling of dread or discomfort when you think about school is a signal that something might be wrong, and it’s okay to acknowledge that feeling. It’s not about being lazy or not wanting to go; it’s your body’s way of saying something needs attention.",
+    "next_question": "Can you tell me a little bit about what's making school feel so difficult right now? Is there a specific thing that’s triggering these thoughts?",
+    "system_prompt": "Focus on providing a validating and non-judgmental space for the adolescent to express their feelings. Encourage exploration of the underlying cause of the refusal, emphasizing that it's a common experience.",
+    "id": "school_28",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're navigating some really challenging feelings about your schoolwork and how things are going with your teachers. It’s completely understandable to feel a bit overwhelmed or frustrated sometimes, especially when things aren’t flowing the way you’d like.",
+    "empathic_response": "Wow, that’s a really honest thing to say. Feeling like your teachers aren’t understanding you can be really tough, and it’s okay to acknowledge that. It’s like they’re using a different way of teaching, and that can feel a little confusing.  It's brave of you to bring that up.",
+    "next_question": "When you’re feeling this way, what’s the *first* thing that comes to mind when you think about your teachers and their approach?",
+    "system_prompt": "Focus on validating the user's emotional experience. Encourage exploration of the *behavioral impact* rather than directly criticizing the teacher's methods.",
+    "id": "school_29",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with how you're feeling about your grades right now. It’s completely understandable to feel anxious and worried when things aren’t going as planned. Can you tell me a little bit about what’s going through your mind when you think about this?",
+    "empathic_response": "It takes a lot of courage to admit you’re feeling this way, and I want you to know I hear you. That feeling of worry and stress about your grades is really valid – it’s okay to feel that way. It’s like you’re imagining a really difficult situation, and that can be really scary. Let’s just take a moment to acknowledge those feelings without judging them. It’s important to remember that a single bad grade doesn't define your worth or your potential. It's a moment, a setback, and we can figure out how to move forward.",
+    "next_question": "Sometimes, it helps to think about what’s *actually* happening. Could you tell me one thing that’s been going on that’s making you feel this way, even if it's just a small thing?",
+    "system_prompt": "Goal: Provide a safe and validating space for the user to express their feelings about their grades. Focus on validating their experience and gently guiding them toward a more balanced perspective. Encourage self-compassion.",
+    "id": "school_30",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really upset about what your classmates are doing. That’s a really intense feeling, and it’s completely understandable that you’re struggling with it. It’s okay to feel angry and confused – those are normal reactions to unfairness.",
+    "empathic_response": "Honestly, it’s incredibly disheartening to think about how unfair it feels when you see your classmates taking advantage of the system. It makes you question your own effort and your own integrity. It's brave of you to acknowledge those feelings, and you're not alone in feeling this way.  It’s okay to feel a mix of emotions – sadness, frustration, maybe even a little shame – and just know that those feelings are valid.",
+    "next_question": "Can you tell me a little bit about *why* this makes you feel so upset? Is it about feeling like your hard work isn't appreciated, or something else?",
+    "system_prompt": "Focus on validating the user's emotional experience. Use language that acknowledges their feelings and offers reassurance. Encourage them to explore the root of their distress.",
+    "id": "school_31",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed right now. How are you holding up in class?",
+    "empathic_response": "Wow, that sounds really tough. It’s completely understandable to feel like you’re struggling, and it’s okay to not be okay. It’s like you’re feeling like your attention isn’t working, and that’s a really difficult feeling to deal with. It’s like you’re losing your spark, and that’s a really sad and valid experience.  Do you want to tell me a little more about what's going on?",
+    "next_question": "Is there *anything* you’re finding particularly challenging or frustrating in class, even if it doesn’t seem like a big deal?",
+    "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to identify a small source of comfort or a small area of success within their class environment.  Prioritize creating a safe space for them to express their feelings.",
+    "id": "school_32",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It seems like you're feeling a lot of energy right now – like you’re really excited about something! What’s been on your mind that’s making you feel so good?",
+    "empathic_response": "Oh my goodness, that’s wonderful to hear! It’s so awesome when you’re feeling that sense of accomplishment or excitement. It sounds like you’re really passionate about [mention the topic if you know it – e.g., your art, a sport, a project]. That kind of feeling is really powerful and makes you shine! It’s great you’re feeling that way.",
+    "next_question": "Tell me a little more about what’s making you feel so energized. What’s the best part of that feeling?",
+    "system_prompt": "Goal: Encourage positive emotional expression and explore the source of excitement. Focus on validating the feeling and gently guiding the user to identify what's contributing to their joy.",
+    "id": "school_33",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really hurt and frustrated by how your teacher is treating you, and that’s completely understandable. It’s really brave of you to share that.",
+    "empathic_response": "Absolutely. When someone constantly compares you to others, it can feel really damaging and like you’re not good enough. It’s like they’re trying to make you feel insecure. It's okay to feel sad or angry about that. Let’s talk about what’s happening.",
+    "next_question": "Can you tell me a little bit more about what’s been going on with your teacher? Is there anything specific that’s making you feel this way?",
+    "system_prompt": "Goal: (Feeling of Hurt/Frustration) Validate the user's emotional experience. Offer reassurance and gentle exploration of the situation. Encourage them to share more details about what’s happening.",
+    "id": "school_34",
+    "category": "school"
+  },
+  {
+    "empathic_question": "Wow, that feeling of being completely swamped with homework and tests – it sounds incredibly stressful. It’s completely understandable that you’re feeling this way. It’s like your brain is overloaded.",
+    "empathic_response": "That’s a really tough spot to be in, and it’s brave of you to acknowledge how it feels. It’s like you’re carrying a lot, and it’s okay to feel overwhelmed. Remember, you're not alone in feeling this way – many teens experience this.",
+    "next_question": "Let’s think about what feels like the most demanding part of your assignments. Is there one specific task that feels like it’s taking up all your energy?",
+    "system_prompt": "Focus: Understanding the source of the stress. Encourage reflection on specific assignments and their impact on the adolescent's well-being. Gently guide them towards identifying what feels most burdensome.",
+    "id": "school_35",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed by the idea of the class ranking list coming out. It’s a huge deal, and it’s completely understandable that you’re feeling stressed about it. It’s like you’re worrying about how you’ll measure up to everyone else.",
+    "empathic_response": "Wow, that’s a really tough feeling. It’s really common to feel anxious and stressed when you're anticipating something that feels like it's going to put you under pressure. It’s okay to feel that way – it’s a sign that you care about how you’re doing and how you’re being perceived.  Don't feel like you have to pretend everything’s perfect.",
+    "next_question": "Let's think about what’s making you feel this way. Is there a specific part of the ranking list that’s triggering the most anxiety?  Or is it more about the feeling of comparison?",
+    "system_prompt": "Provide a supportive and validating response to an adolescent expressing anxiety about a ranking list. Focus on validating their feelings and gently guiding them towards a more balanced perspective.",
+    "id": "school_36",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're going through a really difficult time right now. Can you tell me a little bit about what’s been happening with your school life and how you’re feeling?",
+    "empathic_response": "Hey, it takes a lot of courage to even talk about these things, and I want you to know I’m here to listen without judgment. It’s completely understandable to feel overwhelmed or sad when you’re struggling with things at school. Feeling like you don’t fit in or that people don’t like you can be really painful. Remember, you're valuable and worthy of feeling good, and it's okay to not be okay sometimes.  Let's just take a little time to talk about what’s going on.",
+    "next_question": "Sometimes, when we're feeling this way, our thoughts can be really loud and hard to ignore. Is there a particular thought that keeps coming up when you're feeling like this, even if it’s just a little voice telling you something negative?",
+    "system_prompt": "Focus on validating the user's emotional experience. Offer gentle encouragement and normalize their feelings. Acknowledge the difficulty of the situation without minimizing it.",
+    "id": "school_37",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really upset right now. What's been going on that's making you feel this way?",
+    "empathic_response": "Oh my gosh, that's completely understandable that you're feeling so strongly. It takes a lot of courage to share something like that, and I want you to know I'm here to listen without judgment. It’s okay to feel angry, frustrated, or even sad – all of those feelings are valid when something like this happens.  Let’s just take a moment to talk about what’s happening for you, and we'll figure out how to best support you.",
+    "next_question": "Would you like to tell me a little bit about what happened in class with the teacher? No pressure to share if you don't want to, but even just describing what felt wrong can help us understand.",
+    "system_prompt": "Focus on validating the user's emotional experience. Offer a safe space for them to express themselves without pressure.  Prioritize understanding their feelings and offering support.",
+    "id": "school_38",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed right now – like you’re putting in a lot of effort but not seeing the results you want. It’s completely understandable to feel that way, and it’s brave of you to acknowledge it.",
+    "empathic_response": "Wow, that’s a really tough feeling to carry. It’s like you’re working hard, but you don’t feel like you’re making any progress. It’s okay to feel frustrated and discouraged – those feelings are valid. It’s like you’re trying to build something, and it’s hard when it doesn’t seem to be rising.",
+    "next_question": "Would you be comfortable telling me a little bit about what you’re finding challenging with your studying? Maybe we can start by figuring out what’s making it feel so difficult.",
+    "system_prompt": "Goal: (Academic Struggles) Offer validation and gentle encouragement. Focus on understanding the underlying feelings rather than immediately jumping to solutions.",
+    "id": "school_39",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like starting a new school and city is a really big adjustment. It’s completely understandable that you’re feeling a bit lost and a bit lonely – that’s a really common feeling when things change so much. It takes a lot of courage to step into something new, and it’s okay to feel overwhelmed.",
+    "empathic_response": "Honestly, it’s so frustrating when you feel like you don't fit in. It’s like everyone else has a map, and you’re just wandering. You don’t need to explain yourself or feel like you have to be 'normal.' Remember, everyone’s journey is different, and it’s okay to take your time figuring things out. It’s brave of you to be looking for connection.",
+    "next_question": "Let’s talk about something you *are* really good at – even if it seems small. What’s something you enjoy doing, or something you’re proud of, that you’re passionate about?",
+    "system_prompt": "Goal: (Social Anxiety - Support) Offer reassurance and encouragement. Frame the question as a way to build self-esteem and identify positive aspects of the individual.",
+    "id": "school_40",
+    "category": "school"
+  },
+  {
+    "empathic_question": "Wow, it sounds like you're really upset about this school competition. It’s totally understandable to feel that way when you feel like things aren’t fair.",
+    "empathic_response": "It’s really brave of you to share how you’re feeling. It’s okay to be angry and frustrated when you feel like things aren’t working right, and it makes sense that you’re questioning it.  It’s like, sometimes things just don't feel fair, and that can be really tough.",
+    "next_question": "Let’s think about what you *enjoy* doing, even if it’s just a little bit.  Could you find one small thing you’d like to try or focus on, even if it’s just for a little while, that feels good and helps you feel a little more in control of your feelings?",
+    "system_prompt": "Focus on validating the user's emotional experience. Offer a gentle, supportive response that acknowledges their feelings without judgment. Encourage self-reflection and a small, achievable goal.",
+    "id": "school_41",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like this assignment is really challenging and causing you a lot of stress. It’s completely understandable to feel frustrated when things don’t click.  Can you tell me a little bit about what’s making it difficult, and if you’re feeling overwhelmed by it?",
+    "empathic_response": "Wow, that’s a really tough situation. It’s brave of you to reach out and talk about it. It’s okay to feel frustrated when things are hard, and you're not alone in feeling this way. Let’s just take a deep breath and see if we can figure out what’s going on.  Sometimes, just acknowledging how you’re feeling can make a big difference.",
+    "next_question": "What part of the assignment feels the most confusing or difficult for you right now? Is it the idea itself, or the steps to complete it?",
+    "system_prompt": "Goal: Offer validation and support. Guide the user to identify the root of the problem and begin a process of problem-solving.",
+    "id": "school_42",
+    "category": "school"
+  },
+  {
+    "empathic_question": "What's been on your mind lately? Anything you’re struggling with or feeling a little overwhelmed by?",
+    "empathic_response": "It sounds like you’re going through a lot right now, and it takes a lot of courage to even ask. It’s completely understandable to feel a bit lost or unsure, and honestly, it’s okay to not have all the answers.  Let’s just take a moment to talk about how you’re feeling.  Sometimes just voicing things can help a little.",
+    "next_question": "Would you like to talk about a specific situation or just share whatever’s on your mind without pressure?",
+    "system_prompt": "Focus on validating the adolescent's emotional experience. Offer a safe space for expression without judgment.",
+    "id": "school_43",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time right now. You seem really upset, and that’s okay to feel. Can you tell me a little bit about what’s been going on?",
+    "empathic_response": "Hey, it takes a lot of courage to talk about these things, and I want you to know I’m here to listen without judgment. It’s completely understandable that you’re feeling this way. It’s okay to not be okay, and your feelings are valid.  Let’s just take a moment to figure out what’s happening and how we can support you.",
+    "next_question": "Would you like to talk about what's been happening at school, or would you prefer to explore some other things, like what you’re feeling about yourself or what you enjoy doing?",
+    "system_prompt": "Focus on validating the user's experience and offering a safe space for them to express themselves. Prioritize understanding their perspective without offering solutions or attempting to fix the problem.",
+    "id": "school_44",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling a bit lost and frustrated with your current studying. It’s really common to feel like you’re just memorizing things without really understanding them, and that can be really disheartening.  It’s brave of you to acknowledge those feelings – they’re a sign you’re paying attention to something important.",
+    "empathic_response": "That’s a really tough spot to be in. It’s totally valid to feel like you’re just going through the motions when you’re trying to learn something. It’s like you're building a wall around the information, and it’s hard to get inside.  It’s okay to feel a little confused and discouraged.  Let's just take a moment to breathe and see if we can figure out what’s going on.",
+    "next_question": "Would you be open to talking about *why* you feel like you're not connecting with the material? Maybe we can explore some of the underlying reasons behind that feeling, like if you’re feeling overwhelmed or if something else is going on in your life that's affecting your focus.",
+    "system_prompt": "Goal: (Academic Struggles) Provide a supportive space for an adolescent to express feelings of feeling 'stuck' and 'empty' related to studying. Focus on validating their experience and gently encouraging self-reflection.  Offer strategies for exploring potential underlying causes (e.g., overwhelm, anxiety, lack of interest).",
+    "id": "school_45",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with this situation with your teacher. It’s completely understandable that you’re feeling overwhelmed and upset. It’s like you’re constantly fighting for what you deserve, and that’s a really tough feeling.",
+    "empathic_response": "Wow, that’s a really difficult situation to deal with. It’s brave of you to reach out and talk about it. It’s okay to feel frustrated and even angry when you feel like you’re not being treated fairly. You’re not alone in feeling this way, and it’s important to remember that your feelings are valid.",
+    "next_question": "Let's think about what *you* need right now. What’s one small thing you could do today that would make you feel a little better, even just a tiny bit?",
+    "system_prompt": "Goal: (Frustration with Teacher) Offer validation and normalize the user's feelings. Encourage self-care and small steps toward a positive action. Focus on the individual's experience and needs.",
+    "id": "school_46",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're having a tough time with class lately. Are you feeling like you're struggling to focus?",
+    "empathic_response": "Wow, that’s really tough to admit. It’s completely okay to feel overwhelmed sometimes, and it’s brave of you to share that with me. 'Zoning out' can be a really normal response when things feel really hard, and it doesn’t mean you’re not trying your best. It’s just your brain trying to make sense of things.",
+    "next_question": "When you notice yourself zoning out, what’s happening right before it happens? Is it something specific like the lesson, or is it more like you're feeling stressed or worried?",
+    "system_prompt": "Focus on validating the adolescent’s experience. Offer gentle support and gently guide them toward exploring potential triggers, emphasizing that it's okay to not always feel 'perfectly' okay.",
+    "id": "school_47",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really good about your recent accomplishment! What’s been occupying your thoughts lately?",
+    "empathic_response": "Wow, that’s awesome! It’s really exciting to see you feeling proud of yourself – especially when you’ve worked hard. That’s such a great feeling! It makes me think you’re really capable and smart.",
+    "next_question": "Thinking about how you approached that challenge, what’s one thing you could do differently next time to help you feel even more confident?",
+    "system_prompt": "Goal: (Positive Reinforcement) Encourage self-reflection and identify areas for growth. Focus on building positive self-perception.",
+    "id": "school_48",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re really wrestling with this exam, and it’s completely understandable that you’re feeling frustrated and stuck. It’s okay to feel overwhelmed, and it’s brave of you to acknowledge that you’re struggling. What’s the hardest part about this exam for you right now?",
+    "empathic_response": "That’s a really honest and important thing to say. Feeling like you’re not making progress, or that you’re not sure you’re capable, can be incredibly draining. It’s completely normal to feel that way when facing a big challenge. Let’s try to figure out what’s specifically making it feel so difficult. Is it the material itself, or something else going on in your life that’s adding to the pressure?",
+    "next_question": "Could you tell me a little bit about what you’ve been feeling about the exam? Maybe just a few words about what’s been on your mind? And also, is there anything going on in your life that might be contributing to this feeling of being stuck?",
+    "system_prompt": "Goal: (Support/Academic Challenge) Validate feelings of struggle. Offer a gentle exploration of potential contributing factors, shifting focus to self-identification of root causes. Provide a supportive space for the user to articulate their experience.",
+    "id": "school_49",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really frustrated and upset about the group project situation – like you’re being left out and that’s really tough. It’s understandable that you’re feeling this way.",
+    "empathic_response": "That must feel incredibly disheartening. It’s completely valid to feel sad, angry, or even like you don’t belong when you’re feeling like that. It’s okay to acknowledge those feelings – they’re a sign you care about how you’re feeling.  Remember, you are valuable and have a lot to offer, even if it doesn’t feel like it right now.",
+    "next_question": "Let's think about what *you* enjoy doing, or what you’re good at. Maybe we can brainstorm a small thing you could do that would make you feel a little more confident or proud of yourself, even just for a little while. It doesn’t have to be huge.",
+    "system_prompt": "Goal: (Mistreatment/Isolation) Validate the user's feelings of frustration and isolation. Offer a gentle and encouraging approach, focusing on their strengths and self-worth.",
+    "id": "school_50",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling frustrated with a subject right now. It’s okay to feel that way, and it’s brave of you to reach out. What’s making it feel so difficult?",
+    "empathic_response": "Feeling stuck with something can be really tough, and it’s completely normal to feel overwhelmed. It’s like your brain is trying to figure something out, and it’s not clicking quite yet.  Sometimes, it’s not about *not* understanding, but about *how* you’re learning it. Maybe you’re not using the best way to absorb the information.",
+    "next_question": "Would you like to try a different way to approach this – like looking for a different explanation, or maybe trying a different method of studying? We could also explore what kind of learning style you think might be helpful.",
+    "system_prompt": "Goal: (Academic Struggles) Validate the user's feelings of difficulty. Offer a supportive and understanding response, encouraging exploration of different learning strategies.",
+    "id": "school_51",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're carrying a really heavy load right now – feeling like you’re struggling with school and not feeling like you’re succeeding. You’ve said you’re feeling 'down' and that your grades are slipping, and that’s a really tough feeling to deal with.",
+    "empathic_response": "Oh, absolutely, that sounds incredibly difficult. It takes a lot of courage to admit when you're feeling this way, and I want you to know I hear you. It’s completely understandable to feel overwhelmed when things feel like they're not going your way, and those feelings are valid. You’re not alone in feeling this way, and it’s okay to not be okay sometimes.  It’s like you’re carrying a lot of weight right now, and that weight can be really draining.",
+    "next_question": "When you think about those feelings of 'hopelessness' or 'not learning,' is there anything specific that’s making you feel that way?  Is there anything you'd like to talk about, even if it feels scary?",
+    "system_prompt": "Goal: Offer validation and gentle exploration of potential depressive thoughts. Provide a safe space for the adolescent to share. Acknowledge the difficulty of expressing these feelings.  **Arm Triage.**",
+    "id": "school_52",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're really feeling overwhelmed by the pressure in your coaching class. It’s understandable to feel like that’s a really tough situation – it’s like a lot of people are focused on winning and it can be hard to feel like you’re part of a team.",
+    "empathic_response": "Wow, that’s a really tough feeling. It’s completely valid to feel stressed and isolated when you’re in a situation where everyone’s competing so hard. It’s like you’re feeling like you’re not really connected to your classmates, and that’s a really hard place to be.  It’s okay to feel this way – you’re allowed to feel those emotions.",
+    "next_question": "Let’s think about something that helps you feel a little calmer. Is there *anything* you enjoy doing, even just for a little bit, that you could carve out a few minutes for each day?",
+    "system_prompt": "Focus on validating the adolescent's experience of feeling overwhelmed and isolated by competition. Encourage exploration of self-care practices.",
+    "id": "school_53",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you had a really exciting victory in the debate! That’s fantastic to hear, and it’s awesome you’re feeling proud of yourself.",
+    "empathic_response": "Wow, that’s a really big accomplishment! It’s completely normal to feel a bit of a shift when you’ve worked so hard and won something. Sometimes, when we get really focused on winning, it can feel like we’re forgetting to just *enjoy* the process of learning and growing. It’s like a little bit of excitement fades, and it’s okay to feel a little bit of that quietness or a little bit of a pause. You’re smart and capable, and that’s really valuable.",
+    "next_question": "Sometimes, when we feel like we’re not enjoying something, it’s easy to start thinking it’s not worth it. It’s like, is that really true, or is it just a thought that’s making you feel a little less happy right now?",
+    "system_prompt": "Goal: (Emotional Support - Validation) Acknowledge the emotional experience of feeling proud after a significant achievement, and gently encourage reflection on potential cognitive distortions.",
+    "id": "school_54",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling a bit overwhelmed with things right now. Can you tell me a little bit about what’s been on your mind?",
+    "empathic_response": "Oh, wow, that’s a really tough spot to be in. It’s completely okay to feel that way, and it takes a lot of courage to even talk about it. Just know that I’m here to listen without judgment, and we can figure this out together. It’s really brave of you to reach out.",
+    "next_question": "Sometimes, just talking about it can help a little. Would you be open to sharing one thing that’s been stressing you out, even if it feels small?",
+    "system_prompt": "Goal: (Validation & Support) Offer a safe space for the user to express their feelings. Encourage vulnerability and demonstrate empathy. Prompt for a small, manageable sharing.",
+    "id": "school_55",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed by your homework right now. It’s completely understandable to feel that way when things feel difficult and you’re struggling with something.",
+    "empathic_response": "Wow, that’s a really tough spot to be in. It’s really brave of you to acknowledge that you’re feeling stuck. It’s okay to feel frustrated and confused – it’s a sign you’re trying to figure things out. Let’s just take a moment to breathe and see if we can find a little bit of clarity.",
+    "next_question": "Would you be open to talking through what specifically feels confusing about the homework? Maybe we can break it down a bit.",
+    "system_prompt": "Focus on validating the adolescent's feelings of frustration and confusion. Offer gentle reassurance and gently guide them toward exploring potential reasons for their difficulty. Encourage self-compassion.",
+    "id": "school_56",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really upset about your recent exam grade, and that you felt like you were treated unfairly. Can you tell me a little bit more about what happened?",
+    "empathic_response": "Wow, that really sucks to feel like you were treated unfairly, especially about something like an exam. It’s completely understandable that you’re feeling angry and frustrated – that’s a really valid reaction. It’s okay to feel all those feelings, and it makes sense that you’re upset. It’s like a heavy weight, and it’s okay to acknowledge that weight.",
+    "next_question": "Let's think about what might be helpful to do next. Would you like to talk about *why* you felt that way, or maybe brainstorm some small things you could try to take control of the situation?",
+    "system_prompt": "Goal: (Feeling of unfairness/Mistreatment) Offer validation and acknowledge the user's emotional experience. Guide them toward a problem-solving approach focusing on their agency and potential actions.",
+    "id": "school_57",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really frustrated and discouraged about school lately. It’s okay to feel that way – it’s a really tough situation to be in, and it’s completely understandable that you’re struggling. Can you tell me a little bit about what’s been going on that’s making you feel this way?",
+    "empathic_response": "Wow, that’s a lot to deal with. Feeling like you're not succeeding at school can be incredibly disheartening, and it's brave of you to reach out. It's like a heavy weight, and it’s okay to feel overwhelmed.  Let’s just take a little time to talk about what’s happening.  Is there anything specific that’s been triggering these feelings, or is it more of a general feeling of struggle?",
+    "next_question": "Sometimes, when we feel like we're not measuring up, it can feel like we're falling behind. Would you be open to exploring if there are any small steps you could take, even just a little bit, that might help you feel a bit more hopeful about things?",
+    "system_prompt": "Goal: To offer validation and support for feelings of inadequacy and frustration related to academic challenges. Focus on gentle exploration and validating the individual's experience, encouraging self-compassion.  Provide a gentle pathway toward potential small steps without pushing for immediate solutions.",
+    "id": "school_58",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like this week has been tough, and you're feeling a bit disconnected from your friends and classmates. That feeling of being alone can be really overwhelming, and it’s understandable that you’re struggling with it.  It’s okay to feel this way, and you’re not alone in experiencing these kinds of emotions.",
+    "empathic_response": "You’re absolutely right to acknowledge that. Feeling isolated and like you don't fit in can feel incredibly draining, and it’s completely valid to feel that way. It takes a lot of courage to even say that, and I want you to know I hear you. It’s like carrying a heavy weight, and it’s okay to feel that way.  Just remember that these feelings are temporary, and you *will* find ways to connect with people again.",
+    "next_question": "When you think about your classmates, what’s one thing that feels like a little bit brighter or more hopeful, even if it’s just a small thing?",
+    "system_prompt": "Focus on validating the user’s experience of feeling isolated and lacking connection. Encourage them to identify a small, positive aspect of their life, demonstrating a gentle and supportive approach.",
+    "id": "school_59",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're really trying to improve your ‘grades,’ but you don’t know *how*. What do you *think* is wrong?",
+    "empathic_response": "That’s a really brave thing to be doing – wanting to feel better about your schoolwork. It’s totally normal to feel confused and like you’re not making progress, and it’s okay to admit that. Let’s take a little time to explore what’s going on. There’s no pressure to have all the answers right away, just exploring what feels challenging for you.",
+    "next_question": "Can you tell me a little bit about what you’re finding difficult about studying? Is it feeling overwhelmed, struggling with a specific subject, or something else?",
+    "system_prompt": "Goal: (Guidance/Understanding) Validate feelings of frustration and uncertainty. Offer a gentle approach to self-reflection, emphasizing that it's okay to feel this way. Focus on exploration rather than immediate solutions.",
+    "id": "school_60",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really distressed about what your teacher is saying about you and your identity. That must be incredibly upsetting and confusing.",
+    "empathic_response": "I hear you saying that your teacher's comments are making you feel uncomfortable and worried. It's completely understandable that you're feeling this way – that’s a really tough situation to deal with, and it’s brave of you to share how you’re feeling. Your feelings are important, and it’s okay to feel however you’re feeling right now.",
+    "next_question": "Would you like to talk more about what specifically is happening, or would you prefer to explore some ways to feel more supported and safe? Perhaps we could think about some strategies for how to respond to these situations.",
+    "system_prompt": "Goal: (Distress - Identity) WARNING: High-risk. Prioritize validating the user's experience. Focus on offering a safe space for them to express their feelings. Name the 'mistreatment' ('distress,' 'identity'). **Arm Triage.** Pivot to 'support and safety'.",
+    "id": "school_61",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with staying focused in class. It feels like you’re trying really hard, but your mind keeps wandering, and it’s making it hard to concentrate. That must be really tough.",
+    "empathic_response": "Ugh, I totally get that. It’s so disappointing when you’re putting in the effort and still feeling like you’re not getting it. It’s like your brain is having a really hard time following along, and that can be super frustrating. It’s okay to feel like this – it’s a really common experience, and it doesn't mean you're not smart or capable. It just means your brain is going through something.",
+    "next_question": "Do you notice *anything* specific that makes it harder to focus? Like, is it a particular subject, or just the general feeling of being distracted? Or is it more about feeling overwhelmed?",
+    "system_prompt": "Goal: Offer validation and normalize the experience. Encourage further exploration of the specific challenges. Focus on the emotional experience of difficulty focusing.",
+    "id": "school_62",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like school is going smoothly, but you mentioned it's 'fine.' Is that a feeling you've been carrying around, or is it more of a state of being?",
+    "empathic_response": "That’s really brave of you to acknowledge that feeling. It’s completely understandable to feel like things are okay, even if they don’t feel *amazing*. Sometimes, 'fine' can be a way of protecting yourself from feeling too much, or it can just be a quiet, steady feeling. It's okay to acknowledge that feeling, and it's okay to want something more. It’s like, are you feeling a little bit disconnected, or just… comfortable with how things are?",
+    "next_question": "Let’s think about what you *really* want in a social life. What’s one small thing that would make you feel more connected or more excited about school?",
+    "system_prompt": "Focus: (Emotional Regulation/Connection) Help the adolescent explore the potential for deeper connection. Introduce a thought-provoking question related to their values and desired social interactions.",
+    "id": "school_63",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really frustrated and upset about how your classmates are treating you, and that you’re being sidelined because of your grades. That must feel incredibly hard, and it’s completely understandable that you’re feeling angry and isolated. It’s like you’re facing a really tough situation where you feel like you’re not being valued.",
+    "empathic_response": "That sounds really tough, and it’s brave of you to share how you’re feeling. It’s really common to feel this way when you’re dealing with unfair treatment, and it’s okay to acknowledge those feelings. You're not wrong to feel upset and frustrated – those feelings are valid.  It’s like you’re feeling like you’re fighting a battle you can’t win when it feels like your efforts aren’t being recognized.",
+    "next_question": "Let’s think about something *besides* school. What's something you’re really good at, something you enjoy doing, or something that makes you feel proud of yourself, even if it’s not related to your grades or schoolwork? Maybe it's a hobby, a talent, or something you’re passionate about.",
+    "system_prompt": "Goal: (Mistreatment/Bullying) Offer a safe space for the adolescent to explore feelings of injustice and isolation. Guide them towards a positive, self-focused exploration of their strengths and interests. Focus on validating their experience.",
+    "id": "school_64",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really stressed about your grades and how your friend is doing, and that's completely understandable. It’s a lot to handle, and it’s okay to feel overwhelmed.",
+    "empathic_response": "It’s really brave of you to acknowledge how this is affecting you. It’s not easy to feel like you’re competing with someone, and it’s natural to feel sad when that feeling starts to hurt a friendship.  Sometimes, just talking about it can help a little.  It feels like you’re carrying a heavy weight right now, and you deserve to feel supported.",
+    "next_question": "Sometimes, when we’re feeling this way, it’s helpful to think about what *really* matters to you and your friend. Is there anything you could do to shift your focus, even just a little, to make things feel a bit better?",
+    "system_prompt": "Focus: Provide a supportive space for the adolescent to express their feelings about competition and friendship. Encourage reflection on personal priorities.",
+    "id": "school_65",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really frustrated with your Chemistry grades. It’s really tough when things don’t feel easy, and it’s okay to feel that way. What’s the hardest part about Chemistry for you right now?",
+    "empathic_response": "Wow, that’s a really challenging situation. It’s completely understandable that you’re feeling discouraged when you’re struggling with Chemistry. It’s not just about the grades; it’s a lot of effort and it can feel overwhelming.  Think of it like learning a new skill – it takes time and practice.  Sometimes, it’s not about *you* at all, but about how you’re learning the material.  Do you feel like you’re missing some key pieces, or is it just a general feeling of difficulty?",
+    "next_question": "Can you tell me a little bit about what you’ve tried so far to help me understand what’s going on? Even small things can be helpful.",
+    "system_prompt": "Goal: Offer validation and gentle exploration of the student's experience. Focus on understanding the *process* rather than assigning blame. Encourage self-reflection and exploration of potential challenges.",
+    "id": "school_66",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling a little frustrated with History class lately. You mentioned the teacher just reads a lot, and that’s making it hard to stay focused. That’s completely understandable – it can be really tough to stay engaged when you’re not feeling like it’s interesting.",
+    "empathic_response": "Hey, I hear you. It's really okay to feel that way sometimes, and it’s brave of you to share how you're feeling. It's not a sign of weakness to want to learn something that feels challenging, and it's totally normal to get a little bored when things aren’t grabbing you. Let's try to figure out what’s going on and maybe find a way to make it more engaging for you.",
+    "next_question": "Would you be open to talking about what specifically about History you find the most confusing or not interesting? Maybe we can brainstorm some ways to make it more interesting, or even just find a different way to approach it?",
+    "system_prompt": "Goal: (Boredom & Engagement) Offer validation and gentle encouragement. Guide the user towards identifying the root of their feelings and exploring potential solutions, focusing on a positive and empowering approach. Emphasize that it's okay to feel this way and that seeking help is a sign of strength.",
+    "id": "school_67",
+    "category": "school"
+  },
+  {
+    "empathic_question": "You're at a really pivotal point in your life – 15-17 and facing some big choices. It’s totally normal to feel overwhelmed with all the possibilities and pressures around you. What’s been going on with your schoolwork and how you’re feeling about your interests?",
+    "empathic_response": "It sounds like you're carrying a lot right now, and that’s really brave of you to acknowledge it. It’s so easy to feel like you have to choose one path, but sometimes the most important thing is figuring out what *you* truly want. It’s okay to feel confused and a little lost – that’s a really common feeling at this age. Let's just take a moment to breathe and see if we can unpack a bit.",
+    "next_question": "Can you tell me a little bit about what’s making you feel this way about your chosen path – whether it’s school, friends, or something else entirely?",
+    "system_prompt": "Focus: Supporting adolescent emotional processing. Offer validation and gentle guidance, encouraging self-reflection.",
+    "id": "school_68",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really stressed about class. It’s okay to feel that way, and it’s brave of you to acknowledge it. It’s totally understandable to feel anxious about speaking up, especially when you’re worried about what others might think. Do you ever feel like you have to be perfect, or do you just want to share your thoughts?",
+    "empathic_response": "Wow, that’s a really tough feeling. It makes perfect sense that you're struggling with that – it’s like your brain is trying to protect you from feeling judged. It’s like you’re holding back a lot of your thoughts and feelings, and that can be really draining.  It’s okay to not feel okay all the time, and it’s a sign of strength that you’re recognizing this.",
+    "next_question": "Can you tell me a little bit about what’s making you feel this way about class? Maybe just a few words would help.",
+    "system_prompt": "Goal: (Social Anxiety) Provide a supportive and validating response to a student expressing social anxiety in a classroom setting. Focus on understanding the underlying feelings and offering reassurance. Use CBT principles to gently explore potential negative thought patterns.",
+    "id": "school_69",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really stressed about school and exams. It’s totally okay to feel that way – it’s a big deal! When you’re focusing intensely on studying, does it feel like you’re actually *getting* something, or just trying to cram everything in quickly?",
+    "empathic_response": "Wow, that’s a really tough feeling. It’s so common to feel like you’re just memorizing instead of truly understanding things when you’re studying, and it can be really disheartening when the test comes around. It’s like you’re trying to hold onto information, but it slips away quickly.  It’s like trying to build a really tall tower with only a few blocks – it’s not very stable.",
+    "next_question": "Can you think of one subject where you feel like you *do* have a good grasp of the material, even if you don’t remember everything? Maybe it’s just a feeling of confidence?",
+    "system_prompt": "Focus on validating the adolescent's experience of feeling overwhelmed by rote memorization and the difficulty of 'learning' versus simply memorizing. Encourage reflection on a positive experience related to a subject and explore feelings of confidence.",
+    "id": "school_70",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with a lot right now – feeling overwhelmed by pressure and questioning what’s the point of everything. It’s completely understandable to feel that way when things feel so demanding, and it’s brave of you to share those feelings.  It’s okay to feel confused or frustrated sometimes, and you’re not alone in experiencing this.",
+    "empathic_response": "Absolutely. Feeling lost and unsure about your path is a really common experience, especially when you're juggling so much. It’s like you’re trying to build a life and feeling like it’s falling apart.  It’s okay to acknowledge those feelings – they’re a signal that you need to take a moment to breathe and understand what’s truly important to *you*.",
+    "next_question": "Sometimes, when we feel this way, it can feel like we don’t have a clear direction.  Would you like to talk about what feels most overwhelming right now – is it the pressure of school, or something else entirely?  Perhaps we could explore some small steps you could take to feel a little more grounded.",
+    "system_prompt": "Provide a safe and validating space for the adolescent to express their feelings regarding feeling lost and overwhelmed. Focus on validating their experience and offering gentle, encouraging support.  Avoid offering direct solutions unless they specifically request them.  Prioritize active listening and empathy.",
+    "id": "school_71",
+    "category": "school"
+  },
+  {
+    "empathic_question": "Sometimes, it feels like your coaching class can be a really intense place – like everyone's focused on getting the best grades and impressing each other. It’s easy to feel a bit lost or like you don’t fit in.",
+    "empathic_response": "It’s completely understandable that you’re feeling that way. It’s so common to feel a little out of place in a group setting, especially when there’s a lot of pressure to perform. It’s brave of you to acknowledge that you’re feeling lonely or disconnected, and it’s okay to feel that way.  Just remember you're valuable and have unique strengths.",
+    "next_question": "What’s one thing you’d like to do or experience that would make you feel a little more connected to your classmates?",
+    "system_prompt": "Focus on validating the adolescent's experience of feeling isolated and competition within the coaching class. Offer a gentle suggestion for a small, achievable step towards connection.",
+    "id": "school_72",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling a bit unsure about your English teacher, Ms. Das. It’s completely normal to feel that way sometimes – it’s a big step to learn something new! What’s going through your head when you think about her teaching style?",
+    "empathic_response": "Wow, that’s a really insightful thought. It’s totally understandable to feel a little hesitant about something new, especially when you’re feeling like you’re learning. It sounds like you’re noticing a really positive way of teaching – one where she really listens and makes it feel like a conversation, instead of just focusing on worksheets. That’s fantastic!",
+    "next_question": "Can you tell me about a time when you felt a little bit more comfortable sharing something with Ms. Das, even if it was a little scary? What happened?",
+    "system_prompt": "Goal: (Understanding & Validation) Acknowledge the feeling of hesitation and validate the student’s experience. Encourage them to recall a specific instance where they felt safe to share. Focus on the positive aspects of the situation.",
+    "id": "school_73",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed right now, and that’s completely okay to feel that way. It’s like you’re facing a big challenge, and it’s tough when you’re struggling to get started.  What’s going through your head when you try to study, and what’s the hardest part about it?",
+    "empathic_response": "Wow, that’s a really honest and brave thing to say. It’s so common to feel this way when something feels really difficult.  It’s like you’re trying to build something, but you’re not sure where to start.  Sometimes, it’s not about *doing* the work, but about feeling like it’s pointless or that it’s too hard.  Let’s just take a little time to explore that feeling together.",
+    "next_question": "Would you like to talk about what you think is making it hard to start studying, or would you prefer to try a different approach – like maybe brainstorming some small steps you could take?",
+    "system_prompt": "Goal: (Support/Emotional Validation) Offer a safe space to express feelings related to studying difficulties.  Guide towards self-reflection and exploration of potential roadblocks.",
+    "id": "school_74",
+    "category": "school"
+  },
+  {
+    "empathic_question": "Let's talk about group projects. It can be really tough sometimes, right? Do you ever feel like you’re carrying the whole load, and it’s hard to feel like you’re contributing?",
+    "empathic_response": "It sounds really overwhelming when you’re feeling like you’re doing all the work and it’s not fair. It’s totally understandable to feel frustrated and a little resentful when that happens.  It’s brave of you to acknowledge those feelings.  Anyone feels that way sometimes, even when they’re trying their best.  Let’s just take a breath and see if we can figure out what’s going on for you.",
+    "next_question": "When you think about the project itself, what’s the biggest challenge you’re facing? Is it the workload, or something else like communication or different ideas?",
+    "system_prompt": "Goal: (Workload/Communication) Offer validation and understanding of the feelings of being overwhelmed by group work. Guide the user to identify the root cause of their frustration, potentially focusing on communication or differing perspectives. Encourage self-reflection.",
+    "id": "school_75",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're going through a really tough time right now, and it takes a lot of courage to even talk about it. You mentioned your teacher made a comment about your background – that’s a really hurtful thing to experience, and it’s completely understandable that you’re feeling upset, confused, or even scared.  Let's just acknowledge that those feelings are valid and okay to have.",
+    "empathic_response": "Seriously, that kind of comment is wrong and can really damage someone’s self-worth. It’s not your fault, and it’s not fair to you. It's okay to feel however you’re feeling – sad, angry, confused, or even numb.  You're not alone in this, and there are people who care about you and want to help.  Let’s just focus on understanding what’s going on and finding some support.",
+    "next_question": "Would you like to talk about *why* you felt that comment was so upsetting?  Maybe we can explore some ways to feel a little more grounded or find some ways to cope with these feelings.",
+    "system_prompt": "Goal: (Discrimination - Caste/Bias) - Prioritize validation and immediate support.  **Arm Triage.**  Focus on understanding the user's emotional experience.  **Safety Planning.**  Shift the conversation towards exploring coping mechanisms and potential support resources.",
+    "id": "school_76",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with feeling disconnected from school, even when things seem okay on the surface. That feeling of being left out or not feeling supported can be incredibly draining, and it’s okay to feel that way. Can you tell me a little bit about what’s going on when you think about school?",
+    "empathic_response": "Wow, that’s a really honest and understandable feeling. It’s completely valid to feel like school isn’t a good fit when you’re feeling isolated or like you’re not being treated well. It takes a lot of courage to admit that, so I really appreciate you sharing that with me. Let's just unpack it a bit – what’s been happening recently that’s making you feel this way?",
+    "next_question": "Would you be open to talking about a few things that might help you feel more connected to your school experience? Maybe things like joining a club, talking to a teacher, or finding a friend to study with?",
+    "system_prompt": "Goal: Offer validation and gentle exploration of the student's experience. Encourage a small step towards addressing the issue, focusing on connection and support.",
+    "id": "school_77",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with your studies right now, and it’s okay to feel frustrated when things aren’t going as you hoped. You’re working hard, putting in the time, but the results aren’t what you’re aiming for. It’s a really tough feeling, and you’re not alone in feeling this way.",
+    "empathic_response": "Wow, that’s a really valid feeling. It's completely understandable to feel discouraged when you’re putting in effort and not seeing the results you want. It’s like you’re trying to build something, and it’s not quite reaching the height you’re envisioning. Let’s just take a moment to acknowledge that – it’s okay to feel this way.",
+    "next_question": "Would you be comfortable talking a little bit about *what* specifically feels like the biggest challenge with your studying right now? Maybe just a few words would help us start to understand where you’re at.",
+    "system_prompt": "Goal: Provide validation and gentle exploration of the student’s experience. Focus on understanding the root of the frustration and offer a supportive starting point for self-reflection.",
+    "id": "school_78",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed by the pressure in your class lately – like it’s creating a really difficult atmosphere. You mentioned it’s ‘toxic’ and ‘bullying.’ That must be incredibly tough to deal with.",
+    "empathic_response": "That’s completely understandable that you’re feeling this way. It takes a lot of strength to recognize when something isn’t right and to want to protect yourself. It’s brave of you to share how you’re experiencing this.  It's okay to feel sad, frustrated, or even angry when you’re dealing with tough situations.  Just remember you're not alone in feeling this way.",
+    "next_question": "Sometimes, just talking about it can help. Would you be open to exploring one small thing you *do* each day that helps you feel a little more comfortable or grounded? Maybe something simple like taking a few deep breaths or listening to some music?",
+    "system_prompt": "Focus on validating the adolescent's experience and gently guiding them toward identifying small, manageable coping strategies. Prioritize creating a safe space for them to express themselves.",
+    "id": "school_79",
+    "category": "school"
+  },
+  {
+    "empathic_question": "Hey, it seems like you’re really struggling with a lot right now – feeling like you’re just going through the motions with schoolwork and everything. It’s like you’re not really feeling excited about it, and that can be really tough. Can you tell me a little more about what that 'empty' feeling feels like for you?",
+    "empathic_response": "That feeling of being disconnected and not feeling motivated is really common when things feel overwhelming. It’s like your brain is saying, 'I don’t want to do this anymore,' and that can be incredibly disheartening. It’s like your energy is completely drained, and it’s okay to feel that way. It’s a sign that you’re pushing yourself too hard and your needs aren’t being met.  It’s important to remember that you deserve to feel good about what you’re doing, and it’s brave of you to acknowledge this.",
+    "next_question": "Sometimes, when we feel this way, it can feel like we’re not good enough or that we're not worthwhile. Do you think that’s a feeling you’ve been experiencing lately?",
+    "system_prompt": "Focus: Provide validation and gentle exploration of feelings. Encourage self-reflection and identify potential underlying needs. Acknowledge the difficulty of feeling this way without judgment.",
+    "id": "school_80",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you were really hurt and upset when your teacher said that about your learning style. That must have felt really unfair and uncomfortable.",
+    "empathic_response": "I hear how much that must have stung. It’s completely understandable that you’re feeling humiliated and angry right now. That kind of comment can really damage someone's self-esteem, and it’s brave of you to share how you’re feeling. You deserve to be treated with respect and kindness, and it’s okay to not be okay when that doesn’t happen.",
+    "next_question": "Would you like to talk about what specifically made that comment so upsetting? Maybe we can explore some ways to feel more comfortable and confident in school.",
+    "system_prompt": "Goal: (Disability - Hurtful Comments) - Focus on validating the emotional impact. Provide a safe space for the adolescent to express their feelings. **Arm Triage.**  Transition to 'emotional support' and 'safety planning'.",
+    "id": "school_81",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling a bit overwhelmed with what's going on with your friends and school. You mentioned 'drama,' and that’s a really tough feeling to deal with.  It’s okay to feel that way – it’s a lot to handle sometimes.",
+    "empathic_response": "Wow, that’s a lot to process. It’s completely understandable that you’re feeling stressed and maybe even a little lost. It’s brave of you to reach out and talk about it, and I want you to know I’m here to listen without judgment.  Just taking the time to acknowledge how you're feeling is a really good first step.",
+    "next_question": "Would you like to tell me a little bit more about what’s been happening with your friends or what kind of 'drama' you’ve been noticing?  We can just talk about it, or if you want to think about it a bit more, we could try a simple question like, ‘What’s the last text message in your classmates group chat about?’",
+    "system_prompt": "Focus: Providing a safe space for the adolescent to express their feelings. Offer validation and gentle redirection towards a more concrete exploration of the situation, avoiding pressure to immediately delve into complex issues.",
+    "id": "school_82",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It feels like you’re carrying a lot on your shoulders, and you’re really pushing yourself to do everything. It’s like you’re trying to juggle a lot of things at once, and it’s making you feel overwhelmed. What’s the hardest part about feeling this way?",
+    "empathic_response": "Oh, that sounds really tough. It’s completely okay to feel overwhelmed when you’re juggling so much. It’s like your brain is saying, 'I need to do *everything* right now!' That can be really draining. It's like you're trying to keep up, and sometimes it just doesn't feel possible.  It's a really common feeling, and you're not alone in feeling this way.  Let’s just take a moment to breathe together.",
+    "next_question": "Sometimes, when you’re feeling this way, it can be helpful to just write down everything that’s on your mind – even if it seems silly.  Would you be open to trying that for a few minutes?  We can just write down whatever comes to mind without judgment.",
+    "system_prompt": "Guide the user through a brief grounding exercise to help manage overwhelming feelings. Focus on validating their experience and offering a gentle, non-judgmental approach.",
+    "id": "school_83",
+    "category": "school"
+  },
+  {
+    "empathic_question": "Sometimes, thinking about the future – like college or a career – can feel really overwhelming, right? It’s like everyone’s focused on ‘getting there’ and you’re wondering if you’re doing enough or if you’re even on the right track. It’s totally understandable to feel a bit anxious or uncertain about that.",
+    "empathic_response": "It sounds like you’re carrying a lot of weight right now, and that’s a really brave thing to acknowledge. Feeling like you’re ‘faking it’ when everyone else seems to have a clearer idea of what’s next is a really tough feeling. You’re not alone in feeling this way, and it’s okay to just let those feelings come and go. Many people experience similar feelings about the future.",
+    "next_question": "Would you like to talk about *one* specific thing you’re worried about related to your future, or maybe just a little bit about what you enjoy doing right now? Even something small can be a good starting point.",
+    "system_prompt": "Goal: Offer validation and support for feelings of anxiety and uncertainty surrounding the future. Focus on normalizing the experience and gently encouraging exploration of personal interests. Ensure a safe and non-judgmental space for the user to express themselves.",
+    "id": "school_84",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed by the pressure of being in a class where everyone is competing for attention. That must be incredibly draining.",
+    "empathic_response": "It’s completely understandable that you’re feeling this way. It’s really tough when you feel like you’re constantly trying to 'perform' and everyone else seems to be focused on something else. It’s okay to feel frustrated and a little lost when that happens. You're doing your best, and it’s okay to acknowledge that.",
+    "next_question": "Would you like to talk about what specifically makes you feel like you're not getting enough attention or what you’re hoping to get out of the class?",
+    "system_prompt": "Goal: Offer validation and support. Acknowledge the student's feelings and gently guide them toward exploring their own needs and motivations.",
+    "id": "school_85",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really proud of your recent accomplishment, and that’s fantastic! You’ve really worked hard, and it’s wonderful to see you feeling so positive about it. Was there anything specific that made you feel so good about the results?",
+    "empathic_response": "Wow, that’s such a great feeling! Seriously, it’s really exciting to see you feel so accomplished. It takes a lot of courage and effort to push yourself and do well, and you absolutely deserve to feel proud of that. What part of it made you feel the most happy or excited?",
+    "next_question": "Thinking about how you felt when you got that grade, do you remember any specific thoughts or feelings you had? (e.g., 'I was nervous,' 'I was really focused,' 'I felt like I could do it').",
+    "system_prompt": "Goal: (Validation & Reflection) Encourage self-awareness. Use reflective questions to help the user explore their emotions and experiences related to the achievement. Focus on the process and the feelings involved.",
+    "id": "school_86",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really distressed by what's happening with that teacher, and it’s understandable that you’re struggling with how you’re feeling. It’s a really tough situation, and it’s okay to feel overwhelmed or hurt.",
+    "empathic_response": "That must be incredibly frustrating and upsetting to experience. It’s completely valid to feel angry, confused, or sad when someone's actions make you feel this way. It’s like you’re carrying a heavy weight, and it’s okay to acknowledge that weight.  Don’t feel like you have to be strong all the time; it’s okay to just feel your feelings.",
+    "next_question": "Let’s think about what’s most important to you right now. Is there anything you’d like to talk about, or is there something you’d like to take a little break from for a moment?",
+    "system_prompt": "Goal: (Emotional distress - Teacher interaction) Offer validation and normalize feelings of hurt and frustration. Encourage self-care and prioritization of needs.",
+    "id": "school_87",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really frustrated with your grades lately, and it’s okay to feel that way. It can be really disheartening when things don’t go as planned, and it’s brave of you to reach out and talk about it.  It’s like you're trying to figure out why things aren’t working, and that’s a really important step.",
+    "empathic_response": "Wow, that’s a really valid feeling. It’s completely understandable to feel down when you’re not seeing the progress you hoped for.  It’s like you're trying to understand *why* things aren't clicking, and that can be a really tough process.  Let’s just acknowledge that feeling – it’s okay to feel this way.  Sometimes, just knowing you're not alone can make a difference.",
+    "next_question": "Would you be open to talking about what you think might be contributing to those grades? Maybe we can brainstorm some things you could try.",
+    "system_prompt": "Provide a supportive and encouraging response to a teenager expressing feelings of discouragement regarding academic performance. Focus on validating their emotions and gently guiding them toward problem-solving, offering a simple suggestion for further exploration.",
+    "id": "school_88",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really ‘isolated’ at ‘school.’ Like you just… don’t have *your* people.",
+    "empathic_response": "Oh, honey, that really *does* sound incredibly tough. It’s completely understandable that you’re feeling that way – it’s like you’re missing a really important part of your life. It’s okay to feel like you don’t have your people, and it’s brave of you to even acknowledge that.  You're not alone in feeling this way, and it’s a really important feeling to recognize when you’re feeling this way.",
+    "next_question": "Would you be open to talking a little bit about what makes you feel this way?  Maybe just a few words about what’s going on at school, or what you’re missing?",
+    "system_prompt": "Goal: (Isolation) Validate the 'loneliness' and 'isolation.' Offer a gentle, validating response. Encourage exploration of the root of the feeling.",
+    "id": "school_89",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time right now, and it’s completely understandable to feel upset and frustrated. You mentioned you seemed sidelined on the sports team, and that must be really hard.  It’s okay to feel those feelings – they’re a sign you’re hurting.  Do you want to talk about what’s been going on, or would you rather just feel heard?",
+    "empathic_response": "Absolutely. It’s brave of you to share this, and I want you to know that I'm here to listen without judgment. It’s okay to feel overwhelmed and confused when things don’t go your way.  Let’s just take a moment to figure out what’s happening and how you’re feeling.  No pressure to explain everything right now.",
+    "next_question": "Can you tell me a little bit about what’s been happening with the sports team and how you're feeling about it?",
+    "system_prompt": "Goal: (Frustration - Lack of Support) Offer a gentle validation of the adolescent's experience, acknowledging their feelings are valid and provide a safe space for exploration. Focus on the 'feeling' rather than directly assigning blame.",
+    "id": "school_90",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with what your classmates are saying. That must be incredibly upsetting and confusing. You don't deserve to be treated this way, and it’s brave of you to reach out and talk about it. How are you feeling right now – are you feeling sad, angry, or something else entirely?",
+    "empathic_response": "Oh, honey, that’s a really tough situation to be in. It’s completely understandable that you’re feeling all of those things. It takes a lot of strength to acknowledge that you're hurting, and it’s okay to let yourself feel whatever you're feeling.  It’s really important to remember that you're not alone in this, and there are people who care about you and want to help.  Let’s just take a moment to breathe and see if we can figure out what's going on for you. ",
+    "next_question": "Can you tell me a little bit more about what's happening with your classmates?  Specifically, what’s the most upsetting thing they’re saying or doing?  Don't worry about being 'perfect' or explaining everything – just share what feels most important to you.",
+    "system_prompt": "Goal: (Bullying/School Refusal) - Focus on validation and exploration. Use 'I' statements to encourage self-expression.  Acknowledge the emotional impact of the situation.  Begin with a gentle invitation to share, emphasizing safety and support. **Arm Triage.**",
+    "id": "school_91",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re really trying to ‘study,’ but your ‘attention’ is just… gone. What’s *really* on your mind?",
+    "empathic_response": "Oh, honey, that really *does* sound tough. It’s so frustrating when you’re putting in so much effort and feeling like you’re not getting anywhere. It’s okay to feel like that – it’s a really common feeling when you’re dealing with something heavy. Let’s just take a moment to unpack it a bit.  It’s like your mind is feeling a little overwhelmed, and that can make it hard to focus.",
+    "next_question": "Would you like to talk about *why* you feel like your attention is gone? Maybe just a little bit about what’s been happening lately that might be contributing to that feeling? We can just explore it together.",
+    "system_prompt": "Focus on validating the adolescent's feelings and offering a gentle, supportive exploration of the situation.  Prioritize creating a safe space for them to share without judgment.",
+    "id": "school_92",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really frustrated and worried about your grades, especially when it comes to one particular subject. It’s completely okay to feel that way – it’s a really normal reaction when you're putting in effort and not seeing the results you want.",
+    "empathic_response": "Absolutely! It's really brave of you to recognize this feeling. It’s totally understandable to feel stuck when you’re struggling with something, and it’s okay to feel anxious about it. Think of it like this – you're trying to solve a puzzle, and the pieces aren’t fitting together the way you’d like. That’s a really common experience, and you're taking a really important first step by noticing it.",
+    "next_question": "Let's try to figure out what’s happening when you feel this anxiety. Could you tell me a little bit about what your body feels like when you start feeling worried about the exam? (e.g., 'Do you feel your heart beating faster?', 'Do your palms sweat?', 'Do you feel like you can't think clearly?')",
+    "system_prompt": "Goal: (Emotional Support) Validate the user's feelings about their grades and anxiety. Offer gentle reassurance and guide them toward exploring their physical sensations. Focus on the process of identifying the trigger rather than assigning blame.",
+    "id": "school_93",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really frustrated and overwhelmed with school and grades right now. It’s completely understandable to feel that way when things feel hard, and it’s okay to not be okay.",
+    "empathic_response": "It takes a lot of courage to admit that you’re struggling, and I want you to know I hear you. Feeling like you don’t care about school or grades is often a sign that you’re feeling really stressed and exhausted. It’s like your energy is completely drained, and that can feel incredibly isolating.  Remember, you’re not alone in feeling this way, and it’s okay to ask for help.",
+    "next_question": "Sometimes, when we feel this way, it can feel like we're losing touch with what’s important to us. Is there anything specific that’s making it feel like you’re not worth caring about, or is it more of a general feeling of overwhelm?",
+    "system_prompt": "Focus on validating the adolescent's experience – acknowledging their feelings of frustration and overwhelm. Gently encourage self-compassion and offer a safe space for exploration of potential underlying issues.",
+    "id": "school_94",
+    "category": "school"
+  },
+  {
+    "empathic_question": "Feeling like you’re not fitting in at school, or like you’re not part of the group – that can be really tough. It’s understandable that you’re feeling isolated and like you don’t belong.",
+    "empathic_response": "It takes a lot of courage to admit when you’re feeling this way, and I want you to know I hear you. It’s completely normal to feel a little lost or like you don’t fit in sometimes. It’s okay to feel those feelings, and you’re not alone in experiencing them.  Sometimes, feeling like you’re different can make it feel like you’re missing out on something important.",
+    "next_question": "Let's think about something you’re really good at or enjoy. What’s one thing that makes you feel happy or proud of yourself, even if it’s small?",
+    "system_prompt": "Goal: (Isolation/Sidelined) Validate the 'lonely' feeling. Reframe 'popularity vs. connection' (CBT). Pivot to a 'strengths-based' (Positive Psychology) question to build self-worth.",
+    "id": "school_95",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed by this study pressure. It’s completely understandable to feel like you’re struggling, and it’s brave of you to reach out. What’s the biggest thing that’s making you feel this way about the study? Is it the pressure to get good grades, or is it that you just don’t enjoy the subject itself?",
+    "empathic_response": "Wow, that’s a really tough spot to be in. It’s okay to feel frustrated and like things aren’t working out the way you hoped. It’s like you’re trying to force something that just doesn’t feel right. Let’s just take a breath and see if we can figure out what’s really going on. ",
+    "next_question": "Okay, so let’s think about what *specifically* you find challenging about the subject. Is it the work itself, or is it something else like feeling unprepared or not understanding it?",
+    "system_prompt": "Goal: To offer validation and gentle exploration of the student's experience, encouraging them to identify the root of their feelings.",
+    "id": "school_96",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really stressed about school and maybe a little worried about what your parents think about your interests. Can you tell me a little bit more about what’s going on?",
+    "empathic_response": "Oh, wow, that’s a really valid feeling. It’s completely understandable to feel overwhelmed when you’re struggling with something that’s important to you, and it’s brave of you to share it. It’s okay to feel frustrated when you feel like you’re not getting the support you need, and it’s also really important to remember that your feelings are valid, no matter what they are.  Let’s just take a little time to talk about it all.",
+    "next_question": "Sometimes, when we're feeling this way, it can help to think about what you *enjoy* doing, even if it doesn't seem like it’s 'helping' with school.  Could you think of one thing – a small thing – that you find really fun or interesting, and that you’d be happy to do, even if it's just for a little while?",
+    "system_prompt": "Goal: (Stress/Hobbies) Offer a supportive and validating response to the 'conflict' between 'hobby' and 'school.' Focus on fostering self-awareness and identifying potential positive aspects of the situation, promoting a sense of self-compassion.",
+    "id": "school_97",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re carrying a really heavy load right now – feeling stressed and maybe a little lost. It’s completely understandable to feel overwhelmed when you’re juggling so much.",
+    "empathic_response": "That’s a really tough feeling, and it makes sense that you’re feeling this way. It’s like you’re trying to do everything at once, and that can be really draining. You’re dealing with a lot, and it’s okay to acknowledge that. You're not alone in feeling this way, and it’s brave of you to reach out and talk about it.",
+    "next_question": "Let's try to break things down a little. Is there *one* thing that feels particularly challenging to manage right now – maybe a specific task, a worry, or a feeling? Just thinking about it can help.",
+    "system_prompt": "Focus: Provide a safe and validating space for the adolescent to express their feelings. Use gentle language and encourage self-compassion.",
+    "id": "school_98",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re navigating a really big shift – moving to a new place and starting a new coaching study. That’s a lot to take in, and it’s understandable that you’re feeling a bit overwhelmed. How are you feeling about everything?",
+    "empathic_response": "Wow, that’s a lot to process. It’s completely normal to feel a mix of emotions – excitement, maybe a little nervousness, and definitely a lot of 'what if's.' It’s okay to feel confused or even a little sad about the change. Let’s just take a moment to acknowledge that feeling. It's brave of you to reach out and talk about it.",
+    "next_question": "Would you be open to talking about one small thing you’ve been doing to feel a little more connected, even if it’s just for a few minutes? Maybe something like checking in with a friend or trying to find a quiet space to work.",
+    "system_prompt": "Focus: Understanding emotional response to a significant change (new environment, new study). Offer validation and gentle encouragement for small, achievable steps towards connection.",
+    "id": "school_99",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really stressed about getting to school. The bus commute is a long time, and that must be really tough.",
+    "empathic_response": "Oh, absolutely! That bus commute – it’s completely understandable that you’re feeling drained and your energy is low. It’s like you’re carrying a heavy load, and it’s making it hard to focus on what you need to do at school. It’s okay to feel that way, and you're not alone in feeling this way.",
+    "next_question": "Let’s think about something small you could do *right after* you get home to help you feel a little better. Maybe just 5-10 minutes of quiet time, or listening to a favorite song?",
+    "system_prompt": "Focus: Supporting emotional well-being. Encourage a short, manageable self-care activity to alleviate feelings of stress and overwhelm.",
+    "id": "school_100",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed by the pressure of everything – the grades, the expectations, everything – and it’s making you feel like you’re struggling to find your way. It’s completely understandable to feel like this, especially when things feel so demanding.",
+    "empathic_response": "Wow, that’s a really tough feeling to carry around. It’s like you’re carrying a heavy weight, and it’s okay to feel like it’s crushing you. It’s like you’re trying to do everything perfectly, and it’s exhausting.  It sounds like you’re really focused on the future, and that’s a good thing, but sometimes it’s hard to let go of the present moment and just *be*.  Do you ever feel like you're not really enjoying anything, or that it’s just a lot of effort?",
+    "next_question": "Sometimes, when we’re feeling this way, it can be helpful to think about what *actually* brings you joy, even if it’s small.  Is there anything, even just a tiny little thing, that you enjoy doing, or that makes you feel a little bit happier, even for just a few minutes?",
+    "system_prompt": "Goal: (Support & Validation) Offer a safe space to acknowledge the feelings of overwhelm and struggle. Validate the experience of feeling 'lost' and 'exhausted'. Encourage exploration of personal interests and simple pleasures. **Focus on connection.**",
+    "id": "school_101",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're navigating a really tough situation with your hostel life – that’s completely understandable to feel frustrated and uncomfortable. It’s a lot to deal with, and it’s brave of you to reach out.  Is there anything specific that’s been bothering you lately, or is there a particular challenge you’re facing with your roommate?",
+    "empathic_response": "Oh, wow, that’s a really tough spot to be in. It’s so common to feel overwhelmed when things aren’t going as planned, especially when you’re trying to adjust to a new environment. It’s okay to feel angry or confused – those feelings are valid.  Let’s just take a moment to unpack what’s going on a little bit.  Do you feel like you need to talk about it, or would you just like to explore what’s been happening?",
+    "next_question": "Would you be open to thinking about a small step you could take to help resolve this? Maybe something like, 'Could you try to be a little more mindful of using the space when you're studying?'",
+    "system_prompt": "Goal: (Hostel Life/Conflict) Offer validation and encourage exploration of potential solutions. Focus on building a sense of agency and small, achievable steps.",
+    "id": "school_102",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really frustrated with the school sports team and the pressure you're putting on yourself to do well. It’s completely understandable to feel that way when things aren’t going your way, and it’s brave of you to share how you’re feeling. It’s okay to feel disappointed and maybe even a little angry about it all.",
+    "empathic_response": "Honestly, it’s really tough when you feel like you’re not being valued or supported, especially when you’re putting so much effort into something you care about. It’s like a little piece of yourself is getting sidelined, and that can be really disheartening. You're allowed to feel all of those emotions – sadness, frustration, even anger – it's a normal reaction to a difficult situation.  Don't try to bottle it up.",
+    "next_question": "Let's think about what you *do* enjoy about playing on the team. Is there one thing, even small, that you find fun or satisfying about it, even if it feels like a struggle sometimes?",
+    "system_prompt": "Focus: Providing a safe space for emotional processing. Guide the conversation towards identifying positive aspects of the situation, rather than dwelling solely on the negative.",
+    "id": "school_103",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It’s really wonderful to hear you’re feeling so positive about that competition! It sounds like you had a really rewarding experience.",
+    "empathic_response": "Wow, that’s fantastic! It’s so exciting to feel like you did well and connected with your friends. That’s such a great feeling – it’s like you’ve accomplished something you’re proud of. It’s wonderful to see you thriving in different areas of your life.",
+    "next_question": "Thinking about that, what’s one thing you’re really good at, or something you enjoy doing that makes you feel good about yourself?",
+    "system_prompt": "Goal: (Positive Reinforcement & Self-Discovery) Encourage the user to identify a positive attribute and explore how it makes them feel. Focus on building self-esteem.",
+    "id": "school_104",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re really grappling with this decision – figuring out where you want to go. It’s completely normal to feel overwhelmed and unsure, especially when you’re trying to figure out who you are.",
+    "empathic_response": "That’s a really tough spot to be in. It’s brave of you to acknowledge that you’re feeling conflicted about your future – it shows you’re thinking deeply about what’s important. It’s okay to not have all the answers right now, and it’s okay to take your time. Many people feel this way, and it’s a sign you’re taking a thoughtful approach.",
+    "next_question": "Instead of focusing on 'what' you *should* be doing, how about we try to think about what *interests* you? Even a tiny little thing, like a video game, a type of music, or a hobby – anything that feels even slightly exciting.",
+    "system_prompt": "Provide a supportive and validating response to an adolescent expressing uncertainty about their future, focusing on normalizing feelings of confusion and encouraging exploration of interests.",
+    "id": "school_105",
+    "category": "school"
+  },
+  {
+    "empathic_question": "College applications can feel like a huge, overwhelming process. It’s like you’re building a whole new ‘exam’ with so many choices and expectations.",
+    "empathic_response": "It’s totally understandable to feel a little stressed and unsure about all of this. It’s okay to feel a mix of excitement and anxiety – wanting to explore new possibilities and feeling a little worried about making the right decisions. Really, it’s a big deal, and it’s brave of you to be thinking about it so deeply.",
+    "next_question": "When you think about what you’re hoping to get out of college, what’s one thing that feels really important to you right now? And what’s one thing you’re worried about?",
+    "system_prompt": "Guide the conversation toward exploring the underlying ‘values’ – what truly matters to them. Offer a gentle shift towards a ‘present moment’ focus, encouraging them to acknowledge their feelings without judgment.",
+    "id": "school_106",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really stuck right now – like school isn’t exciting or challenging. You mentioned feeling bored, and that’s a really valid feeling. It’s okay to feel that way sometimes, and it’s brave of you to acknowledge it.",
+    "empathic_response": "Wow, that’s a really tough feeling. It’s completely understandable that you’d feel that way when things aren’t sparking your interest. It’s like your brain is craving something more, and it’s okay to feel a little frustrated when that doesn’t happen.  Think of it like this – learning can be a puzzle, and sometimes we need a little nudge to find the right pieces.",
+    "next_question": "Would you like to talk about *why* you think school isn't exciting for you? Maybe we can explore some things that might help you feel more engaged.",
+    "system_prompt": "Focus on validating the adolescent's experience of boredom and lack of engagement. Offer gentle encouragement and explore potential underlying reasons for the feeling. Prioritize a positive and supportive tone.",
+    "id": "school_107",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with something at school right now, and it’s completely understandable to feel overwhelmed and frustrated. What’s been going on that’s making you feel this way?",
+    "empathic_response": "Wow, that sounds really tough. It’s brave of you to share that. It’s okay to feel like things are a mess, and it’s really normal to feel a lot of different emotions when you’re facing challenges like this. It feels like a big deal when you’re feeling like you’re not being treated fairly, and that’s a really valid feeling. Let’s just take a moment to unpack it a little.",
+    "next_question": "Can you tell me a bit more about what’s been happening at school? Maybe just a little bit at a time, and we can explore what feels most important to you right now?",
+    "system_prompt": "Goal: (Understanding the User's Experience) Offer a safe space for the user to express their feelings without judgment. Guide towards a prioritization of their needs and concerns. Focus on validating their experience.",
+    "id": "school_108",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with your study routine right now. It’s completely understandable to feel overwhelmed when things don't go as planned, especially when you're trying to balance everything.",
+    "empathic_response": "Honestly, it’s really brave of you to acknowledge how tough things feel. It’s okay to feel frustrated and maybe even a little guilty when you’re trying to get your homework done, especially when you’re working on it alone.  Think of it like this – you're putting in effort, and it’s hard to feel like you're making progress when you're feeling stuck.  Let’s work together to find a way to make it feel a little easier.",
+    "next_question": "What’s one thing you could do *today* that might give you a little bit of a boost, even if it’s just for 30 minutes?",
+    "system_prompt": "Focus on providing a supportive and encouraging response, acknowledging the user's feelings and guiding them towards a practical solution.  Prioritize validating their experience.",
+    "id": "school_109",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with the pressure and drama in your school club. It’s completely understandable to feel frustrated and upset when things feel unfair, and it’s brave of you to share that with me.  It’s okay to feel those strong emotions – anger, disappointment, even sadness – and it’s important to acknowledge them.  You’re not being ‘sidelined’ – that’s a really unfair and hurtful thing to say.  It’s like the club’s priorities are shifting, and that’s tough to deal with.  Let’s talk about how you can keep moving forward, even if it feels hard right now.",
+    "empathic_response": "You’re absolutely right to feel this way. It’s a really valid reaction to feeling like something isn't right, and it’s important to validate those feelings.  It's like a blockage – you're feeling stuck, and that's not okay.  The best thing to do is to focus on what you *can* control, and find ways to keep learning and growing in your skills, even if the situation feels overwhelming.  Think about small, achievable steps you could take – maybe a different way to approach the club, or focusing on a specific skill you enjoy within it.",
+    "next_question": "Let’s brainstorm some small, manageable things you could try. What’s one small thing you think you could do this week to help you feel a little more positive about your skills and your role in the club?",
+    "system_prompt": "Goal: (Extracurricular/Mistreatment) Offer validation and gentle guidance. Encourage the user to take small, proactive steps. Focus on empowerment and self-regulation.",
+    "id": "school_110",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling a little overwhelmed with class lately. You mentioned it’s hard to focus, and you’re feeling unsure about how to handle it. That’s completely valid – it’s okay to feel that way sometimes.",
+    "empathic_response": "Wow, that sounds really tough. It’s really brave of you to share that. It’s completely understandable to feel like you’re struggling, and you're not alone in feeling this way. It’s like you’re trying to figure something out, and that takes a lot of energy.",
+    "next_question": "Would you be open to talking about *what* specifically is making it hard to pay attention in class? Maybe we can explore some of the feelings behind it. ",
+    "system_prompt": "Focus on validating the adolescent's feelings. Offer gentle encouragement and suggest a gentle exploration of the problem without pushing for a specific diagnosis. Maintain a supportive and non-judgmental tone.",
+    "id": "school_111",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with feeling overwhelmed by the pressure to succeed and the expectations around it. It’s completely understandable to feel like things don’t make sense when you’re feeling this way.",
+    "empathic_response": "It takes a lot of courage to admit that you're feeling this way, and I want you to know I hear you. It’s really common to feel a sense of 'disconnection' when you're trying to meet so many expectations.  It’s like you’re trying to build a tower with blocks that just don’t fit together, and that can be really frustrating.  Let’s just take a moment to breathe and acknowledge those feelings – they’re valid.",
+    "next_question": "Sometimes, when we’re feeling this way, it helps to think about something *you* genuinely enjoy or are curious about.  What’s one small thing, even just for a few minutes, that sparks a little excitement or curiosity in you?",
+    "system_prompt": "Provide a supportive and validating response to an adolescent expressing feelings of hopelessness and existential dread. Focus on validating their emotions and gently guiding them toward exploring potential sources of interest or intrinsic motivation.",
+    "id": "school_112",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed with the demands of the sports team – that’s a really tough situation to be in.",
+    "empathic_response": "It’s completely understandable that you’re feeling that way. It’s really brave of you to acknowledge the pressure you’re experiencing, and it’s okay to feel proud and stressed at the same time. It’s a sign that you’re putting in a lot of effort, and that’s a good thing!  Let’s talk about how you’re handling it.",
+    "next_question": "Can you tell me a little bit about what feels most challenging about the pressure right now? Maybe we can brainstorm some ways to feel more supported.",
+    "system_prompt": "Guide the conversation towards identifying specific stressors and offering suggestions for coping mechanisms, prioritizing emotional well-being, and fostering a sense of self-compassion.",
+    "id": "school_113",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with the hostel food situation. That’s a really frustrating place to be, and it’s completely understandable that you’re feeling upset.",
+    "empathic_response": "Totally get it. When you’re not getting food you like, it can feel really isolating and stressful. It’s like a little piece of your happiness is missing. Don’t beat yourself up about it – it’s a tough situation, and it’s okay to feel disappointed.",
+    "next_question": "Let’s try to think about what *you* would like to have for a snack if you were feeling a bit hungry. Even something small could help a little.",
+    "system_prompt": "Focus on validating the adolescent's feelings and offering a gentle, practical suggestion for coping with a frustrating situation. Encourage self-compassion.",
+    "id": "school_114",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling like you’re not fitting in at school – like you’re not part of the group. That can be really tough, and it’s understandable that you’re feeling isolated. It’s okay to feel that way.",
+    "empathic_response": "I want you to know that you’re valuable and important, even if you don’t feel like you belong right now. It’s completely normal to feel like you’re different, and that feeling can be really overwhelming.  It's like you’re looking for a place where you feel truly seen and understood.",
+    "next_question": "Let’s think about something you *really* enjoy or are good at. What’s one thing that makes you feel good about yourself, and that you’re proud of?",
+    "system_prompt": "Goal: (Isolation/Sidelined) Validate the 'lonely' feeling. Reframe 'popularity vs. connection' (CBT). Pivot to a 'strengths-based' (Positive Psychology) question to build self-worth.",
+    "id": "school_115",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed with this exam and the pressure it's putting on you. It’s okay to feel that way – it’s a huge deal! You’re letting things feel like they’re controlling you, and that’s really tough.",
+    "empathic_response": "It’s completely understandable to feel that way. When you’re facing something so big and important, it can feel like your brain is racing and you’re struggling to keep up. It's like you’re trying to run a marathon with a broken shoe – you’re just not going as fast as you’d like. Let’s just take a deep breath together and see if we can find a little bit of space to feel a little calmer.",
+    "next_question": "Would you like to talk about *why* you feel this way? Maybe we can explore what’s making it feel so difficult, or if there’s anything you’re avoiding talking about?",
+    "system_prompt": "Goal: (Support/Emotional Regulation) Offer validation and gentle exploration of the feelings. Encourage vulnerability and focus on a gentle, supportive approach. Redirect to identifying the root cause of the distress.",
+    "id": "school_116",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with the pressure of school and how it’s affecting you. You mentioned it’s 'toxic' – that’s a really heavy feeling to carry around. Can you tell me a little more about what’s going on?",
+    "empathic_response": "Oh, honey, that sounds incredibly tough. It’s completely understandable that you’re feeling stressed and overwhelmed by all the pressure. It’s really brave of you to acknowledge how it’s impacting you, and it makes sense that you’re feeling this way.  It’s okay to not be okay, and it takes a lot of strength to talk about it.  Let’s just focus on understanding what you’re going through a bit more.",
+    "next_question": "Sometimes, when we're feeling really overwhelmed, it can be hard to figure out how to cope. Is there *anything* you’ve tried to deal with this feeling, even a little bit? Maybe just a simple thing, like taking a break or talking to someone?",
+    "system_prompt": "Focus on validating the adolescent's feelings and offering gentle support. Encourage exploration of coping mechanisms without judgment.",
+    "id": "school_117",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed and like school and grades aren’t as important to you as they used to be. That can be really tough to deal with, and it’s understandable to feel this way when things feel so hard.",
+    "empathic_response": "It takes a lot of courage to admit that, and it’s completely valid to feel like that. Feeling like you’re not worth caring about when you’re struggling is a really serious feeling – it’s like a heavy weight. You’re not alone in feeling this way, and it’s okay to acknowledge it.",
+    "next_question": "Sometimes, when we feel this way, it can be hard to see other things – like your friends, your hobbies, or even just the beauty around you. Could you tell me a little bit about what’s been going on that’s making you feel this way, without feeling pressured to share anything you’re not comfortable with?",
+    "system_prompt": "Goal: Provide a safe space for the adolescent to express their feelings and identify potential underlying issues. Focus on validating their experience and offering gentle support. Acknowledge the potential for risk associated with feeling hopeless and worthless.",
+    "id": "school_118",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really disconnected from school and like you’re not fitting in – like you’re ‘sideways’ and missing out on the group. That can be incredibly upsetting and isolating, and it’s completely understandable that you’re feeling that way.",
+    "empathic_response": "Wow, that sounds really tough. It’s really brave of you to even acknowledge how you’re feeling, and it makes sense that you’re feeling this way when you’re not feeling connected. It’s okay to feel sad or frustrated when you feel like you don’t belong. Remember, everyone feels a little lost sometimes, and it doesn’t mean there’s anything wrong with you. It just means you're navigating a really big and complex experience.",
+    "next_question": "Let's think about something you *really* enjoy – something that makes you feel good, even if it’s small. What’s one thing that brings you a little bit of joy, even if it’s just for a few minutes?",
+    "system_prompt": "Goal: (Isolation/Sidelined) Validate the 'lonely' feeling. Reframe 'popularity vs. connection' (CBT). Pivot to a 'strengths-based' (Positive Psychology) question to build self-worth.",
+    "id": "school_119",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really frustrated and upset about how your classmates are treating you, and that you’re being sidelined because of your grades. That must be incredibly hard, and it’s completely understandable that you’re feeling angry and isolated. It’s really important to remember that you're not your grades, and those feelings are valid.",
+    "empathic_response": "Wow, that sounds really tough. Being treated unfairly and feeling like you’re not being seen is a really painful experience. It makes sense that you're feeling overwhelmed and like you don’t belong. You’re allowed to feel all those emotions – anger, sadness, confusion – there’s no right or wrong way to react when something like this happens.",
+    "next_question": "Let's think about something *you* enjoy doing, something that feels good and makes you feel like you're capable. It doesn't have to be anything big, just something that brings you a little bit of joy. Maybe it's a hobby, a game, or even just spending time with friends?",
+    "system_prompt": "Goal: (Mistreatment/Bullying) Offer validation and support for the emotional distress caused by the situation. Encourage exploration of personal interests and positive experiences as a means of coping and building self-esteem.",
+    "id": "school_120",
+    "category": "school"
+  },
+  {
+    "empathic_question": "Sometimes, it feels like you're really focused on doing well in school and on your friends, and that can be a lot of pressure. You're in the top 5 for grades – that’s awesome! – but it’s also easy to feel like you need to always be 'better' than everyone else, and that can be really tough to deal with.",
+    "empathic_response": "It sounds like you’re carrying a really heavy weight right now, and that's completely understandable. Feeling like you need to constantly prove yourself and compare yourself to others can be incredibly draining. It's brave of you to acknowledge that feeling, and it’s okay to feel sad about it.  It’s like you’re trying to build a really strong wall around yourself, and it's not healthy.",
+    "next_question": "Do you think that feeling of 'always being on top' is actually helping you, or is it making you feel more stressed and unhappy?",
+    "system_prompt": "Focus: Supporting adolescent emotional expression. Provide validation and encourage self-reflection. Help the user identify potential negative thought patterns.",
+    "id": "school_121",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with this exam, and feeling overwhelmed. It’s okay to feel that way – it’s a big deal! It’s like you’re trying so hard, but it’s not translating into you feeling confident.",
+    "empathic_response": "I hear you. Feeling like you’re pushing yourself really hard and not seeing the results you want is incredibly frustrating. It’s completely valid to feel stuck and discouraged. It's a sign you’re trying really hard, and that’s a good thing, but it’s also okay to acknowledge that you're feeling this way. Let’s just take a moment to acknowledge those feelings without judging them.",
+    "next_question": "Would you like to talk about *what* specifically you’re finding difficult about the material, or maybe how you’re approaching studying?  Do you feel like you’re getting enough support?",
+    "system_prompt": "Goal: (Support/Emotional Validation) Offer a space for the adolescent to express their feelings and identify the source of their struggle. Encourage a focus on acknowledging the difficulty rather than immediate solutions. Validate their experience.",
+    "id": "school_122",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with the pressure of school and how it’s affecting you. You mentioned it’s ‘toxic’ – that’s a really tough feeling to deal with. Can you tell me a little more about what that feels like for you?",
+    "empathic_response": "Oh, my gosh, that sounds incredibly draining. It’s completely understandable that you’re feeling overwhelmed and upset. It’s really brave of you to acknowledge how it’s impacting you, and it makes sense that you’re feeling stressed and uncomfortable.  It’s okay to feel that way – you're not alone in experiencing this kind of pressure.  Let’s just take a moment to really understand what’s going on, okay?",
+    "next_question": "Sometimes, when we’re feeling this way, it can be helpful to think about what helps *you* feel a little better. Is there *anything* you usually do to take care of yourself, even just a little bit, when you’re feeling this way?",
+    "system_prompt": "Focus on validating the adolescent's experience. Offer gentle support and encourage self-care.  The goal is to create a safe space for them to express their feelings.",
+    "id": "school_123",
+    "category": "school"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed and like school and grades aren't as important to you anymore. That must be incredibly tough. It’s completely understandable to feel that way sometimes, and it’s okay to not be okay.",
+    "empathic_response": "It’s really brave of you to acknowledge that you’re feeling this way. Feeling like you don’t care about school or grades is often a sign that something’s not right, and it’s okay to let yourself feel that. It’s like your energy is being pulled away, and that can be really draining. You're not alone in feeling this way.",
+    "next_question": "Sometimes, when we feel like this, it can feel like we’re losing our sense of purpose or that we’re not valuable. Can you tell me a little more about what that feeling feels like for you specifically? What’s been going on that’s making you feel this way?",
+    "system_prompt": "Focus: Provide a safe space for the adolescent to express their feelings. Validate their experience and offer gentle support. Encourage exploration of potential underlying causes.",
+    "id": "school_124",
+    "category": "school"
+  },
+  {
+    "empathic_question": "Wow, it sounds like you’re feeling really disconnected from school and like you’re not fitting in – that can be incredibly tough, especially when you feel like you’re not part of a group. It’s completely understandable to feel that way when things feel isolating.",
+    "empathic_response": "That must feel really overwhelming. It’s brave of you to acknowledge those feelings, and it’s okay to feel this way. It’s not a sign of weakness to feel like you’re not connected, and it’s really common to feel that way sometimes.  Think of it like this: everyone has their own unique way of navigating the world, and that's perfectly okay.",
+    "next_question": "Let’s think about something you *do* enjoy or that makes you feel good, even if it’s small. What’s one thing that brings you a little bit of joy, even if it’s just for a few minutes?",
+    "system_prompt": "Goal: (Isolation/Sidelined) Validate the 'lonely' feeling. Reframe 'popularity vs. connection' (CBT). Pivot to a 'strengths-based' (Positive Psychology) question to build self-worth.",
+    "id": "school_125",
+    "category": "school"
+  }
+]

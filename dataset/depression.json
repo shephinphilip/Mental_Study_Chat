@@ -1,0 +1,383 @@
+{
+  "category": "depression",
+  "data": [
+    {
+      "empathic_question": "It sounds like you're feeling a little disconnected lately, and that’s okay to feel. Can you tell me a little more about what you're noticing?",
+      "empathic_response": "I hear you, and it takes a lot of courage to even acknowledge these feelings. It’s completely understandable to feel like you’re not enjoying things, and I want you to know I’m here to listen without judgment.",
+      "next_question": "What’s been on your mind lately that might be making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying potential underlying causes of their decreased interest.",
+      "id": "phq9_1"
+    },
+    {
+      "empathic_question": "It sounds like you’re going through a really tough time right now, and feeling down or hopeless is a really big deal.  I want you to know that it’s okay to feel this way, and you’re not alone.",
+      "empathic_response": "That must be incredibly difficult to carry around. It takes a lot of strength to acknowledge those feelings, and I’m here to listen without judgment.",
+      "next_question": "Can you tell me a little bit about what’s been making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of their emotions.",
+      "id": "phq9_2"
+    },
+    {
+      "empathic_question": "Hey, I’ve noticed you’ve been having some really dark thoughts lately. It makes me really sad to see you struggling with these feelings.  It takes a lot of courage to even acknowledge them, and I want you to know I’m here to listen without judgment.",
+      "empathic_response": "That sounds incredibly painful, and it’s okay to feel overwhelmed by those thoughts. You’re not alone in experiencing this, and your feelings are valid.",
+      "next_question": "Can you tell me a little bit about what’s been going on that’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of difficult emotions.",
+      "id": "phq9_9"
+    },
+    {
+      "empathic_question": "Hey, it sounds like you're really struggling with feeling low lately. Can you tell me a little bit about what's been going on that makes you feel this way?",
+      "empathic_response": "That sounds really tough, and it takes a lot of courage to even say those feelings. It’s okay to not be okay, and I’m here to listen without judgment.",
+      "next_question": "What's been happening in your life recently that might be contributing to these feelings?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently encouraging them to explore their emotions.",
+      "id": "kads_1"
+    },
+    {
+      "empathic_question": "It sounds like you're really struggling to feel like you have energy right now. That’s a really tough feeling to deal with. ",
+      "empathic_response": "Oh, honey, I'm so sorry you're feeling this way. It takes a lot of strength to admit when you're tired and not feeling good.  It’s okay to not be okay.",
+      "next_question": "Can you tell me a little bit about what makes you feel this way, without getting into too much detail?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for them to share their feelings.",
+      "id": "kads_2"
+    },
+    {
+      "empathic_question": "Hey, it sounds like you're going through a really tough time right now. Feeling like a failure or not good enough can really make you feel discouraged.  Can you tell me a little bit about what’s been going on that’s making you feel this way?",
+      "empathic_response": "That sounds incredibly difficult, and it takes a lot of courage to even acknowledge those feelings.  It’s okay to feel this way, and you don’t have to go through it alone.",
+      "next_question": "Is there anything specific that’s been on your mind lately that you’d like to talk about?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration.",
+      "id": "kads_3"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really overwhelmed right now, and that’s okay to feel.  Can you tell me a little bit about what’s been going on that’s making it hard to focus?",
+      "empathic_response": "I hear you, and it takes a lot of courage to share when you’re feeling like this. It’s completely understandable to struggle with concentration and thinking sometimes, and you’re not alone in feeling this way.  Let’s just take a moment to explore what’s happening.",
+      "next_question": "What’s the hardest part about these feelings right now?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them toward identifying potential underlying causes of their difficulties.",
+      "id": "kads_4"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little bit stuck lately, and that’s okay to acknowledge.  It’s like everything feels a bit slower than usual, and you’re having a hard time keeping up with things you usually enjoy. ",
+      "empathic_response": "I hear you saying you’re feeling like you’re moving slower and that things feel difficult right now. It takes courage to share that, and I want you to know I’m here to listen without judgment.",
+      "next_question": "Can you tell me a little more about what you mean by 'slowed down' or 'having trouble getting going'?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for them to express their feelings.",
+      "id": "kads_5"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really restless and like you need to move around a lot. That can be really tough, and it’s okay to feel that way.",
+      "empathic_response": "I hear you, and it takes a lot of courage to share that. It’s understandable to feel this way sometimes, and you're not alone.",
+      "next_question": "Can you tell me a little more about when you notice this restlessness?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of their feelings.",
+      "id": "kads_6"
+    },
+    {
+      "empathic_question": "It sounds like you're having a really tough time with your sleep, and feeling overwhelmed by it. It’s okay to feel this way, and you’re not alone.",
+      "empathic_response": "I hear you saying that you’re struggling with sleep – the difficulty of falling asleep, waking up early, or feeling like you’re sleeping too much. That must be really frustrating and exhausting.",
+      "next_question": "Can you tell me a little bit more about what you’re feeling when you’re trying to sleep?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to explore their feelings without judgment.",
+      "id": "kads_7"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about what’s ahead.  Can you tell me a little more about what that feeling is like?",
+      "empathic_response": "It’s completely okay to feel unsure about the future. Many young people experience that, and it’s brave of you to share it.  It’s like a heavy feeling in your chest.",
+      "next_question": "What’s been on your mind lately that’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering gentle support.  Use language appropriate for a young audience.",
+      "id": "kads_8"
+    },
+    {
+      "empathic_question": "Hey, it sounds like you're going through a really tough time right now. It’s okay to feel like life isn’t worth living, and it’s brave of you to share that with me.  Can you tell me a little bit about what's been making you feel this way?",
+      "empathic_response": "I hear you, and it takes a lot of strength to even say those feelings. It’s completely understandable to feel overwhelmed and like things aren’t good right now.  You’re not alone in feeling this way, and I want you to know I’m here to listen without judgment.",
+      "next_question": "Is there anything specific that’s been happening that’s contributing to these feelings?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for them to express themselves.",
+      "id": "kads_9"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really frustrated right now.  Can you tell me a little bit about what’s been going on that makes you feel this way?",
+      "empathic_response": "Oh, honey, that’s really tough to feel irritable or angry. It’s okay to feel those things, and it’s brave of you to share them with me.  It’s like a big, heavy feeling sometimes.",
+      "next_question": "What’s been happening lately that might be contributing to these feelings?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them to identify potential triggers without pushing for a specific explanation.",
+      "id": "kads_10"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really lonely and wanting to spend more time by yourself right now.  That’s a really tough feeling to deal with.",
+      "empathic_response": "I hear you, and it’s okay to feel this way. It’s brave of you to acknowledge those feelings and reach out for support.",
+      "next_question": "Can you tell me a little more about what’s making you feel this way about your friends?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space to explore their emotions without judgment.",
+      "id": "kads_11"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a little overwhelmed with things lately, and that’s okay to feel that way.  Can you tell me a little bit about what’s been going on that makes you feel this way?",
+      "empathic_response": "Oh, honey, it’s really brave of you to share this with me. It takes a lot of strength to acknowledge when something feels difficult, and I want you to know I’m here to listen without judgment.",
+      "next_question": "What’s one small thing that feels a little bit better right now, even if it's just a tiny bit?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for exploration of difficult emotions.",
+      "id": "cesd_1"
+    },
+    {
+      "empathic_question": "It sounds like you’re having a really tough time feeling hungry, and that’s a really sad feeling.  Can you tell me a little more about what you’re going through?",
+      "empathic_response": "Oh, honey, that’s so brave of you to share that. It takes a lot of strength to admit when you’re feeling this way, and I want you to know I’m here to listen without judgment.",
+      "next_question": "Is there anything specific that might be making you feel this way, or is it just a general feeling?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for them to express their emotions.",
+      "id": "cesd_2"
+    },
+    {
+      "empathic_question": "It sounds like you're really struggling to feel better, and that’s okay to feel sad and lonely.  It’s like the sadness is really heavy, isn’t it?",
+      "empathic_response": "I hear you saying you’re feeling incredibly down, and it takes a lot of courage to share that. It’s understandable to feel like you’re stuck in a dark place, and I want you to know I’m here to listen without judgment.",
+      "next_question": "Can you tell me a little more about what makes you feel this way, without getting into details you’re not comfortable sharing?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to explore their feelings.",
+      "id": "cesd_3"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really down lately, and that’s okay to feel that way.  It’s like you’re wondering if you’re measuring up to everyone else, isn’t it?",
+      "empathic_response": "I hear you, and it’s understandable to feel that way sometimes. It’s tough when you feel like you’re not measuring up to others.  Anyone feels that way at times.",
+      "next_question": "Can you tell me a little bit about what makes you feel that way?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for exploration of their self-perception.",
+      "id": "cesd_4"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really lost and like you’re struggling to focus, and that’s okay to feel that way.  It’s brave of you to share this with me.",
+      "empathic_response": "I hear you, and it takes a lot of strength to admit when you're feeling this way.  It’s completely understandable to feel like your mind is foggy sometimes.",
+      "next_question": "Can you tell me a little bit more about when you notice this difficulty with focusing?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for them to express their feelings without judgment.",
+      "id": "cesd_5"
+    },
+    {
+      "empathic_question": "It sounds like you're going through a really tough time. Feeling depressed can be so overwhelming. ",
+      "empathic_response": "I hear you, and it takes a lot of courage to even say that. It’s okay to feel this way, and you’re not alone.",
+      "next_question": "Can you tell me a little bit about what’s been making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of difficult emotions.",
+      "id": "cesd_6"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really overwhelmed and like you’re constantly putting yourself down, doesn’t that feel tough?",
+      "empathic_response": "Oh, honey, that’s a really heavy feeling to carry around. It’s okay to feel like everything you do is a burden when you’re struggling with those thoughts.",
+      "next_question": "Can you tell me a little bit more about what that feeling of 'effort' feels like for you?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for them to explore their emotions.",
+      "id": "cesd_7"
+    },
+    {
+      "empathic_question": "You seemed really excited about what's coming next for you. Can you tell me a little more about what that hope felt like to you?",
+      "empathic_response": "It’s completely normal to feel hopeful, even when things feel a little uncertain. It’s wonderful that you’re feeling that way, and it’s brave of you to share it.",
+      "next_question": "What's something that makes you feel particularly excited about the future?",
+      "system_prompt": "Focus on validating the adolescent's feelings and gently encouraging exploration of their hopes. Acknowledge the difficulty of feeling hopeful in challenging times.",
+      "id": "cesd_8"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really overwhelmed right now. Can you tell me a little more about what’s been going on that made you feel like your life wasn’t a success?",
+      "empathic_response": "Oh, honey, that’s really tough to admit, and it takes a lot of courage to say that. It’s okay to feel this way, and you’re not alone.",
+      "next_question": "What’s one small thing that you think might make you feel a little bit better right now?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for them to express themselves without judgment.",
+      "id": "cesd_9"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried and scared. Can you tell me a little more about what that feeling is like?",
+      "empathic_response": "Oh, honey, that’s really brave of you to share that. It’s okay to feel scared, and it takes a lot of strength to admit it.  It’s like a little storm inside you.",
+      "next_question": "Can you tell me about anything that might have made you feel that way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of their emotions, particularly in the context of fear.",
+      "id": "cesd_10"
+    },
+    {
+      "empathic_question": "It sounds like you're having a really tough time sleeping, and that's really upsetting.  It’s okay to feel this way.",
+      "empathic_response": "I hear you, and it’s completely understandable that you’re feeling worried about your sleep. It’s brave of you to share this with me.",
+      "next_question": "Can you tell me a little more about what's been going on that's making it hard to sleep?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for them to express themselves.",
+      "id": "cesd_11"
+    },
+    {
+      "empathic_question": "You were happy – that’s wonderful! Can you tell me a little more about what made you feel that way?",
+      "empathic_response": "It sounds like you had a really joyful moment, and that’s fantastic to hear. It’s okay to feel happy, and it’s good that you’re acknowledging that feeling.",
+      "next_question": "What’s been bringing you joy lately, even if it’s small?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to explore the source of their happiness. Use language that is reassuring and non-judgmental.",
+      "id": "cesd_12"
+    },
+    {
+      "empathic_question": "It sounds like you've been feeling a little quieter lately, and that's okay. I want to understand more about how you're feeling.",
+      "empathic_response": "Oh, honey, that’s really tough to admit, and it takes courage to share that. It’s completely understandable that you’re feeling this way.",
+      "next_question": "Can you tell me a little bit about what you’ve been noticing about your energy levels or how you’re feeling in general?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying potential underlying causes of their emotional changes.",
+      "id": "cesd_13"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really sad and alone.  Can you tell me a little more about what that loneliness feels like for you?",
+      "empathic_response": "Oh, honey, that’s really tough to admit. It’s okay to feel lonely, and it’s brave of you to share that with me.  It’s like a heavy feeling in your heart.",
+      "next_question": "Is this feeling persistent, or does it come and go?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently encouraging them to explore the nature of their loneliness.",
+      "id": "cesd_14"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really sad and lonely right now, and that’s okay to feel that way.  It’s tough when people aren’t kind.",
+      "empathic_response": "I hear you, and it makes sense that you’re feeling this way.  It’s really important to remember that you’re not alone in feeling this way, and there are people who care about you and want to help.",
+      "next_question": "Can you tell me a little bit more about what happened when you heard that?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for them to express their feelings without judgment.",
+      "id": "cesd_15"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really happy and enjoying things – that’s wonderful!  Can you tell me a little more about what makes you feel that way?",
+      "empathic_response": "That’s really lovely to hear, and it’s great that you’re feeling happy. It’s okay to feel happy sometimes, and it’s good to have those joyful moments.",
+      "next_question": "What’s been happening lately that might be making you feel a little down?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently encouraging exploration of potential underlying causes.",
+      "id": "cesd_16"
+    },
+    {
+      "empathic_question": "It sounds like you're going through a really tough time, and it’s okay to feel sad and cry.  Can you tell me a little bit about what's been making you feel this way?",
+      "empathic_response": "Oh, honey, that’s really brave of you to share that. It takes a lot of strength to admit when you’re feeling down, and I want you to know I’m here to listen without judgment.",
+      "next_question": "Is there anything specific that triggered these crying spells, or is it just a general feeling of sadness?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for emotional expression.",
+      "id": "cesd_17"
+    },
+    {
+      "empathic_question": "It sounds like you’re going through a really tough time. Feeling sad is a really common emotion, and it’s okay to feel that way.",
+      "empathic_response": "I hear you, and it takes a lot of courage to even say that you’re feeling sad.  It’s completely understandable that you’re struggling with that.",
+      "next_question": "Can you tell me a little bit more about what’s been making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to explore the source of their sadness.",
+      "id": "cesd_18"
+    },
+    {
+      "empathic_question": "It sounds like you’re really hurting, and feeling like people don’t like you is a really tough feeling.  Can you tell me a little more about what that feels like?",
+      "empathic_response": "Oh, honey, that’s a really sad feeling to carry around. It’s okay to feel sad when you feel like people don’t like you.  It’s brave of you to share that with me.",
+      "next_question": "Can you tell me about any times you’ve felt like this before?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging exploration of the underlying emotions.",
+      "id": "cesd_19"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really down lately. Can you tell me a little bit about what's been going on that makes it hard to feel like you can get going?",
+      "empathic_response": "Oh, honey, that’s really tough to hear. It’s okay to feel like you’re struggling, and it takes a lot of courage to even say that. I’m here to listen without judgment.",
+      "next_question": "Is there anything specific that’s been making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for them to share their experience.",
+      "id": "cesd_20"
+    },
+    {
+      "empathic_question": "It sounds like you're going through a really tough time, and feeling miserable is incredibly hard.  I want you to know I'm here to listen without judgment.",
+      "empathic_response": "That’s a really heavy feeling to carry around. It takes a lot of strength to acknowledge that you're struggling, and I appreciate you sharing that with me.",
+      "next_question": "Can you tell me a little bit more about what’s been making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying potential triggers.",
+      "id": "mfqsf_1"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really down about things lately, and that’s okay to feel sad when you don’t enjoy anything. Can you tell me a little bit about what’s been going on that makes you feel this way?",
+      "empathic_response": "I hear you, and it takes a lot of courage to admit when you’re feeling like this. It’s really brave of you to share that with me.",
+      "next_question": "Is there anything specific that you think might be contributing to these feelings, or is there anything you’d like to talk about?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of difficult emotions.",
+      "id": "mfqsf_2"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been really struggling with feeling drained and wanting to just rest. That must feel really tough.",
+      "empathic_response": "Oh, honey, that sounds incredibly lonely and exhausting. It’s okay to feel that way, and it’s brave of you to acknowledge it.",
+      "next_question": "Can you tell me a little more about what you’re feeling when you’re tired and want to just sit around?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space to explore their feelings without judgment.",
+      "id": "mfqsf_3"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really agitated and unable to settle down.  That must be really tough.",
+      "empathic_response": "I hear you – it’s okay to feel restless sometimes, and it’s understandable that you’re struggling with that feeling.  You’re not alone in feeling this way.",
+      "next_question": "Can you tell me a little bit more about what’s making you feel restless?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying potential triggers for their restlessness.",
+      "id": "mfqsf_4"
+    },
+    {
+      "empathic_question": "It sounds like you’re going through a really tough time, and feeling like you’re no good anymore is incredibly painful.  Can you tell me a little bit more about what’s been going on?",
+      "empathic_response": "Oh, honey, that’s such a sad feeling to have. It takes a lot of courage to even talk about it, and I want you to know I’m here to listen without judgment.",
+      "next_question": "What's been happening lately that makes you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them toward identifying potential sources of distress.",
+      "id": "mfqsf_5"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been feeling really overwhelmed lately, and that’s okay to feel sad.  Crying is a really big and honest way to show when you’re hurting.",
+      "empathic_response": "I hear you, and it takes a lot of courage to admit that you’re feeling this way. It’s completely understandable to feel sad when you’re crying.",
+      "next_question": "Can you tell me a little bit about what you think might have caused these tears?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently encouraging them to explore the underlying reasons for their sadness.",
+      "id": "mfqsf_6"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really overwhelmed right now, and that’s okay to feel sad and struggling to focus.  It’s brave of you to share this with me.",
+      "empathic_response": "I hear how tough it is to think clearly, and it’s understandable that you’re feeling this way.  It takes a lot of strength to acknowledge those feelings.",
+      "next_question": "Can you tell me a little bit about what you think might be making it harder to concentrate?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a supportive, non-judgmental space for exploration of their emotions.",
+      "id": "mfqsf_7"
+    },
+    {
+      "empathic_question": "It sounds like you’re going through a really tough time, and feeling like you hate yourself is incredibly painful.  Can you tell me a little more about what’s been going on?",
+      "empathic_response": "That must feel incredibly overwhelming, and it takes a lot of courage to even say that.  It’s okay to feel this way, and you don’t have to pretend everything is fine.  Just know that I’m here to listen without judgment.",
+      "next_question": "What’s been happening lately that might be making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for them to express themselves.",
+      "id": "mfqsf_8"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really overwhelmed and like you’re struggling with something difficult.  Can you tell me a little bit about what’s been going on that makes you feel like you were a bad person?",
+      "empathic_response": "That’s a really tough feeling to carry around, and it takes a lot of courage to even acknowledge it. It’s okay to feel this way, and you’re not alone.",
+      "next_question": "Can you give me an example of a situation where you felt that way, even if it was a small one?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and gently guiding them toward identifying specific triggers for negative self-perception.",
+      "id": "mfqsf_9"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really sad and alone, and that’s a really tough feeling to deal with.  Can you tell me a little more about what that loneliness feels like for you?",
+      "empathic_response": "Oh, honey, that’s so brave of you to share that. It’s completely okay to feel lonely sometimes, and it takes a lot of strength to admit it.  It’s like a heavy feeling in your chest, isn’t it?",
+      "next_question": "What’s been going on lately that might be making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to explore the underlying reasons for their loneliness.  Offer a safe space for them to express themselves without judgment.",
+      "id": "mfqsf_10"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really lonely and like nobody cares about you. Can you tell me a little more about how that makes you feel?",
+      "empathic_response": "Oh, honey, that’s a really tough feeling to carry around. It’s okay to feel that way sometimes, and it takes a lot of courage to admit it. You’re not alone in feeling this.",
+      "next_question": "Is there anything specific that makes you feel like nobody loves you?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for them to express themselves without judgment.  Prioritize active listening and gentle support.",
+      "id": "mfqsf_11"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really down about yourself lately, and that’s a really tough feeling to carry around.  Can you tell me a little more about what that 'being as good as others' feels like for you?",
+      "empathic_response": "Oh, honey, that sounds incredibly painful. It’s completely understandable that you’re feeling this way – it takes a lot of courage to admit that you’re struggling, and I want you to know I’m here to listen without judgment.",
+      "next_question": "What’s something that makes you feel even a tiny bit better, even if it’s just a small thing?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for exploration of their emotions related to feelings of inadequacy.",
+      "id": "mfqsf_12"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really overwhelmed and like you’ve messed everything up.  That must be incredibly tough.",
+      "empathic_response": "I hear you, and it’s okay to feel this way when things don’t go as planned. It’s brave of you to share that with me.",
+      "next_question": "Can you tell me a little more about what 'everything wrong' feels like for you?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for exploration of the underlying emotions.",
+      "id": "mfqsf_13"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really lost and like you're struggling to find joy. That must be really hard.",
+      "empathic_response": "I hear you, and it’s okay to feel like you’re not experiencing anything good. It takes a lot of courage to acknowledge that.",
+      "next_question": "Can you tell me a little bit about what you've been feeling lately, even if it’s just a small part of it?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of difficult emotions.",
+      "id": "dass_dep_1"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really frustrated and like you’re struggling to get things moving, and that’s okay to feel that way.  It’s brave of you to share this with me.",
+      "empathic_response": "I hear you – it’s really tough when you don’t feel like you have the energy to start things.  It takes a lot of strength to admit that, and I want you to know I’m here to listen without judgment.",
+      "next_question": "Can you tell me a little bit about what makes it feel so difficult to start?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a supportive, non-judgmental space for them to express themselves.",
+      "id": "dass_dep_2"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really down lately.  Can you tell me a little bit about what's been making it feel that way?",
+      "empathic_response": "Oh, honey, that’s really tough to feel like there’s nothing to look forward to. It takes a lot of courage to even say that, so I want you to know I’m here to listen without judgment.",
+      "next_question": "Is there anything specific that’s been on your mind that you’d like to talk about?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for exploration.",
+      "id": "dass_dep_3"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really sad and heavy lately. Can you tell me a little more about what that feels like?",
+      "empathic_response": "Oh, honey, that’s really tough to admit, and it’s okay to feel that way. It’s brave of you to share that with me.",
+      "next_question": "Is there anything specific that’s been making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's feelings and offering a safe space for exploration of their emotions.",
+      "id": "dass_dep_4"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really down lately, and that’s okay to feel.  Can you tell me a little bit about what that feeling is like for you?",
+      "empathic_response": "Oh, honey, it’s really brave of you to share that. It’s so hard to feel like you’re not enthusiastic, and it’s okay to feel sad or like you’re not excited about things.  I’m here to listen without judgment.",
+      "next_question": "Is this feeling persistent, or does it come and go?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of difficult emotions.",
+      "id": "dass_dep_5"
+    },
+    {
+      "empathic_question": "It sounds like you’re going through a really tough time, and feeling like you’re not worth much is incredibly painful.  Can you tell me a little bit about what’s been making you feel this way?",
+      "empathic_response": "I hear you, and it takes a lot of courage to even say those feelings. It’s okay to feel this way, and you’re not alone.  Many people experience similar thoughts.",
+      "next_question": "Can you share one small thing that happened recently that made you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying the root of their feelings, acknowledging the difficulty of expressing them.",
+      "id": "dass_dep_6"
+    },
+    {
+      "empathic_question": "It sounds like you're going through a really tough time, and feeling like life has no meaning is incredibly painful.  It’s okay to feel this way sometimes.",
+      "empathic_response": "I hear you, and it takes a lot of courage to say that. It’s completely understandable that you’re feeling lost and that things feel pointless right now.",
+      "next_question": "Can you tell me a little more about what makes you feel that way?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space to explore their feelings without judgment.",
+      "id": "dass_dep_7"
+    }
+  ]
+}

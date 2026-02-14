@@ -1,0 +1,201 @@
+{
+  "category": "ocd",
+  "data": [
+    {
+      "empathic_question": "It sounds like you’re feeling really overwhelmed by all the things you’ve saved, and that’s a really tough feeling.  It’s okay to feel that way.",
+      "empathic_response": "I hear you. It’s understandable to feel like you’re struggling with a lot of things when you’re putting a lot of effort into saving things.  It’s brave of you to acknowledge how you’re feeling.",
+      "next_question": "Can you tell me a little bit about what those things are and how they’re making you feel?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the underlying anxiety related to the accumulation of possessions.",
+      "id": "oci_r_1"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about things happening more often.  That can be really tough to deal with.",
+      "empathic_response": "I hear you – it’s okay to feel anxious when you notice things are happening more frequently.  It’s a really common feeling, and you’re not alone in feeling this way.",
+      "next_question": "Can you tell me a little bit about what’s making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them towards identifying potential underlying causes of their increased checking behavior.",
+      "id": "oci_r_2"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really frustrated when things don't look the way you like them. Can you tell me a little more about what that feeling is like?",
+      "empathic_response": "Oh, honey, that’s really tough to feel like things aren’t right. It’s okay to feel upset when you want things to be a certain way.  It’s like your mind is telling you something isn’t balanced.",
+      "next_question": "Can you tell me a little about what that feeling is like when things aren’t arranged perfectly?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the underlying feelings associated with the disruption of order.",
+      "id": "oci_r_3"
+    },
+    {
+      "empathic_question": "It sounds like you're really noticing a strong urge to count, and that’s a lot to feel.  It’s okay to feel overwhelmed by those thoughts.",
+      "empathic_response": "I hear you, and it takes courage to acknowledge those feelings. It’s understandable that you’re feeling this way when you’re experiencing something that feels very intense.",
+      "next_question": "Can you tell me a little bit more about when you notice this counting feeling strongest?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the underlying thoughts and feelings driving the counting behavior, acknowledging the potential distress.",
+      "id": "oci_r_4"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really overwhelmed by your thoughts sometimes.  It’s okay to feel that way, and you’re not alone.",
+      "empathic_response": "I hear you saying you’re having trouble controlling your thoughts, and that’s a really tough feeling to deal with.  It takes courage to acknowledge that.",
+      "next_question": "Can you tell me a little bit about when you notice these thoughts happening?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them toward identifying the root of their difficulty with thought control, while avoiding judgment.",
+      "id": "oci_r_5"
+    },
+    {
+      "empathic_question": "It sounds like you're really focused on collecting things, and that can be a really interesting thing to explore.  It’s okay to feel a little overwhelmed when you’re drawn to things that aren’t essential. ",
+      "empathic_response": "I hear you saying you’re feeling a bit stuck with collecting things, and that can be really tough. It’s completely normal to feel that way sometimes, and you're brave for recognizing it.",
+      "next_question": "Can you tell me a little bit about what these things are, and how they make you feel when you have them?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying the underlying emotions driving their collecting behavior, particularly in relation to feelings of scarcity or control.",
+      "id": "oci_r_6"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried and anxious about things happening around you. It’s okay to feel this way, and it takes a lot of courage to share it.",
+      "empathic_response": "I hear you, and it’s understandable that you're feeling this way. It’s brave of you to acknowledge these thoughts and feelings.",
+      "next_question": "Can you tell me a little more about what those thoughts are telling you?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the underlying anxiety without judgment.",
+      "id": "oci_r_7"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried when things aren't how you want them to be, and that’s a really tough feeling to deal with.  Can you tell me a little more about what that upset feels like for you?",
+      "empathic_response": "Oh, honey, that sounds incredibly frustrating and upsetting. It’s okay to feel that way when your plans and routines are disrupted.  It’s like your world feels a little shaky when things change unexpectedly.",
+      "next_question": "Can you give me an example of a time when this happened, and how did it make you feel?",
+      "system_prompt": "Focus on validating the adolescent's experience and exploring the underlying emotional needs related to control and predictability.",
+      "id": "oci_r_8"
+    },
+    {
+      "empathic_question": "It sounds like you're really noticing these numbers and feeling a bit worried about them. It’s okay to feel worried when something feels important to you, and it’s brave of you to share this with me.",
+      "empathic_response": "I hear you, and it’s understandable to feel anxious when you're focusing on something repetitive. It’s like your mind is trying to find a pattern, and that can be really challenging.",
+      "next_question": "Can you tell me a little more about when you notice these numbers, and how it makes you feel?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them towards identifying the underlying feelings associated with the repetitive thought.",
+      "id": "oci_r_9"
+    },
+    {
+      "empathic_question": "It sounds like you're really worried about feeling dirty or unclean, and that's a really tough feeling to deal with.  Can you tell me a little bit more about what that feeling feels like when it comes up?",
+      "empathic_response": "Oh, honey, that sounds incredibly uncomfortable and isolating. It’s okay to feel that way, and it takes a lot of courage to even acknowledge it.  Anyone would feel that way sometimes.",
+      "next_question": "Can you tell me what else might be going on in your life that might be making you feel this way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging exploration of potential underlying causes related to obsessive thoughts and feelings.",
+      "id": "oci_r_10"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really frustrated and overwhelmed by those thoughts, and that’s okay to feel that way.  It’s like your mind is having a little battle with you.",
+      "empathic_response": "I hear you, and it takes a lot of courage to acknowledge those thoughts, so thank you for sharing that with me. It’s understandable to feel upset when things feel difficult.",
+      "next_question": "Can you tell me a little more about what these thoughts feel like for you?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently exploring the nature of the intrusive thoughts without judgment.",
+      "id": "oci_r_11"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about things disappearing, and that’s a really big and important feeling.  It’s okay to feel that way, even if it’s hard.",
+      "empathic_response": "I hear you, and it takes a lot of courage to acknowledge those feelings. It’s understandable to feel anxious about things you might need in the future.",
+      "next_question": "Can you tell me a little more about what makes you feel this way about throwing things away?",
+      "system_prompt": "Focus on validating the adolescent’s experience and exploring the underlying anxiety related to future needs.",
+      "id": "oci_r_12"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried and anxious about things, and it’s okay to feel that way.  It’s like you’re trying to feel more in control, and that’s a really brave thing to do.",
+      "empathic_response": "I hear you. It takes a lot of courage to recognize when you’re feeling this way and to want to feel better.  It’s understandable that you’re struggling with this.",
+      "next_question": "Can you tell me a little more about what that feeling is like when you do this, and what thoughts come up when you’re checking things?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them to explore the underlying emotions associated with the behavior.",
+      "id": "oci_r_13"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really stressed about things needing to be done in a specific way.  Can you tell me a little more about how this feeling of needing things to be perfect is impacting you?",
+      "empathic_response": "I hear that you’re feeling overwhelmed by the need for things to be arranged neatly. It’s okay to feel that way when you’re struggling with a lot of pressure.  It’s brave of you to share this.",
+      "next_question": "What specifically makes you feel this need for things to be ordered?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the underlying anxiety driving the need for order.",
+      "id": "oci_r_14"
+    },
+    {
+      "empathic_question": "It sounds like you're really struggling with feeling like there are 'good' and 'bad' numbers, and that’s a really tough feeling to deal with.  It’s okay to feel confused about those kinds of thoughts.",
+      "empathic_response": "I hear you, and it’s understandable to feel overwhelmed when you’re constantly thinking about things that feel out of balance.  Those thoughts can be really confusing and make it hard to feel safe and calm.",
+      "next_question": "Can you tell me a little more about when you start feeling this way, and what thoughts come up when you think about these numbers?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them towards exploring the root of their feelings without judgment.",
+      "id": "oci_r_15"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really stressed about how much you’re washing your hands. That can be a really noticeable thing, and it’s okay to feel that way. ",
+      "empathic_response": "I hear you, and it’s understandable that you’re feeling worried about this. It’s brave of you to acknowledge it.",
+      "next_question": "Can you tell me a little bit about what’s making you feel this way about washing your hands?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring potential underlying feelings related to self-regulation and control.",
+      "id": "oci_r_16"
+    },
+    {
+      "empathic_question": "It sounds like you’re really struggling with some really tough thoughts right now, and that’s okay. It takes a lot of courage to talk about these feelings, and I want you to know I’m here to listen without judgment.",
+      "empathic_response": "I hear you, and it’s understandable that you’re feeling overwhelmed by those thoughts. It’s brave of you to acknowledge them.",
+      "next_question": "Can you tell me a little more about when these thoughts tend to happen, and what they’re usually about?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them towards identifying triggers and potential coping strategies.",
+      "id": "oci_r_17"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really worried about germs and keeping things super clean. That must be really stressful.",
+      "empathic_response": "Oh, that’s a really tough feeling to deal with. It’s okay to feel anxious about things that make you worry, and it’s brave of you to share that with me.",
+      "next_question": "Can you tell me a little more about what that worry feels like for you?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the source of the anxiety related to germs and cleanliness.",
+      "id": "oci_r_18"
+    },
+    {
+      "empathic_question": "It sounds like you're really worried about how you spend your time. Can you tell me a little more about what that feeling is like?",
+      "empathic_response": "It’s okay to feel worried about things you think you *should* be doing, and it’s brave of you to share that.  Those thoughts can be really tough to deal with.",
+      "next_question": "What specifically makes you feel this need to spend so much time on these thoughts?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them toward identifying the root of the obsession without judgment.",
+      "id": "ybocs_1"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really stuck and worried about things happening, and that’s a really tough feeling. Can you tell me a little bit about what those thoughts and worries are telling you?",
+      "empathic_response": "It takes a lot of courage to talk about these feelings, and I want you to know I'm here to listen without judgment.  Those thoughts can be really overwhelming.",
+      "next_question": "Can you give me an example of a time when you felt this interference most strongly?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them to explore the nature of the obsessions without pushing for a diagnosis.",
+      "id": "ybocs_2"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really distressed about these thoughts and images popping up. Can you tell me a little bit more about what those thoughts feel like for you?",
+      "empathic_response": "It takes a lot of courage to talk about these feelings, and I want you to know I'm here to listen without judgment. Those thoughts can be really overwhelming, and it’s okay to feel this way.",
+      "next_question": "Can you tell me about when these thoughts started and what they usually involve?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them toward identifying the nature of the obsessions.",
+      "id": "ybocs_3"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really stuck and like you're fighting against something that's bothering you. Can you tell me a little bit about what that feeling is like, and how it makes you feel?",
+      "empathic_response": "It takes a really brave thing to acknowledge that you're struggling with these feelings, and I want you to know I'm here to listen without judgment. It’s okay to feel this way, and you don’t have to go through it alone.",
+      "next_question": "Can you give me an example of when you notice this resistance happening?",
+      "system_prompt": "Focus on validating the adolescent's experience and exploring the nature of the resistance, acknowledging its potential impact on their daily life.",
+      "id": "ybocs_4"
+    },
+    {
+      "empathic_question": "It sounds like you’re really struggling with feeling like you have to control things, and that’s a really tough feeling. Can you tell me a little bit about what that feeling is like for you?",
+      "empathic_response": "That sounds incredibly overwhelming, and it takes a lot of courage to even acknowledge those feelings. It’s okay to feel this way, and you’re not alone.",
+      "next_question": "Can you describe a specific situation where you felt this intense need to control things?",
+      "system_prompt": "Focus on validating the adolescent’s experience and exploring the underlying reasons for the obsessive thoughts, without judgment.",
+      "id": "ybocs_5"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really stuck with spending so much time on things you're doing compulsions. That must be really frustrating and exhausting. Can you tell me a little more about how these compulsions make you feel?",
+      "empathic_response": "It takes a lot of courage to talk about these feelings, and I want you to know I hear you. It’s okay to feel overwhelmed when you're struggling with something like this. You're not alone.",
+      "next_question": "What’s the hardest part about these compulsions for you right now?",
+      "system_prompt": "Focus on validating the adolescent's experience and exploring the underlying emotional needs driving the compulsions. Acknowledge the difficulty of expressing these feelings.",
+      "id": "ybocs_6"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really overwhelmed by thoughts and worries, and that's a lot to handle.  It’s okay to feel like you’re struggling with things right now.",
+      "empathic_response": "I hear that you're experiencing interference from thoughts and worries, and that can be really difficult. It takes a lot of courage to acknowledge those feelings, and I want you to know I’m here to listen without judgment.",
+      "next_question": "Can you tell me a little bit about what these thoughts and worries are telling you?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them toward identifying the root of the distress without pushing for a diagnosis.",
+      "id": "ybocs_7"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really overwhelmed right now, and that’s okay.  It’s like you’re struggling with a lot of thoughts and feelings that are making it hard to feel calm. Can you tell me a little bit about what’s been going on that’s causing you this distress?",
+      "empathic_response": "I hear you, and it takes a lot of courage to share when you're feeling this way.  It’s completely understandable that you’re feeling distressed, and you’re doing the right thing by reaching out for support.",
+      "next_question": "Can you give me an example of one of those thoughts or feelings that you’re experiencing?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying specific triggers or patterns of distress related to OCD.",
+      "id": "ybocs_8"
+    },
+    {
+      "empathic_question": "It sounds like you're feeling really stuck and like you're fighting against something that’s hard to manage. Can you tell me a little bit about what that resistance feels like for you when you try to do things?",
+      "empathic_response": "It takes a really brave thing to admit you're struggling with these feelings, and I want you to know I hear you. It’s okay to feel this way, and you don't have to do anything you don't want to do.",
+      "next_question": "Can you give me an example of a time when you felt this resistance the strongest?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards identifying specific triggers and sensations related to their OCD.",
+      "id": "ybocs_9"
+    },
+    {
+      "empathic_question": "It sounds like you're really worried about feeling like you have to control everything, and that’s a really tough feeling. Can you tell me a little more about what that feeling is like when you think about it?",
+      "empathic_response": "It takes courage to talk about these feelings, and I want you to know I’m here to listen without judgment. It’s okay to feel overwhelmed by worrying about control.",
+      "next_question": "Can you give me an example of a time when you felt this need to control something?",
+      "system_prompt": "Focus on validating the adolescent’s experience and exploring the underlying anxiety driving the compulsion.",
+      "id": "ybocs_10"
+    }
+  ]
+}

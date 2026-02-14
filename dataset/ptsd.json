@@ -1,0 +1,299 @@
+{
+  "category": "ptsd",
+  "data": [
+    {
+      "empathic_question": "It sounds like you’re having a really tough time remembering things, and those memories are causing you a lot of distress. Can you tell me a little bit about what you’re feeling when you think about them?",
+      "empathic_response": "That sounds incredibly difficult, and it’s completely understandable that you’re feeling this way. It takes a lot of courage to talk about something like that, and I’m here to listen without judgment.",
+      "next_question": "What kind of thoughts or feelings come up when you think about these memories?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of difficult emotions.",
+      "id": "pcl5_1"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been having really difficult dreams lately, and that’s okay to feel.  Can you tell me a little bit about what those dreams are like?",
+      "empathic_response": "I hear you, and it takes a lot of courage to talk about something like that. It’s completely understandable that you’re feeling confused and upset by these dreams.  You're not alone in experiencing this.",
+      "next_question": "Can you tell me more about what you remember about the stressful experience that's causing these dreams?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of difficult emotions.",
+      "id": "pcl5_2"
+    },
+    {
+      "empathic_question": "It sounds like you're having really intense memories coming back, and it feels like you're struggling to cope with them.  It’s okay to feel overwhelmed by these thoughts and feelings. ",
+      "empathic_response": "I hear you, and it takes a lot of courage to talk about these feelings.  You’re not alone in feeling this way, and it’s understandable to feel like things are still very vivid.",
+      "next_question": "Can you tell me a little bit more about what’s happening when you feel this way?",
+      "system_prompt": "Focus on validating the intensity of the experience and offering a safe space for exploration.",
+      "id": "pcl5_3"
+    },
+    {
+      "empathic_question": "It sounds like you're really struggling with some difficult feelings right now. Can you tell me a little bit about what’s making you feel this way when you think about that?",
+      "empathic_response": "Oh, honey, that’s completely understandable that you’re feeling upset. It takes a lot of courage to even acknowledge those feelings, and I want you to know I’m here to listen without judgment.",
+      "next_question": "Can you tell me more about what specifically triggers those feelings?",
+      "system_prompt": "Focus on validating the adolescent's experience and providing a safe space for them to share their emotions.",
+      "id": "pcl5_4"
+    },
+    {
+      "empathic_question": "It sounds like you're really feeling a lot of intense physical sensations when you think about that difficult time.  It’s okay to feel that way, and it’s brave of you to share it with me.",
+      "empathic_response": "That must have been incredibly frightening and overwhelming.  It makes perfect sense that you’d be experiencing strong reactions.",
+      "next_question": "Can you tell me a little more about what those physical reactions feel like, and what thoughts come up when you remember it?",
+      "system_prompt": "Focus on validating the individual’s experience and offering a safe space for exploration without judgment.",
+      "id": "pcl5_5"
+    },
+    {
+      "empathic_question": "It sounds like you're really struggling to cope with things that happened, and that’s okay to feel overwhelmed. It’s brave of you to acknowledge how hard it is.",
+      "empathic_response": "I hear you, and it makes sense that you’re avoiding things – it’s a natural reaction to a really difficult experience.  It’s okay to feel whatever you’re feeling, even if it feels scary or confusing.",
+      "next_question": "Can you tell me a little bit about what kind of memories or thoughts are making it so difficult to deal with right now?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of difficult emotions.",
+      "id": "pcl5_6"
+    },
+    {
+      "empathic_question": "It sounds like you’re really trying to protect yourself right now, and that’s a really brave thing to do. It’s okay to feel overwhelmed by remembering things that are painful. Can you tell me a little more about what those reminders are like for you?",
+      "empathic_response": "I hear you, and it takes a lot of strength to block out those thoughts and feelings. It’s completely understandable that you’re feeling this way.",
+      "next_question": "What specifically feels most difficult about these reminders?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space to explore their feelings without judgment.",
+      "id": "pcl5_7"
+    },
+    {
+      "empathic_question": "It sounds like you’re really struggling to recall things from that tough time. That must feel incredibly confusing and overwhelming. ",
+      "empathic_response": "I hear how difficult that must be, and it’s okay to feel lost and unsure about your memories. You’re not alone in this.",
+      "next_question": "Can you tell me a little bit about what kind of memories you're having trouble with?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for them to share their experiences without judgment.",
+      "id": "pcl5_8"
+    },
+    {
+      "empathic_question": "It sounds like you’re struggling with really tough thoughts about yourself and the world. That’s a lot to carry, and it’s okay to feel overwhelmed by those thoughts.",
+      "empathic_response": "I hear you. It takes a lot of courage to acknowledge those feelings, and I want you to know I’m here to listen without judgment.",
+      "next_question": "Can you tell me a little bit about when you started feeling this way about yourself?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of difficult emotions.",
+      "id": "pcl5_9"
+    },
+    {
+      "empathic_question": "It sounds like you’re really struggling with feeling responsible for what happened, and that’s a really tough feeling to carry.  It’s okay to feel confused and upset about that.",
+      "empathic_response": "I hear how heavy that must feel, and it takes a lot of courage to even acknowledge those feelings. You’re not alone in feeling this way, and it’s completely understandable to want to understand what’s going on.",
+      "next_question": "Can you tell me a little bit about what you’re feeling when you think about blaming someone or yourself?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards exploring the underlying emotions associated with blame and responsibility.",
+      "id": "pcl5_10"
+    },
+    {
+      "empathic_question": "It sounds like you're going through a really tough time, and those feelings – fear, anger, shame – they’re incredibly powerful. It’s okay to feel them, and it’s brave of you to acknowledge them.",
+      "empathic_response": "I hear you, and it’s understandable that you’re experiencing such intense emotions. It takes a lot of strength to even talk about them.",
+      "next_question": "Can you tell me a little more about what these feelings feel like for you, and when they started to appear?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them towards exploring the source of the emotions without judgment.",
+      "id": "pcl5_11"
+    },
+    {
+      "empathic_question": "It sounds like you've been feeling really down lately, and it’s okay to feel sad or like you don’t want to do things you used to love. Can you tell me a little more about what you’re experiencing?",
+      "empathic_response": "I hear you, and it takes a lot of courage to talk about these feelings. It’s completely understandable to feel this way when something important has changed, and it’s okay to grieve for the joy you used to have.",
+      "next_question": "What’s been on your mind lately that makes you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for them to share their feelings without judgment.",
+      "id": "pcl5_12"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really alone, and that’s a really tough feeling to have.  Do you ever feel like you’re not connecting with anyone?",
+      "empathic_response": "Oh, honey, that’s a really big and scary feeling. It’s okay to feel that way sometimes, and it takes a lot of courage to even acknowledge it.  You’re not alone in feeling this way, and I’m here to listen.",
+      "next_question": "Can you tell me a little bit about when you started feeling this way, or what things have been happening that make you feel this distance?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards exploring the root of their feelings related to trauma.",
+      "id": "pcl5_13"
+    },
+    {
+      "empathic_question": "It sounds like you’re having a really tough time feeling happy and loving lately. That’s a really big and important feeling to struggle with, and it’s okay to feel confused about it.",
+      "empathic_response": "I hear you, and it takes a lot of courage to even talk about this. It’s completely understandable that you’re feeling this way, and you're not alone.",
+      "next_question": "Can you tell me a little bit about when you first started feeling this way, and what things might have been going on around you at the time?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of difficult emotions.",
+      "id": "pcl5_14"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been feeling really frustrated and upset lately. Can you tell me a little bit about what’s been going on that makes you feel this way?",
+      "empathic_response": "Oh, honey, that sounds really tough. It’s okay to feel angry and frustrated when things feel overwhelming, and it takes a lot of courage to acknowledge those feelings.  You’re not alone in feeling this way, and I want you to know I’m here to listen without judgment.",
+      "next_question": "What’s been happening in your life recently that might be contributing to these feelings?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for expression, acknowledging the potential for trauma.",
+      "id": "pcl5_15"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really worried about making choices, and that’s okay. It’s brave of you to acknowledge those feelings.  Do you ever feel like you’re constantly thinking about what could go wrong?",
+      "empathic_response": "I hear that you’re feeling overwhelmed by the thought of potentially hurting yourself or others. It takes a really strong person to recognize that and want to talk about it.  It’s completely understandable to feel anxious in these situations.",
+      "next_question": "Can you tell me a little bit about what makes you feel this way about taking risks?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of difficult emotions related to trauma.",
+      "id": "pcl5_16"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really focused and aware lately, and that’s a really noticeable thing.  It’s okay to feel that way sometimes, even if it can feel a little overwhelming.",
+      "empathic_response": "I hear you, and it’s completely understandable that you’re feeling that way. It’s brave of you to acknowledge it.",
+      "next_question": "Can you tell me a little more about what that ‘superalert’ feeling feels like for you?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the potential origins of heightened awareness, acknowledging potential anxiety or distress.",
+      "id": "pcl5_17"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling a bit uneasy and like things might be a little strange sometimes. Can you tell me a little more about what that feels like?",
+      "empathic_response": "Oh, honey, that’s really brave of you to share that. It takes a lot of strength to talk about feeling this way. It’s okay to feel unsure and a little worried sometimes, and I’m here to listen without judgment.",
+      "next_question": "Can you tell me about any specific situations that make you feel this way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of trauma-related feelings.",
+      "id": "pcl5_18"
+    },
+    {
+      "empathic_question": "It sounds like you're having a really tough time focusing, and that’s incredibly frustrating.  It’s okay to feel overwhelmed sometimes, and you’re not alone.",
+      "empathic_response": "I hear you, and it’s understandable that you’re struggling with concentrating.  Those feelings must be really hard to deal with.",
+      "next_question": "Can you tell me a little bit about when you started feeling this way, and what things make it even harder to focus?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of difficult emotions related to trauma.",
+      "id": "pcl5_19"
+    },
+    {
+      "empathic_question": "It sounds like you're really struggling to sleep, and that's a really tough feeling.  It’s okay to feel this way, and you're not alone.",
+      "empathic_response": "I hear how difficult it is for you to fall asleep, and that must be incredibly upsetting.  It takes a lot of strength to keep going through this.",
+      "next_question": "Can you tell me a little bit about what you’ve been experiencing when you try to sleep?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently encouraging them to explore the source of their sleep difficulties.",
+      "id": "pcl5_20"
+    },
+    {
+      "empathic_question": "It sounds like you're still processing some really difficult memories. It’s okay to feel whatever you’re feeling right now, and you’re not alone in this.",
+      "empathic_response": "I hear you, and it takes a lot of courage to even acknowledge those feelings. It’s completely understandable that you’re struggling with them.",
+      "next_question": "Can you tell me a little bit about what’s been most difficult about those memories?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of painful memories.",
+      "id": "iesr_1"
+    },
+    {
+      "empathic_question": "It sounds like you're having a really tough time sleeping, and that’s incredibly difficult.  It’s okay to feel overwhelmed by that.",
+      "empathic_response": "I hear you, and it takes a lot of courage to talk about something like this.  It’s understandable that you’re struggling to sleep.",
+      "next_question": "Can you tell me a little bit more about what you've been experiencing when you try to sleep?",
+      "system_prompt": "Focus on validating the adolescent’s feelings and offering a safe space for them to share their experience without judgment.",
+      "id": "iesr_2"
+    },
+    {
+      "empathic_question": "It sounds like you're still feeling really stuck with things that are bringing up memories. Can you tell me a little bit about what those things are and how they make you feel?",
+      "empathic_response": "Oh, honey, that’s completely understandable that you’re still struggling with those thoughts. It takes a lot of strength to keep processing difficult experiences, and it’s okay to feel overwhelmed.  Just know that you’re not alone in this, and I’m here to listen without judgment.",
+      "next_question": "What’s the hardest part about remembering those thoughts?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of difficult emotions.",
+      "id": "iesr_3"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been feeling really frustrated and angry lately.  That’s a really tough feeling to deal with.",
+      "empathic_response": "I can hear how upsetting that must feel. It’s okay to feel those strong emotions, and it takes courage to acknowledge them.",
+      "next_question": "Can you tell me a little bit about when you started feeling this way, and what was going on in your life around that time?",
+      "system_prompt": "Focus on validating the adolescent’s experience and gently guiding them to explore the root of their distress.",
+      "id": "iesr_4"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been really struggling to manage your feelings lately, and that’s okay. It’s brave of you to share this with me.  Do you feel like you’ve been avoiding things that remind you of what happened?",
+      "empathic_response": "I hear you saying you’ve been trying to push away those thoughts and feelings, and that’s a really tough thing to do. It takes a lot of strength to acknowledge that you’re feeling this way.",
+      "next_question": "Can you tell me a little more about what those things remind you of?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of difficult emotions.",
+      "id": "iesr_5"
+    },
+    {
+      "empathic_question": "It sounds like you're still processing some really difficult thoughts and feelings.  It’s okay to feel confused and unsure about what’s happening. ",
+      "empathic_response": "I hear you, and it takes a lot of courage to even acknowledge these thoughts.  You’re not alone in feeling this way.",
+      "next_question": "Can you tell me a little bit more about what you’re thinking about when you realize you didn’t mean to?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of traumatic memories.",
+      "id": "iesr_6"
+    },
+    {
+      "empathic_question": "It sounds like you were really confused about what was going on, and that must have been really hard.  Can you tell me a little more about what you were feeling like it wasn’t real?",
+      "empathic_response": "I hear you saying you felt like it wasn’t real, and that’s a really tough feeling to deal with. It’s okay to feel that way, and it takes a lot of courage to acknowledge those confusing thoughts.",
+      "next_question": "Can you tell me a little bit about what you remember about the event that made you feel that way?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them to explore their feelings without judgment.",
+      "id": "iesr_7"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really stuck and distant, and that’s a really tough feeling to deal with.  It’s okay to feel this way, and you’re not alone.",
+      "empathic_response": "I hear you saying you’ve been avoiding things related to what happened, and that must be incredibly difficult. It takes a lot of courage to acknowledge that, and I want you to know I’m here to listen without judgment.",
+      "next_question": "Can you tell me a little bit more about what you’re feeling when you think about those reminders?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of difficult emotions.",
+      "id": "iesr_8"
+    },
+    {
+      "empathic_question": "It sounds like you’re having a really tough time, and those pictures are bringing up some really strong feelings. It’s okay to feel overwhelmed by them.  Can you tell me a little bit about what those pictures are making you feel?",
+      "empathic_response": "I hear you, and it takes a lot of courage to even acknowledge those feelings. It’s completely understandable that you’re struggling with this, and you’re not alone.",
+      "next_question": "Would you like to talk about what those pictures mean to you, or maybe how they’re making you feel in more detail?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of difficult emotions related to trauma.",
+      "id": "iesr_9"
+    },
+    {
+      "empathic_question": "It sounds like you've been feeling really sensitive lately, and that’s okay.  It’s like your mind is feeling a bit like it’s on high alert.",
+      "empathic_response": "I hear you saying you’ve been feeling jumpy and easily startled, and that must feel really unsettling. It takes a lot of courage to talk about these feelings, and I want you to know I’m here to listen without judgment.",
+      "next_question": "Can you tell me a little bit more about when you started feeling this way?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of difficult emotions.",
+      "id": "iesr_10"
+    },
+    {
+      "empathic_question": "It sounds like you're really struggling to get away from things you’re feeling.  It’s okay to feel overwhelmed sometimes, and you’re brave for trying to push those thoughts away.",
+      "empathic_response": "I hear you, and it takes a lot of strength to try and hold onto those feelings. It’s completely understandable to feel like you’re fighting them.",
+      "next_question": "Can you tell me a little more about what you’re feeling when you try to push those thoughts away?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of difficult emotions.",
+      "id": "iesr_11"
+    },
+    {
+      "empathic_question": "It sounds like you're carrying a really heavy weight right now.  It’s okay to feel all the feelings you’re experiencing, even if you don’t know how to handle them yet.",
+      "empathic_response": "I hear you, and it takes a lot of courage to acknowledge those feelings. You’re not alone in this, and it’s completely understandable to feel overwhelmed.",
+      "next_question": "Can you tell me a little bit about what those feelings are like for you?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering gentle support, recognizing the complexity of PTSD.",
+      "id": "iesr_12"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really disconnected, and that’s a really big and difficult feeling.  It’s okay to feel numb sometimes, and you’re not alone.",
+      "empathic_response": "I hear that you’re struggling with feeling numb, and that must be incredibly confusing and heavy. It takes a lot of courage to even acknowledge those feelings.",
+      "next_question": "Can you tell me a little more about what that numbness feels like, or what kind of things you’re missing?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them towards exploring the nature of their numbness without pushing for details they're not ready to share.",
+      "id": "iesr_13"
+    },
+    {
+      "empathic_question": "It sounds like you're going through a really tough time, and it’s okay to feel confused and like things are back to a very difficult period. Can you tell me a little more about what you’re experiencing?",
+      "empathic_response": "I hear you, and it takes a lot of courage to share something like that. It’s completely understandable that you’re feeling this way, and you’re not alone.",
+      "next_question": "Can you tell me about what’s happening right now that makes you feel like you’re revisiting that time?",
+      "system_prompt": "Focus on validating the adolescent's experience and offering a safe space for exploration of traumatic memories.",
+      "id": "iesr_14"
+    },
+    {
+      "empathic_question": "It sounds like you're having a really tough time sleeping, and that's incredibly frustrating.  It’s okay to feel this way, and you're not alone.",
+      "empathic_response": "I hear you, and it makes sense that you’re struggling to sleep. It’s like your mind is racing, and that can really make it hard to relax.",
+      "next_question": "Can you tell me a little bit about what might be making it harder for you to fall asleep?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently guiding them toward exploring potential triggers without pushing for detailed explanations.",
+      "id": "iesr_15"
+    },
+    {
+      "empathic_question": "It sounds like you've been going through some really tough feelings lately.  Can you tell me a little bit about what those waves of feeling were like?",
+      "empathic_response": "Oh, honey, that sounds incredibly difficult. It’s okay to feel overwhelmed by those strong emotions.  It takes a lot of courage to acknowledge them, and I’m here to listen without judgment.",
+      "next_question": "Can you tell me what kinds of things were happening around the time you felt these waves?",
+      "system_prompt": "Focus on validating the client's experience and offering a safe space for exploration of difficult emotions.",
+      "id": "iesr_16"
+    },
+    {
+      "empathic_question": "It sounds like you're really struggling to let go of something that’s painful.  It’s okay to feel overwhelmed when you’re trying to move on, and you’re doing a brave thing by thinking about it.",
+      "empathic_response": "I hear how difficult that must feel, and it takes a lot of strength to want to move forward, even when it’s hard.  It’s completely understandable to feel stuck.",
+      "next_question": "Can you tell me a little bit more about what you’re feeling when you think about it?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of difficult emotions.",
+      "id": "iesr_17"
+    },
+    {
+      "empathic_question": "It sounds like you're having a really hard time focusing, and that’s incredibly frustrating.  It’s okay to feel that way, and you’re not alone.",
+      "empathic_response": "I hear you, and it’s understandable that you’re struggling to concentrate.  It’s a really tough feeling when things feel difficult.",
+      "next_question": "Can you tell me a little bit about what you think might be causing this difficulty?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering gentle support, acknowledging the difficulty of concentrating without offering solutions.",
+      "id": "iesr_18"
+    },
+    {
+      "empathic_question": "It sounds like those memories are really intense, and they’ve made you feel like you were struggling. Can you tell me a little more about what those physical reactions felt like for you?",
+      "empathic_response": "It’s completely understandable that those feelings are so overwhelming. Those physical reactions are a really common sign that your brain is trying to protect you, and it’s okay to feel the intensity of those sensations. You’re not alone in experiencing this.",
+      "next_question": "What are some things that help you feel a little more calm right now?",
+      "system_prompt": "Focus on validating the client's experience and gently guiding them towards identifying coping mechanisms. Acknowledge the distress without offering solutions.",
+      "id": "iesr_19"
+    },
+    {
+      "empathic_question": "It sounds like you're having really difficult dreams. Can you tell me a little bit about what those dreams were like?",
+      "empathic_response": "It takes a lot of courage to talk about something like that, and I want you to know I'm here to listen without judgment. Those dreams can be incredibly confusing and scary, and it’s okay to feel overwhelmed by them.",
+      "next_question": "Can you tell me more about what you’re feeling when you remember these dreams?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of difficult emotions.",
+      "id": "iesr_20"
+    },
+    {
+      "empathic_question": "It sounds like you’ve been feeling really uneasy lately, like you’re always looking over your shoulder. Can you tell me a little more about what that feeling is like?",
+      "empathic_response": "Oh, honey, that sounds really scary and overwhelming. It’s okay to feel that way sometimes, and it’s brave of you to share it.  It’s like your mind is trying to protect you from something, and that’s a really powerful instinct.",
+      "next_question": "Can you think of a specific time when you felt this watchful or on-guard feeling, and what was happening around you?",
+      "system_prompt": "Focus on validating the adolescent's experience and gently exploring the origins of the feeling without pushing for details they may not want to share.",
+      "id": "iesr_21"
+    },
+    {
+      "empathic_question": "It sounds like you’re feeling really overwhelmed and like you’re carrying a heavy weight.  It’s okay to feel that way, and you’re not alone.",
+      "empathic_response": "I hear that you’re struggling to talk about it, and that must be incredibly difficult. It takes a lot of courage to even acknowledge those feelings.",
+      "next_question": "Would you like to tell me a little more about what’s been going on, even if it’s just a little bit?",
+      "system_prompt": "Focus on validating the adolescent’s experience and offering a safe space for exploration of difficult emotions.",
+      "id": "iesr_22"
+    }
+  ]
+}

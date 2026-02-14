@@ -1,0 +1,6498 @@
+{
+  "questions": [
+    {
+      "id": "phq9_1",
+      "category": "depression",
+      "instrument": "PHQ-9",
+      "text": "Little interest or pleasure in doing things?",
+      "options": [
+        "Not at all",
+        "Several days",
+        "More than half the days",
+        "Nearly every day"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "phq9_2",
+      "category": "depression",
+      "instrument": "PHQ-9",
+      "text": "Feeling down, depressed, or hopeless?",
+      "options": [
+        "Not at all",
+        "Several days",
+        "More than half the days",
+        "Nearly every day"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "phq9_9",
+      "category": "depression",
+      "instrument": "PHQ-9",
+      "text": "Thoughts that you would be better off dead, or of hurting yourself?",
+      "options": [
+        "Not at all",
+        "Several days",
+        "More than half the days",
+        "Nearly every day"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "kads_1",
+      "category": "depression",
+      "instrument": "KADS-11",
+      "text": "Low mood, sadness, feeling blah or down, depressed, or just generally unhappy?",
+      "options": [
+        "Hardly ever",
+        "Much of the time",
+        "Most of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "kads_2",
+      "category": "depression",
+      "instrument": "KADS-11",
+      "text": "Feeling tired, feeling fatigued, or having little energy?",
+      "options": [
+        "Hardly ever",
+        "Much of the time",
+        "Most of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "kads_3",
+      "category": "depression",
+      "instrument": "KADS-11",
+      "text": "Feeling that you are a failure or not good enough or feeling very discouraged?",
+      "options": [
+        "Hardly ever",
+        "Much of the time",
+        "Most of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "kads_4",
+      "category": "depression",
+      "instrument": "KADS-11",
+      "text": "Trouble concentrating, thinking, or making decisions?",
+      "options": [
+        "Hardly ever",
+        "Much of the time",
+        "Most of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "kads_5",
+      "category": "depression",
+      "instrument": "KADS-11",
+      "text": "Feeling slowed down, having trouble getting going, or keeping up your usual pace?",
+      "options": [
+        "Hardly ever",
+        "Much of the time",
+        "Most of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "kads_6",
+      "category": "depression",
+      "instrument": "KADS-11",
+      "text": "Feeling restless or fidgety, like you have to keep moving or can't sit still?",
+      "options": [
+        "Hardly ever",
+        "Much of the time",
+        "Most of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "kads_7",
+      "category": "depression",
+      "instrument": "KADS-11",
+      "text": "Sleep problems can't sleep, waking up early, or sleeping too much?",
+      "options": [
+        "Hardly ever",
+        "Much of the time",
+        "Most of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "kads_8",
+      "category": "depression",
+      "instrument": "KADS-11",
+      "text": "Feeling hopeless about the future?",
+      "options": [
+        "Hardly ever",
+        "Much of the time",
+        "Most of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "kads_9",
+      "category": "depression",
+      "instrument": "KADS-11",
+      "text": "Feeling that life isn't worth living or thinking about death or suicide?",
+      "options": [
+        "Hardly ever",
+        "Much of the time",
+        "Most of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "kads_10",
+      "category": "depression",
+      "instrument": "KADS-11",
+      "text": "Feeling irritable or angry?",
+      "options": [
+        "Hardly ever",
+        "Much of the time",
+        "Most of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "kads_11",
+      "category": "depression",
+      "instrument": "KADS-11",
+      "text": "Avoiding friends, wanting to be alone more than usual?",
+      "options": [
+        "Hardly ever",
+        "Much of the time",
+        "Most of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "cesd_1",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I was bothered by things that usually don't bother me.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cesd_2",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I did not feel like eating; my appetite was poor.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cesd_3",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I felt that I could not shake off the blues even with help from my family or friends.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cesd_4",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I felt that I was just as good as other people.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "cesd_5",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I had trouble keeping my mind on what I was doing.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cesd_6",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I felt depressed.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cesd_7",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I felt that everything I did was an effort.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cesd_8",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I felt hopeful about the future.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "cesd_9",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I thought my life had been a failure.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cesd_10",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I felt fearful.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cesd_11",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "My sleep was restless.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cesd_12",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I was happy.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "cesd_13",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I talked less than usual.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cesd_14",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I felt lonely.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cesd_15",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "People were unfriendly.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cesd_16",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I enjoyed life.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        3,
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "cesd_17",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I had crying spells.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cesd_18",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I felt sad.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cesd_19",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I felt that people dislike me.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "cesd_20",
+      "category": "depression",
+      "instrument": "CES-D",
+      "text": "I could not get going.",
+      "options": [
+        "Rarely or none of the time",
+        "Some or a little of the time",
+        "Occasionally or a moderate amount of time",
+        "Most or all of the time"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "mfqsf_1",
+      "category": "depression",
+      "instrument": "MFQ-SF",
+      "text": "I felt miserable or unhappy.",
+      "options": [
+        "Not true",
+        "Sometimes",
+        "True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "mfqsf_2",
+      "category": "depression",
+      "instrument": "MFQ-SF",
+      "text": "I didn't enjoy anything at all.",
+      "options": [
+        "Not true",
+        "Sometimes",
+        "True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "mfqsf_3",
+      "category": "depression",
+      "instrument": "MFQ-SF",
+      "text": "I felt so tired I just sat around and did nothing.",
+      "options": [
+        "Not true",
+        "Sometimes",
+        "True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "mfqsf_4",
+      "category": "depression",
+      "instrument": "MFQ-SF",
+      "text": "I was very restless.",
+      "options": [
+        "Not true",
+        "Sometimes",
+        "True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "mfqsf_5",
+      "category": "depression",
+      "instrument": "MFQ-SF",
+      "text": "I felt I was no good anymore.",
+      "options": [
+        "Not true",
+        "Sometimes",
+        "True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "mfqsf_6",
+      "category": "depression",
+      "instrument": "MFQ-SF",
+      "text": "I cried a lot.",
+      "options": [
+        "Not true",
+        "Sometimes",
+        "True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "mfqsf_7",
+      "category": "depression",
+      "instrument": "MFQ-SF",
+      "text": "I found it hard to think properly or concentrate.",
+      "options": [
+        "Not true",
+        "Sometimes",
+        "True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "mfqsf_8",
+      "category": "depression",
+      "instrument": "MFQ-SF",
+      "text": "I hated myself.",
+      "options": [
+        "Not true",
+        "Sometimes",
+        "True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "mfqsf_9",
+      "category": "depression",
+      "instrument": "MFQ-SF",
+      "text": "I was a bad person.",
+      "options": [
+        "Not true",
+        "Sometimes",
+        "True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "mfqsf_10",
+      "category": "depression",
+      "instrument": "MFQ-SF",
+      "text": "I felt lonely.",
+      "options": [
+        "Not true",
+        "Sometimes",
+        "True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "mfqsf_11",
+      "category": "depression",
+      "instrument": "MFQ-SF",
+      "text": "I thought nobody really loved me.",
+      "options": [
+        "Not true",
+        "Sometimes",
+        "True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "mfqsf_12",
+      "category": "depression",
+      "instrument": "MFQ-SF",
+      "text": "I thought I could never be as good as other kids.",
+      "options": [
+        "Not true",
+        "Sometimes",
+        "True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "mfqsf_13",
+      "category": "depression",
+      "instrument": "MFQ-SF",
+      "text": "I did everything wrong.",
+      "options": [
+        "Not true",
+        "Sometimes",
+        "True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "dass_dep_1",
+      "category": "depression",
+      "instrument": "DASS-21",
+      "text": "I couldn't seem to experience any positive feeling at all.",
+      "options": [
+        "Did not apply to me at all",
+        "Applied to me to some degree",
+        "Applied to me to a considerable degree",
+        "Applied to me very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "dass_dep_2",
+      "category": "depression",
+      "instrument": "DASS-21",
+      "text": "I found it difficult to work up the initiative to do things.",
+      "options": [
+        "Did not apply to me at all",
+        "Applied to me to some degree",
+        "Applied to me to a considerable degree",
+        "Applied to me very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "dass_dep_3",
+      "category": "depression",
+      "instrument": "DASS-21",
+      "text": "I felt that I had nothing to look forward to.",
+      "options": [
+        "Did not apply to me at all",
+        "Applied to me to some degree",
+        "Applied to me to a considerable degree",
+        "Applied to me very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "dass_dep_4",
+      "category": "depression",
+      "instrument": "DASS-21",
+      "text": "I felt down-hearted and blue.",
+      "options": [
+        "Did not apply to me at all",
+        "Applied to me to some degree",
+        "Applied to me to a considerable degree",
+        "Applied to me very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "dass_dep_5",
+      "category": "depression",
+      "instrument": "DASS-21",
+      "text": "I was unable to become enthusiastic about anything.",
+      "options": [
+        "Did not apply to me at all",
+        "Applied to me to some degree",
+        "Applied to me to a considerable degree",
+        "Applied to me very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "dass_dep_6",
+      "category": "depression",
+      "instrument": "DASS-21",
+      "text": "I felt I wasn't worth much as a person.",
+      "options": [
+        "Did not apply to me at all",
+        "Applied to me to some degree",
+        "Applied to me to a considerable degree",
+        "Applied to me very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "dass_dep_7",
+      "category": "depression",
+      "instrument": "DASS-21",
+      "text": "I felt that life was meaningless.",
+      "options": [
+        "Did not apply to me at all",
+        "Applied to me to some degree",
+        "Applied to me to a considerable degree",
+        "Applied to me very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "dsm_l1_11",
+      "category": "anxiety",
+      "instrument": "DSM-5 Level-1",
+      "text": "Felt nervous, anxious, or scared?",
+      "options": [
+        "Not at all",
+        "Rare",
+        "Several days",
+        "More than half the days",
+        "Nearly every day"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "dsm_l1_12",
+      "category": "anxiety",
+      "instrument": "DSM-5 Level-1",
+      "text": "Not been able to stop worrying?",
+      "options": [
+        "Not at all",
+        "Rare",
+        "Several days",
+        "More than half the days",
+        "Nearly every day"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "dsm_l1_13",
+      "category": "anxiety",
+      "instrument": "DSM-5 Level-1",
+      "text": "Not been able to do things you wanted to, because they made you feel nervous?",
+      "options": [
+        "Not at all",
+        "Rare",
+        "Several days",
+        "More than half the days",
+        "Nearly every day"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "anx_l2_01",
+      "category": "anxiety",
+      "instrument": "PROMIS-Anxiety-L2",
+      "text": "Did you feel like something awful might happen?",
+      "options": [
+        "Never",
+        "Almost Never",
+        "Sometimes",
+        "Often",
+        "Almost Always"
+      ],
+      "score_range": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "anx_l2_02",
+      "category": "anxiety",
+      "instrument": "PROMIS-Anxiety-L2",
+      "text": "Did you feel nervous?",
+      "options": [
+        "Never",
+        "Almost Never",
+        "Sometimes",
+        "Often",
+        "Almost Always"
+      ],
+      "score_range": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "anx_l2_03",
+      "category": "anxiety",
+      "instrument": "PROMIS-Anxiety-L2",
+      "text": "Did you feel scared?",
+      "options": [
+        "Never",
+        "Almost Never",
+        "Sometimes",
+        "Often",
+        "Almost Always"
+      ],
+      "score_range": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "anx_l2_13",
+      "category": "anxiety",
+      "instrument": "PROMIS-Anxiety-L2",
+      "text": "Was it hard for you to relax?",
+      "options": [
+        "Never",
+        "Almost Never",
+        "Sometimes",
+        "Often",
+        "Almost Always"
+      ],
+      "score_range": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "gad7_1",
+      "category": "anxiety",
+      "instrument": "GAD-7",
+      "text": "Feeling nervous, anxious, or on edge?",
+      "options": [
+        "Not at all",
+        "Several days",
+        "More than half the days",
+        "Nearly every day"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "gad7_2",
+      "category": "anxiety",
+      "instrument": "GAD-7",
+      "text": "Not able to stop or control worrying?",
+      "options": [
+        "Not at all",
+        "Several days",
+        "More than half the days",
+        "Nearly every day"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "gad7_3",
+      "category": "anxiety",
+      "instrument": "GAD-7",
+      "text": "Worrying too much about different things?",
+      "options": [
+        "Not at all",
+        "Several days",
+        "More than half the days",
+        "Nearly every day"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "gad7_4",
+      "category": "anxiety",
+      "instrument": "GAD-7",
+      "text": "Trouble relaxing?",
+      "options": [
+        "Not at all",
+        "Several days",
+        "More than half the days",
+        "Nearly every day"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "gad7_5",
+      "category": "anxiety",
+      "instrument": "GAD-7",
+      "text": "Being so restless that it's hard to sit still?",
+      "options": [
+        "Not at all",
+        "Several days",
+        "More than half the days",
+        "Nearly every day"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "gad7_6",
+      "category": "anxiety",
+      "instrument": "GAD-7",
+      "text": "Becoming easily annoyed or irritable?",
+      "options": [
+        "Not at all",
+        "Several days",
+        "More than half the days",
+        "Nearly every day"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "gad7_7",
+      "category": "anxiety",
+      "instrument": "GAD-7",
+      "text": "Feeling afraid, as if something awful might happen?",
+      "options": [
+        "Not at all",
+        "Several days",
+        "More than half the days",
+        "Nearly every day"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCARED_01",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "When you feel scared, does it feel hard for you to breathe?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_02",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you get headaches when you are at school?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_03",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you feel uncomfortable with people you don't know well?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_04",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you get scared if you have to sleep over at a friend's place or away from home?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_05",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you worry if other people like you?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_06",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "When you get scared, do you feel like you might faint (हिन्दी: चक्कर आना; ಕನ್ನಡ: ತಲೆ ಸುತ್ತು)?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_07",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you feel nervous a lot?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_08",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you tend to stick close to your parents, following them around?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_09",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do people tell you that you seem nervous?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_10",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you feel nervous around people you don't know well?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_11",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you get stomachaches at school?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_12",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "When you get really scared, do you feel like you're going crazy?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_13",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you worry about sleeping by yourself?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_14",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you worry about whether you are as good as other kids?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_15",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "When you get scared, do you feel like things around you aren't real?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_16",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you have bad dreams about something bad happening to your parents?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_17",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you worry about going to school?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_18",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "When you feel scared, does your heart beat really fast?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_19",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you feel shaky or wobbly (हिन्दी: कांपना; ಕನ್ನಡ: ನಡುಗುವುದು)?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_20",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you have bad dreams about something bad happening to you?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_21",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you worry about things working out for you in the future?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_22",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "When you get scared, do you sweat a lot (हिन्दी: पसीना; ಕನ್ನಡ: ಬೆವರು)?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_23",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Are you a person who worries a lot?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_24",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you get super scared sometimes for no reason at all?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_25",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Are you afraid to be alone in the house?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_26",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Is it hard for you to talk to people you don't know well?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_27",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "When you get scared, do you feel like you're choking (हिन्दी: गला घुटना; ಕನ್ನಡ: ಕತ್ತು ಹಿಸುಕಿದ ಹಾಗೆ)?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_28",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do people tell you that you worry too much?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_29",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you dislike being away from your family?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_30",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Are you afraid of having a panic attack (a sudden rush of intense fear)?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_31",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you worry that something bad might happen to your parents?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_32",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you feel shy with people you don't know well?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_33",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you worry about what's going to happen in the future?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_34",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "When you get scared, do you feel like you have to throw up (हिन्दी: उल्टी; ಕನ್ನಡ: ವಾಂತಿ)?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_35",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you worry about how well you do things, like your schoolwork or hobbies?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_36",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Are you scared to go to school?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_37",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you worry about things that have already happened?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_38",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "When you get scared, do you feel dizzy (हिन्दी: चक्कर; ಕನ್ನಡ: ತಲೆ ಸುತ್ತು)?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_39",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you feel nervous when you have to do something while people watch you (reading aloud, speaking in class, playing a sport)?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_40",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you feel nervous when you're going to parties or places where there will be people you don't know?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "SCARED_41",
+      "category": "anxiety",
+      "instrument": "SCARED",
+      "text": "Do you feel shy?",
+      "options": [
+        "Not True or Hardly Ever True",
+        "Sometimes True",
+        "Very True or Often True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "RCADS_01",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you worry about things (हिन्दी: चिंता; ಕನ್ನಡ: ಚಿಂತೆ)?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_03",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "When you have a problem, do you get a funny feeling in your stomach?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_04",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you worry when you think you have done poorly at something?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_05",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Would you feel afraid of being on your own at home?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_07",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you feel scared when you have to take a test?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_08",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you feel worried when you think someone is angry with you?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_09",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you worry about being away from your parents?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_10",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you get bothered by bad or silly thoughts or pictures in your mind?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_12",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you worry that you will do badly at your school work?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_13",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you worry that something awful will happen to someone in your family?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_14",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you suddenly feel as if you can't breathe when there is no reason for this?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_16",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you have to keep checking that you have done things right (like a switch is off, or a door is locked)?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_17",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you feel scared if you have to sleep on your own?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_18",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you have trouble going to school in the mornings because you feel nervous or afraid?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_20",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you worry you might look foolish?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_22",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you worry that bad things will happen to you?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_23",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Does it seem like you can't get bad or silly thoughts out of your head?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_24",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "When you have a problem, does your heart beat really fast?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_26",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you suddenly start to tremble or shake (हिन्दी: कांपना; ಕನ್ನಡ: ನಡುಗುವುದು) when there is no reason for this?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_28",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "When you have a problem, do you feel shaky?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_30",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you worry about making mistakes?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_31",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you have to think of special thoughts (like numbers or words) to stop bad things from happening?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_32",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you worry what other people think of you?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_33",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Are you afraid of being in crowded places (like malls, movies, or buses)?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_34",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you suddenly feel really scared for no reason at all?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_35",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you worry about what is going to happen?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_36",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you suddenly become dizzy or faint (हिन्दी: चक्कर; ಕನ್ನಡ: ತಲೆ ಸುತ್ತು) when there is no reason for this?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_38",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you feel afraid if you have to talk in front of your class?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_39",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Does your heart suddenly start to beat too quickly for no reason?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_41",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you worry that you will suddenly get a scared feeling when there is nothing to be afraid of?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_42",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you have to do some things over and over again (like washing your hands, cleaning or putting things in a certain order)?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_43",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you feel afraid that you will make a fool of yourself in front of people?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_44",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you have to do some things in just the right way to stop bad things from happening?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_45",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you worry when you go to bed at night?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_46",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Would you feel scared if you had to stay away from home overnight?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "RCADS_47",
+      "category": "anxiety",
+      "instrument": "RCADS",
+      "text": "Do you feel restless (हिन्दी: बेचैनी; ಕನ್ನಡ: ಅಸಹನತೆ)?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_01",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you worry about things?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_02",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Are you scared of the dark?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_03",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "When you have a problem, do you get a funny feeling in your stomach?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_04",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you feel afraid?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_05",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Would you feel afraid of being on your own at home?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_06",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you feel scared when you have to take a test?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_07",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you feel afraid if you have to use public toilets or bathrooms?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_08",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you worry about being away from your parents?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_09",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you feel afraid that you will make a fool of yourself in front of people?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_10",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you worry that you will do badly at your school work?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_12",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you worry that something awful will happen to someone in your family?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_13",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you suddenly feel as if you can't breathe when there is no reason for this?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_14",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you have to keep checking that you have done things right (like the switch is off, or the door is locked)?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_15",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you feel scared if you have to sleep on your own?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_16",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you have trouble going to school in the mornings because you feel nervous or afraid?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_18",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Are you scared of dogs?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_19",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Does it seem like you can't get bad or silly thoughts out of your head?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_20",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "When you have a problem, does your heart beat really fast?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_21",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you suddenly start to tremble or shake (हिन्दी: कांपना; ಕನ್ನಡ: ನಡುಗುವುದು) when there is no reason for this?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_22",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you worry that something bad will happen to you?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_23",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Are you scared of going to the doctors or dentists?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_24",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "When you have a problem, do you feel shaky?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_25",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Are you scared of being in high places or lifts (elevators)?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_27",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you have to think of special thoughts (like numbers or words) to stop bad things happening?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_28",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you feel scared if you have to travel in the car, on a Bus or a train?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_29",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you worry what other people think of you?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_30",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Are you afraid of being in crowded places (shopping centres, movies, buses, busy playgrounds)?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_32",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you suddenly feel really scared for no reason at all?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_33",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Are you scared of insects or spiders?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_34",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you suddenly become dizzy or faint when there is no reason for this?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_35",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you feel afraid if you have to talk in front of your class?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_36",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Does your heart suddenly start to beat too quickly for no reason?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_37",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you worry that you will suddenly get a scared feeling when there is nothing to be afraid of?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_39",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Are you afraid of being in small closed places, like tunnels or small rooms?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_40",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you have to do some things over and over again (like washing your hands, cleaning or putting things in a certain order)?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_41",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you get bothered by bad or silly thoughts or pictures in your mind?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_42",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Do you have to do some things in just the right way to stop bad things happening?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "SCAS_44",
+      "category": "anxiety",
+      "instrument": "SCAS",
+      "text": "Would you feel scared if you had to stay away from home overnight?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often",
+        "Always"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "YPSC_01",
+      "category": "anxiety",
+      "instrument": "Y-PSC-17",
+      "text": "Are you fidgety (हिन्दी: चुलबुला; ಕನ್ನಡ: ಚಂಚಲ), or unable to sit still?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "YPSC_02",
+      "category": "anxiety",
+      "instrument": "Y-PSC-17",
+      "text": "Do you feel sad or unhappy?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "YPSC_03",
+      "category": "anxiety",
+      "instrument": "Y-PSC-17",
+      "text": "Do you daydream too much?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "YPSC_05",
+      "category": "anxiety",
+      "instrument": "Y-PSC-17",
+      "text": "Do you have trouble understanding other people's feelings?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "YPSC_06",
+      "category": "anxiety",
+      "instrument": "Y-PSC-17",
+      "text": "Do you feel hopeless (हिन्दी: निराश; ಕನ್ನಡ: ನಿರಾಶೆ)?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "YPSC_07",
+      "category": "anxiety",
+      "instrument": "Y-PSC-17",
+      "text": "Do you have trouble concentrating?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "YPSC_09",
+      "category": "anxiety",
+      "instrument": "Y-PSC-17",
+      "text": "Do you feel down on yourself?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "YPSC_11",
+      "category": "anxiety",
+      "instrument": "Y-PSC-17",
+      "text": "Do you seem to be having less fun?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "YPSC_13",
+      "category": "anxiety",
+      "instrument": "Y-PSC-17",
+      "text": "Do you act as if you're driven by a motor, always on the go?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "YPSC_15",
+      "category": "anxiety",
+      "instrument": "Y-PSC-17",
+      "text": "Do you worry a lot?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "YPSC_17",
+      "category": "anxiety",
+      "instrument": "Y-PSC-17",
+      "text": "Do you get distracted easily?",
+      "options": [
+        "Never",
+        "Sometimes",
+        "Often"
+      ],
+      "score_range": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "DASSY_01",
+      "category": "anxiety",
+      "instrument": "DASS-Y",
+      "text": "Did you get upset about little things?",
+      "options": [
+        "Not True",
+        "A Little True",
+        "Fairly True",
+        "Very True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASSY_02",
+      "category": "anxiety",
+      "instrument": "DASS-Y",
+      "text": "Did you feel dizzy, like you were about to faint (हिन्दी: चक्कर आना; ಕನ್ನಡ: ತಲೆ ಸುತ್ತು)?",
+      "options": [
+        "Not True",
+        "A Little True",
+        "Fairly True",
+        "Very True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASSY_04",
+      "category": "anxiety",
+      "instrument": "DASS-Y",
+      "text": "Did you have trouble breathing (e.g. fast breathing), even when you weren't exercising?",
+      "options": [
+        "Not True",
+        "A Little True",
+        "Fairly True",
+        "Very True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASSY_06",
+      "category": "anxiety",
+      "instrument": "DASS-Y",
+      "text": "Did you find yourself over-reacting to situations?",
+      "options": [
+        "Not True",
+        "A Little True",
+        "Fairly True",
+        "Very True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASSY_07",
+      "category": "anxiety",
+      "instrument": "DASS-Y",
+      "text": "Did your hands feel shaky (हिन्दी: कांपना; ಕನ್ನಡ: ನಡುಗುವುದು)?",
+      "options": [
+        "Not True",
+        "A Little True",
+        "Fairly True",
+        "Very True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASSY_08",
+      "category": "anxiety",
+      "instrument": "DASS-Y",
+      "text": "Were you stressing about lots of things?",
+      "options": [
+        "Not True",
+        "A Little True",
+        "Fairly True",
+        "Very True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASSY_09",
+      "category": "anxiety",
+      "instrument": "DASS-Y",
+      "text": "Did you feel terrified (हिन्दी: घबराहट; ಕನ್ನಡ: ಆತಂಕ)?",
+      "options": [
+        "Not True",
+        "A Little True",
+        "Fairly True",
+        "Very True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASSY_11",
+      "category": "anxiety",
+      "instrument": "DASS-Y",
+      "text": "Were you easily irritated (हिन्दी: चिड़चिड़ा; ಕನ್ನಡ: ಕಿರಿಕಿರಿ)?",
+      "options": [
+        "Not True",
+        "A Little True",
+        "Fairly True",
+        "Very True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASSY_12",
+      "category": "anxiety",
+      "instrument": "DASS-Y",
+      "text": "Did you find it difficult to relax?",
+      "options": [
+        "Not True",
+        "A Little True",
+        "Fairly True",
+        "Very True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASSY_14",
+      "category": "anxiety",
+      "instrument": "DASS-Y",
+      "text": "Did you get annoyed when people interrupted you?",
+      "options": [
+        "Not True",
+        "A Little True",
+        "Fairly True",
+        "Very True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASSY_15",
+      "category": "anxiety",
+      "instrument": "DASS-Y",
+      "text": "Did you feel like you were about to panic?",
+      "options": [
+        "Not True",
+        "A Little True",
+        "Fairly True",
+        "Very True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASSY_18",
+      "category": "anxiety",
+      "instrument": "DASS-Y",
+      "text": "Were you easily annoyed?",
+      "options": [
+        "Not True",
+        "A Little True",
+        "Fairly True",
+        "Very True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASSY_19",
+      "category": "anxiety",
+      "instrument": "DASS-Y",
+      "text": "Could you feel your heart beating really fast, even when you hadn't done any exercise?",
+      "options": [
+        "Not True",
+        "A Little True",
+        "Fairly True",
+        "Very True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASSY_20",
+      "category": "anxiety",
+      "instrument": "DASS-Y",
+      "text": "Did you feel scared for no good reason?",
+      "options": [
+        "Not True",
+        "A Little True",
+        "Fairly True",
+        "Very True"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASS21_01",
+      "category": "anxiety",
+      "instrument": "DASS-21",
+      "text": "Did you find it hard to relax or calm down?",
+      "options": [
+        "Not at all",
+        "To some degree",
+        "Considerably",
+        "Very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASS21_02",
+      "category": "anxiety",
+      "instrument": "DASS-21",
+      "text": "Did you notice your mouth felt dry?",
+      "options": [
+        "Not at all",
+        "To some degree",
+        "Considerably",
+        "Very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASS21_04",
+      "category": "anxiety",
+      "instrument": "DASS-21",
+      "text": "Did you have trouble breathing (like breathing too fast, or feeling out of breath without exercise)?",
+      "options": [
+        "Not at all",
+        "To some degree",
+        "Considerably",
+        "Very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASS21_06",
+      "category": "anxiety",
+      "instrument": "DASS-21",
+      "text": "Did you tend to react too strongly to situations?",
+      "options": [
+        "Not at all",
+        "To some degree",
+        "Considerably",
+        "Very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASS21_07",
+      "category": "anxiety",
+      "instrument": "DASS-21",
+      "text": "Did you feel shaky (for example, in your hands)?",
+      "options": [
+        "Not at all",
+        "To some degree",
+        "Considerably",
+        "Very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASS21_08",
+      "category": "anxiety",
+      "instrument": "DASS-21",
+      "text": "Did you feel like you were using a lot of nervous energy?",
+      "options": [
+        "Not at all",
+        "To some degree",
+        "Considerably",
+        "Very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASS21_09",
+      "category": "anxiety",
+      "instrument": "DASS-21",
+      "text": "Were you worried about situations where you might panic and embarrass yourself?",
+      "options": [
+        "Not at all",
+        "To some degree",
+        "Considerably",
+        "Very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASS21_11",
+      "category": "anxiety",
+      "instrument": "DASS-21",
+      "text": "Did you find yourself getting agitated or restless (हिन्दी: बेचैन; ಕನ್ನಡ: ಚಡಪಡಿಕೆ)?",
+      "options": [
+        "Not at all",
+        "To some degree",
+        "Considerably",
+        "Very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASS21_12",
+      "category": "anxiety",
+      "instrument": "DASS-21",
+      "text": "Did you find it difficult to relax?",
+      "options": [
+        "Not at all",
+        "To some degree",
+        "Considerably",
+        "Very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASS21_14",
+      "category": "anxiety",
+      "instrument": "DASS-21",
+      "text": "Did you get annoyed easily by anything that stopped you from what you were doing?",
+      "options": [
+        "Not at all",
+        "To some degree",
+        "Considerably",
+        "Very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASS21_15",
+      "category": "anxiety",
+      "instrument": "DASS-21",
+      "text": "Did you feel like you were close to panicking?",
+      "options": [
+        "Not at all",
+        "To some degree",
+        "Considerably",
+        "Very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASS21_18",
+      "category": "anxiety",
+      "instrument": "DASS-21",
+      "text": "Did you feel like you were easily annoyed or sensitive?",
+      "options": [
+        "Not at all",
+        "To some degree",
+        "Considerably",
+        "Very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASS21_19",
+      "category": "anxiety",
+      "instrument": "DASS-21",
+      "text": "Were you aware of your heart beating fast or skipping a beat, even without physical activity?",
+      "options": [
+        "Not at all",
+        "To some degree",
+        "Considerably",
+        "Very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "DASS21_20",
+      "category": "anxiety",
+      "instrument": "DASS-21",
+      "text": "Did you feel scared without any good reason?",
+      "options": [
+        "Not at all",
+        "To some degree",
+        "Considerably",
+        "Very much"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_01_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Talking to classmates on the phone.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_01_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Talking to classmates on the phone.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_02_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Participating in small groups in class.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_02_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Participating in small groups in class.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_03_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Eating in front of other people.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_03_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Eating in front of other people.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_04_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Asking an adult you don't know well for help (like a shopkeeper).",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_04_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Asking an adult you don't know well for help (like a shopkeeper).",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_05_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Giving a presentation in class.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_05_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Giving a presentation in class.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_06_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Going to parties or school events.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_06_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Going to parties or school events.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_07_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Writing on the board in front of the class.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_07_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Writing on the board in front of the class.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_08_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Talking with kids you don't know well.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_08_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Talking with kids you don't know well.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_09_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Starting a conversation with people you don't know well.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_09_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Starting a conversation with people you don't know well.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_10_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Using school or public bathrooms.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_10_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Using school or public bathrooms.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_11_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Walking into a room when others are already seated.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_11_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Walking into a room when others are already seated.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_12_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Being the center of attention (like on your birthday).",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_12_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Being the center of attention (like on your birthday).",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_13_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Asking questions in class.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_13_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Asking questions in class.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_14_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Answering questions in class.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_14_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Answering questions in class.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_15_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Reading out loud in class.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_15_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Reading out loud in class.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_16_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Taking tests.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_16_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Taking tests.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_17_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Saying \"no\" to people when they ask for something.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_17_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Saying \"no\" to people when they ask for something.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_18_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Telling others you disagree with them.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_18_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Telling others you disagree with them.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_19_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Looking people you don't know well in the eyes.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_19_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Looking people you don't know well in the eyes.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_20_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Returning something to a store.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_20_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Returning something to a store.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_21_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Playing a sport or performing in front of others.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_21_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Playing a sport or performing in front of others.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_22_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Joining a new club or group.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_22_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Joining a new club or group.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_23_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Meeting new people.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_23_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Meeting new people.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_24_fear",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Fear/Anxiety rating for: Asking a teacher for permission to leave the classroom.",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "LSAS_24_avoid",
+      "category": "anxiety",
+      "instrument": "LSAS-CA",
+      "text": "Avoidance rating for: Asking a teacher for permission to leave the classroom.",
+      "options": [
+        "Never",
+        "Occasionally",
+        "Often",
+        "Usually"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "PDSS_01",
+      "category": "anxiety",
+      "instrument": "PDSS",
+      "text": "How many panic attacks or similar episodes did you have?",
+      "options": [
+        "None",
+        "Mild (no full attacks, few symptoms)",
+        "Moderate (1-2 full attacks OR multiple smaller episodes)",
+        "Severe (>2 full attacks)",
+        "Extreme (attacks more than once a day)"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "PDSS_02",
+      "category": "anxiety",
+      "instrument": "PDSS",
+      "text": "How scary were they?",
+      "options": [
+        "Not at all",
+        "A little scary",
+        "Moderately scary",
+        "Severely scary",
+        "Extremely scary"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "PDSS_03",
+      "category": "anxiety",
+      "instrument": "PDSS",
+      "text": "How much did you worry about having another one?",
+      "options": [
+        "Not at all",
+        "Occasionally",
+        "Frequently",
+        "Very often",
+        "Nearly constantly"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "PDSS_04",
+      "category": "anxiety",
+      "instrument": "PDSS",
+      "text": "Did you avoid any places or situations because of this fear?",
+      "options": [
+        "No avoidance",
+        "Mild avoidance",
+        "Moderate avoidance",
+        "Severe avoidance",
+        "Extreme avoidance"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "PDSS_05",
+      "category": "anxiety",
+      "instrument": "PDSS",
+      "text": "Did you avoid any activities (like exercise) because of this fear?",
+      "options": [
+        "No avoidance",
+        "Mild avoidance",
+        "Moderate avoidance",
+        "Severe avoidance",
+        "Extreme avoidance"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "PDSS_06",
+      "category": "anxiety",
+      "instrument": "PDSS",
+      "text": "How much did this interfere with your schoolwork or home life?",
+      "options": [
+        "No interference",
+        "Slight interference",
+        "Significant interference",
+        "Substantial impairment",
+        "Extreme impairment"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "PDSS_07",
+      "category": "anxiety",
+      "instrument": "PDSS",
+      "text": "How much did this interfere with your social life?",
+      "options": [
+        "No interference",
+        "Slight interference",
+        "Significant interference",
+        "Substantial impairment",
+        "Extreme impairment"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_1",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I have saved up so many things that they get in the way.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_2",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I check things more often than necessary.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_3",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I get upset if objects are not arranged properly.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_4",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I feel compelled to count while I am doing things.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_5",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I find it difficult to control my own thoughts.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_6",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I collect things I don't need.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_7",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I repeatedly check doors, windows, drawers, etc.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_8",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I get upset if others change the way I have arranged things.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_9",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I feel I have to repeat certain numbers.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_10",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I sometimes have to wash or clean myself simply because I feel contaminated.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_11",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I am upset by unpleasant thoughts that come into my mind against my will.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_12",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I avoid throwing things away because I am afraid I might need them later.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_13",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I repeatedly check gas and water taps and light switches after turning them off.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_14",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I need things to be arranged in a particular order.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_15",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I feel that there are good and bad numbers.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_16",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I wash my hands more often and longer than necessary.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_17",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I frequently get nasty thoughts and have difficulty in getting rid of them.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "oci_r_18",
+      "category": "ocd",
+      "instrument": "OCI-R",
+      "text": "I am excessively concerned about germs and cleanliness.",
+      "options": [
+        "Not at all",
+        "A little",
+        "Moderately",
+        "A lot",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "ybocs_1",
+      "category": "ocd",
+      "instrument": "Y-BOCS",
+      "text": "Time spent on obsessions",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe",
+        "Extreme"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "ybocs_2",
+      "category": "ocd",
+      "instrument": "Y-BOCS",
+      "text": "Interference due to obsessions",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe",
+        "Extreme"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "ybocs_3",
+      "category": "ocd",
+      "instrument": "Y-BOCS",
+      "text": "Distress associated with obsessions",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe",
+        "Extreme"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "ybocs_4",
+      "category": "ocd",
+      "instrument": "Y-BOCS",
+      "text": "Resistance against obsessions",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe",
+        "Extreme"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "ybocs_5",
+      "category": "ocd",
+      "instrument": "Y-BOCS",
+      "text": "Degree of control over obsessions",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe",
+        "Extreme"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "ybocs_6",
+      "category": "ocd",
+      "instrument": "Y-BOCS",
+      "text": "Time spent on compulsions",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe",
+        "Extreme"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "ybocs_7",
+      "category": "ocd",
+      "instrument": "Y-BOCS",
+      "text": "Interference due to compulsions",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe",
+        "Extreme"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "ybocs_8",
+      "category": "ocd",
+      "instrument": "Y-BOCS",
+      "text": "Distress associated with compulsions",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe",
+        "Extreme"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "ybocs_9",
+      "category": "ocd",
+      "instrument": "Y-BOCS",
+      "text": "Resistance against compulsions",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe",
+        "Extreme"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "ybocs_10",
+      "category": "ocd",
+      "instrument": "Y-BOCS",
+      "text": "Degree of control over compulsions",
+      "options": [
+        "None",
+        "Mild",
+        "Moderate",
+        "Severe",
+        "Extreme"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_1",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Repeated, disturbing, and unwanted memories of the stressful experience?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_2",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Repeated, disturbing dreams of the stressful experience?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_3",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Suddenly feeling or acting as if the stressful experience were actually happening again (as if you were actually back there reliving it)?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_4",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Feeling very upset when something reminded you of the stressful experience?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_5",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Having strong physical reactions when something reminded you of the stressful experience (for example, heart pounding, trouble breathing, sweating)?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_6",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Avoiding memories, thoughts, or feelings related to the stressful experience?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_7",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Avoiding external reminders of the stressful experience (for example, people, places, conversations, activities, objects, or situations)?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_8",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Trouble remembering important parts of the stressful experience?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_9",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Having strong negative beliefs about yourself, other people, or the world?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_10",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Blaming yourself or someone else for the stressful experience or what happened after it?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_11",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Having strong negative feelings such as fear, horror, anger, guilt, or shame?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_12",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Loss of interest in activities that you used to enjoy?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_13",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Feeling distant or cut off from other people?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_14",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Trouble experiencing positive feelings (e.g., being unable to feel happiness or loving feelings)?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_15",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Irritable behavior, angry outbursts, or acting aggressively?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_16",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Taking too many risks or doing things that could cause you harm?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_17",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Being “superalert” or watchful or on guard?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_18",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Feeling jumpy or easily startled?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_19",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Having difficulty concentrating?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "pcl5_20",
+      "category": "ptsd",
+      "instrument": "PCL-5",
+      "text": "Trouble falling or staying asleep?",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_1",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "Any reminder brought back feelings about it.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_2",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I had trouble staying asleep.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_3",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "Other things kept making me think about it.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_4",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I felt irritable and angry.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_5",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I avoided letting myself get upset when I thought about it or was reminded of it.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_6",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I thought about it when I didn't mean to.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_7",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I felt as if it hadn't happened or wasn't real.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_8",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I stayed away from reminders about it.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_9",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "Pictures about it popped into my mind.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_10",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I was jumpy and easily startled.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_11",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I tried not to think about it.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_12",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I was aware that I still had a lot of feelings about it, but I didn't deal with them.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_13",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "My feelings about it were kind of numb.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_14",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I found myself acting or feeling like I was back at that time.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_15",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I had trouble falling asleep.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_16",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I had waves of strong feelings about it.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_17",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I tried to remove it from my memory.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_18",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I had trouble concentrating.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_19",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "Reminders of it caused me to have physical reactions, such as sweating, trouble breathing, nausea, or a pounding heart.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_20",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I had dreams about it.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_21",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I felt watchful or on-guard.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "iesr_22",
+      "category": "ptsd",
+      "instrument": "IES-R",
+      "text": "I tried not to talk about it.",
+      "options": [
+        "Not at all",
+        "A little bit",
+        "Moderately",
+        "Quite a bit",
+        "Extremely"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "mdq_1",
+      "category": "bipolar",
+      "instrument": "MDQ",
+      "text": "Has there ever been a period of time when you were not your usual self and... you felt so good or so hyper that other people thought you were not your normal self or were so hyper that you got into trouble?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "score_range": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mdq_2",
+      "category": "bipolar",
+      "instrument": "MDQ",
+      "text": "...you were so irritable that you shouted at people or started fights or arguments?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "score_range": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mdq_3",
+      "category": "bipolar",
+      "instrument": "MDQ",
+      "text": "...you felt much more self-confident than usual?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "score_range": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mdq_4",
+      "category": "bipolar",
+      "instrument": "MDQ",
+      "text": "...you got much less sleep than usual and found you didn't really miss it?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "score_range": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mdq_5",
+      "category": "bipolar",
+      "instrument": "MDQ",
+      "text": "...you were much more talkative or spoke much faster than usual?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "score_range": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mdq_6",
+      "category": "bipolar",
+      "instrument": "MDQ",
+      "text": "...thoughts raced through your head or you couldn't slow your mind down?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "score_range": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mdq_7",
+      "category": "bipolar",
+      "instrument": "MDQ",
+      "text": "...you were so easily distracted by things around you that you had trouble concentrating or staying on track?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "score_range": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mdq_8",
+      "category": "bipolar",
+      "instrument": "MDQ",
+      "text": "...you had much more energy than usual?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "score_range": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mdq_9",
+      "category": "bipolar",
+      "instrument": "MDQ",
+      "text": "...you were much more active or did many more things than usual?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "score_range": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mdq_10",
+      "category": "bipolar",
+      "instrument": "MDQ",
+      "text": "...you were much more social or outgoing than usual, for example, telephoning friends in the middle of the night?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "score_range": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mdq_11",
+      "category": "bipolar",
+      "instrument": "MDQ",
+      "text": "...you were much more interested in sex than usual?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "score_range": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mdq_12",
+      "category": "bipolar",
+      "instrument": "MDQ",
+      "text": "...you did things that were unusual for you or that other people might have thought were excessive, foolish, or risky?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "score_range": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mdq_13",
+      "category": "bipolar",
+      "instrument": "MDQ",
+      "text": "...spending money got you or your family into trouble?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "score_range": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mdq_14",
+      "category": "bipolar",
+      "instrument": "MDQ",
+      "text": "If you checked YES to more than one of the above, have several of these ever happened during the same period of time?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "score_range": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": "mdq_15",
+      "category": "bipolar",
+      "instrument": "MDQ",
+      "text": "How much of a problem did any of these cause you – like being unable to work; having family, money, or legal troubles; getting into arguments or fights?",
+      "options": [
+        "No problem",
+        "Minor problem",
+        "Moderate problem",
+        "Serious problem"
+      ],
+      "score_range": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "bsds_1",
+      "category": "bipolar",
+      "instrument": "BSDS",
+      "text": "Please indicate how accurately the above paragraph describes you:",
+      "options": [
+        "This story fits me very well",
+        "This story fits me fairly well",
+        "This story fits me to some degree",
+        "This story does not really describe me at all"
+      ],
+      "score_range": [
+        6,
+        4,
+        2,
+        0
+      ]
+    }
+  ]
+}

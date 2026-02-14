@@ -1,0 +1,962 @@
+[
+  {
+    "empathic_question": "Hey, just checking in. How are things with your friends? You mentioned your best friend has been distant.",
+    "empathic_response": "Oh my gosh, that sounds really tough. It's completely understandable that you're feeling sad and confused when a best friend suddenly isn’t reaching out. It’s really okay to feel all those feelings – like sadness, confusion, even a little anger. It’s like a big hole opening up when you think someone you care about isn’t there.",
+    "next_question": "It makes sense that you're wondering if they hate you, and that’s a really important thought to explore. But let’s try to think about it a bit more. Is that thought feeling like a really scary possibility, or is it just a feeling you’re having right now? Maybe it’s hard to tell the difference.",
+    "system_prompt": "Goal: (Rejection) Validate the pain of ghosting. Gently introduce a CBT concept: challenging mind-reading and catastrophizing.",
+    "id": "peer_1",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "Hey, how’s your week going? Anything interesting happening, or are you feeling a little down about social things?",
+    "empathic_response": "That’s a really good question. It sounds like you’re feeling a bit frustrated with how things are going with social media right now. It’s completely understandable to feel sad or like you’re missing out when you see everyone else having fun, and that’s a really valid feeling. It’s okay to feel those feelings, and it’s brave of you to acknowledge them.",
+    "next_question": "What’s one thing you enjoy doing, even if it’s just for a little while, that makes you feel good, like reading a book, drawing, or playing a game?",
+    "system_prompt": "Goal: (Social Media/Isolation) Offer validation and normalize feelings of loneliness and missing out. Transition to a positive self-image-building exercise.",
+    "id": "peer_2",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're dealing with some really challenging feelings about your friends right now. You’re feeling pressure to do things that don’t feel right, and that’s a really tough situation to be in. Are you worried about what your friends might think if you say no?",
+    "empathic_response": "Wow, that sounds incredibly overwhelming. It’s completely understandable that you’re feeling this way – it’s brave of you to recognize that you’re feeling pressured and that those feelings are making you uncomfortable. It’s okay to feel confused and worried about what others might think. It’s like you’re trying to fit in, and sometimes that can be really hard.  Remember, your own feelings and values are really important, and it’s okay to stand up for them, even when it’s hard.  It’s a sign of strength, not weakness, to prioritize yourself.",
+    "next_question": "Can you tell me a little bit about what’s making you feel so pressured from your friends? What’s the thing you’re worried about?",
+    "system_prompt": "Goal: (Peer Pressure) Offer validation and explore the root of the anxiety. Focus on the importance of self-respect and boundaries.  Encourage a gentle exploration of the fear of rejection.",
+    "id": "peer_3",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're going through a really tough time at school. You seem to be feeling really alone, and that's a really hard feeling to deal with. Are you eating lunch by yourself, or are you feeling like you don't really fit in with the other kids?",
+    "empathic_response": "Oh, honey, that sounds incredibly sad. It's completely understandable that you feel like you don't belong, and it’s brave of you to reach out and talk about it. Feeling like nobody sees you or understands you can be really overwhelming.  It’s okay to feel this way, and it’s not a sign of weakness to need a little support.  Just know that you’re not alone in feeling this way, and I'm here to listen whenever you're ready to share more.",
+    "next_question": "Sometimes when we feel like this, it can feel like there's no point in trying to change anything. Do you ever feel like it’s just… a permanent feeling, like it’s always going to be this way?",
+    "system_prompt": "Goal: (Ambiguous Risk/Isolation) Validate the users worthlessness as a symptom of isolation. Gently probe for hopelessness (never) and suicidal ideation. Arm Triage.",
+    "id": "peer_4",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time with your best friend. That must feel incredibly upsetting and confusing.",
+    "empathic_response": "It’s completely understandable that you’re feeling so overwhelmed right now. When something like that happens, it’s so natural to feel a mix of emotions – sadness, anger, confusion, maybe even a little hurt. Your feelings are really valid, and it’s okay to feel them deeply.",
+    "next_question": "When you think about this fight, is there anything specific that’s making you feel this way, or is it more about the feeling of distance between you both?",
+    "system_prompt": "Goal: (Conflict/Communication) Offer a safe space for processing the conflict and encourage exploration of underlying feelings. Focus on validating the experience and promoting self-awareness.",
+    "id": "peer_5",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "Hey, you seem really good today! Anything exciting happening with your life?",
+    "empathic_response": "That's wonderful to hear! It sounds like you're having a really great day. It’s so cool that you’re enjoying spending time with your friends and laughing. Those moments are really special, and it’s so important to have people you feel comfortable and safe with. It makes me feel good knowing you’re feeling that way.",
+    "next_question": "What’s one thing about your friends that makes you feel like you can be yourself and have fun?",
+    "system_prompt": "Goal: (Positive Scenario) Validate and celebrate a positive social event (play). Pivot to identify the source of the psychological safety and connection (Positive Psychology).",
+    "id": "peer_6",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "Hey, everything going on with your friends? Anything feeling a little tough or confusing lately?",
+    "empathic_response": "Wow, that’s a really honest way to describe things. It sounds like you're navigating some really big feelings, and it’s completely okay to feel that way. It’s brave of you to share that with me. Whether it's a little bit of worry or a lot of worry, it’s okay to feel whatever you’re feeling.  Just remember you're not alone in this, and it's totally alright to take things one step at a time.",
+    "next_question": "Can you tell me a little bit about what’s been going on with your friends? Like, what’s the general feeling around the group chat? (e.g., are they all super excited, or are there some disagreements?).",
+    "system_prompt": "Goal: (Stonewall Scenario) Validate the fine response. Acknowledge both possible meanings (peace vs. isolation). Pivot to a low-stakes, factual detective question.",
+    "id": "peer_7",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really lonely and isolated. What do you think you should do to make friends?",
+    "empathic_response": "Oh, honey, that's a really tough feeling. It’s completely okay to feel lonely sometimes, and it’s so brave of you to even ask that question. It's really common to feel that way, especially when you’re trying to find your place.  It doesn't mean you're not worthy of friendship, it just means you're navigating something new and it takes a little time.  Let’s think about this together.  It’s not always about being the most popular, you know? Sometimes, it’s about finding people who *get* you, who share your interests and make you feel good.  What do you enjoy doing?  Is there anything you’re really passionate about – maybe gaming, drawing, a subject in school, or anything at all?  Even just talking about it can be a good first step.",
+    "next_question": "What’s one interest you have (like gaming, art, a subject) that you’d want to share with a friend?",
+    "system_prompt": "Goal: (Advice-Seeking/Isolation) Validate the lonely feeling. Deflect advice. Reframe making friends as finding connection (CBT). Pivot to find common interests (Behavioral Activation).",
+    "id": "peer_8",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re really feeling pressure from your friends to do things that don’t feel right for you – like partying or vaping. That’s a really tough situation to be in, and it’s completely understandable that you’re feeling anxious and maybe a little lost about it.",
+    "empathic_response": "Wow, that’s a really big challenge. It’s so brave of you to acknowledge that you’re feeling this way and that you’re not comfortable with it. It takes a lot of courage to stand up for yourself, and it’s okay to feel worried or confused when you’re facing pressure from others.  It’s not about being a bad friend; it’s about honoring your own feelings and needs.  You're doing the right thing by thinking about what *you* want.",
+    "next_question": "Can you tell me a little bit more about what makes you feel this pressure? Is it something a friend said, or is it just a feeling that’s growing?  Maybe we can talk about what that feeling feels like for you.",
+    "system_prompt": "Goal: (Peer Pressure) Provide validation and explore underlying fears. Encourage self-reflection and identify the root of the anxiety. Focus on the user’s emotional experience.",
+    "id": "peer_9",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like social media is really bringing up some tough feelings for you right now. It’s like you’re constantly comparing yourself to what you see online, and that can be really hard.",
+    "empathic_response": "Oh, honey, that sounds incredibly frustrating. It’s completely understandable that you’re feeling this way – it’s like you’re seeing a really unrealistic version of other people’s lives, and it can make you feel like you’re not good enough. It's a really common feeling, and it’s okay to feel sad or disappointed when you see that kind of thing. You’re allowed to feel however you’re feeling about it.",
+    "next_question": "Can you tell me about something in your life that you’re really proud of, something that makes you feel good about yourself, even if it's small? Maybe something you’ve accomplished or something you enjoy doing?",
+    "system_prompt": "Goal: (Social Media/Isolation) Validate the comparison pain. Identify the cognitive distortion (e.g., all-or-nothing thinking, catastrophizing). Offer a positive shift towards focusing on your own strengths and experiences.",
+    "id": "peer_10",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "Wow, that must feel absolutely devastating to hear about your best friend ending things with you. It’s completely understandable that you’re feeling so lost and hurt right now.",
+    "empathic_response": "It’s so brave of you to acknowledge how much this hurts. It’s okay to feel all the feelings that come up – sadness, anger, confusion, even a little bit of disbelief. Seriously, it’s okay to feel everything. You’re not weak for feeling this way; you’re a really strong person for even acknowledging it.",
+    "next_question": "Besides your best friend, is there anyone else you feel you could lean on – a family member, another trusted person, or maybe even someone you enjoy spending time with? Even just talking about it can sometimes make a difference.",
+    "system_prompt": "Goal: (Rejection/Isolation) – Validate the user’s emotional experience with the rejection. Transition to encouraging engagement with supportive relationships. Prioritize building a sense of connection and belonging.",
+    "id": "peer_11",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with your parents’ feelings about your friends, and that must be really upsetting. It’s understandable that you’re feeling stuck in the middle, and it’s okay to feel angry about both of them.",
+    "empathic_response": "Wow, that’s a really tough situation to deal with. It’s completely valid to feel like you’re fighting against your parents’ expectations, and it makes you feel like you have to choose between them. It’s okay to feel all those different emotions – anger, sadness, confusion – all at the same time. You’re not wrong to feel that way.",
+    "next_question": "Can you tell me about one thing your best friend does that you really appreciate about them? Maybe something that makes you feel good about them and shows them you value them.",
+    "system_prompt": "Goal: (Conflict - Parents vs. Friends) Validate the loyalty conflict and pressure. Offer a supportive and constructive approach to communication. Focus on strengthening the relationship with the best friend.",
+    "id": "peer_12",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really missing your old friends and school, and that’s a really big deal. It’s completely understandable that you’re feeling sad and a little lost right now, especially with a move.",
+    "empathic_response": "Wow, that’s a really tough situation. It makes sense that you’re feeling isolated and that you miss your old friends and the familiar feeling of being at school. It’s okay to feel those feelings – it’s a normal reaction to losing that support system. It’s not just about missing people, it’s about missing a whole part of your life.  It’s brave of you to acknowledge how you're feeling, and you're allowed to feel all the emotions that come with it.",
+    "next_question": "What’s one small thing you could try to do at your new school to start making a new friend, even if it’s just a simple hello or a quick conversation?",
+    "system_prompt": "Goal: (Isolation/Transition) Validate the grief of losing an old group. Differentiate social media from real connection. Pivot to a problem-solving prompt for new friends.",
+    "id": "peer_13",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with your group chat – it’s making you feel really anxious and worried. It’s completely understandable to feel stuck when you’re afraid to step away from something that feels like a pressure.",
+    "empathic_response": "Wow, that sounds incredibly tough. It’s so brave of you to even acknowledge how that group chat is affecting you, and it makes sense that you’re feeling trapped. It’s really common to feel that way when you’re worried about what others think or how you’ll be perceived. It’s okay to feel scared of missing out or of being judged, and that’s a really valid feeling to have.",
+    "next_question": "Can you tell me a little bit about what’s making you feel so worried about leaving? Is there anything specific that’s causing you to hesitate?",
+    "system_prompt": "Goal: (Peer Pressure/Social Media) Validate the trapped feeling. Name the fear of rejection (CBT). Probe the catastrophic thought that’s preventing the leaving behavior.",
+    "id": "peer_14",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really hurt and like your best friend isn’t treating you the way you deserve. It feels like you’re not important or valued, and that’s a really tough feeling to deal with.",
+    "empathic_response": "That sounds incredibly difficult to feel, and it’s completely understandable that you’re feeling this way. It’s brave of you to share that, and it makes sense that you’re feeling mistreated when you feel like you’re not the main character in the friendship. It’s okay to feel sad, angry, or confused when that happens.  Sometimes, when we feel like we’re not seen or appreciated, it can be really hard to cope with those feelings.  Remember, your feelings are valid, and you're allowed to feel however you're feeling right now.",
+    "next_question": "Can you tell me a little bit about what makes you feel like you’re not being treated fairly in this friendship?  Is there anything specific that’s been happening?",
+    "system_prompt": "Goal: (Conflict/Mistreatment) Validate the resentment from a one-sided attachment. Probe the behavioral impact (emotional suppression) on the user.",
+    "id": "peer_15",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "Wow, you seem really cheerful! What a fantastic time you had with your friends!",
+    "empathic_response": "That’s amazing! It’s so wonderful when you feel so happy and connected with people you care about. It shows you have a really strong and supportive group, and that’s really important. It’s great to feel that kind of joy and connection.",
+    "next_question": "Can you think of one thing you did – maybe a joke, a listening ear, or just being there for them – that helped you feel closer to your friends?",
+    "system_prompt": "Goal: (Positive Social Connection) Encourage self-reflection on social interactions and highlight the importance of connection. Focus on building self-efficacy through positive experiences.",
+    "id": "peer_16",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with how you feel about your social media use. It’s totally understandable to feel frustrated when you’re constantly pulled in that way, and it can feel like you’re addicted. It’s brave of you to acknowledge that feeling, and it’s okay to feel that way.",
+    "empathic_response": "That’s a really tough spot to be in, and it makes perfect sense that you’re feeling this way. It’s like your brain is craving that quick, exciting feeling from social media, and it’s hard to stop the pull. You’re not alone in feeling this way, and it’s okay to need a little help figuring out how to feel better about it.",
+    "next_question": "Let’s try to think about something small you could try. Maybe we could start with something like, could you commit to just checking your phone for 20 minutes, and then putting it away? What do you think about that?",
+    "system_prompt": "Goal: (Social Media/Conflict) Validate the stuck feeling (procrastination). Reframe it as dopamine vs. discipline (CBT). Pivot to a problem-solving prompt for a small boundary.",
+    "id": "peer_17",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really pressured by your friends to tell a white lie to your parents. That’s a really tough situation, and it’s understandable that you’re feeling conflicted – like you’re caught between what you want to do and what you think is right.",
+    "empathic_response": "Wow, that’s a huge weight to carry. It’s completely normal to feel overwhelmed and confused when you’re facing pressure from your friends, especially when it feels like it’s going against your own values. It’s like you’re trying to juggle a bunch of things at once, and it’s okay to feel like you’re not sure what to do. You’re not wrong to feel this way – it’s a really difficult situation.",
+    "next_question": "Can you tell me a little bit about what your gut is telling you when you think about this? What’s the feeling you have when you imagine yourself doing the lie?",
+    "system_prompt": "Goal: (Peer Pressure/Conflict) Validate the loyalty conflict (no-win scenario). Name the unfairness. Pivot to a values-based (ACT/CBT) question to check their internal compass.",
+    "id": "peer_18",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with how you're feeling about your friends right now. Can you tell me a little bit about what’s going on?",
+    "empathic_response": "Oh, honey, that’s really tough to hear. It’s completely okay to feel that way, and it takes a lot of courage to even talk about it. It sounds like you’re carrying a heavy weight, and it makes sense that you’re feeling down and maybe a little lost. It’s okay to not be okay, and you don’t have to go through this alone.",
+    "next_question": "Would you like to talk about what’s been happening with your friends, or would you rather just feel safe to share whatever’s on your mind? ",
+    "system_prompt": "Goal: (Stonewall/Isolation) Validate the idk response. Gently probe for isolation vs. fatigue. Pivot to a rating scale (CBT) to get a quantitative feeling.",
+    "id": "peer_19",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time – hearing that your friend shared something you told them is incredibly upsetting. It’s completely understandable that you’re feeling angry and confused right now.",
+    "empathic_response": "Wow, that must feel really awful. It’s okay to feel all those feelings – anger, sadness, maybe even a little shame. It’s a huge deal when someone you trust shares something so personal, and it’s natural to feel hurt. You’re allowed to feel however you’re feeling, and that’s brave of you to acknowledge it.",
+    "next_question": "When you think about this, is there anything you’d like to talk about with your friend? Maybe you could try to understand their perspective, or just vent a little. It’s okay if you need to take a little space too.",
+    "system_prompt": "Goal: (Conflict/Trust) Offer a validating and supportive response, acknowledging the complexity of the emotions involved. Transition to a collaborative problem-solving approach focusing on understanding and potential steps forward.",
+    "id": "peer_20",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed and like you’re carrying a lot of the weight of everyone’s problems. That’s a really brave thing to do – it’s wonderful that you’re offering to be a friend and a listener. It’s completely understandable that you’re feeling exhausted and like you’re struggling with the responsibility of that.",
+    "empathic_response": "Oh my goodness, that’s awful! It sounds like you’re carrying a huge amount of stress and feeling really drained. It’s okay to feel that way, and it’s really impressive that you’re taking on that role. It’s okay to feel frustrated and like you’re not getting enough support. Those feelings are totally valid and deserve to be acknowledged.",
+    "next_question": "Let’s think about something small you could try. Maybe you could say something like, ‘I’m feeling a bit overwhelmed right now, and I need to take a little time to myself.’ Or, ‘I’m not really able to help with that right now.’ What feels like a small step you could take to protect your own energy?",
+    "system_prompt": "Refine the response to provide a gentle, validating approach to boundary setting, emphasizing self-care and recognizing the emotional toll of the situation.",
+    "id": "peer_21",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really stressed about your grades and the pressure from your friends. It’s a tough feeling to deal with, and it’s completely understandable that you’re feeling anxious about it.",
+    "empathic_response": "That’s a really tough situation, and it makes sense that you're feeling so overwhelmed. It’s like you’re feeling like your worth is tied to your grades, and that’s a really difficult feeling to carry. It’s okay to feel worried and confused about it.",
+    "next_question": "Let’s think about something you enjoy doing – something that makes you feel good about yourself, even if it’s just a little bit. What’s one thing you’re really good at, or something you like to do that makes you feel happy?",
+    "system_prompt": "Goal: (Peer Pressure/Competition) Validate the anxiety of academic peer pressure. Name the conditional attachment. Pivot to a strengths-based (Positive Psychology) prompt.",
+    "id": "peer_22",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re really feeling connected with your online friends, and that’s a really important part of your life right now. It’s wonderful to have a group you can talk to and feel like you can be yourself with.",
+    "empathic_response": "That’s totally understandable – it’s really normal to feel a bit lonely even when you’re surrounded by people online. It’s great to have a community that you trust, and it’s okay to feel a little separate from everyone else sometimes. It’s like, even though you’re connecting with people on social media, it’s also good to remember that there’s a whole world outside of that screen too.",
+    "next_question": "When you think about what’s missing from your school friends, is there anything that you really crave or wish you had more of, like a feeling of belonging or connection?",
+    "system_prompt": "Goal: (Social Media/Isolation) Acknowledge the importance of online connection while validating the need for real-world social interaction. Shift to a reflective, empathetic approach to help the adolescent explore their feelings and identify underlying needs.",
+    "id": "peer_23",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really difficult time with your best friend, and that’s incredibly painful to witness. It’s completely understandable that you’re feeling scared, anxious, and exhausted – that’s a really big thing to handle.",
+    "empathic_response": "That must feel incredibly overwhelming. It’s brave of you to be there for your friend, and it’s okay to feel all those feelings – scared, anxious, and maybe even a little tired. You’re such a good friend, and it’s natural to want to help, but remember you’re not a therapist, and you can’t fix everything. It’s okay to just *be* there for them, offering a listening ear and support.",
+    "next_question": "What’s one small thing you could do for yourself after a conversation with your friend that might help you feel a little bit better? Even something simple, like a warm bath or a few minutes of quiet time.",
+    "system_prompt": "Goal: (Caretaker Role) Validate the user's anxiety and exhaustion (caretaker fatigue). Reframe their role (friend vs. therapist). Pivot to a self-care (CBT) prompt.",
+    "id": "peer_24",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really stressed and maybe a little bit frustrated with your group lately. Like you’re putting on a show to be accepted, and that’s really tough when you don’t feel like yourself.",
+    "empathic_response": "Oh, honey, that sounds incredibly draining. It's completely understandable that you're feeling this way – it’s so hard to feel like you have to pretend to be someone you're not, especially when you really want to be yourself. It's okay to feel sad or confused when you feel like you're not good enough or that you’re not connecting with people. You’re allowed to feel all those feelings, and it’s brave of you to acknowledge them.",
+    "next_question": "Can you tell me about something you’re really passionate about, even if it’s just a little bit? Something that makes you feel excited or happy, even if it's just for a short time.",
+    "system_prompt": "Goal: (Peer Pressure/Isolation) Validate the exhaustion of faking it (inauthentic attachment). Name the lonely in a crowd feeling. Probe the hidden authentic self.",
+    "id": "peer_25",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling a bit lost right now, wondering why your best friend moved away. That’s a really normal feeling, and it’s okay to feel sad and a little confused about it. It’s like a piece of your life is missing.",
+    "empathic_response": "It makes sense that you’re feeling this way – it’s a bit of a big change, and it’s okay to feel a little heartbroken about it. It’s like a little sadness that you miss having that person in your life. It’s a loss, even if you didn’t argue or fight. It’s a loss of connection and feeling close.",
+    "next_question": "Can you think of one really happy memory you have with that friend, even if it’s just a small one? Something that makes you smile a little?",
+    "system_prompt": "Goal: (Grief/Isolation) Validate the ambiguous grief of drifting apart. Name it as a loss. Offer a gentle, hopeful prompt to focus on positive memories.",
+    "id": "peer_26",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really stressed about your parents' expectations about you spending time with your friends. (e.g., Why don’t you want to hang out with your friends? Why are you staying in your room all the time?)",
+    "empathic_response": "Oh, honey, that sounds incredibly tough. It’s totally understandable that you’re feeling confused and frustrated when you feel like your parents don’t get how important it is to connect with your friends. It’s really brave of you to share that, and it makes sense that you’re feeling a bit lost. It’s okay to feel like you’re struggling with this.",
+    "next_question": "Can you tell me a little bit about what your online friends are like? What’s something you enjoy doing with them?",
+    "system_prompt": "Goal: (Conflict - Parents vs. Friends) Validate the misunderstanding. Reframe the conflict (online connection vs. offline isolation). Pivot to an assertive communication prompt.",
+    "id": "peer_27",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with your friends and how you feel about social media. It feels like you’re feeling really down about it all, and like things don't matter anymore.",
+    "empathic_response": "Oh, honey, that sounds incredibly tough. It’s completely understandable that you’re feeling that way – it’s really brave of you to even talk about it. When feelings like that feel so overwhelming, it’s like you’re carrying a heavy weight, and it’s okay to feel that way. It’s not a sign of weakness to feel this way, it’s a sign you’re really hurting.",
+    "next_question": "Sometimes, when we feel this way, it can be hard to see how we’re feeling, and it can feel like we’re the only ones who are struggling. Do you ever worry that you’re not good enough or that people don’t like you?",
+    "system_prompt": "Goal: (Ambiguous Risk) Validate the hopelessness. Reframe it as a symptom (CBT). Gently probe to see if hopelessness has turned into worthlessness (a high-risk flag).",
+    "id": "peer_28",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're dealing with a really tough situation – you're feeling isolated and worried about keeping something personal from your family and friends. That must be incredibly stressful and confusing.",
+    "empathic_response": "Wow, that’s a really heavy feeling. It’s completely understandable that you’d feel that way when you’re feeling like you’re hiding something important. It’s brave of you to even acknowledge how hard this is, and it makes sense that you’re worried about how your friends might react.  It’s okay to feel worried about that.",
+    "next_question": "Can you tell me a little bit about what’s making you feel this way about sharing your life with others? Is there anything specific that’s been on your mind?",
+    "system_prompt": "Validate the emotional experience of feeling isolated and secretive. Focus on the core conflict of privacy versus sharing. Gently explore the potential impact of the friends finding out, acknowledging the fear and anxiety involved.",
+    "id": "peer_29",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like your best friend is copying you, and it’s really frustrating and upsetting. It feels like you’re not being seen or valued.",
+    "empathic_response": "Oh, honey, that really *does* sound awful. It’s completely understandable that you’re feeling angry and confused. It’s like your own feelings and identity are being taken away, and that’s a really painful feeling. It’s okay to feel all those strong emotions – anger, sadness, maybe even confusion – it’s a sign you’re feeling deeply. You’re a really amazing person, and it’s okay to acknowledge how hard this is for you.",
+    "next_question": "What’s one thing that’s *you* – something that makes you, *you* – that you really love about yourself? Something that’s special and unique?",
+    "system_prompt": "Goal: (Identity Theft) Validate the frustration of feeling sidelined and missing your own identity. Focus on identifying a strength or a positive trait. Offer a gentle, encouraging prompt.",
+    "id": "peer_30",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you've been spending a lot of time on social media lately, and it’s really making you feel a bit down or unsure about yourself. Can you tell me a little bit about what you’re experiencing?",
+    "empathic_response": "Oh, honey, that makes me so sad to hear. It’s completely understandable that you’re feeling that way – seeing everyone else’s lives online can be really hard, and it’s easy to feel like you’re not measuring up. It’s like you’re comparing yourself to other people, and that can be really tough. It’s okay to feel a little lost or disappointed sometimes, especially when you’re seeing what others seem to have. You’re allowed to feel whatever you’re feeling – it’s brave of you to share that with me.",
+    "next_question": "Let’s think about something small and good that happened today, or even this week. Is there one thing, no matter how small, that you’re grateful for – something that makes you feel happy or good about yourself? Maybe it’s your favorite snack, a sunny day, or even just getting through a challenging task.",
+    "system_prompt": "Goal: (Social Media - Comparison) Validate the users feeling. Name the cognitive distortion (CBT). Pivot to a gratitude (Positive Psychology) prompt to anchor them in reality.",
+    "id": "peer_31",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling a little overwhelmed by seeing everyone on social media and feeling like you need to look a certain way. That’s a really tough feeling to deal with.",
+    "empathic_response": "That’s completely understandable. It’s really brave of you to share that, and it makes sense that you’d feel a bit stressed or worried about what others are showing. It's okay to feel confused or like you’re not measuring up. It's like, everyone puts their best face forward, and it can be hard to know what’s real and what’s not.  Remember, you are valuable just the way you are, and there’s nothing wrong with feeling a little unsure about yourself.",
+    "next_question": "When you think about things you’re really good at or things you enjoy doing, what’s one thing that makes you feel really happy or proud of yourself?",
+    "system_prompt": "Goal: (Social Media - Aesthetic Pressure) Validate the pressure. Differentiate filters from reality (CBT). Pivot to a strengths-based (Positive Psychology) question about inner qualities.",
+    "id": "peer_32",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really worried and stressed right now. Is there something specific that’s been going on that’s making you feel this way?",
+    "empathic_response": "Oh, wow, that’s a really tough feeling to deal with. It’s completely understandable that you’d feel anxious and isolated when you’re worried about something like that. It's okay to feel those emotions, and it makes sense that you’re processing them. You’re not alone in feeling this way, and it’s brave of you to share it with me.",
+    "next_question": "Can you tell me a little bit about what’s been happening that’s making you feel so anxious about this group chat or situation? Maybe just talking about it can help a little.",
+    "system_prompt": "Goal: (Social Media - Group Chat) Validate the anxiety and isolation. Name the fear (cancel culture/rejection). Probe the catastrophic thought (CBT).",
+    "id": "peer_33",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "Hey, you've been feeling a bit disconnected lately. Can you tell me a little about what's been going on with your friends?",
+    "empathic_response": "It sounds like you're feeling really lost and hurt right now, and that’s completely understandable. Ghosting is a really tough thing to deal with, and it's okay to feel angry, sad, and confused. It’s like a big loss of feeling connected, and that can be incredibly painful. Your feelings are valid, and you don't have to pretend they're not there. It’s brave of you to share this with me.",
+    "next_question": "Let's take a little time to think about what your mind might be telling you about this. What thoughts are going through your head when you think about this situation? (Don't worry about whether they're really true, just let them flow out.)",
+    "system_prompt": "Goal: (Rejection - Ghosting) Validate the pain and confusion of ghosting. Name the loss of trust. Help the user identify and explore potentially negative automatic thoughts (CBT).",
+    "id": "peer_34",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "What's been going on with your social life lately? You mentioned you’re connected with a lot of people online, like on Discord or in games. That’s a really cool thing to have!",
+    "empathic_response": "It’s totally normal to feel a strong connection with people online, and it’s awesome that you’re building a group! It’s also a little tricky, isn’t it? Sometimes it can feel like you’re really connected to those online friends, but it can also feel a little lonely when you’re not with your school friends. Both of those feelings are valid, and it’s okay to feel both ways. You're navigating a really important part of your life.",
+    "next_question": "If you could pick one thing your school group *could* have that you really value, what would it be?",
+    "system_prompt": "Goal: (Online vs. Offline Friends) Validate both the attachment (online) and the isolation (offline). Pivot to a values clarification (ACT/CBT) prompt (identifying the unmet need).",
+    "id": "peer_35",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling a bit lost or like things aren't exciting right now. Is it something about how social media makes you feel, like it's always telling you you need to be doing something amazing all the time?",
+    "empathic_response": "Oh, honey, that sounds really tough. It's completely understandable to feel that way sometimes when you’re comparing yourself to what others are showing online. It's like social media can create this pressure to always be doing something exciting, and it’s okay to feel like that can be overwhelming. You're not alone in feeling this way, and it's brave of you to share it. It's okay to feel a little blah sometimes, and that's perfectly normal.",
+    "next_question": "What’s one small thing you enjoyed doing this week, even if it was just for a little while? Maybe something you did that felt peaceful or just plain nice?",
+    "system_prompt": "Goal: (Social Media - FOMO) Validate the pressure of the main character unrealistic expectation. Normalize boredom (CBT). Pivot to a mindfulness/gratitude (Positive Psychology) prompt.",
+    "id": "peer_36",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "Hey, you sound really happy! What’s going on today?",
+    "empathic_response": "That’s amazing! It’s so cool when you feel like you’re connecting with people and having a good time online. It’s like a real friendship, isn’t it?",
+    "next_question": "What’s one thing about that chat that made you feel good? (Like, is there an inside joke or something that everyone enjoys? Or maybe just a feeling of being part of a fun group?)",
+    "system_prompt": "Goal: (Positive Social Media) Validate a positive social media event (play/group). Pivot to identify the source of the connection (Positive Psychology).",
+    "id": "peer_37",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "Hey, you seem a little quiet today. Is everything okay with your friends?",
+    "empathic_response": "Wow, that’s a really tough feeling. It’s completely understandable that you’d feel that way – it sounds like you’re going through a lot right now. It’s okay to not be okay, and it’s brave of you to share that with me.",
+    "next_question": "Can you tell me a little bit about what’s been going on with your friends? No pressure to share anything you’re not comfortable with, but even just a little bit about what’s been happening can help.",
+    "system_prompt": "Goal: (Stonewall/Isolation) Validate the idk response. Gently probe for isolation vs. fatigue. Pivot to a rating scale (CBT) to get a quantitative feeling.",
+    "id": "peer_38",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really upset right now, and that’s okay. It’s tough when someone you trust breaks your trust, and it’s completely understandable that you’re feeling angry. What happened that made you feel this way?",
+    "empathic_response": "Wow, that really sucks. It’s so frustrating when you feel like someone you care about has betrayed your trust. It’s like a really big disappointment, and it’s okay to feel all those feelings – anger, sadness, even confusion. You’re allowed to feel whatever you’re feeling, and it’s brave of you to share it with me. It’s not easy to deal with when someone you trust does that.",
+    "next_question": "Can you tell me a little bit about what’s been going on with your friend? Just trying to understand a bit better.",
+    "system_prompt": "Goal: (Conflict/Trust - Screenshot) Validate the user's emotions and allow them to express their feelings without judgment. Initiate a gentle exploration of the situation, focusing on their immediate reaction, and gently guide them towards identifying their underlying needs.",
+    "id": "peer_39",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really isolated and a bit lost at this new school, and that’s a really tough feeling to deal with. It’s okay to feel that way – it’s completely understandable to feel unsure about making friends.",
+    "empathic_response": "Wow, that sounds really overwhelming. It’s totally normal to feel like you don’t know how to connect with people, especially when you’re starting something new. Honestly, I don’t have all the answers, but I want to help you find a way to feel a little less alone. It’s not about being 'popular' or fitting in – it’s more about finding just one small connection that feels good. Think of it like finding a really nice, quiet corner to just be yourself.",
+    "next_question": "Can you tell me a little bit about something you enjoy doing? Maybe a hobby, a game, or anything that you’re really passionate about. It could be anything at all – even something you’ve always been curious about!",
+    "system_prompt": "Goal: (Guidance/Support) Acknowledge the emotional experience of feeling isolated. Offer reassurance and a gentle shift in perspective. Encourage exploration of interests as a way to build connection. Provide a structured approach to finding a starting point.",
+    "id": "peer_40",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with how you feel about your friends right now, and that you’re feeling really down about it. It’s completely understandable to feel like things aren’t good and that you’re feeling isolated.",
+    "empathic_response": "It takes a really big deal to feel this way, and it's brave of you to share it. Feeling like you’re not good enough or that your friends don’t care is a really tough feeling, and it’s okay to feel that way. It’s like a heavy weight, and it can feel really lonely.",
+    "next_question": "Sometimes when we feel this way, we start to think we’re the reason why things aren’t going well with our friends. Do you ever feel like you’re the only one who’s struggling with that?",
+    "system_prompt": "Goal: (Ambiguous Risk) Validate the hopelessness. Reframe it as a symptom (CBT). Gently probe to see if hopelessness has turned into worthlessness (a high-risk flag).",
+    "id": "peer_41",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really hurt and confused right now. You mentioned your friend left you on read, and that’s a really tough thing to deal with – it’s like a silent feeling of being rejected. It’s completely understandable that you’re feeling anxious and angry about that.",
+    "empathic_response": "Wow, that’s a really difficult situation, and it makes me sad to hear you’re feeling this way. It’s okay to feel all those feelings – sadness, anger, confusion, even a little bit of shame. It’s like a really big, confusing feeling when you feel like someone isn't showing you how they feel. It’s brave of you to share this with me.",
+    "next_question": "Can you tell me a little bit about what’s going through your head right now when you think about this? What’s the story you’re hearing about why your friend might have done this?",
+    "system_prompt": "Goal: (Social Media - Rejection) Validate the anxiety of being left on read (a social media rejection). Help me understand the automatic negative thoughts your mind is having about this situation. Focus on helping you process those thoughts.",
+    "id": "peer_42",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really pressured by your friends to spend money on things you don’t really want. That must be really upsetting and confusing.",
+    "empathic_response": "Oh, honey, that’s completely understandable that you’re feeling that way. It’s so brave of you to share that with me, and it makes perfect sense that you’re feeling frustrated and a little sad about it. It’s really tough when people are pushing you to do things you don’t feel comfortable with, especially when it comes to spending money. It’s okay to feel like you’re not good enough or that you don’t fit in when people are trying to make you feel bad about yourself.  Those feelings are valid, and you don’t have to go through them alone.",
+    "next_question": "What’s one thing you enjoy doing that’s totally free, like playing a game, drawing, or just hanging out with your friends without spending any money?",
+    "system_prompt": "Goal: (Peer Pressure - Financial) Validate the shame/frustration of financial peer pressure. Pivot to a strengths-based (Positive Psychology) prompt to find non-financial connection.",
+    "id": "peer_43",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It seems like you’re really focused on your phone a lot lately. Are you feeling worried about something that might be happening online?",
+    "empathic_response": "That’s a really tough feeling, and it’s completely understandable that you’re feeling anxious about it. It's like you're constantly thinking about what might be happening and if you're missing out on something. It sounds like you’re really worried about missing out on something, and that’s a really big feeling to have.",
+    "next_question": "Can you tell me a little bit about what’s making you feel this way about your phone?",
+    "system_prompt": "Goal: (Social Media - FOMO) Validate the anxiety and unrealistic expectation of always-on social media pressure. Probe the catastrophic thought (CBT) that blocks turning off.",
+    "id": "peer_44",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really hurt and like you're being left out by your friends group. It feels like you're feeling sidelined, and that must be really tough.",
+    "empathic_response": "Oh, honey, that sounds incredibly difficult. It's completely understandable that you're feeling angry and sad when you feel like you're not included, and that’s a really valid feeling. It’s okay to feel that way, and it’s brave of you to share that with me. It’s like you’re in a group, but you don’t feel like you belong, and that can be really lonely and frustrating.  It's like you’re not being seen or valued in that group, and that’s a really hard thing to deal with.",
+    "next_question": "Can you tell me a little bit about what makes a friendship important to you? Is there anything you really value in a friend, like being trusted, or feeling like they're there for you?",
+    "system_prompt": "Goal: (Mistreatment/Sidelined) Validate the pain of sidelining. Name it as rejection. Pivot to a values-based (ACT/CBT) question to help the user identify the mismatch.",
+    "id": "peer_45",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "Hey, you sound really happy! What’s going on with you today?",
+    "empathic_response": "That’s amazing to hear! It’s so cool when you feel like you’re connecting with people and having a good time online. It sounds like you’re having a really good time with your group chat.",
+    "next_question": "Can you tell me one thing that made you smile or feel good when you were chatting with your friends today? Maybe something funny or a shared interest?",
+    "system_prompt": "Goal: (Positive Social Media) Validate a positive social media event (play/group). Pivot to identify the source of the connection (Positive Psychology).",
+    "id": "peer_46",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "What's been going on with your social life lately? You mentioned you're feeling like you have a separate version of yourself online – that can be really confusing and a little stressful. It makes sense to feel a bit overwhelmed sometimes.",
+    "empathic_response": "It’s totally okay to feel a little lost or like you’re not being yourself when you’re trying to present a certain image to the world. It's really common to feel that pressure, and it’s okay to feel a little lonely or like you’re not connecting with everyone. It's brave of you to acknowledge that feeling, and it’s okay to just feel what you’re feeling.",
+    "next_question": "If you could choose one small thing – a little thing, really – that you’d want your friends to know about you, even if it’s a little messy or imperfect, what would it be?",
+    "system_prompt": "Goal: (Social Media - Persona) Validate the feelings of confusion, isolation, and pressure associated with maintaining a different social persona. Guide the user towards exploring their authentic self, focusing on acceptance and self-compassion, potentially incorporating CBT/ACT principles.",
+    "id": "peer_47",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with this, and that must be incredibly tough. You’re feeling worried about your friends and your parents, and it’s understandable that you’re feeling overwhelmed with that conflict.",
+    "empathic_response": "Wow, that’s a really serious situation. It’s completely normal to feel like you’re caught in a really difficult spot, where you have to choose between what your friends want and what your parents would want. It’s like you’re weighing a lot of different feelings and choices, and that can be really scary. You’re not wrong to feel paralyzed – it's a huge responsibility to try and figure out what’s the best thing to do, especially when it feels like there’s no easy answer.",
+    "next_question": "Let’s think about what’s most important to you. What’s a feeling you want to protect – maybe your friendship, or your relationship with your family? Can you tell me a little bit about that?",
+    "system_prompt": "Goal: (Peer Pressure/Conflict) Validate the feelings of anxiety and overwhelm. Offer a gentle acknowledgement of the difficulty of the situation. Encourage reflection on core values.",
+    "id": "peer_48",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "Can you tell me a little bit about how you’re feeling about your best friend right now? You mentioned they're changing.",
+    "empathic_response": "It sounds like you’re feeling really sad and confused about things happening with your best friend. It’s completely normal to feel that way when friendships change, and it can be really tough to understand why. It’s okay to feel a little lost or heartbroken when things feel different. You’re not alone in feeling this way.",
+    "next_question": "When you say they're changing, is that a feeling of worry, or is it more like you’re noticing something different about them?  Is there anything specific you’ve noticed?",
+    "system_prompt": "Goal: (Confusion/Change) Acknowledge the mixed feelings surrounding a change in a friendship. Focus on validating the emotional experience of uncertainty and noticing shifts. Encourage exploration of the specific observations.",
+    "id": "peer_49",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really stressed and overwhelmed right now. Is it something about feeling like you *have* to be at every party or event, or maybe the pressure of social media making you feel like you need to be constantly connected?",
+    "empathic_response": "Oh, honey, that’s totally understandable. It’s really brave of you to acknowledge how you’re feeling, and it makes sense that you’re feeling this way. It’s so common to feel a little drained when you’re trying to keep up with everything, and it’s okay to feel that way sometimes. Social media can be really tough, and it’s easy to feel like you *should* be doing more, which can be really overwhelming. You’re not alone in feeling this way, and it’s a sign you’re taking care of yourself.",
+    "next_question": "Let’s think about something you could say no to, just one thing, to give yourself a night off. Maybe something small, like saying no to a particular event or limiting your time on social media for a bit?",
+    "system_prompt": "Goal: (Social Media/Burnout) Validate the exhaustion. Name the unrealistic expectation. Reframe rest as a need. Pivot to a boundary-setting problem-solving prompt.",
+    "id": "peer_50",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really pressured to fit in with your group, and that must be really tough. Like, it’s like you’re trying to be someone you’re not to be accepted.",
+    "empathic_response": "Oh, honey, that sounds incredibly draining. It’s completely understandable that you’re feeling so lonely and exhausted when you feel like you have to pretend to like things you don't, or hide your own true interests. It’s like a heavy weight on your shoulders, and it’s okay to feel that way.  It’s brave of you to even acknowledge how you’re feeling, and you don’t have to go through it alone.  Sometimes, feeling like you don't truly belong is a really sad and confusing feeling.",
+    "next_question": "Can you tell me about something you really enjoy doing, even if it’s just for a little while?  It doesn't have to be something you think is cool or impressive.",
+    "system_prompt": "Goal: (Peer Pressure/Isolation) Validate the exhaustion of faking it (inauthentic attachment). Name the lonely in a crowd feeling. Probe the hidden authentic self.",
+    "id": "peer_51",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time right now. You seem to be feeling really down about something, and it’s okay to feel that way.",
+    "empathic_response": "Oh, honey, that really sounds overwhelming. It’s completely understandable that you’re feeling this way – it’s like you’re feeling like you’re missing out or not good enough because of what other people are doing. It’s really brave of you to share that, and it makes me want to help you feel a little better.",
+    "next_question": "Sometimes, when we feel this way, it’s hard to know what to do. Would you like to talk about what’s been going on, or maybe we could try something fun to take your mind off things for a bit?",
+    "system_prompt": "Goal: (Social Media/Isolation) Validate the shame of financial FOMO. Name it as a rejection. Pivot to a strengths-based (Positive Psychology) prompt that is non-financial.",
+    "id": "peer_52",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds really tough when you feel like your best friend is copying you, and it’s causing you a lot of frustration and maybe even a little hurt. It’s completely understandable to feel that way.",
+    "empathic_response": "Wow, that’s a really difficult situation to deal with, and it’s okay to feel overwhelmed by it. It feels like your own identity is being taken away, and that’s a really painful feeling. It’s brave of you to even bring this up, and it’s okay to feel angry and upset about it. You’re a unique person, and it’s important to remember that.",
+    "next_question": "What’s one thing that makes you, *you* – something that’s really special about you – that you feel is hard to copy or replicate?",
+    "system_prompt": "Goal: (Identity/Feeling of Self) Validate the feelings of being sidelined and the importance of uniqueness. Explore what makes them feel special and authentic.  Shift to a question that encourages self-reflection and appreciation of individual qualities.",
+    "id": "peer_53",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really isolated right now. Is it like you're finding it hard to connect with people?",
+    "empathic_response": "Oh, honey, that sounds really tough. It’s completely understandable to feel lonely when you’re not feeling as connected as you’d like to be. It’s really brave of you to even admit that you’re feeling this way, and it makes me want to help you feel better. It's okay to feel sad or confused when you’re feeling this way, and you don’t have to go through it alone.",
+    "next_question": "Sometimes when we feel like we’re all alone, it can feel like everyone else is doing so much more. Is that a feeling you’ve been having, or is it something you're noticing about your own life?",
+    "system_prompt": "Goal: (Validation & Exploration) Acknowledge the feelings of loneliness and isolation, validating the adolescent's experience. Encourage self-reflection and explore the underlying reasons for these feelings.",
+    "id": "peer_54",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed and pressured by your group to share things you're not comfortable with. That must be incredibly difficult to deal with, and it’s completely understandable that you're feeling scared and confused.",
+    "empathic_response": "It takes a lot of courage to share something like this, and it’s really brave of you to reach out. It’s okay to feel however you’re feeling – scared, sad, or even angry. Your feelings are valid, and you don’t have to go through this alone.  It's not your fault that people are pushing you to do things you don’t want to do.",
+    "next_question": "Would you like to talk more about what's happening with your group, or would you prefer to think about some ways to feel safer and more comfortable? Maybe we can brainstorm some ideas together.",
+    "system_prompt": "Goal: (HIGH-RISK/Peer Pressure) Do NOT reframe. Strongly validate the fear and danger. Name the violation. Immediately arm Model A (Triage). Pivot to safety planning (reporting to a trusted adult).",
+    "id": "peer_55",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're going through a really tough time with [friend’s name] and their new relationship. It’s completely understandable that you’re feeling sad and maybe a little confused about how you feel about things right now.",
+    "empathic_response": "That must feel incredibly confusing and painful. It's really brave of you to acknowledge those feelings – it shows you're strong. It's okay to feel a mix of things – sadness, maybe even a little anger, and it’s totally normal to feel left out when things change. You’re not alone in feeling this way, and it’s okay to have those feelings.",
+    "next_question": "When was the last time you did something you really enjoyed on your own, something that made you feel good and happy, even just for a little while? What was that about?",
+    "system_prompt": "Goal: (Grief/Isolation) Offer validation and gentle exploration of feelings of loss and isolation. Initiate a thought-provoking reflection on personal enjoyment and self-care. Focus on the positive – identifying small pleasures.",
+    "id": "peer_56",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really worried about social media, and that’s a really valid feeling. It’s like you’re worried about what other people think, and that can be really tough.",
+    "empathic_response": "Wow, that’s a lot to feel. It makes sense that you’d be anxious about comparing yourself to others online. It’s like you’re thinking, 'Will everyone like what I'm posting?' and that can be really overwhelming. It’s completely okay to feel that way, and it’s brave of you to acknowledge it. It’s like a little bit of perfectionism creeping in – wanting to look perfect all the time, and that can be really hard to deal with.",
+    "next_question": "Let’s take a deep breath together. Can you tell me about one picture on your phone that makes you feel happy or good, even if it's a little bit messy or not perfect? Maybe it's a silly photo of your pet, or a half-eaten snack!",
+    "system_prompt": "Goal: (Social Media/Pressure) Validate the performance anxiety (unrealistic expectation). Name the perfectionism trap (CBT). Offer a moment of mindful reflection (positive psychology).",
+    "id": "peer_57",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really hurt and like your friends are treating you unfairly, like they're using you for things like homework or money. That must be incredibly upsetting.",
+    "empathic_response": "Oh, honey, that really *does* sound awful. It’s completely understandable that you’re feeling angry and confused when you feel like someone is taking advantage of you. It’s brave of you to even acknowledge how you’re feeling, and it’s okay to feel those strong emotions – anger, sadness, even confusion – when you’re experiencing this.  It’s not your fault that they’re doing this, and it’s not fair to you.",
+    "next_question": "Can you think of one thing you could say or do when they ask you to do something that makes you uncomfortable, like ask for help with homework or borrow money?  Maybe you could say something like, 'I'm really busy right now, but I can help you later.'",
+    "system_prompt": "Goal: (Mistreatment/Conflict) Validate the anger. Reframe the friendship as a transaction (CBT). Pivot to a boundary-setting (CBT) problem-solving prompt.",
+    "id": "peer_58",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with how your friends are feeling about you, and that’s a really tough feeling to carry around. It’s completely understandable that you’re feeling hopeless about that.",
+    "empathic_response": "It makes sense that you’re feeling this way – it’s really hard when you feel like everyone is rejecting you. That kind of feeling can be really overwhelming and isolating. It’s okay to feel sad and confused about it.",
+    "next_question": "Would you be open to thinking about one person – even a teacher or family member – who hasn’t reacted the way you’re hoping? Just thinking about that could help you feel a little less alone.",
+    "system_prompt": "Goal: (Validation & Exploration) Acknowledge the emotional experience.  Reflect on the potential impact of the feeling of rejection.  Encourage exploration of potential support systems.",
+    "id": "peer_59",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "You mentioned your best friend is pressuring you to… study more? That sounds like a different kind of pressure, it’s a bit tricky.",
+    "empathic_response": "That’s really brave of you to share that with me. It’s totally normal to feel a little confused when a friend is pushing you to do something, especially when it feels like it’s not your choice. It’s okay to feel a mix of things – maybe a little frustrated, or even a little guilty, or just a little unsure of yourself. It’s all valid.",
+    "next_question": "Can you tell me a little bit about how that pressure makes you *feel* right now? (e.g., Are you feeling excited, worried, or something else?)",
+    "system_prompt": "Goal: (CBT – Emotional Validation)  Help the adolescent process the conflicting emotions associated with a friend's pressure, encouraging them to identify and understand their feelings. Focus on validating their experience.",
+    "id": "peer_60",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're going through an incredibly tough time right now – a breakup is a really big deal, and it’s completely understandable that you’re feeling heartbroken and like the world is ending. It’s okay to feel all those intense emotions, and it makes perfect sense that you're struggling.",
+    "empathic_response": "That sounds incredibly painful. It's brave of you to acknowledge how much you’re hurting. It's completely normal to feel lost, confused, or like you don’t know how to move forward after something like this.  Don’t feel like you have to be okay right now, and it’s okay to take your time and feel whatever you’re feeling.  You’re allowed to feel everything.",
+    "next_question": "Sometimes when we’re feeling this overwhelmed, we start to think things will never change or that we’ll never feel better.  Is that a feeling you’ve been having, or is it something you’re noticing right now?",
+    "system_prompt": "Goal: (Breakup - Grief) Provide a safe space for validation and gentle exploration of painful thoughts. Focus on acknowledging the emotional experience and normalizing the feelings of sadness and uncertainty.",
+    "id": "peer_61",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "You mentioned you have a crush, but you’re too scared to say anything. That’s a really tough spot!",
+    "empathic_response": "It’s completely understandable that you’re feeling scared about saying anything about it. It takes a lot of courage to even think about that, and it’s okay to feel anxious about it. It's like you're holding something back, and that's a really brave thing to do. It's okay to feel this way – it's a really normal feeling to have when you're feeling a little unsure of yourself.",
+    "next_question": "Let's think about something small you could try. Maybe you could just say hello to them when you see them in the hallway or ask them about something they’re doing. What’s one small thing you could do to start a little connection?",
+    "system_prompt": "Goal: (Crush - Fear of Rejection) Validate the anxiety (fear of rejection). Pivot to a small step Behavioral Activation (CBT) prompt.",
+    "id": "peer_62",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re dealing with a really challenging situation – you’re feeling conflicted about a relationship and wanting to keep it a secret from your parents. That must be incredibly stressful and confusing to carry that weight.",
+    "empathic_response": "Wow, that’s a really tough thing to deal with. It’s completely understandable that you’re feeling guilty and anxious about keeping something so personal hidden. It’s like you’re caught in a conflict with yourself and your family, and that’s a really difficult place to be. It’s okay to feel all those feelings – guilt, worry, even a little sadness. You’re not wrong to feel this way, and it’s brave of you to even acknowledge it.",
+    "next_question": "Can you tell me a little bit more about what’s making you feel this need to keep it a secret? Is there anything specific that’s causing you the most worry about what might happen if your parents find out?",
+    "system_prompt": "Goal: (Dating - Secrecy) Validate the anxiety and conflict of hiding a relationship. Explore the underlying fears driving the secrecy.",
+    "id": "peer_63",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time, questioning who you are and what you feel like you are. It’s completely understandable to feel scared about sharing that with friends, and that’s a really brave thing to recognize.",
+    "empathic_response": "That feeling of uncertainty and being different is so common, especially when you’re figuring things out. It takes a lot of courage to even think about it, and it’s okay to feel scared and worried about what people might think. You’re not alone in feeling this way, and it’s a really valid emotion.",
+    "next_question": "Who is one friend in your group that you feel you could talk to, even just for a little while? Just thinking about that might help you feel a little less alone.",
+    "system_prompt": "Goal: (LGBTQ+ / Isolation) WARNING: High-risk. Strongly validate the fear of rejection. Prioritize safety. Gently probe for one potential support system (ally).",
+    "id": "peer_64",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re navigating a really tough situation with someone – a friend who seems nice but you’re feeling hurt and confused. It’s completely understandable to feel angry and worried when you think someone isn’t being honest with you, and that’s a really valid feeling.",
+    "empathic_response": "That must feel incredibly overwhelming and upsetting. It’s brave of you to recognize that this dynamic is causing you distress, and it’s okay to feel all the feelings that come with that – anger, sadness, maybe even a little bit of confusion. It’s not fair to feel like you have to constantly defend yourself or that your feelings aren’t being respected. You’re absolutely right to be questioning things and to be looking for a way to protect yourself.",
+    "next_question": "Let’s think about something small you could do to help you feel a little more in control right now. Maybe you could just say to yourself, ‘I’m feeling upset right now, and that’s okay.’ Would you like to try that?",
+    "system_prompt": "Goal: (Conflict/Frenemy) Validate the confusion and betrayal of trust. Name the toxic dynamic. Offer a gentle, supportive approach to boundary-setting, focusing on self-care and feeling heard.",
+    "id": "peer_65",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really hurt and like your group isn't valuing your time or feelings. That must be incredibly upsetting.",
+    "empathic_response": "Oh, honey, that sounds really tough. It’s completely understandable that you’re feeling sad and like your feelings aren’t being heard. It’s really brave of you to share that with me. It’s okay to feel those things – it’s a sign you care about yourself.",
+    "next_question": "Can you tell me a little bit about what you enjoy doing when you’re on your own? Even if it’s just something small, like reading a book, drawing, or listening to music.",
+    "system_prompt": "Goal: (Isolation/Rejection) Validate the sidelining pain. Name the mistreatment. Pivot to a strengths-based (Positive Psychology) prompt to build self-worth outside the group.",
+    "id": "peer_66",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like someone is spreading a rumor about you on social media, and that’s a really upsetting and confusing feeling. It’s completely understandable that you’re feeling humiliated and scared.",
+    "empathic_response": "That feeling of being attacked and having your reputation damaged is so hard. It’s okay to feel all those different things – like really angry, sad, and maybe even a little scared. It’s like someone is trying to hurt you, and that’s a really tough situation to deal with. You don’t deserve to feel this way.",
+    "next_question": "Can you tell me a little bit about what’s going through your head right now? What’s the first thing you’re thinking or feeling when you think about this happening?",
+    "system_prompt": "Goal: (Bullying/Social Media) Explore the user’s emotional response to the rumor. Assess the intensity of their feelings and identify potential triggers. Focus on validating their experience and offering support without judgment.",
+    "id": "peer_67",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really worried about your friends group and how they’re being perceived. That must be really upsetting.",
+    "empathic_response": "It's completely understandable that you're feeling anxious about that. It’s really brave of you to acknowledge how you’re feeling, and it makes sense that you’re worried about what others think. It’s okay to feel a little hurt when you feel like you’re not being treated fairly.",
+    "next_question": "What's one thing you *can* do that shows you’re a good person and not someone who would do something to get attention?",
+    "system_prompt": "Goal: (Peer Pressure/Conflict) Validate the unfairness of group reputation. Pivot to a strengths-based (CBT) prompt to separate their identity from the groups.",
+    "id": "peer_68",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re carrying a really heavy load, feeling like everyone relies on you to handle their problems. That must be incredibly stressful and draining.",
+    "empathic_response": "Oh, my gosh, that’s completely understandable. It’s so brave of you to take on that role – it’s really wonderful that people trust you, but it’s also really tough when it feels like you’re constantly feeling overwhelmed and like you’re carrying everyone’s weight. It’s okay to feel all those different things – like being both honored and really, really tired. Both of those feelings are totally valid and deserve to be acknowledged.",
+    "next_question": "Can you think of one small thing you could do to protect yourself right now, like a little rule or a simple boundary you could set? Maybe something like, 'I need a few minutes to myself,' or 'I’m not able to talk about this right now.'",
+    "system_prompt": "Goal: (Conflict/Caretaker Fatigue) Validate the conflicting emotions (CBT) of being the therapist friend. Pivot to a boundary-setting (CBT) problem-solving prompt.",
+    "id": "peer_69",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "Hey, you seem really excited! What’s going on with your life right now?",
+    "empathic_response": "That’s fantastic! It’s so cool when you make a new friend, especially when you’re doing something like coaching where everyone is really focused on connecting with each other. It’s like a really good accomplishment! You’re doing awesome.",
+    "next_question": "Can you tell me about something you’re feeling good about happening in your life, even if it’s small?",
+    "system_prompt": "Goal: (Positive Scenario - New Friend) Validate the win (new attachment). Pivot to identify the source of the connection (Positive Psychology).",
+    "id": "peer_70",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "You mentioned a fight with your best friend last week – that sounds really tough. It’s okay to feel upset about that.",
+    "empathic_response": "It’s completely understandable that you’re feeling that way. It takes a lot of courage to talk about a disagreement, and it’s really good that you’re working on finding a way to move forward. That shows you’re trying to be a good friend and handle things with kindness.",
+    "next_question": "Can you think of one thing you did or could do differently in that conversation that might help you feel a little better about it now?",
+    "system_prompt": "Goal: (Emotional Regulation & Communication) Help the user identify a specific, manageable step towards managing their emotions. Focus on practical strategies for improving communication.",
+    "id": "peer_71",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with feeling pressured by your friends to try smoking or vaping. That must be incredibly difficult and upsetting to feel that way.",
+    "empathic_response": "It's completely understandable that you're feeling scared and overwhelmed. It’s so brave of you to even acknowledge these feelings, and it makes sense that you're having a really hard time when your friends are pushing you to do something you’re not comfortable with. It’s like you’re caught between wanting to fit in and wanting to protect your own health and feelings.",
+    "next_question": "Can you tell me a little bit about what’s making you feel so pressured? Is there anyone in particular who’s encouraging you to do it?",
+    "system_prompt": "Goal: (Peer Pressure - Substance) Validate the fear of rejection. Name the health vs. belonging conflict. Probe the cognitive distortion (fear) thats blocking the boundary.",
+    "id": "peer_72",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really hurting right now, feeling a little lost and upset about your best friend moving on to a new friend. That must be incredibly tough.",
+    "empathic_response": "It’s completely understandable that you're feeling all those things – anger, sadness, and maybe even a little bit of confusion. It’s okay to feel those feelings, and it makes perfect sense that you’re feeling this way. It’s a really big change, and it’s okay to grieve the loss of that close connection. You’re allowed to feel whatever you’re feeling, and that’s a sign of your strength.",
+    "next_question": "What’s one thing you really enjoy doing that you haven’t been able to do when you were spending all your time with your best friend?",
+    "system_prompt": "Goal: (Rejection/Isolation) Validate the grief of losing a best friend to a new friend. Normalize the conflicting emotions (CBT). Pivot to a reframing (CBT) prompt (finding opportunity in isolation).",
+    "id": "peer_73",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really anxious about making friends at this new school, and that’s a really tough feeling to have – it’s okay to feel that way.",
+    "empathic_response": "Wow, that’s a lot to handle. It’s completely normal to feel worried about making friends, especially when you’re starting something new. It’s brave of you to even bring this up, and it’s okay to feel a little isolated right now. Let’s just take a deep breath together, okay? It’s okay to feel this way.",
+    "next_question": "Do you have any hobbies or things you’re really passionate about – anything you enjoy doing, even if it’s just for a little while? Maybe something you’ve thought about trying?",
+    "system_prompt": "Goal: (Advice-Seeking/Isolation) Validate the anxiety. Deflect advice. Reframe the goal (CBT). Pivot to a Behavioral Activation (CBT) prompt (finding common interests).",
+    "id": "peer_74",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with a group project and it’s making you feel really down. That’s a tough situation to be in, and it’s completely understandable that you’re feeling frustrated and maybe even a little upset.",
+    "empathic_response": "Wow, that sounds incredibly difficult. It’s really brave of you to even talk about it, and it makes sense that you’re feeling that way when you feel like your work isn’t being valued. It’s okay to feel disappointed when you’re putting in effort and not seeing the results you want.",
+    "next_question": "Can you tell me a little bit about what’s happening with the project? Is there anything specific that’s making you feel this way?",
+    "system_prompt": "Goal: (Conflict/Mistreatment) Validate the feelings of frustration and disappointment. Acknowledge the difficulty of the situation. Explore the specific aspects contributing to the negative feelings. Focus on understanding the experience rather than immediate solutions.",
+    "id": "peer_75",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "What’s been going on with your social life lately?",
+    "empathic_response": "Wow, that’s a big question! It sounds like you’re feeling a little lost or like you might not be connecting with as many people as you’d like. It’s completely normal to feel that way sometimes, and it’s okay to not be feeling great.  It’s like everything feels a little quiet, or maybe you’re just not feeling as connected as you’d like to be.  No pressure to have it all figured out right now, just know that you're feeling it, and that's a really good first step.",
+    "next_question": "Can you tell me about one thing that happened with a friend this week, even if it was just a quick chat or a shared activity?",
+    "system_prompt": "Goal: (Stonewall/Isolation) Validate the non-committal response. Acknowledge both possible meanings (isolation vs. peace). Pivot to a low-stakes, factual prompt to re-engage.",
+    "id": "peer_76",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really upset and worried about things happening with your relationships. Can you tell me a little bit about what’s been going on that’s making you feel this way?",
+    "empathic_response": "Oh, honey, that sounds really tough. It takes a lot of courage to admit when you're feeling upset, and I want you to know that your feelings are valid. It’s completely normal to feel anxious and jealous when you’re worried about someone else’s feelings, and it’s okay to feel that way. It’s like your mind is trying to protect you, and sometimes that can be a little scary.  Let’s just take a moment to breathe together, okay? Sometimes just noticing how you feel can help a little.",
+    "next_question": "Sometimes when we're feeling this way, we start to jump to conclusions. Is there anything specific you've noticed about your partner that makes you feel like they might not be interested in you, even if it's not true?",
+    "system_prompt": "Goal: (Dating - Jealousy) Validate the insecurity (fear of rejection). Use a CBT reframe (fear vs. fact). Pivot to a prompt to find counter-evidence (CBT).",
+    "id": "peer_77",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with this relationship, and it’s completely understandable to feel overwhelmed and worried about your boyfriend/girlfriend’s behavior. It’s tough when you feel like you’re not being respected or like you have a good support system.",
+    "empathic_response": "That must feel incredibly difficult and painful. It's brave of you to acknowledge these feelings and reach out for help. It’s okay to feel scared, sad, or angry – those are all valid responses to a situation like this. You’re not alone in feeling this way, and it’s really important to remember that your feelings are valid.",
+    "next_question": "Would you be open to talking to someone else about this, like a trusted adult – like a parent, teacher, or counselor? Or would you rather just focus on feeling safe and supported right now?",
+    "system_prompt": "Goal: (Dating - Control/Mistreatment) WARNING: High-risk. Do NOT reframe. Strongly validate the fear. Name the mistreatment (control, not love). Arm Triage. Pivot to re-activate their support system (friends).",
+    "id": "peer_78",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really feeling a lot of pressure to present a certain way online, and that’s a really tough feeling. Like you feel like you need to be funny or perfect all the time.",
+    "empathic_response": "Oh, honey, that’s completely understandable. It’s so frustrating when you feel like you have to try and be someone you’re not, especially when it feels like it’s coming from other people’s screens. It’s like a really heavy weight, and it’s okay to feel overwhelmed by that. Your real self is amazing, and it’s okay to feel like it’s not always shining through, especially when you’re trying to fit into a picture someone else is creating.",
+    "next_question": "Can you think of one small thing about yourself that your friends actually *do* really like? Something that makes you, you? Even if it’s a little silly or different from what you’re trying to show online.",
+    "system_prompt": "Goal: (Social Media - Pressure) Validate the performance anxiety (unrealistic expectation). Name the trap. Pivot to a strengths-based (Positive Psychology) prompt focused on their real friends.",
+    "id": "peer_79",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really worried about that text your friend sent, and it’s understandable to feel anxious when you’re trying to figure out what they meant. It’s like you’re thinking too much about it.",
+    "empathic_response": "It's completely normal to feel that way when you're trying to understand someone’s message, and it’s brave of you to recognize that you’re feeling anxious. That feeling of trying to read between the lines can be really tough. It's okay to feel worried, and it's okay to have those thoughts.  It's like your mind is working hard to make sense of things, and sometimes that can be a little overwhelming.",
+    "next_question": "Would you like to think about why you think that text might have been confusing, even if you’re not sure?",
+    "system_prompt": "Goal: (Social Media/Conflict) Validate the anxiety of misinterpreting a text. Name the cognitive distortion (mind-reading) (CBT). Pivot to a CBT prompt (finding alternative explanations).",
+    "id": "peer_80",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "Hey, you sound really good! What’s going on with your life right now?",
+    "empathic_response": "That’s wonderful to hear! It’s so cool when you feel like you have people you can really lean on. It means you’re building really important connections, and that’s a really amazing thing to have. It’s brave to share things with others, and it’s okay to feel happy about that.",
+    "next_question": "Can you tell me about one thing a friend does that makes you feel safe and understood?",
+    "system_prompt": "Goal: (Positive Scenario - Trust) Validate the win (strong trust/attachment). Name it as a strength. Pivot to identify the source of the psychological safety.",
+    "id": "peer_81",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like your friends are making fun of you for studying and getting good grades. That can be really tough, and it’s totally understandable that you’re feeling confused and a little sad about it.",
+    "empathic_response": "Oh, honey, that really sounds like a really difficult situation. It’s so brave of you to keep striving for your goals, and it’s okay to feel a little overwhelmed when you’re facing that kind of pressure. It’s like you’re feeling like you have to hide your success, and that’s a really hard thing to do. You’re strong for feeling this way.",
+    "next_question": "What’s one long-term goal you have that makes all that studying worth it to you? Maybe something you’re really passionate about, or something that feels really important to you?",
+    "system_prompt": "Goal: (Peer Pressure - Academic) Validate the confusion of reverse peer pressure (sidelined for success). Pivot to a values-based (ACT) prompt to anchor the user in their own goals.",
+    "id": "peer_82",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with feeling like you have to choose between being honest and wanting to be part of a group, and that must be incredibly confusing and upsetting. It’s completely understandable that you’re feeling isolated and like you don’t fit in when you’re facing that kind of pressure.",
+    "empathic_response": "Wow, that’s a really tough situation to be in. It’s brave of you to acknowledge how you’re feeling – feeling like you have to choose between what you believe in and what you want to do with your friends. It’s okay to feel lonely and a little bit like you don’t belong when you’re dealing with these kinds of feelings. Remember, everyone feels this way sometimes, and it doesn’t make you any less of a person.",
+    "next_question": "Can you tell me a little bit about what’s making you feel this pressure to cheat? Is there a specific friend or group you’re feeling most connected to, and why?",
+    "system_prompt": "Goal: (Social Anxiety - Peer Pressure) Validate the emotional experience of feeling isolated and pressured. Offer a gentle exploration of the root of the discomfort. Reinforce the importance of self-worth and individual values.",
+    "id": "peer_83",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "You sound really down. Is this about your friends group again?",
+    "empathic_response": "Oh, honey, that sounds incredibly tough. It’s completely understandable that you’re feeling this way – it’s really painful when you feel like you’re missing out, and it’s okay to feel sad or frustrated when you can’t do things with your friends. It’s like you’re feeling a little isolated, and that’s a really valid feeling.  Don’t beat yourself up about it.",
+    "next_question": "What’s one free activity (like playing a sport or just walking) that you could suggest to the group?",
+    "system_prompt": "Goal: (Isolation - Financial FOMO) Validate the shame/anger. Name it as isolation. Pivot to a problem-solving (CBT) prompt to empower the user.",
+    "id": "peer_84",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really isolated right now, and that must be really tough. It’s completely understandable to feel like you don’t fit in, and that can be a really sad feeling.",
+    "empathic_response": "That sounds incredibly hard. It’s really brave of you to even acknowledge how you're feeling, and it makes sense that you’re feeling a little lost or like you don’t belong. It’s okay to feel that way sometimes, and it’s a really good thing that you’re noticing it.  It’s like finding your own special place, and sometimes that takes time.",
+    "next_question": "What’s one thing you’re really passionate about – something you love to do, something that really gets you excited? Like, do you love drawing, playing video games, reading, or maybe something else entirely?  Maybe you could talk about that with a friend or someone you trust.",
+    "system_prompt": "Goal: (Isolation - Different) Validate the lonely feeling. Reframe being different as being an individual (CBT). Pivot to identify their passion (a key to finding their group).",
+    "id": "peer_85",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "You sound really upset. It sounds like something awful happened with your best friend.",
+    "empathic_response": "Oh, honey, that sounds incredibly painful. It’s completely okay to feel angry and upset when you’ve been betrayed like that. It’s a really difficult thing to deal with, and your feelings are valid – they’re a really important part of how you’re feeling right now. It’s okay to feel all of that.",
+    "next_question": "Can you tell me a little bit about what happened, without getting too upset about it? Just letting it out can sometimes help a little.",
+    "system_prompt": "Goal: (Conflict/Trust) Offer a safe space for emotional expression, validating the feelings of betrayal and anger. Guide the conversation towards a process of understanding and rebuilding trust, using CBT principles.",
+    "id": "peer_86",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really worried about talking in your group, and that's a really brave feeling to acknowledge. It’s completely normal to feel nervous about that, and it’s okay to feel anxious about it.",
+    "empathic_response": "Wow, that’s a really tough feeling. It’s like your mind is telling you something isn’t going to be okay, and that can be super overwhelming. It’s like you’re worrying about what other people might think. It’s okay to feel worried about that, and it’s a sign you care about how you’re being perceived.",
+    "next_question": "Can you tell me a little bit about what’s going through your head when you’re thinking about speaking up? What thoughts are you having?",
+    "system_prompt": "Goal: (Social Anxiety) Provide validation and explore the automatic negative thought pattern. Focus on identifying the specific thought that fuels the anxiety and fear of rejection.  Explore the underlying belief that’s driving this thought.",
+    "id": "peer_87",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling right now, and feeling like you’re all alone and like things aren’t good. That must be incredibly tough, and it’s okay to feel sad and like you don’t have anyone to turn to.",
+    "empathic_response": "Oh, my gosh, that’s a really heavy feeling to carry around. It makes perfect sense that you’d feel that way – it’s like you’re feeling lost and like you don’t fit in, and that’s a really painful experience. It’s brave of you to even acknowledge how you’re feeling, and you’re not a bad person for feeling this way.  It’s okay to not be okay, and you don’t have to go through it alone.",
+    "next_question": "Sometimes, when we’re feeling this way, we have these thoughts that we’re better off just being alone or that people don’t need us.  Can you tell me a little bit about what that thought feels like when you have it?",
+    "system_prompt": "Goal: (Ambiguous Risk/Isolation) Validate the hopelessness and worthlessness. Reframe it as a symptom of depression (CBT). Directly and gently probe for suicidal ideation. Arm Triage.",
+    "id": "peer_88",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're carrying a really heavy weight right now – like your best friend is struggling with something really tough, and it’s making you feel worried and unsure of how to help. That’s a really tough situation, and it’s completely understandable that you’re feeling scared and overwhelmed.",
+    "empathic_response": "You are a brave and caring person for wanting to support your friend. It’s okay to feel all the feelings you're experiencing – the worry, the sadness, the confusion. It’s a lot to handle, and you’re doing a wonderful thing by wanting to be there for them. But this situation is too big for just one person to deal with alone. Your friend needs someone who can offer real support and guidance, and that’s an adult.",
+    "next_question": "Let’s think about how you can make sure your friend’s safety is protected. Is there someone you trust – a parent, teacher, counselor – that you feel comfortable talking to about this, even if it means sharing some of your feelings?",
+    "system_prompt": "Goal: (Caretaker - High-Risk) Prioritize safety. Acknowledge the distress and validate the friend's experience. Shift focus to the need for professional help, emphasizing the importance of adult support.  Ensure a safe and secure environment for the adolescent.",
+    "id": "peer_89",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really stressed about this party this weekend. Can you tell me a little bit about what’s making you feel this way?",
+    "empathic_response": "Oh, honey, that sounds really tough. It’s completely understandable that you’re feeling anxious about this party. It’s really brave of you to reach out and talk about it. It’s okay to feel worried, and it makes sense that you’re feeling a little overwhelmed. It’s like you’re worried about what people might think or how you’ll act, and that’s a really normal feeling when you’re feeling a bit nervous about a new social situation. You’re not alone in feeling this way, and it’s okay to feel what you’re feeling.",
+    "next_question": "Would you like to try a small, easy thing to do right now? Maybe just thinking about it for a few minutes, or even just taking a deep breath?",
+    "system_prompt": "Goal: (Social Anxiety) Validate the anxiety. Reframe it as fear of rejection/isolation (CBT). Pivot to a small, measurable Behavioral Activation (CBT) goal.",
+    "id": "peer_90",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with your best friend and feeling worried about them. It’s tough when you want to help someone who seems down, and it’s understandable that you’re feeling scared and unsure how to help.",
+    "empathic_response": "That must be so hard. It’s completely normal to feel overwhelmed when you’re trying to support someone who’s going through a tough time. You’re a really caring friend, and that’s a wonderful thing to be. It takes a lot of courage to reach out when you’re feeling this way.",
+    "next_question": "Sometimes, when we’re feeling overwhelmed, it can be hard to know the right person to talk to. Is there anyone you feel comfortable talking to – a teacher, a counselor, or maybe a family member you trust?",
+    "system_prompt": "Goal: (Prosocial/Caretaker) Validate the users anxiety and burden. Reframe it as a sign of caring. Pivot to a problem-solving prompt focused on adult escalation.",
+    "id": "peer_91",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really upset and guilty about what you said in that group chat. You were being mean to someone, and that’s a really tough feeling to have.",
+    "empathic_response": "That’s completely understandable. Feeling guilty when you’ve hurt someone is a really important step towards being a good person. It means you’re paying attention to how your words and actions affect others. It’s okay to feel that way, and it’s brave of you to acknowledge it.",
+    "next_question": "What’s one small thing you could do to try and make it right, even if it’s just sending a private apology? Maybe just thinking about how you can say something different next time?",
+    "system_prompt": "Goal: (Prosocial/Bully) Validate the guilt as a strength (empathy). Do NOT validate the bullying behavior. Pivot to a restorative action (CBT/problem-solving).",
+    "id": "peer_92",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really upset and frustrated that your friend got a higher rank. That’s a really tough feeling to deal with, and it’s okay to feel that way.",
+    "empathic_response": "Wow, that must feel incredibly hard. It’s completely normal to feel jealous and angry when you feel like someone else is doing better than you, especially when you’re putting in effort. Those feelings are valid, and it’s okay to acknowledge them. It’s a part of being human, and it doesn’t mean you’re not good enough.",
+    "next_question": "Let’s take a little time to think about this. When you say you feel like you’re a failure or you’re stupid because of this one rank, can you tell me a little more about what that feels like for you? Would you say it’s a really big feeling, or just a little bit of sadness?",
+    "system_prompt": "Goal: (CBT – Cognitive Restructuring) Assess the intensity of the cognitive distortion. Provide a scale of 1-10, where 1 is a very mild feeling and 10 is the most intense feeling. Focus on identifying the core thought and its impact on your emotions.",
+    "id": "peer_93",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really out of place in your new school, and it’s tough when you miss your old friends. It’s completely understandable to feel like you have to hide who you are to fit in.",
+    "empathic_response": "That must feel really confusing and sad. It’s really brave of you to acknowledge that you’re feeling this way, and it’s okay to feel lonely when you’re not feeling connected. It’s like you’re trying to build a new world, and sometimes it’s hard to find the right pieces.",
+    "next_question": "Can you tell me about one thing about your old group that you really valued, and that you think is missing from this new school? Maybe something you enjoyed doing or a feeling you got from being with them?",
+    "system_prompt": "Goal: (Identity/Mismatch) Validate the isolation and identity conflict. Pivot to a values-based (ACT/CBT) prompt to identify the unmet social need.",
+    "id": "peer_94",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with this – feeling pulled between your friends and your family, and having a tough time with your parents' feelings. That’s a really tough spot to be in, and it’s completely understandable that you’re feeling angry and confused.",
+    "empathic_response": "It makes so much sense that you're feeling this way. It’s like having two really important people you care about, and it’s hard when they don’t see eye-to-eye. It’s okay to feel sad, frustrated, or even a little angry about that. You’re allowed to have those feelings, and it’s brave of you to acknowledge them.",
+    "next_question": "Can you tell me a little bit about what’s making you feel most upset about your parents’ reaction? Maybe just talking about it can help you feel a little better.",
+    "system_prompt": "Goal: (Crossover - Peers vs. Family) Validate the loyalty conflict (lose-lose). Normalize the anger at both sides. Pivot to an assertive communication exercise (CBT) – focusing on expressing your needs clearly and respectfully.",
+    "id": "peer_95",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're carrying a really heavy weight right now – like you’re worried about your friend and feeling like you’re the only one who can help. That must be incredibly tough, and it’s completely understandable that you’re feeling scared and overwhelmed.",
+    "empathic_response": "You are so brave for even acknowledging these feelings, and it’s okay to feel however you’re feeling. It’s a really big and complicated situation, and it’s okay to not have all the answers right now. It’s like you’re trying to be a really good friend, and that takes a lot of strength.",
+    "next_question": "Sometimes, when someone is struggling with really tough feelings, it can be hard to talk about them. Would you be comfortable telling a trusted adult – like a parent, a teacher, or someone else you feel safe with – about what you’re going through? It’s important to have people you can talk to who can help you feel better.",
+    "system_prompt": "Goal: (Prosocial/Helper - High-Risk) Validate the fear and burden. Reframe the problem as too big for a peer. Deflect advice, and pivot strongly to adult escalation (safety planning).",
+    "id": "peer_96",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "Wow, you seem really excited today! What's going on with your friends?",
+    "empathic_response": "That’s fantastic! It’s really wonderful when your friends support you when someone is being unkind. It shows how much they care about you and trust you. That’s a really important thing to have.",
+    "next_question": "Can you tell me a little bit about how that made you feel when your friends stood up for you?",
+    "system_prompt": "Goal: (Prosocial/Grateful) Validate the win (friend stood up for user). Name the values (trust, loyalty). Pivot to reinforce the positive social attachment.",
+    "id": "peer_97",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with this – your best friend and your boyfriend/girlfriend are having a really difficult time with each other. That’s incredibly tough to deal with, and it’s completely understandable that you’re feeling overwhelmed and confused.",
+    "empathic_response": "Wow, that sounds like a really complicated and painful situation. It’s totally okay to feel like you’re caught in the middle, and it’s brave of you to acknowledge how you’re feeling. You’re not responsible for making everyone happy, and it’s not fair to you to try and fix things between your friends. It’s a lot to handle.",
+    "next_question": "Let’s think about what one boundary you could set with each of them. Maybe you could say something like, ‘I’m not going to listen to you talk about the other person, even if you’re upset.’ How does that feel to you? What’s something that feels like a safe space for you to protect your own feelings right now?",
+    "system_prompt": "Goal: (Crossover - Peers vs. Romance) Validate the loyalty conflict (torn in two). Externalize the responsibility (CBT). Pivot to a boundary-setting (CBT) prompt.",
+    "id": "peer_98",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed by the pressure to keep up with your friends, and that must be incredibly tough. It’s completely understandable that you’re feeling ashamed or like you have to hide how you’re doing.",
+    "empathic_response": "That’s a really valid feeling, and it makes perfect sense that you’re struggling with that. It takes a lot of courage to admit you’re feeling this way, and it’s okay to feel however you’re feeling – even if it’s a confusing mix of things. It’s not your fault that you’re facing this pressure, and you don’t have to pretend everything’s fine.  It’s a really tough situation, and you’re doing the right thing by sharing it with me.",
+    "next_question": "What’s one thing you enjoy doing that you could do for free, even just for a little while? Maybe something you’ve always wanted to try?",
+    "system_prompt": "Goal: (Identity/Socioeconomic) Validate the shame and isolation of financial peer pressure. Name it. Pivot to an empowering problem-solving prompt.",
+    "id": "peer_99",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with this new relationship and how it’s making you feel. It’s completely understandable to feel a little lost and worried about what’s going to happen.",
+    "empathic_response": "Wow, that’s a really tough situation to be in. It’s so common to feel this way when someone new enters your life and it changes things. It's okay to feel a mix of emotions – sadness, maybe even a little bit of anger or worry. You’re not a bad friend for feeling this way, you're just navigating a big change. It’s a sign of your feelings being really strong.",
+    "next_question": "What’s one small thing you could do this week to focus on taking care of yourself and connecting with someone else, even if it’s just for a little while? Maybe something that brings you a little bit of comfort?",
+    "system_prompt": "Goal: (Advanced Conflict/Jealousy) Offer validation and normalize the feelings of jealousy and displacement. Provide a gentle transition towards behavioral activation to address the underlying need for connection and support. Focus on self-care as a way to cope.",
+    "id": "peer_100",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really confused and upset right now. You stood up for someone who was being treated unfairly, and now you’re worried about what your friends think of you.",
+    "empathic_response": "That’s a really brave thing to do, and it’s completely understandable that you’re feeling conflicted. It’s okay to feel proud of yourself for standing up for what you believe is right, even when it’s hard. It’s also normal to feel worried about how your friends might react, and that’s a really good feeling to have – knowing you’re trying to be a good person. It shows you care about fairness and kindness.",
+    "next_question": "When you think about that situation, what’s one thing you feel good about about how you handled it? What’s a positive part of your action?",
+    "system_prompt": "Goal: (Prosocial/Conflict) Validate the conflicting emotions (proud vs. scared). Name the values conflict. Offer a gentle, encouraging nudge towards focusing on their positive qualities and strengths. Focus on self-compassion.",
+    "id": "peer_101",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with a group project, and it’s making you feel really down about your contributions and how your friends are handling it. That’s a really tough spot to be in, and it’s completely understandable that you’re feeling frustrated and maybe even a little resentful.",
+    "empathic_response": "Wow, that sounds incredibly draining. It’s so hard when you put in a lot of effort and your friends aren’t pulling their weight, and it makes you feel like you’re not being valued. It’s okay to feel those feelings – it’s a really valid reaction to that kind of situation. You’re not wrong to feel upset.",
+    "next_question": "Can you tell me a little bit more about what’s making you feel like this? Is it specifically the workload, or is it something else about how your friends are interacting with the project?",
+    "system_prompt": "Goal: (Crossover - Peers vs. Academics) Validate the resentment. Name the grades vs. friendship conflict. Probe the core fear (Fear of Conflict vs. Fear of Failure).",
+    "id": "peer_102",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with feeling like your friends aren't being honest or that there's a lot of drama going on. It’s really tough when you feel like you don't trust anyone, and that can be incredibly lonely.",
+    "empathic_response": "Oh, honey, that *really* sounds like a really hard place to be. It’s completely understandable that you'd feel that way when you’re feeling isolated and like you don’t know who to trust. It’s brave of you to even share that, and it makes me sad to hear it. It’s okay to feel sad and confused when you’re feeling this way. You're not wrong to feel like this is a lot to handle.",
+    "next_question": "When you think about what’s important to you in a friendship, what’s something that you *really* want to have in a friendship? Like, what’s something that feels really valuable to you?",
+    "system_prompt": "Goal: (Conflict/Trust) Validate the isolation and lack of trust. Name it (inauthentic attachment). Pivot to a values-clarification (ACT/CBT) prompt.",
+    "id": "peer_103",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really frustrated and like your friends are making fun of you because of your intelligence. That must be really hurtful, and it’s completely understandable that you're feeling angry about it.",
+    "empathic_response": "Wow, that sounds incredibly tough. It’s so brave of you to even acknowledge how those comments are making you feel. It’s okay to feel angry and sad when someone’s making you feel bad about yourself, especially when you're working hard and doing something you enjoy. You’re a really smart and capable person, and it’s not fair that some people don’t see that.",
+    "next_question": "If you could spend an hour doing anything you wanted to learn, what would it be and why would you love to do it?",
+    "system_prompt": "Goal: (Identity/Bullying) Validate the anger and isolation of being bullied for being smart. Pivot to identify their hidden authentic self (Positive Psychology) and explore their interests.",
+    "id": "peer_104",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with this situation – feeling conflicted about your friend and worrying about what might happen. It’s completely understandable to feel angry and scared when you see someone you care about being treated poorly.",
+    "empathic_response": "That must feel really tough. It's brave of you to recognize that your friend isn't listening, and it’s okay to feel those strong emotions. You're right to feel those feelings – it’s a really difficult situation, and it’s okay to be upset.  It’s not your job to fix things, but you *can* be a supportive friend, and that’s a really important thing to do.",
+    "next_question": "Can you think of one small thing you could say to your friend, just to let them know you're still there and that you care, without being critical or judgmental?",
+    "system_prompt": "Goal: (Prosocial/Helper) Offer validation and a starting point for communication.  Focus on establishing a connection and expressing support.  Provide a gentle framework for a potentially challenging conversation.",
+    "id": "peer_105",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with feeling pressured by your friends, and that’s a really tough feeling to deal with. It’s completely understandable that you’re feeling conflicted about missing class or an exam.",
+    "empathic_response": "Wow, that’s a really tough situation. It’s so brave of you to acknowledge how you’re feeling, and it makes sense that you’re worried about what your friends think. It’s okay to feel worried about missing out or being left behind – those feelings are really valid.  It’s like you’re caught between wanting to be seen and being proud of your accomplishments.",
+    "next_question": "Can you tell me a little bit about what’s making you feel most anxious about this? Is it mostly about what your friends might say, or is it more about the feeling of missing out?",
+    "system_prompt": "Goal: (Crossover - Peers vs. Academics) Validate the conflict and peer pressure.  Name the primary fear – specifically, the fear of being judged or excluded. Initiate a diagnostic prompt to understand the root of this anxiety.",
+    "id": "peer_106",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really down about inviting your friends over, and that must feel incredibly isolating and painful. It’s completely understandable that you’d be feeling that way.",
+    "empathic_response": "Wow, that’s a really tough feeling to deal with. It's okay to feel ashamed or worried about what others might think, and it makes perfect sense that you’re feeling this way.  It’s brave of you to even acknowledge those feelings, and it’s okay to feel those emotions.  Remember, you’re valuable, and your friends care about you, even if it doesn't always feel like it right now.",
+    "next_question": "Sometimes, when we feel worried about what others think, it can be hard to find solid reasons why we *don’t* feel that way.  Could you think of one thing – even something small – that makes you feel good about your friends and their friendship with you?",
+    "system_prompt": "Goal: (Emotional Support) Validate the feelings of shame and isolation. Offer a gentle, CBT-informed approach to challenging negative thoughts. Focus on building self-compassion and identifying small, positive aspects of the friendship.",
+    "id": "peer_107",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really wrestling with a lot of complicated feelings right now – a crush on your best friend’s ex. That’s a really intense and confusing situation, and it’s completely understandable that you’re feeling conflicted and worried about the drama it could bring up.",
+    "empathic_response": "Wow, that’s a lot to process. It makes sense that you’re feeling guilty, confused, and anxious about it. Your feelings are valid, even though it’s hard to deal with. It's okay to feel all those different things – it’s a really big deal to have these thoughts and feelings.  It’s also brave of you to even acknowledge how you're feeling, and that’s a really important step.",
+    "next_question": "Let’s think about this a bit. If you were to tell your best friend, what’s the *absolute* worst thing that could happen?  Just thinking about that can help us understand how you’re feeling and what you’re worried about.",
+    "system_prompt": "Goal: (Advanced Conflict/Triangle) Validate the guilt and loyalty conflict. Pivot to a CBT prompt (de-catastrophizing) to explore the consequences of honesty. Focus on helping the adolescent process their emotions and consider potential outcomes.",
+    "id": "peer_108",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with feeling like you don't fit in or that you're not living up to what others expect. That must be really tough, and it’s completely understandable that you're feeling isolated and worried about what people might think.",
+    "empathic_response": "Wow, that’s a really big feeling to carry around. It takes a lot of courage to admit that you’re feeling this way, and I want you to know that you’re not alone in feeling this way sometimes. It’s okay to feel confused and uncertain about who you are and what you believe in. It's like you’re trying to fit a puzzle with pieces that just don’t quite fit together.",
+    "next_question": "Can you tell me about something you’re really passionate about, even if it’s just a little bit? What makes you feel excited or happy?",
+    "system_prompt": "Goal: To validate feelings of isolation and uncertainty, encouraging exploration of personal passions and values.  Focus on fostering a sense of self-worth and a positive starting point for self-discovery.",
+    "id": "peer_109",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really stressed about wanting a boyfriend/girlfriend and worrying that everyone else is getting there. It’s really tough when you feel like you’re the only one who isn’t, and that can be really overwhelming.",
+    "empathic_response": "Oh, honey, that’s completely understandable how you feel. It’s so frustrating when you’re feeling like you’re missing out on something that everyone else seems to have, and it’s okay to feel a little sad or worried about that. It’s brave of you to even acknowledge those feelings. You’re absolutely right – your own path is your own, and it’s okay to feel how you do.",
+    "next_question": "Let's think about something you *do* enjoy about being single right now. What’s one thing that makes you happy or that you appreciate about your time on your own? Maybe it’s having more time to hang out with your friends, or maybe it’s just feeling more free to do what *you* want.",
+    "system_prompt": "Goal: (Peer Pressure - Dating) Validate the frustration and isolation. Reassure them of their autonomy. Pivot to a CBT reframe (finding the positives in their current state).",
+    "id": "peer_110",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're going through a really tough time right now, and it’s completely understandable that you’re feeling down. Are you feeling like this is about someone else's social media post, or is there something else weighing on you?",
+    "empathic_response": "Oh, wow, that’s a really messy feeling. It’s so frustrating and disappointing when something you hoped for doesn’t work out, and it’s okay to feel all those complicated emotions – sadness, anger, even a little bit of jealousy. It’s like a big, confusing wave, and it’s okay to let yourself feel it all. You’re not weak for feeling this way, you’re being brave for acknowledging it.",
+    "next_question": "Let’s think about something small you could do for yourself right now that might help a little. Maybe just taking a few deep breaths, or listening to a song you love, or just sitting quietly for a bit? What feels like a tiny step you could take?",
+    "system_prompt": "Goal: (Breakup/Social Media) Validate the pain of the social media rejection. Normalize the relapse of grief. Pivot to a self-care/problem-solving (CBT) prompt (sphere of control).",
+    "id": "peer_111",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with your best friend and this new person you're interested in. It’s so frustrating when you feel like you have to choose between them and someone else, isn't it?",
+    "empathic_response": "Oh, honey, that’s a really tough spot to be in. It’s completely understandable that you’re feeling conflicted and worried about how to handle it. It’s okay to feel all those different emotions – like sadness, confusion, and maybe even a little bit of hurt. It’s like you're juggling a lot, and it’s okay to not be okay. You're allowed to feel what you're feeling, and that's a really brave thing to acknowledge.",
+    "next_question": "When you think about this situation, what’s most important to you – being with your best friend, or being with this person you’re interested in? Can you tell me a little bit about what that feels like for you?",
+    "system_prompt": "Goal: (Advanced Conflict/Triangle) Validate the stress and loyalty conflict.  Transition to a values-clarification (ACT/CBT) prompt to help the user prioritize their emotional needs and understand what truly matters to them.",
+    "id": "peer_112",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really worried about what happened in your group chat, and that feeling of silence is making you feel anxious. It’s completely understandable to feel that way – it’s a big deal when you feel like everyone’s looking down on you.",
+    "empathic_response": "Wow, that must feel really overwhelming. It's really brave of you to share that, and it makes sense that you're feeling this way. It’s okay to feel scared and confused when things aren’t going as you hoped. Your brain is trying to protect you, and that’s a good thing, but it's also okay to feel sad or frustrated. You're not alone in feeling this way.",
+    "next_question": "Let's try to look at this a little differently. What's one thing you could imagine happening that's *less* scary? Maybe you could think about why they might be busy with homework or if they’re just having a quiet moment.",
+    "system_prompt": "Goal: (Social Media/Anxiety) Acknowledge the intensity of the anxiety and validate the feeling of being left on read. Introduce a helpful cognitive technique (cognitive restructuring) – identifying alternative explanations for the situation. Focus on reducing the power of negative thoughts.",
+    "id": "peer_113",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like your friends are upset with you because you've been focusing on your exams and not spending time with them. That’s a really confusing and frustrating feeling, and it’s understandable that you’re feeling guilty about it.",
+    "empathic_response": "It makes total sense that you’d feel that way. It's really tough when you’re putting so much effort into something and then feeling like you’ve let down your friends. It’s okay to feel a little guilty, and it’s brave of you to acknowledge that. It’s not about being a bad friend, it’s just that sometimes, prioritizing your studies can feel like you’re missing out on other important things too.  Let’s just take a deep breath and see if we can figure out how to make things better.",
+    "next_question": "What’s one small thing you could do to reach out to one of your friends after you’re done with your exams, even if it’s just a quick text or a quick chat?",
+    "system_prompt": "Focus on validating the adolescent's feelings of guilt and frustration. Guide them towards a proactive, small step toward repairing the relationship, emphasizing that it’s okay to take a moment to feel those emotions.",
+    "id": "peer_114",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time right now, and you’re feeling really overwhelmed. You mentioned you’re worried about how your friends see you, and that you feel like you’re not measuring up.",
+    "empathic_response": "That must feel incredibly confusing and scary. It’s completely understandable to feel like you’re struggling with those thoughts – it’s like you’re trying to pretend to be someone you’re not, and that’s a really difficult thing to do. It’s okay to feel this way, and it’s brave of you to share it with me.  It's really common to worry about what others think, and it's okay to have those feelings.",
+    "next_question": "Let's try to look at this a little differently. Can you think of one thing – even something small – that you’ve done well recently, or that you’re proud of, no matter how small it seems?  It could be anything, like finishing a project or helping someone out.",
+    "system_prompt": "Goal: (Emotional Support) Provide a safe space for the adolescent to express their feelings and validate their experience. Offer a gentle, encouraging approach to challenging negative thoughts. Focus on building self-compassion.",
+    "id": "peer_115",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really frustrated and worried about the way things are going with your group. It’s understandable to feel that way when you see people being unkind or gossiping. It can be really upsetting when you feel like you’re being targeted or that your feelings aren’t respected.",
+    "empathic_response": "It takes a lot of courage to share these feelings, and it makes total sense that you’re feeling a bit confused and maybe even a little sad. It’s okay to feel those things – it’s a sign you care about how things are going. Sometimes, when we're feeling vulnerable, it can be scary to speak up, and it’s also a little scary to think about what others might think.  It’s a loss of trust, and that can be really hard to deal with.  You’re not alone in feeling this way.",
+    "next_question": "What’s one small thing you could do next time it starts to feel like it’s going to gossip or talk badly about someone? Maybe you could just change the subject, or you could just take a deep breath and walk away for a little while.",
+    "system_prompt": "Goal: (Conflict/Bullying) Validate the conflicting emotions (guilt vs. fear of rejection). Name the loss of trust. Pivot to a small, boundary-setting (CBT) prompt.",
+    "id": "peer_116",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really lonely and isolated at your all-boys/all-girls school. Like the macho/drama culture is too much.",
+    "empathic_response": "Oh, honey, that really *does* sound awful. It’s completely understandable that you’re feeling that way – it’s so frustrating when you feel like you don’t belong, and that kind of pressure can be really tough. It’s okay to feel like you don’t fit in, and it’s brave of you to even share that with me. It’s a really isolating feeling when you feel like you have to hide a part of yourself.",
+    "next_question": "What’s one thing about you – a hobby, a feeling, anything at all – that you feel you have to hide from that group? Maybe it's something you're really passionate about, or something you’re trying to keep secret?",
+    "system_prompt": "Goal: (Identity/Gender) Validate the isolation from toxic gender expectations. Name it. Pivot to identify the hidden authentic self (CBT/ACT).",
+    "id": "peer_117",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're really feeling a lot of pressure to put your best foot forward on social media, and that’s a really tough feeling. It’s completely understandable that you’re feeling stressed about it.",
+    "empathic_response": "Wow, that’s a lot to be dealing with – it’s really brave of you to acknowledge how much this is impacting you. It’s totally normal to feel anxious about how you’re presenting yourself online, especially when you’re trying to create this perfect image. Remember, social media is just a highlight reel, and everyone’s life isn’t always exciting! It’s okay to feel like your everyday life isn’t as thrilling as you’d like it to be.",
+    "next_question": "Can you think of one small, quiet moment from today – something that happened that wasn’t a big deal – that actually felt okay, or at least, wasn’t a huge struggle? Maybe just something you noticed about your surroundings or how you felt?",
+    "system_prompt": "Goal: (Social Media/Pressure) Offer validation and normalize feelings of anxiety. Guide the user towards a more mindful perspective, focusing on finding joy in the ordinary. Encourage self-compassion.",
+    "id": "peer_118",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you're carrying a really heavy weight right now, and you’re feeling incredibly sad and frustrated about your friendships. It feels like you’ve been through a lot, and it’s okay to feel like you’ve been hurt repeatedly.",
+    "empathic_response": "Oh, honey, that sounds absolutely awful. It takes a lot of courage to admit that, and it’s completely understandable that you’re feeling this way. It’s like your brain is trying to protect you from more pain, and that’s a really smart thing to do sometimes. It’s not about blaming yourself, it’s about feeling safe and secure.  You're not alone in feeling this way, and it’s okay to feel all of these feelings – sadness, frustration, even anger – it’s a sign you’re deeply hurting.",
+    "next_question": "When you think about all the times you’ve been hurt, do you feel like those experiences are *always* going to happen, or do you think there might be times when things could be different?",
+    "system_prompt": "Goal: (Emotional Validation & Exploration) Acknowledge the intensity of the emotions and encourage a deeper understanding of the experience. Help the adolescent explore the potential for change and resilience. Focus on the possibility of different outcomes.",
+    "id": "peer_119",
+    "category": "peer_relations"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really mixed up about the school dance. You really want to go, but you're worried about feeling awkward or like you won't fit in. That’s a really tough feeling to deal with.",
+    "empathic_response": "Oh, honey, that’s completely understandable. It’s so brave of you to even admit that you’re feeling that way. It’s okay to feel nervous and worried about things like that – it shows you care about how you’re being treated. It’s like your brain is saying, 'I want to connect, but I’m also scared of not being accepted.' That’s a really normal thought, and you’re not being silly for feeling this way.",
+    "next_question": "Let’s think about something small you could try. Maybe just going to the dance for 30 minutes? Or even just saying hello to one person? What feels like a little bit manageable to start with?",
+    "system_prompt": "Goal: (Social Anxiety) Validate the anxiety and the conflict (desire vs. fear). Normalize it. Pivot to a small, measurable Behavioral Activation (CBT) goal.",
+    "id": "peer_120",
+    "category": "peer_relations"
+  }
+]

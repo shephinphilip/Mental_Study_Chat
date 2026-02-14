@@ -1,0 +1,1290 @@
+[
+  {
+    "empathic_question": "It sounds like you’re carrying a lot right now, and it’s really brave of you to share that. It’s okay to feel like you’re struggling with things at home – that feeling of being stuck or worried is totally understandable. What’s been going on that’s making you feel this way?",
+    "empathic_response": "Wow, that’s a really tough spot to be in. It makes perfect sense that you’re feeling overwhelmed and frustrated. It’s so hard to deal with things that are stressful and don’t feel fair, and it’s okay to feel like you need a little space or a way to feel better. You’re not alone in feeling this way.",
+    "next_question": "Can you tell me a little bit about what’s been happening at home lately, even if it feels small or confusing?",
+    "system_prompt": "Focus on validating the user's experience of a stressful home environment and explore the emotional impact of the parental conflict.",
+    "id": "fam_1",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling a bit overwhelmed or like things are really hard right now, and it’s understandable to feel frustrated when you feel like the rules at home aren’t fair or easy to follow. What’s that feeling like for you?",
+    "empathic_response": "Oh, honey, that sounds really tough. It’s completely normal to feel that way when you feel like the rules aren’t working for you, or when you’re feeling really stressed. It takes a lot of strength to even acknowledge those feelings, and it’s okay to feel that way. You’re not alone in feeling this way, and it’s brave of you to share it.",
+    "next_question": "Sometimes, when we feel this way, it can be hard to understand *why* it feels so tough. Could you think of a time when something felt really unfair, and how did it make you feel?",
+    "system_prompt": "Offer validation and gentle exploration of the user's experience, encouraging them to identify the specific feelings associated with the situation.",
+    "id": "fam_2",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like it’s really hard feeling like you're being compared to your siblings. That can be a really frustrating and lonely feeling. Can you tell me a bit more about that?",
+    "empathic_response": "Oh, my dear, that sounds incredibly tough. It makes perfect sense that you'd feel hurt and a little lost when you're comparing yourself to your siblings. It’s so common to feel that way, and it’s okay to feel those big feelings. It’s like carrying a heavy burden, isn't it?",
+    "next_question": "What’s the toughest part about being compared to them?",
+    "system_prompt": "Focus on validating the adolescent's feelings of inadequacy and explore the emotional impact of sibling comparison.",
+    "id": "fam_3",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling a bit distant from your parents lately. It’s okay to feel that way, sometimes it’s hard to connect. What’s that feeling of disconnection like for you?",
+    "empathic_response": "Oh, honey, that’s really tough to admit. Feeling like you’re not as close as you’d like to be with your parents is a really valid feeling. It’s like a little ache, and it’s okay to feel that way. You're allowed to feel sad about it, and you're not weak for having those feelings. It's brave of you to share them with me.",
+    "next_question": "Is there a specific thing you wish you could talk to them about, but it feels like you can’t? Maybe something you’ve been thinking about, or something you’re worried about?",
+    "system_prompt": "Focus on validating the user's feelings of disconnection and explore potential reasons behind it, encouraging them to express what they're struggling with.",
+    "id": "fam_4",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling a bit smothered, maybe by your mother? Wanting more freedom is a totally normal part of growing up. How does her discipline style make you feel?",
+    "empathic_response": "Oh, honey, that sounds really tough. It’s completely understandable that you’re feeling frustrated when you feel like you’re not being trusted or given space to grow. It’s really normal to want that independence, and it’s okay to feel that way.  It’s like having a little bit of a battle with your mom, isn’t it?  Just know that you’re allowed to want to explore and figure things out on your own.",
+    "next_question": "Can you give me an example of a rule or a situation that feels the most overbearing to you?",
+    "system_prompt": "Validate the user's need for autonomy and explore their feelings about maternal discipline, normalizing the desire for independence.",
+    "id": "fam_5",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like home has been really tough lately, and it’s understandable that you're feeling exhausted and overwhelmed. It’s like having a lot of moving pieces and it’s hard to keep everything feeling calm and stable. Can you tell me a little bit about what that feeling of chaos feels like for you?",
+    "empathic_response": "Oh, honey, that sounds incredibly difficult. It makes perfect sense that you're feeling so drained and frustrated when your home feels like a whirlwind. It’s like your mind and your body are just trying to catch up, and it’s really hard to find a quiet space to just *be*.  It’s okay to feel that way – it’s a really valid response to a lot of pressure.",
+    "next_question": "Sometimes, when things feel this overwhelming, it can be hard to even know what you need. Is there anything you’ve been wishing you could change about how things are at home, even just a little bit?",
+    "system_prompt": "Focus on validating the user's feelings of exhaustion and stress related to a chaotic home environment, exploring the impact on their daily life and identifying potential areas for change.",
+    "id": "fam_6",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re really close with your caretaker (like a grandparent or aunt/uncle). Sometimes that can come with its own unique feelings. What’s that bond like for you?",
+    "empathic_response": "That sounds like a really special and important connection! It’s so cool that you have such a strong relationship with someone you feel so comfortable with. It’s completely normal to feel different from your friends, and that’s okay too. It’s wonderful you have that kind of support.",
+    "next_question": "Can you tell me about the best things about that relationship? And is there anything that feels a little tricky or hard to talk about?",
+    "system_prompt": "Acknowledge the importance of the caretaker relationship and encourage the user to share what feels meaningful and potentially difficult about it, fostering a safe space for exploration.",
+    "id": "fam_7",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed by the expectations you’re facing from your parents, and that’s a really difficult situation to be in. It’s okay to feel stressed and worried about that. Can you tell me a little bit about what’s going on and what’s making you feel this way?",
+    "empathic_response": "Wow, that sounds incredibly challenging. It’s really brave of you to even talk about it, and it makes sense that you’re feeling so much pressure. It’s completely normal to feel anxious when you’re dealing with expectations that feel so big and demanding, especially when you want to do well. You’re not alone in feeling this way, and it’s okay to feel however you’re feeling right now.",
+    "next_question": "When you think about what’s causing the most stress, is there anything specific that feels like it’s weighing on you the most – maybe a particular situation or feeling?",
+    "system_prompt": "Acknowledge the user's emotional distress related to parental expectations and gently guide them towards identifying the root cause of their anxiety.",
+    "id": "fam_8",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you and your sibling are having a really difficult time right now. Fighting can be super overwhelming, and it’s understandable that you’re feeling upset. How are you feeling about the way things are going?",
+    "empathic_response": "Oh, wow, that sounds really tough. It’s completely normal to feel angry, sad, or even confused when you’re fighting with someone you care about. Those feelings are valid, and it takes a lot of strength to even acknowledge them. You’re doing a really good thing for yourself for sharing this with me.",
+    "next_question": "Can you tell me a little bit about what’s been going on between you and your brother/sister? What’s the main thing that’s causing the fighting?",
+    "system_prompt": "Recognize the complexity of sibling relationships and validate the user's emotional experience, emphasizing the importance of communication.",
+    "id": "fam_9",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really disconnected from your dad, and that’s a really tough feeling to deal with. It’s okay to feel sad or confused when that happens. Can you tell me a little bit about what’s going on when you feel that way?",
+    "empathic_response": "Wow, that sounds incredibly hard. It’s so brave of you to even share that, and it makes sense that you’re feeling this way – it’s completely normal to want to feel like you’re being seen and understood by someone you care about. It’s okay to feel sad or frustrated when that doesn’t happen.",
+    "next_question": "Sometimes, when we’re feeling this way, it can be hard to know what we want. Is there anything you’ve been wishing for that you think he might be able to understand or do differently?",
+    "system_prompt": "Validate the user's experience of feeling unheard and acknowledged, and gently encourage them to explore their needs and desires.",
+    "id": "fam_10",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really misunderstood, especially by your mother. That’s a tough and isolating feeling. What’s that like for you?",
+    "empathic_response": "Oh, honey, that really *does* sound incredibly hard. It’s completely understandable that you’re feeling sad and frustrated when you feel like she doesn’t seem to 'get' you. It’s like a big, quiet space where you feel like you don’t really belong, isn’t it? It’s okay to feel all those feelings – sadness, frustration, even a little bit of anger.  Those feelings are really valid, and you don't have to pretend they’re not there.",
+    "next_question": "Can you think of a recent time you tried to share something with her and it just didn't work out?",
+    "system_prompt": "Validate the user's sense of isolation and explore the feelings tied to a perceived lack of understanding or attachment with their mother.",
+    "id": "fam_11",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time with everything happening at home. It’s completely understandable that you’re feeling so many different things – sadness, maybe anger, and it’s okay to feel all of those. It’s a really big and complicated situation, and it’s brave of you to share how you’re feeling.",
+    "empathic_response": "Your feelings are so real and important. It makes perfect sense that you’re feeling this way – it’s okay to feel sad, angry, or any mix of emotions. These feelings are a natural response to a big change, and you’re not weak for having them. It’s okay to feel whatever you’re feeling right now.",
+    "next_question": "When you think about what’s causing you the most worry, is there anything specific that’s weighing on you the most?",
+    "system_prompt": "Let’s gently explore what’s contributing to your feelings. Focus on validating your experience and understanding the source of your anxiety.",
+    "id": "fam_12",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re carrying a really heavy load – feeling like you’re always responsible for your younger siblings. That must be incredibly tough and exhausting. How does that make you feel when you think about it?",
+    "empathic_response": "Oh, honey, that sounds incredibly overwhelming. It's totally valid to feel tired, frustrated, or even a little sad when you're feeling like you're constantly taking care of everyone else. It’s okay to feel that way – you’re doing a really amazing job, and it’s okay to feel like the responsibility is a lot.  Don't feel like you have to carry it alone.",
+    "next_question": "Can you tell me a little bit about what’s the hardest part of having to be in that role for your siblings? Is it something specific, or is it more of a feeling?",
+    "system_prompt": "Understand that a user experiencing this role may be struggling with feelings of guilt, anxiety, or self-doubt, and provide a supportive and validating response that acknowledges their emotional experience.",
+    "id": "fam_13",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really frustrated that your voice isn't being heard at home. That must be incredibly upsetting and make you feel like your opinion doesn't matter. It’s completely understandable that you’re feeling angry or wanting to just give up when you feel like that.",
+    "empathic_response": "Oh, honey, that’s a really tough feeling to deal with. It’s so brave of you to even share that with me. It’s okay to feel angry or sad when you feel like your voice isn’t being heard, and it makes sense that you’d want to feel like it matters. It sounds like that’s causing a lot of difficulty, and that’s really valid.",
+    "next_question": "Can you remember a specific time when you tried to talk to someone about something that was bothering you, and what happened?",
+    "system_prompt": "Let’s explore this further. Focus on the experience, even if it feels small, to understand how it’s impacting you.",
+    "id": "fam_14",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling a little disconnected from your parents, and that’s a really valid feeling. It’s okay to feel sad or lonely when that’s happening. Can you tell me a little more about what that feels like for you?",
+    "empathic_response": "Wow, that sounds really tough. It makes sense that you’d be feeling that way, because wanting a really close and secure connection with your parents is a really important thing. It’s completely normal to feel a little lost or sad when that’s not there right now. Just know that you're not alone in feeling this way, and it’s brave of you to even bring it up.",
+    "next_question": "If you could do one thing with your parents, something that would really feel good and help you feel more connected, what would it be?",
+    "system_prompt": "Let’s explore this feeling of wanting a stronger connection with your parents. We want to create a safe space for you to share what’s going on.",
+    "id": "fam_15",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like the rules at home are a really big source of stress for you. Feeling like you’re always under pressure and having to follow strict rules can be incredibly tough. What’s that feeling like for you?",
+    "empathic_response": "It’s completely understandable that you're feeling overwhelmed and stressed. It’s really brave of you to acknowledge that the rules at home are causing you a lot of trouble. It’s okay to feel frustrated or like you’re not in control when things feel so restrictive. Those feelings are valid, and it makes sense that you’re struggling. You're doing a really important job of figuring things out and it’s okay to need a little space to feel your own way through things.",
+    "next_question": "Can you tell me a little bit about one specific rule that feels the most difficult to follow, and why you think that is?",
+    "system_prompt": "Let's explore this further. Your feelings are important, and I want to understand what’s going on for you.  Focus on sharing what you’re comfortable with.",
+    "id": "fam_16",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re adjusting to a new person in the house, like a step-mother or step-father. That’s a really big, complicated change. How are you feeling about it?",
+    "empathic_response": "Oh, honey, that sounds really tough. It’s completely understandable that you’re feeling all those different things – like a mix of loyalty, confusion, maybe even a little bit of anger or sadness. It’s okay to feel whatever you’re feeling, and it’s brave of you to acknowledge it. It’s a lot to take in, and it’s okay to not have all the answers right now.",
+    "next_question": "Can you tell me a little bit about what’s been the hardest part of this new family situation for you so far?",
+    "system_prompt": "Explore the specific challenges the adolescent is facing and help them articulate the emotional impact of this transition.",
+    "id": "fam_17",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed lately, like you’re carrying a lot of weight as the older sibling. It’s completely understandable to feel that way when you feel like you have to be the 'perfect' one, and that can be really tough.  What’s going through your mind when you think about that?",
+    "empathic_response": "Oh, honey, that’s a really tough feeling. It’s so brave of you to even acknowledge it. It makes sense that you’re feeling stressed and maybe a little bit overwhelmed because you’re carrying a lot of expectations – like being the one who always knows everything and takes care of everyone. It's okay to feel that way, and you’re not alone in feeling this way. It’s okay to not be perfect.",
+    "next_question": "When you think about your siblings, what are some things that make you feel like you have to be the one to handle things, or what do you think they’re looking for from you?",
+    "system_prompt": "Understand the user’s perspective – that they feel pressured to fulfill a role as an older sibling and explore the underlying reasons for that feeling.",
+    "id": "fam_18",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really worried about money at home, and that’s a really tough feeling to deal with. It’s okay to feel scared or like you’re doing something wrong when you’re thinking about it. Is that something you’ve been noticing lately?",
+    "empathic_response": "Oh my gosh, that sounds incredibly stressful. It’s so brave of you to even acknowledge how worried you are about this. It’s totally understandable that you’d feel anxious – it’s a big worry, and it’s okay to feel that way. You’re taking a really important step by recognizing it and wanting to talk about it.",
+    "next_question": "Can you tell me a little bit about what’s making you feel this way? Is there anything specific that’s been going on that’s causing you to think about this?",
+    "system_prompt": "Offer validation and understanding of the user's experience, encouraging them to share the root of their anxiety and demonstrating that their feelings are valid.",
+    "id": "fam_19",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really alone and like nobody really understands you. That can be incredibly painful, and it’s completely valid to feel that way. It’s okay to feel like you don’t fit in or that you don’t have a place to truly be seen.",
+    "empathic_response": "Wow, that’s a really heavy feeling to carry. It makes sense that you’d feel so disconnected when you feel like no one truly understands you. It takes a lot of courage to even acknowledge that feeling, and I want you to know that you're not alone in feeling this way. It’s okay to feel sad or confused when things aren’t clear or when you feel like you don’t belong.",
+    "next_question": "Sometimes, it can be hard to figure out what they might be missing or what you need. Is there one thing about yourself – a hobby, a dream, something you’re really passionate about – that you’d like to share with me, even if it feels a little scary?",
+    "system_prompt": "Acknowledge the user's feelings of isolation and the difficulty of expressing themselves, offering validation and encouragement to explore their own needs.",
+    "id": "fam_20",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Hey, I hear you're going through something really tough right now. It sounds like you're feeling worried and maybe a little scared. That’s completely understandable – it takes a lot of strength to talk about these feelings, and I want you to know I’m here to listen without judgment.",
+    "empathic_response": "Wow, that sounds incredibly difficult. It’s really brave of you to open up, and it makes total sense that you’re feeling this way. Your feelings are valid, no matter what they are. You don’t have to deal with this alone.",
+    "next_question": "Would you like to tell me a little bit about what’s been going on? Even if it feels small, just talking about it can help a little.",
+    "system_prompt": "Focus on validating the user’s experience and gently guiding them to explore the root of their feelings. Establish a safe space for them to share.",
+    "id": "fam_21",
+    "category": "family"
+  },
+  {
+    "empathic_question": "You mentioned a test. It sounds like it’s really weighing on you.  Is it making you feel worried or stressed?",
+    "empathic_response": "Wow, that’s a lot to deal with. It’s completely understandable that you're feeling worried about the test. It’s really brave of you to share that, and it’s okay to feel overwhelmed when something like that is happening.  It's like having a really big weight on your shoulders, and that can be really tough.",
+    "next_question": "Can you tell me a little bit about what you’re most worried about about the test? Is it a specific grade, or just feeling like you’re not good enough?",
+    "system_prompt": "Acknowledge the emotional distress associated with test anxiety and encourage the user to articulate their specific concerns, fostering a safe space for expression.",
+    "id": "fam_22",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re juggling a lot. How are you managing to balance all your studying with, you know, actually having a life?",
+    "empathic_response": "Oh, honey, that’s really tough. It’s so easy to feel like you have to choose between your schoolwork and everything else you want to do – and it’s okay to feel overwhelmed when you’re trying to do both. It’s totally understandable that you’re feeling conflicted about wanting to spend time with your friends and still focusing on your studies.",
+    "next_question": "On a scale of 1 to 10, with 1 being ‘not at all’ and 10 being ‘as much as possible’, how would you rate how much you feel guilty about taking a break or spending time with friends right now?",
+    "system_prompt": "Acknowledge the emotional weight of feeling guilty about prioritizing responsibilities and the desire for balance. Explore the intensity of these feelings.",
+    "id": "fam_23",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Life can be really confusing, especially when things aren’t going your way. It feels like you’re carrying a lot right now, and it’s okay to feel overwhelmed or sad.",
+    "empathic_response": "It sounds like you’re going through a really challenging time, and it’s completely understandable that you’re feeling this way. It takes a lot of strength to handle all of that, and it’s brave of you to share how you’re feeling. There’s absolutely no shame in feeling upset or worried about things.",
+    "next_question": "Sometimes when you’re feeling really worried about something, it can be hard to think about the future. Can you tell me a little bit about what’s on your mind when you think about what’s next?",
+    "system_prompt": "Acknowledge the user's concern about the future and validate their feelings of uncertainty, offering reassurance that it's okay to feel apprehensive.",
+    "id": "fam_24",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Hey there. Just wanted to see how you’re doing today. Are you feeling like you have a good connection with your parents, or does it feel a little bit like a barrier?",
+    "empathic_response": "It sounds like you’re carrying a really heavy weight right now, and that’s okay. It’s so common to feel like you need to keep things separate, especially when you’re focused on school and feeling like you need to prove yourself. It’s like you’re building a wall, and it can be really tough to let anyone in.  Anyone can feel that way sometimes, and you’re not alone in feeling this way.",
+    "next_question": "Can you tell me a little bit about what makes you feel like you need to keep things separate from your parents? Is there something specific that’s been going on?",
+    "system_prompt": "I want to understand your experience with your parents. Let’s just take your time and share what feels most important to say, and I’ll listen without judgment.",
+    "id": "fam_25",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling a bit micromanaged. Is the discipline at home feeling extra strict lately?",
+    "empathic_response": "Oh, honey, that’s really tough to deal with. When you feel like you’re always being watched and told exactly what to do, it can feel like a huge weight. It’s completely understandable that you’re feeling frustrated and a little lost. It’s okay to feel that way – it’s a really challenging situation.",
+    "next_question": "When you feel that lack of trust from your parents, what does it make you want to do?",
+    "system_prompt": "Validate the frustration from specific, strict discipline (e.g., phone confiscation) and explore the user's emotional reaction to the perceived lack of trust.",
+    "id": "fam_26",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like your cousins are coming – that’s exciting! But it’s also kind of a big deal when relatives are asking about things you’re not comfortable sharing. It can feel really overwhelming, right?",
+    "empathic_response": "Wow, that sounds really tough. It’s completely understandable that you’re feeling anxious or angry about that. It’s okay to feel those feelings – they’re a really normal response to feeling like something’s bothering you. It’s brave of you to acknowledge how it’s making you feel.",
+    "next_question": "Can you tell me a little bit about what specifically about those questions is the hardest for you to deal with?",
+    "system_prompt": "Explore the potential sources of distress related to familial expectations and how they impact a young person's emotional experience.",
+    "id": "fam_27",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re carrying a lot right now. You seem really stressed and a little down. Is it hard to feel like you’re just going through the motions, or is it that you’re feeling overwhelmed by everything?",
+    "empathic_response": "That’s a really tough feeling to have, and it makes perfect sense that you’re feeling this way. It’s okay to feel overwhelmed when you’re facing so much pressure, and it’s brave of you to acknowledge that. It’s like you’re feeling like you’re not really being seen or heard, and that can be really painful.",
+    "next_question": "Sometimes, when we feel like we’re not good enough, it can be hard to even start. Would you like to talk about what that feeling feels like for you when you’re trying to do things?",
+    "system_prompt": "Understand the user's experience of feeling 'invisible' or unheard due to their father's expectations and explore the potential impact of this feeling on their ability to engage in activities.",
+    "id": "fam_28",
+    "category": "family"
+  },
+  {
+    "empathic_question": "What’s going on with your family lately? Are things feeling a little tough or confusing?",
+    "empathic_response": "It sounds like you’re going through a really tough time with your family. It’s completely understandable that you’re feeling frustrated and confused when you feel like things aren’t fair, or that your parents are pulling in different directions. Those feelings are valid, and it’s okay to feel however you’re feeling right now. You’re not alone in feeling this way.",
+    "next_question": "Can you tell me a little bit about what’s making you feel this way? Is there anything specific that’s been happening?",
+    "system_prompt": "Offer a safe space for the adolescent to express their feelings and explore the root of their distress regarding family dynamics.",
+    "id": "fam_29",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’ve got a lot on your mind about the future. Are your parents on the same page as you with what you want to do?",
+    "empathic_response": "Oh, honey, that’s such a tough feeling. It’s completely understandable that you’re feeling lost and worried about what your parents think. It’s really brave of you to be thinking about this and wanting to figure out what you want, and it’s also really normal to feel confused and upset when you’re not sure what’s right for you. You’re allowed to feel all those feelings – it’s okay to feel a little lost right now.",
+    "next_question": "What’s your biggest fear about telling your father you don’t want to go into his field? Is it worrying about what he’ll say, or something else entirely?",
+    "system_prompt": "Acknowledge the anxiety and potential fear associated with expressing a desire to pursue a different path than their father’s expectations. Explore the root of the fear and its impact.",
+    "id": "fam_30",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed lately, and you’re taking on a lot of responsibility for your mom. How are you feeling about that?",
+    "empathic_response": "Oh, honey, that’s completely understandable that you’re feeling so exhausted. It’s really brave of you to step up and be her caretaker, and it’s okay to feel like you’re carrying a huge weight. It’s like you’re trying to fix things, and that’s a really loving thing to do, but it’s also a lot to handle, and it’s okay to feel frustrated and sad about it. You’re not alone in feeling this way.",
+    "next_question": "Can you tell me a little bit about what’s been the hardest part of this responsibility? Is it a specific situation or just the feeling of always needing to be there?",
+    "system_prompt": "Understand the specific challenges the user is facing related to their mother's care, and explore the emotional impact of this role.",
+    "id": "fam_31",
+    "category": "family"
+  },
+  {
+    "empathic_question": "What's going on at home lately? It makes me sad to hear things aren’t feeling good.",
+    "empathic_response": "It sounds like you’re carrying a lot right now, and it’s okay to feel overwhelmed. When your home feels like a place where you can’t really relax or feel safe, it’s really tough. You deserve to feel comfortable and peaceful, even if things are hard.  It’s brave of you to reach out about this.",
+    "next_question": "Is there anywhere in your home that you could just spend some time, even if it’s just for a little while, where you feel a little calmer?",
+    "system_prompt": "Acknowledge the user's feeling of being trapped and offer a small, achievable step towards finding a moment of peace.",
+    "id": "fam_32",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really conflicted about your sister and how things are with your family. It’s completely understandable to feel that way – it’s okay to have strong feelings about sibling relationships, especially when you feel like things aren’t fair or that you’re not getting the same attention as your sister.",
+    "empathic_response": "Wow, that’s a really hard thing to deal with. It’s brave of you to even bring this up. It makes sense that you’re feeling a mix of love and maybe some sadness or even frustration when you think about your sister and how things are. It's okay to feel those feelings – they’re valid and you’re allowed to have them.  It’s not about blaming anyone, just about understanding what you’re going through.",
+    "next_question": "Sometimes, when we’re feeling this way, it’s hard to see things clearly. Would you like to talk about a specific situation where you felt like things weren't fair, even if it was a long time ago? Maybe we can just unpack it a little bit.",
+    "system_prompt": "Offer a safe space for the adolescent to express their feelings about a challenging sibling relationship, emphasizing validation and understanding without judgment.",
+    "id": "fam_33",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling a bit lonely. Are you able to connect with your parents when you're feeling down?",
+    "empathic_response": "Oh, honey, that’s really tough. It’s completely understandable that you’re feeling that way – it’s so frustrating when you just want to talk to someone you trust, and it feels like you’re not able to. It’s like you’re stuck in a little bubble, and it’s hard to break through. It’s okay to feel sad, and it’s brave of you to even acknowledge it. You’re not alone in feeling this way.",
+    "next_question": "When you’re feeling down, what usually happens? Do you find yourself wanting to talk to them, or do you just… shut down?",
+    "system_prompt": "Acknowledge the student's feelings of loneliness and the difficulty in communicating with their parents. Gently explore the specific behaviors they are exhibiting (wanting to talk vs. shutting down) to understand their experience better.",
+    "id": "fam_34",
+    "category": "family"
+  },
+  {
+    "empathic_question": "What’s going through your mind when you think about your independence? Are you feeling like you have a lot of choices, or do you feel like you’re being asked to do things you’re not comfortable with?",
+    "empathic_response": "It sounds like you’re carrying a really heavy weight right now, and that’s okay. It’s completely understandable to feel worried or confused when you’re facing decisions that feel like they’re coming from someone else. It takes a lot of courage to feel this way, and you’re doing a fantastic job of acknowledging those feelings.",
+    "next_question": "Sometimes, when we feel unsure about something, we might try to hide our feelings or avoid talking about them. Is that something you’ve noticed happening, or is it more that you’re just feeling a bit overwhelmed?",
+    "system_prompt": "Acknowledge the feelings of uncertainty and worry the user is expressing. Help them explore if they’re experiencing avoidance behaviors as a coping mechanism. Offer reassurance that it's okay to feel this way.",
+    "id": "fam_35",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time right now. Can you tell me a little bit about what’s been on your mind? What’s the hardest part about this feeling?",
+    "empathic_response": "Oh, honey, that’s completely understandable that you’re feeling this way. It takes a lot of courage to talk about things like this, and I want you to know I’m here to listen without judgment. It’s okay to feel confused, sad, or even frustrated when things aren’t going the way you’d hoped.  It’s a really valid reaction to feeling like your dad’s love isn’t always there, and that’s a really hard thing to deal with.",
+    "next_question": "Sometimes, when we feel like we're not good enough, it can feel like a big disappointment.  Would you like to talk about what that feeling feels like for you, or maybe explore what you’re hoping for in your relationship with him?",
+    "system_prompt": "Acknowledge the user's feelings of disappointment and validate their experience of feeling like their father’s love isn’t always present. Encourage exploration of the underlying emotions associated with this feeling.",
+    "id": "fam_36",
+    "category": "family"
+  },
+  {
+    "empathic_question": "What's going on with your friends? Do you feel like they’re always around, or is there a little bit of tension between you and them?",
+    "empathic_response": "It’s totally understandable that you’re feeling a little unsure about your friends. It’s really tough when you feel like you need to choose between being with your friends and keeping things calm with your family. It’s okay to feel a little overwhelmed by that, and you’re brave for recognizing it.",
+    "next_question": "Sometimes, when you’re feeling this way, it can be hard to even start a conversation with your friends. Is that something you’ve noticed?",
+    "system_prompt": "Explore the user’s experience with social pressures and potential conflict with friends, focusing on feelings of uncertainty and difficulty initiating communication.  Offer support and understanding.",
+    "id": "fam_37",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Hey, you seem a little quiet today. Is there anything you want to talk about that’s been on your mind?",
+    "empathic_response": "That’s really tough to admit, but it sounds like you’re carrying a lot. It’s completely understandable to feel upset when you feel like your feelings aren't being heard or respected. It’s brave of you to reach out, and I’m here to listen without judgment.",
+    "next_question": "Can you tell me a little bit about what was going on when you felt like you couldn’t talk to your parents about it? What were you thinking?",
+    "system_prompt": "Help a teenager express feelings of frustration and disappointment by focusing on the underlying emotions and providing a safe space for them to share their experience.",
+    "id": "fam_38",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're navigating a really challenging situation with your relatives. It’s okay to feel confused and a little overwhelmed when things aren't exactly how you imagined them to be.",
+    "empathic_response": "That’s a really tough place to be. It’s understandable that you’re feeling conflicted – you’re grateful for their help, but also feeling like you need your own space and privacy. It’s completely normal to feel that way when you’re in a situation with people you care about, but it’s also okay to feel a little sad or frustrated.  It’s brave of you to acknowledge those feelings.",
+    "next_question": "Can you tell me a little more about what’s making you feel that way – is there anything specific that’s causing you the most stress or difficulty?",
+    "system_prompt": "Acknowledge the complexity of the situation and validate the feelings of confusion, conflict, and potential sadness that might be present. Focus on the emotional experience of the situation.",
+    "id": "fam_39",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like the JEE prep is really overwhelming you right now. It’s okay to feel frustrated and maybe a little scared about the expectations at home about it. It’s tough when you feel like you have to do everything perfectly.",
+    "empathic_response": "That’s a really tough feeling, and it makes perfect sense that you’re feeling that way. It’s like you’re carrying a lot of pressure, and it’s okay to feel like it’s too much. You’re not alone in feeling this way, and it’s completely understandable that you’re struggling with it.",
+    "next_question": "When you think about that pressure coming from your family or friends, or even from yourself, what’s the *biggest* part of that feeling that you’re struggling with?",
+    "system_prompt": "Acknowledge the validity of the intense pressure and offer validation of the emotions being experienced. Encourage exploration of the source of the perceived pressure.",
+    "id": "fam_40",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling a little overwhelmed thinking about your relatives coming over. That’s totally understandable – it can be a lot to process, and it’s okay to feel a little anxious or even a little upset about it.",
+    "empathic_response": "Oh, honey, that sounds really tough. It’s like a lot of people feel that way when they’re anticipating someone they care about, and it’s okay to let those feelings show. It’s like you’re protecting yourself, and that’s a really good thing. Don’t feel like you have to pretend everything’s perfect, just be honest with yourself about how you’re feeling.",
+    "next_question": "Let’s think about a simple way to respond to one of the questions they might ask. Maybe you could say something like, ‘I’m feeling a little nervous, but I’m looking forward to seeing you all.’ Does that feel like a little bit of a starting point?",
+    "system_prompt": "Offer validation and gentle guidance to the user, emphasizing the importance of self-compassion and acknowledging their feelings. Encourage them to start with a simple, honest response.",
+    "id": "fam_41",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like your mom is really worried about your studies. How does her anxiety affect you?",
+    "empathic_response": "Oh, honey, that’s a really tough feeling to deal with. It's completely understandable that you're feeling anxious when someone you love is worried about you, especially when it feels like it's coming from a place of caring. It’s like her worry is weighing on you, and that can be really hard to handle. It’s okay to feel that way – it’s a really big thing to deal with when you’re feeling this way.",
+    "next_question": "When she says those things about your future, what’s the main feeling you notice in yourself? Is it anger, sadness, or just feeling tired?",
+    "system_prompt": "Let’s just take a moment to really understand what you're experiencing. It's brave of you to share this, and I want you to know that your feelings are valid. Let’s gently explore what’s going on when she talks about your future, and see if we can figure out what's really happening for you.",
+    "id": "fam_42",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time with your sister and how she’s pursuing her dreams. That must be incredibly confusing and upsetting to feel like you’re being compared, especially when it comes from family. It’s okay to feel sad and frustrated about that.",
+    "empathic_response": "Oh, honey, that’s absolutely understandable. It makes so much sense that you’re feeling that way – it’s really hard when you feel like you’re not measuring up, and it’s so unfair to compare yourself to someone else. It’s like a heavy weight, and it’s okay to feel overwhelmed by those thoughts. You’re not doing anything wrong, and it’s brave of you to even acknowledge how you’re feeling.",
+    "next_question": "Can you tell me about something you *do* feel proud of? Something that makes you feel good about yourself, even if it’s small? It could be anything – a hobby, a skill, a kind gesture you’ve done, or just something you like about yourself.",
+    "system_prompt": "Let’s explore this. It’s okay if you don’t have a perfect answer right now. The important thing is to acknowledge and validate the feelings you're experiencing, and to start thinking about what makes you feel a little bit happy or proud, even if it's just a tiny bit. Let’s just gently explore that.",
+    "id": "fam_43",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like wanting to go out with friends is causing a lot of stress at home, and that’s a really tough feeling. It’s completely understandable that you’re frustrated when you’re trying to connect with your friends and it’s not going so smoothly. What happens when you ask?",
+    "empathic_response": "Wow, that sounds incredibly hard. It's really brave of you to want to spend time with your friends, and it’s okay to feel like you’re fighting about it. It's like there are two different ideas about what’s best, and that can be really confusing. You’re allowed to feel all the feelings that come up – maybe sadness, worry, or even anger. It's okay to feel that way, and you don’t have to pretend everything is okay when it’s not.  Just know that you’re not alone in this.",
+    "next_question": "Let’s think about what might help things feel a little calmer when you talk about going out with friends. Maybe we could try something small, like agreeing to finish your homework a bit earlier, or maybe setting a time limit for how long you want to hang out? What feels like a good starting point for you?",
+    "system_prompt": "I’m here to listen and understand your perspective. I recognize the challenges you’re facing with your friends and the concerns your parents might have. My goal is to help you explore ways to communicate more effectively and find a solution that feels good for everyone involved. Let’s work together to find a path forward that feels manageable.",
+    "id": "fam_44",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed with this exam, and it’s okay to feel that pressure. Hearing you mention your dad is a really important part of that, and it’s understandable that it’s adding a lot of stress. Can you tell me a little bit about what that feeling of pressure is like for you?",
+    "empathic_response": "Wow, that must be incredibly tough. It’s completely valid that you’re feeling this way – it sounds like your dad’s expectations are playing a huge role in what’s happening. It’s okay to feel scared or worried when you’re facing something that feels so big and important.  It’s really brave of you to share that with me.",
+    "next_question": "Let’s think about that feeling of 'if I don't get a 95, he'll be angry.' That’s a really strong thought, and it’s good that you’re noticing it.  Can you tell me a little bit about what that thought feels like for you? Is it a feeling of dread, or something else?  No pressure to answer if it’s hard to talk about.",
+    "system_prompt": "Acknowledge the user's emotional experience and validate their feelings of anxiety and worry. Gently explore the nature of the thought – is it a feeling of dread, or something else – to understand the underlying experience.",
+    "id": "fam_45",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really conflicted about your parents’ expectations, and that’s a really big and confusing feeling. It’s completely understandable that you’re struggling with that – it’s a lot to process when you’re trying to figure out who you are and what you want.",
+    "empathic_response": "Wow, that’s a really tough spot to be in. Feeling like you’re constantly trying to please people, especially those you love, can be incredibly draining. It’s like you’re carrying a heavy weight, and it's okay to feel overwhelmed by that.  It's brave of you to even bring it up, and I want you to know that your feelings are valid.",
+    "next_question": "Let’s think about your dreams for the future. Do you feel like you have a lot of control over what you want to do, or do you feel like your path is being shaped by your family’s ideas?  Is there anything you’re hoping to change or explore?",
+    "system_prompt": "Explore the concept of ‘cultural expectations’ and their impact on adolescent autonomy. Consider how these expectations can influence a young person's sense of self and their ability to make independent choices.",
+    "id": "fam_46",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re carrying a lot of responsibility at home, maybe helping your mom or taking care of siblings. That’s a really big load for someone who’s also a student – it’s understandable that you’re feeling overwhelmed.",
+    "empathic_response": "Wow, that sounds incredibly tough. It’s so brave of you to step up and help out, and it’s totally valid to feel proud of that, but it’s also really hard when you’re also trying to focus on school. It’s okay to feel both those feelings – like you want to help and like you need some space to just *be* a teen.",
+    "next_question": "Can you tell me a little bit about what a typical day looks like for you lately? Are there any times when you feel like you have a little bit of downtime or just a chance to yourself?",
+    "system_prompt": "Explore the potential for feelings of being 'overwhelmed' in a teen's life, focusing on the interplay between responsibility and personal needs. Gently encourage self-reflection on daily routines.",
+    "id": "fam_47",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like dealing with your parents is really tough right now, and it’s hard to feel like you have control. Can you tell me about one rule that feels really unfair to you?",
+    "empathic_response": "Wow, that sounds incredibly frustrating. It’s completely understandable that you’re feeling that way about the no-social-media rule – it’s like it’s a really important thing for you to connect with your friends and feel supported. It’s okay to feel like your parents don’t understand that, and it’s brave of you to share that with me.  It’s a big deal when something you love is also something they’re concerned about.",
+    "next_question": "When you think about why that rule is important to you, what’s one thing you really want to say to your parents, even if it’s hard to say?",
+    "system_prompt": "Let's acknowledge the difficulty of this situation.  Focus on validating your feelings and showing that you're there to listen without judgment. Help the user explore their own needs and perspective.",
+    "id": "fam_48",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time with your dad and his expectations about your career. That’s a really confusing and upsetting situation, and it’s okay to feel all the feelings that come up – even if they feel overwhelming.",
+    "empathic_response": "You’re so brave for sharing this with me. It’s completely understandable that you’re feeling confused and hurt when your dad isn’t happy with your choices. It’s really hard when you feel like you’re not being heard or that someone doesn’t support your dreams, and it’s okay to feel angry, sad, or just a little lost right now.  Those feelings are valid and deserve to be acknowledged.",
+    "next_question": "Can you tell me a little more about what that silent treatment feels like for you? Is it something you feel like you’re doing wrong, or something else entirely?",
+    "system_prompt": "Acknowledge the user's experience of feeling unheard and unsupported.  Reiterate the importance of validating their emotions, and gently encourage them to explore the specific sensations they're experiencing.  Focus on the process of identifying the emotion rather than assigning blame.",
+    "id": "fam_49",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really distant from your family, even when you’re in the same house. That’s a really lonely feeling, and it’s okay to feel that way. It’s like you’re missing a part of your life that you want to feel closer to.",
+    "empathic_response": "Oh, my dear, that sounds incredibly difficult. It’s so understandable to feel that way when you’re feeling disconnected from the people you care about. It’s like a little piece of your heart is feeling a bit lost, and that’s a really sad feeling to experience.  It’s brave of you to even acknowledge it.",
+    "next_question": "What’s one small thing that, if it happened, would make you feel a tiny bit more connected to them, even just a little bit? Maybe something you could do, or say, that would bring you a little bit closer?",
+    "system_prompt": "I want to acknowledge that you're experiencing a lot of emotions right now, and it makes perfect sense that you're feeling lonely. Let’s just focus on finding one small step you can take to feel a little more supported.  Your feelings are valid, and you deserve to feel connected.",
+    "id": "fam_50",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really stressed about your parents wanting you to get married soon. That’s a really big thing to think about at 17, and it’s okay to feel overwhelmed by that pressure.",
+    "empathic_response": "It’s so understandable that you’re feeling that way – it’s really tough when people expect you to do things that don’t feel right for you. It’s totally valid to feel like your own dreams and interests are being sidelined, and that’s a really tough feeling.  Your feelings are important, and it’s okay to feel however you’re feeling about this.",
+    "next_question": "When you hear that kind of pressure, what thoughts or feelings come up for you?  Do you feel like you need to agree with your parents, or do you just need to find a way to feel more in control of your own life?",
+    "system_prompt": "Let's just acknowledge that this situation feels really challenging and that it’s okay to feel a range of emotions. I want to help you explore what’s going on and understand how you’re processing this.",
+    "id": "fam_51",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like your parents’ financial situation is really weighing on you and the whole family. That must feel incredibly overwhelming and scary, honestly. How are you feeling about all of that?",
+    "empathic_response": "Oh, honey, that sounds like a really tough situation to be dealing with. It’s completely understandable that you’re feeling guilty or anxious – it’s so hard when you see things that are stressing you out and impacting everyone around you. It's brave of you to recognize how this is affecting you, and it’s okay to feel those feelings. You’re such a thoughtful person for noticing this and wanting to help. It’s not your job to fix things, though, is it? It’s just a really heavy thing to carry.",
+    "next_question": "Can you tell me a little bit about how you’re noticing this stress? Is it something you see happening between your parents, or is it more about what you *can't* do or what you feel you’re missing?",
+    "system_prompt": "I want to validate your feelings. It’s okay to feel upset and worried when you see things that are causing stress. Let’s just take a moment to talk about what’s going on, and we’ll figure out how to support you best.",
+    "id": "fam_52",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with how your parents aren't being supportive of your feelings, and that can be incredibly isolating. It’s completely understandable that you’re feeling angry and frustrated when they don’t seem to get what you’re going through.",
+    "empathic_response": "It’s really brave of you to even acknowledge how hard that is, and it makes total sense that you’re feeling that way. It’s okay to feel angry and hurt when you feel like your feelings aren’t being heard or respected. It’s not your fault that they aren’t able to offer the support you need, and that’s a really tough situation to deal with.",
+    "next_question": "Even if you don’t feel comfortable talking to your parents right now, is there anyone else you trust – a friend, a teacher, a family member – who you feel you could talk to about how you’re feeling? It’s okay if it’s just a little bit, and that’s a really good start.",
+    "system_prompt": "Acknowledge the intensity of the user's experience with parental dismissal. Offer reassurance that their feelings are valid and understandable, and emphasize the importance of seeking support, even if it's small. Prompt for existing support systems.",
+    "id": "fam_53",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with the tension between your parents, and that’s a really tough feeling. It’s completely understandable that you’re feeling stuck and confused about what to do. What’s that feeling like for you?",
+    "empathic_response": "Wow, that’s a really intense situation. It’s so common to feel like you have to choose sides, and it can feel incredibly overwhelming when you’re trying to navigate that. It’s okay to feel like you’re carrying a heavy weight, and it makes sense that you’re feeling drained and unsure of yourself. You’re allowed to feel all of those things – sadness, frustration, even anger – it’s a really big deal to be in this position.",
+    "next_question": "Can you tell me a little bit about what’s been happening between your parents lately, or what’s been making it feel so difficult?",
+    "system_prompt": "Describe the core experience of feeling caught between parents, emphasizing the emotional burden and potential for conflict. Focus on validating the feelings of being overwhelmed and needing support.",
+    "id": "fam_54",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re carrying a really big weight, feeling like you’re the one responsible for your siblings' lives and that’s a lot to handle. It’s completely understandable if you feel like you’re struggling with that pressure.  It’s okay to feel overwhelmed sometimes, even if you really want to be a good person and want to help them.",
+    "empathic_response": "Wow, that’s a really tough feeling. It makes sense that you’d feel like you’re constantly worrying and trying to do everything perfectly. It’s like you’re trying to be the perfect role model, and it’s exhausting to think about that.  It's brave of you to even acknowledge that feeling, and you’re absolutely right to feel frustrated when you feel like you can’t do it all.  Anyone would feel that way sometimes.",
+    "next_question": "Sometimes, when we feel like we’re struggling, it’s hard to even start. Can you think of one small thing you could do, just for yourself, that would make you feel a little bit better right now?",
+    "system_prompt": "Recognize the emotional complexity of the situation – the conflict between wanting to help and feeling overwhelmed.  Focus on validating the adolescent’s experience of feeling burdened and offer gentle encouragement to start small.",
+    "id": "fam_55",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like your parents are really strict about your friends, and that can be a really difficult situation. It’s like their rules are based on a feeling of worry, and it’s hard to feel like you can trust them. What are some of their main worries about you spending time with your friends?",
+    "empathic_response": "Oh, honey, that sounds incredibly frustrating. It’s completely understandable that you’re feeling confused and a little hurt when your parents are so strict about your friends. It’s like they’re worried about you being in trouble, and that can make it hard to feel safe and happy. It’s brave of you to even talk about this, and it’s okay to feel like they don’t understand your judgment. You’re not alone in feeling this way, and your feelings are valid.",
+    "next_question": "Can you tell me a little bit about one of your friends? What do they do, and what’s important to them?",
+    "system_prompt": "I hear you. It sounds like you’re feeling really anxious about your parents’ rules. Let’s just take a moment to really understand what you’re going through. Your feelings are important, and I want to help you explore them.",
+    "id": "fam_56",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Wow, that sounds incredibly tough. Losing your dad’s job must be a really overwhelming and confusing experience, especially when you're feeling anxious and worried about the future. It’s okay to feel all those things – sadness, confusion, even a little guilt – it’s completely understandable to feel that way when things change like that.",
+    "empathic_response": "It makes sense that you’re feeling all of that. It’s like a huge shift, and it’s okay to feel a little lost and unsure about what’s next. You’re allowed to feel whatever you’re feeling, and it’s brave of you to acknowledge it. Remember, you’re not alone in this, and it’s okay to lean on your friends and family for support.",
+    "next_question": "Can you tell me a little bit about what’s been the hardest part of this change so far? Is there anything specific you’re struggling with?",
+    "system_prompt": "Acknowledge the user's feelings of anxiety and uncertainty regarding job loss.  Focus on validating their experience and encouraging them to share what's causing them distress.",
+    "id": "fam_57",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re really handling a lot at home, always trying to keep things calm and make sure everyone feels okay. That’s a really tough job, especially when parents are having a hard time with each other. It’s completely understandable that you feel overwhelmed and like you’re carrying a lot of the weight.",
+    "empathic_response": "Wow, that sounds incredibly draining. It’s so frustrating when you feel like you’re constantly trying to soothe everyone and it’s exhausting to deal with the conflict. It makes sense that you’d want things to just *stop* – it’s okay to feel angry and frustrated when you’re feeling that way, and it’s also okay to just want a little bit of peace.",
+    "next_question": "If you could just take one hour away from everything and just *be* quiet for a bit, what would you do?",
+    "system_prompt": "Let’s acknowledge that this situation is causing you a lot of stress. It’s brave of you to recognize how hard it is, and it’s okay to feel sad or worried about it. Let’s explore why you’re feeling this way – what’s going on that’s making it so challenging.",
+    "id": "fam_58",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time with your parents and their beliefs. Can you tell me a little bit about how you’re feeling right now, and what’s been on your mind?",
+    "empathic_response": "It takes a lot of courage to talk about these things, and I want you to know that your feelings are completely valid. It’s understandable that you’re feeling confused or upset when your beliefs and your family’s faith don’t feel the same way. It’s okay to feel a little lost or like you need to explain things. You’re not alone in this.",
+    "next_question": "Sometimes, when we feel really strong about something, it can be hard to let go of it. Would you be open to talking about a specific part of your identity or beliefs that you’re struggling with, and maybe how that’s making you feel?",
+    "system_prompt": "Offer a safe space for the adolescent to express their internal conflict and validate their emotions. Encourage exploration of specific beliefs and their impact on their feelings.",
+    "id": "fam_59",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re really grappling with the college application process, and it’s completely understandable that you’re feeling overwhelmed. Those conversations with your parents can be so tough, especially when you're passionate about something that feels like it might not be a 'real' career.",
+    "empathic_response": "It’s so frustrating when you feel like your dreams aren’t being understood, and it’s really okay to feel angry or confused about that. It’s like you’re trying to explain something important, and they’re not seeing it the way you do. You're brave for even bringing it up.",
+    "next_question": "Can you tell me a little bit about what’s making you feel like your passion isn’t being recognized? Is there something specific you’re worried about your parents might think or feel about your choices?",
+    "system_prompt": "Acknowledge the complexity of the situation. Offer a cognitive reframing of their concerns, emphasizing that their fear might stem from a place of wanting what’s best for you, rather than disapproval. Encourage exploration of the underlying anxieties.",
+    "id": "fam_60",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really difficult time right now. It’s okay to feel upset when things aren’t going the way you want them to. It’s tough when you feel like your parents aren’t understanding or supporting you.",
+    "empathic_response": "Wow, that’s a lot to deal with. It makes perfect sense that you’d feel that way. It’s really confusing when you feel like your parents aren’t seeing your feelings or supporting you, and that can be really painful. It’s like a big puzzle, and it’s hard to figure out where you’re going with it.",
+    "next_question": "Sometimes, when we’re feeling really overwhelmed, it’s easy to think things are a problem, even if they aren’t. Do you think you’re starting to feel like that, too?",
+    "system_prompt": "Acknowledge the complexity of the situation – the feeling of confusion and difficulty in understanding why parents might react in a certain way. Offer reassurance that feelings are valid and that it’s okay to feel this way.",
+    "id": "fam_61",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed and stressed about your dad's extra hours and the coaching fees. That must be incredibly difficult to deal with, especially when you’re worried about your exams.",
+    "empathic_response": "Oh, honey, that’s a really tough spot to be in. It’s completely understandable that you’re feeling guilty and worried about your dad’s situation. It’s so common to feel like you’re carrying the weight of everything, and it’s okay to feel that way when you’re facing pressure like that. It’s not your fault, and it’s really brave of you to even acknowledge how you’re feeling. Let’s just take a moment to breathe and see if we can figure out what’s going on.",
+    "next_question": "Can you tell me a little bit more about what’s making you feel this way about the coaching fees? Is there anything specific about it that’s really bothering you?",
+    "system_prompt": "Offer a safe space for the user to express their feelings regarding the coaching fees. Focus on validating their emotions and gently encourage them to explore the underlying reasons for their distress.",
+    "id": "fam_62",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Wow, that’s a really big deal – getting into that college out of state! That’s such an incredible accomplishment, and it’s totally okay to feel a little mixed up about it. It sounds like you’re feeling a lot of things right now, and that’s a really brave thing to acknowledge.",
+    "empathic_response": "It’s completely understandable that you’re feeling that way. It’s a huge step, and it’s okay to feel a little worried about leaving your family and friends. You’re so excited about the future, but it’s also really tough to think about what might happen when you’re gone. It’s like you’re having two different thoughts – one of excitement and hope, and another of worry and maybe even a little sadness. Both of those feelings are totally valid and okay to feel.",
+    "next_question": "Can you tell me a little bit about what’s making you feel most worried about what will happen at home when you’re away? Is there a specific thought or feeling that’s been going through your head?",
+    "system_prompt": "Recognize and validate the user's emotional experience – acknowledging the complexity of their feelings.  Use reflective phrasing to show understanding and encourage deeper exploration of the core issue.",
+    "id": "fam_63",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like your dads discipline style is really strict. What happens when you try to explain your side?",
+    "empathic_response": "Oh, honey, that sounds really tough. It’s completely understandable that you’re feeling invalidated when you try to explain how you feel when he’s strict. It’s like, when I was your age, sometimes it feels like his rules don’t really listen to *me*. It’s not fair that he doesn’t see things from your perspective. It’s okay to feel frustrated and a little hurt when you feel like your feelings aren’t heard.",
+    "next_question": "What’s one thing about your life today that you wish your father could understand?",
+    "system_prompt": "Let’s just acknowledge that you’re feeling really upset about this. It’s brave of you to share how you feel. I want to hear about what’s going on for you, and I’m here to listen without judgment.  Let’s just take a moment to talk about it.",
+    "id": "fam_64",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re navigating a really complex situation with your joint family. It’s understandable that you’re feeling overwhelmed with all the people and opinions around you. It’s okay to feel like you need space and that things aren’t always fair.",
+    "empathic_response": "Wow, that’s a huge amount of people to manage. It’s really brave of you to acknowledge how challenging that can be. It makes sense that you’re feeling a little lost and unsure of what’s right. It’s completely normal to feel stressed and a bit confused when you’re dealing with so many different people and expectations.",
+    "next_question": "Can you tell me a little bit more about what’s making you feel this way the most? Is it a specific person, or is it the general feeling of being overwhelmed?",
+    "system_prompt": "Begin a conversation focusing on the emotional impact of a joint family structure, encouraging the user to articulate the core feelings of distress and uncertainty.",
+    "id": "fam_65",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed by the situation with your parents about your health. It’s completely understandable to feel frustrated and worried when you feel like you’re being criticized, and that’s a really valid emotion.",
+    "empathic_response": "That must feel incredibly tough. It’s really normal to feel hurt and confused when parents express concern about your health, and it’s okay to have those feelings. It’s like they’re trying to protect you, and that can be scary sometimes.  It’s okay to feel whatever you’re feeling – sadness, anger, confusion, or just a little bit overwhelmed. You don’t have to figure everything out right now.",
+    "next_question": "When they make a comment about your food, what’s the first thought that comes to mind?",
+    "system_prompt": "Let's explore this a bit. It’s okay if you’re struggling to understand why you’re feeling this way. We can gently talk about what might be happening in your head when they say those things, and help you find a way to cope with those thoughts.",
+    "id": "fam_66",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're carrying a really heavy weight right now, and it’s okay to feel overwhelmed. You’re feeling like you have to do everything, and it’s making you feel exhausted and frustrated. Is there anything specific that’s been making you feel this way about chores or how things are being handled at home?",
+    "empathic_response": "Oh, honey, that’s completely understandable. It’s so frustrating when you feel like you’re constantly having to take on more than you can handle, and it’s really draining your energy. It’s like you’re trying to be perfect, and that’s a really tough thing to do, especially when you’re feeling this way.  Anyone feels that way sometimes, and it doesn't make you weak or silly to feel like this.",
+    "next_question": "Sometimes, when we’re feeling this way, it’s hard to figure out how to say what’s going on. Would you be open to talking about what it feels like to feel like you’re struggling with these expectations? Maybe we could just brainstorm some ways you could express how you’re feeling, even if it's just a little bit.",
+    "system_prompt": "Prioritize validating the adolescent's feelings of being overwhelmed and struggling with unrealistic expectations. Encourage open communication about expressing these feelings, even if it's difficult.",
+    "id": "fam_67",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re carrying a really difficult feeling right now. Is there something you’re struggling with that you’d like to talk about?",
+    "empathic_response": "That must feel incredibly tough, and it’s okay to feel upset about it. It takes a lot of courage to share something like that, and it’s understandable that you’re feeling worried and maybe a little ashamed. It’s like you’re holding something in, and that can be really scary.  You’re not alone in feeling this way, and it's brave of you to reach out.",
+    "next_question": "Can you tell me a little bit about what’s been going on?  Even if it feels small, anything you can share would be a good starting point.",
+    "system_prompt": "Let’s acknowledge that this situation feels overwhelming.  It’s important to know that you're safe and you can talk to me without judgment.  Let’s explore what’s happening.",
+    "id": "fam_68",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed right now, and it’s brave of you to share that with me. It’s completely understandable to feel like you need someone to talk to when you’re struggling. Who do you usually turn to when things feel really hard?",
+    "empathic_response": "Wow, that’s a really tough feeling. It’s like having a little piece of yourself missing when you can’t reach out to someone you trust. It’s okay to feel sad and lonely when you’re feeling this way. You’re not alone in feeling that way, and it’s a really important sign that you’re trying to take care of yourself.  Just remember that feeling is valid, and it’s okay to lean on others when you need to.",
+    "next_question": "What’s one thing, even something small, that usually helps you feel a little bit better when you’re feeling down?",
+    "system_prompt": "Let’s acknowledge that you’re feeling a lot of emotions right now.  It takes courage to reach out, and I want you to know that your feelings are important and you deserve to feel supported.  Let's explore what might help you feel a little more comfortable.",
+    "id": "fam_69",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really upset right now. You mentioned an argument with your parents about your appearance – like your hair or clothes. That must be really tough.",
+    "empathic_response": "Oh, that’s so frustrating! It’s completely understandable that you’re feeling this way. It feels like they’re trying to tell you how you *should* look, and that can be really upsetting. It’s okay to feel angry or disappointed when you feel like that.",
+    "next_question": "Can you tell me a little bit more about what’s going through your mind when they say those things? What’s making you feel this way?",
+    "system_prompt": "Acknowledge the emotional complexity of the situation – the feeling of being controlled and the desire for self-expression. Encourage a detailed exploration of the underlying emotions.",
+    "id": "fam_70",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really responsible for your parents' happiness, and that’s a really tough thing to carry. It’s like if you’re not always the best at being happy yourself, you feel like you’re letting them down, and that can be really overwhelming.",
+    "empathic_response": "That sounds incredibly stressful and hard. It’s completely understandable to feel that pressure – it’s really tough to want to be the perfect kid and worry about what your parents think. It’s not fair to yourself to feel like you’re always carrying that weight, and it’s okay to feel sad or frustrated when you’re struggling with that.",
+    "next_question": "When you feel that pressure, what’s going through your mind? Do you find yourself trying to hide how you’re feeling, or do you try to act like everything is okay, even when it’s not?",
+    "system_prompt": "Let’s just take a moment to acknowledge how difficult this must be for you. It’s brave of you to share these feelings, and I want you to know I’m here to listen without judgment. Your feelings are valid.",
+    "id": "fam_71",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Wow, it sounds like you’re feeling really stressed and pressured from your relatives, especially when they're offering advice. It’s completely understandable that you’re feeling overwhelmed – it’s a lot to handle when everyone has opinions and wants to help.",
+    "empathic_response": "It’s really brave of you to acknowledge how tough that is. Family relationships can be tricky, and it’s okay to feel like you’re getting a lot of pressure. Sometimes, just taking a little time to step back and breathe can make a big difference. You don’t have to feel like you *have* to listen to everything right now. It’s perfectly alright to just let that go for a little bit.",
+    "next_question": "When you’re feeling like that, what’s something that usually helps you feel a little calmer or more comfortable, even if it’s just for a few minutes?",
+    "system_prompt": "Show genuine understanding and validation of the adolescent’s experience, acknowledging the difficulty of family relationships and the potential for feeling overwhelmed.",
+    "id": "fam_72",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really confusing and challenging time with your parents. It’s completely understandable that you’re feeling stuck and unsure of who you are.",
+    "empathic_response": "Wow, that must be incredibly overwhelming. Feeling like you have to juggle different expectations and opinions from both of them is a huge burden, and it’s completely valid that you’re feeling lost and unsure of yourself. It’s okay to feel sad, frustrated, or even angry about that.",
+    "next_question": "Can you tell me a little bit more about what’s making you feel this way? Is there anything specific that’s been happening lately that’s been contributing to these feelings?",
+    "system_prompt": "Focus on validating the adolescent's experience of conflicting family dynamics. Acknowledge the emotional complexity of the situation and offer a safe space for them to express their feelings without judgment.",
+    "id": "fam_73",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re really missing one of your parents, maybe they work abroad or you’re in a different city. That’s a really big and confusing feeling, and it’s okay to feel sad about it.",
+    "empathic_response": "Wow, that’s a really hard thing to deal with. It feels like you’re missing a really important part of your life, like a safe place to be. It’s completely understandable that you’re feeling so much sadness and missing them. It’s okay to feel this way, even if you talk to them sometimes.",
+    "next_question": "Can you tell me about one thing that feels missing the most when you think about having them physically around? Maybe something specific, like a hug, a laugh, or just being close to them?",
+    "system_prompt": "I want to acknowledge the depth of your feelings and understand how overwhelming this must feel. Let’s just focus on understanding *what* you’re missing, and how it makes you feel.  Your feelings are valid.",
+    "id": "fam_74",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling a little frustrated about how things are with your siblings and parents. It’s really understandable to feel like you don't have as much say in things, especially when you're the youngest.",
+    "empathic_response": "Oh, honey, that’s a really tough feeling to deal with. It makes perfect sense that you’d feel that way – it’s like you’re constantly trying to get your own way, and it’s hard when you feel like everyone else is already making the decisions. You’re absolutely right to want to feel like you have a say in things. It’s okay to feel that way, and you’re brave for acknowledging it.",
+    "next_question": "Let’s think about something you’ve always wanted to do, but you don’t feel like you have the chance to do it. What’s one thing you’d really like to be able to try or explore?",
+    "system_prompt": "I hear you. It sounds like you’re feeling a little stuck and wanting to do something, but you don’t feel like you have the opportunity. Let’s explore that feeling a little. It’s wonderful that you’re thinking about this, and it shows you’re really interested in your own future. Would you like to talk about why you feel this way, or maybe brainstorm some ways you could start to feel more involved?",
+    "id": "fam_75",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like your parents are really strict about money. Is that a source of conflict for you?",
+    "empathic_response": "Oh, wow, that’s a really tough situation to deal with. It’s so frustrating when you see your friends having fun and you don’t have the same opportunities, and it can feel like a big disappointment. It’s completely understandable that you’d feel a bit embarrassed or left out, even if you know they’re trying to help.  It’s okay to feel those feelings – they’re a really normal response to that kind of thing.",
+    "next_question": "When you have to say no to your friends because of money, what’s the main feeling you have when you do that?",
+    "system_prompt": "Validate the users conflicting emotions (understanding parents + feeling left out). Probe the core emotion (e.g., shame, embarrassment, anger) of the social impact.",
+    "id": "fam_76",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really upset right now. What’s been going on that’s making you feel this way?",
+    "empathic_response": "Oh, honey, that’s completely understandable that you’re feeling angry. It’s really brave of you to share that with me. It’s okay to feel frustrated when things don’t go your way, and it makes sense that you’d be feeling that way about your brother or sister. It’s like when you’re building something and it falls apart – it’s disappointing, right? It’s okay to feel disappointed when things aren’t going as you hoped.",
+    "next_question": "Can you tell me about one specific thing that happened recently that made you feel this way, even if it seemed small at the time?",
+    "system_prompt": "I hear you. It sounds like you're feeling a lot of hurt and frustration. Let’s just take a moment to acknowledge those feelings. It’s alright to feel however you’re feeling, and I’m here to listen without judgment.",
+    "id": "fam_77",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like your parents are always on your case about studying. That must be incredibly exhausting, and it’s okay to feel frustrated and overwhelmed. Do you ever feel like you’re constantly worrying about school?",
+    "empathic_response": "It’s totally understandable that you’re feeling exhausted and frustrated when you feel like your parents are always checking in about your studies. It’s really tough when you feel like you’re constantly being judged, and that can be really draining. It's okay to feel that way – it’s a really big feeling. You deserve to feel calm and relaxed, and it’s important to find ways to take care of yourself, even when things feel hard.",
+    "next_question": "What’s one activity that helps you actually relax, that’s not just pretending to study? Maybe something you enjoy doing, even if it’s just for a little bit?",
+    "system_prompt": "Acknowledge the validity of the adolescent's feelings of being overwhelmed and stressed. Frame parental concerns as potentially contributing to anxiety rather than solely blaming the parents themselves, promoting a more balanced perspective. Encourage exploration of self-care activities.",
+    "id": "fam_78",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling at home, and that must feel incredibly lonely. It’s okay to feel that way – it’s completely understandable to feel like you’re trying to meet everyone’s expectations and that’s a really tough thing to do sometimes.",
+    "empathic_response": "Oh, that’s a really tough feeling. It sounds like you’re carrying a heavy weight, and it’s okay to feel like you’re walking on eggshells around them. It’s not your fault that you’re feeling this way, and it’s brave of you to even bring it up.  It’s a lot to handle when you feel like you need to be perfect all the time.",
+    "next_question": "Can you tell me a little bit about what’s making you feel like you need to be perfect? Is there something specific that’s been going on at home that’s contributing to this?",
+    "system_prompt": "I hear you saying you're feeling lonely and overwhelmed. It sounds like you’re dealing with a really difficult situation at home, and it’s important to know that your feelings are valid. Let’s just take a moment to understand what’s going on, and we’ll figure out how to support you.",
+    "id": "fam_79",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're really feeling overwhelmed by the conversations you're having with your relatives about your future plans. It must be really tough when you feel like they have strong opinions and aren’t listening to you. How are you feeling about all of that?",
+    "empathic_response": "Oh, my heart really aches to hear that. It’s completely understandable that you’re feeling stressed and unsure. It’s like you’re carrying a heavy weight, and it’s okay to feel like your own feelings aren’t being considered. You deserve to have a life that *you* choose, and it’s brave of you to keep pushing for that.  Don’t feel like you have to explain yourself or defend yourself – just being heard is so important.",
+    "next_question": "Can you think of one thing that usually helps you feel a little calmer when you're feeling this kind of pressure? Maybe it's a favorite activity, a comforting song, or just a few deep breaths.",
+    "system_prompt": "Acknowledge the user's emotional distress and validate their feelings of being overwhelmed. Offer a gentle suggestion for self-soothing and encourage them to identify a coping mechanism.",
+    "id": "fam_80",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re carrying a really heavy weight, especially with the anniversary of your fathers passing. That loss feels like it’s completely changed your world, and that’s a really tough thing to deal with.",
+    "empathic_response": "Oh, my dear, that sounds incredibly painful. There’s no easy way to say that, and it’s completely understandable that you’re feeling lost and overwhelmed. It’s okay to feel all those big feelings – sadness, anger, confusion, even just a heavy feeling in your chest. All of those are totally normal when you’re grieving the loss of someone so important. You don’t have to pretend you’re okay; it’s okay to just *be* with those feelings.",
+    "next_question": "Can you think of one small thing you could do for yourself today, just to get through the next hour? Maybe something that feels a little bit manageable, like taking a warm bath, listening to a favorite song, or just sitting quietly for a few minutes?",
+    "system_prompt": "I want to acknowledge that this is a difficult time for you. Your feelings are valid, and it’s brave of you to share them. Let’s focus on taking small steps to help you feel a little bit better right now. I’m here to support you as you navigate this.",
+    "id": "fam_81",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through an incredibly tough time with your parents separating. That’s a really big and scary thing to feel, and it’s completely understandable that you’re feeling lost and overwhelmed right now.",
+    "empathic_response": "It makes perfect sense that you’re feeling all those mixed-up feelings – anger, sadness, maybe even a little bit of confusion. There’s no right or wrong way to feel when something like this happens. It’s okay to just feel whatever you’re feeling, without trying to figure things out right away. You’re allowed to feel however you’re feeling.",
+    "next_question": "When you think about that pressure to choose – where do you think that’s coming from? Is there anything specific that feels like it’s making it harder to cope?",
+    "system_prompt": "Recognize the user's experience as a significant emotional challenge, acknowledging the complexity of their feelings and the potential for internal conflict. Offer a gentle, non-judgmental exploration of the source of the pressure, focusing on validating their experience without offering solutions.",
+    "id": "fam_82",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like the conflict between your father and your uncle (maybe over property or business) is really causing a lot of tension and making the home feel uncomfortable. That’s a really tough situation to be in, and it’s completely understandable that you’re feeling overwhelmed.",
+    "empathic_response": "Wow, that sounds incredibly stressful. It’s totally valid to feel like you want to withdraw and just want to protect yourself from all of that. It’s okay to feel like this is too much to handle, and it’s okay to feel drained by just listening to it. You’re not responsible for fixing things between your dad and uncle, and it’s okay to feel unfairly affected by it. It’s a really unfair feeling to be in.",
+    "next_question": "Can you tell me a little bit about how much of your energy is being used by just hearing about this conflict? Like, how much of your thoughts and feelings are focused on it?",
+    "system_prompt": "Acknowledge the user's emotional experience and validate their feelings of being overwhelmed. Offer a gentle and supportive approach to understanding the impact of the conflict.",
+    "id": "fam_83",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really stuck in the middle of the conflict between your mother and your grandmother. That’s a really tough and common joint family situation.",
+    "empathic_response": "That must feel incredibly overwhelming, and it’s completely understandable that you’re feeling angry and confused. It’s really brave of you to acknowledge how you’re feeling, and it’s okay to love both of them, even when it’s hard. It’s not your job to be the peacemaker or the messenger – that’s a really unrealistic expectation to put on you. It’s okay to just feel your feelings, and that’s perfectly valid.  It’s alright to feel frustrated and sad about all this.",
+    "next_question": "What do you usually do when you’re feeling this way? Do you try to fix things, or do you just try to stay out of the way?",
+    "system_prompt": "Explore the dynamics of the relationship between the adolescents and their parents, focusing on the emotional impact of the conflict and the potential for avoidance.  Consider how the adolescent perceives the situation and their own role in it.",
+    "id": "fam_84",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time with your mom’s illness. It’s so hard to watch someone you care about struggle, and it’s okay to feel all the feelings that come with that – sadness, worry, even confusion.",
+    "empathic_response": "That sounds incredibly difficult, and it’s completely understandable that you’re feeling all those things. It’s brave of you to be taking on such a big responsibility, and it’s okay to feel overwhelmed.  It’s alright to just feel whatever you’re feeling, without trying to push it away.",
+    "next_question": "Can you tell me a little bit about what’s been going through your head lately, or what’s making it hard to feel okay?",
+    "system_prompt": "Acknowledge the complexity of the situation and validate the adolescent's emotional experience. Encourage exploration of the specific thoughts and feelings contributing to distress.",
+    "id": "fam_85",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed with everything going on with your siblings' health, and that’s a lot to handle. It’s completely understandable that you're feeling worried and maybe even a little angry or jealous – those feelings are really valid and it’s okay to feel them.",
+    "empathic_response": "You’re absolutely right to be feeling that way. It’s normal to feel worried about your sibling and to also feel a little frustrated when you feel like your own needs aren’t being considered. It’s like having two different feelings all at once – that’s a really common experience, and it’s not a sign of anything wrong with you. You're not a bad person for feeling this way; it just means you’re a person with feelings and needs.",
+    "next_question": "Let’s think about one small thing that you could use right now that you’re a little hesitant to ask for. Maybe something small, like a hug, a quiet space, or just a few minutes to yourself? What’s one thing that would make you feel a little bit better?",
+    "system_prompt": "Recognize that the user is experiencing conflicting emotions – worry about their sibling, and frustration with feeling unheard. Validate their feelings of being overwhelmed. Gently guide them to identify a small, achievable need that might help alleviate some of that anxiety and foster a sense of self-compassion.",
+    "id": "fam_86",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’ve come across something really difficult – a secret that’s been hidden from you. That must feel incredibly overwhelming and painful. It’s okay to feel all the feelings you’re experiencing – anger, sadness, maybe even confusion. It’s a huge thing to carry, and it’s understandable that you’re struggling.",
+    "empathic_response": "Wow, that sounds like a really tough situation. It’s completely valid to feel so strongly – anger, confusion, and even a sense of betrayal are all completely normal reactions to something like this. It’s okay to not be okay, and it’s brave of you to even acknowledge how you’re feeling. You don’t have to figure everything out right now, and it’s okay to just let yourself feel what you’re feeling.",
+    "next_question": "Can you tell me a little bit about what’s been going through your head the most right now? Is it the secret itself, or are you feeling really worried about how this will affect your family?",
+    "system_prompt": "ASSESS: High risk of emotional distress. Prioritize immediate validation and support. Initiate a gentle exploration of the core experience, focusing on the intensity of the emotions. Implement a cautious escalation protocol for potential signs of distress or overwhelming feelings.",
+    "id": "fam_87",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really confusing and difficult time – wanting to explore feelings and connections, but feeling like your parents’ rules and expectations might be a big challenge. That’s a really brave thing to be feeling, even though it’s tough.",
+    "empathic_response": "Wow, that must feel incredibly overwhelming. It’s completely normal to feel scared and unsure when you’re trying to figure out who you are and what you want, especially when you feel like you’re facing a lot of pressure from others. It’s okay to feel all of those feelings – the excitement, the worry, and the sadness – it’s a really big shift to be thinking about this kind of thing.  Don’t feel like you have to figure everything out right away.",
+    "next_question": "When you’re thinking about this, it sounds like you're really focusing on the worst-case scenario – that they might not accept you or that it would be a really bad thing.  Let’s try to look at that a little bit differently. Is that a really strong feeling, or is it just a little bit of worry?  Can you tell me a little more about what that thought feels like for you?",
+    "system_prompt": "I understand that your anxiety is creating a very frightening picture of the future. It’s important to acknowledge those feelings without judgment. Let’s explore how this worry is impacting your thoughts and feelings, and see if we can find a way to shift your perspective.",
+    "id": "fam_88",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed and frustrated right now. It’s completely understandable to feel like your parents don’t see your passion as important, and that makes it feel incredibly unfair. It’s okay to feel that way – those feelings are valid.",
+    "empathic_response": "That sounds really tough. It’s so frustrating when you put so much effort into something you love, and it doesn’t feel like it’s being recognized or appreciated. It’s okay to feel sad or disappointed when that happens. Your feelings are important, and you're allowed to feel them.",
+    "next_question": "Can you tell me a little bit about what your passion is, and what’s been making you feel this way about your parents’ expectations?",
+    "system_prompt": "Explore the user's experience with parental favoritism. Utilize Cognitive Behavioral Therapy (CBT) principles to help them reframe their thoughts and challenge negative self-talk related to their passion. Focus on encouraging behavioral activation to build a sense of accomplishment and self-efficacy.",
+    "id": "fam_89",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Wow, it sounds like you've stumbled upon something really difficult and confusing about money or responsibility. That must feel incredibly overwhelming and scary, especially when it feels like a huge weight to carry. It’s okay to feel anxious or like you don’t know what to do – it’s a lot to process, and it’s understandable that you’re feeling this way.",
+    "empathic_response": "It’s totally alright to feel worried or like you’re struggling with this. It’s a really tough situation, and it’s okay to feel confused and upset. A lot of people feel this way when they discover something like this, and it's brave of you to even think about it. It’s not your responsibility to figure everything out right now, and you don't have to feel like you need to handle it alone.",
+    "next_question": "Can you tell me a little bit about what you're imagining happening if this secret gets revealed? What’s the worst thing you think could happen?",
+    "system_prompt": "Acknowledge the user’s feelings of vulnerability and anxiety. Offer reassurance that they are safe and supported, and gently guide them toward identifying their thoughts and feelings without judgment. Encourage them to explore their fears.",
+    "id": "fam_90",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like the way your father is dealing with things at home is really making you feel scared and worried. That’s a really difficult situation to deal with, and it’s okay to feel all of those feelings.",
+    "empathic_response": "It’s completely understandable that you’re feeling scared and upset. It takes a lot of strength to recognize when something isn’t right, and it makes total sense that you’re feeling this way. It’s not okay for you to feel scared, and it’s brave of you to share this with me.  Those feelings are valid, and you don’t have to carry them alone.",
+    "next_question": "Can you tell me a little bit about what’s happening at home that makes you feel so scared?  Sometimes just talking about it can help a little.",
+    "system_prompt": "WARNING: High-risk disclosure (Abuse). Validate the users fear. Immediately escalate to Model A (Triage). The next_question must be about safety planning. Do not use a good approach reframe for the parent.",
+    "id": "fam_91",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really alone and confused right now, even when your parents are trying to help. That feeling of not having that connection or feeling like you’re not really seen can be incredibly tough. You’re reaching out for something that’s missing, and that’s completely understandable.",
+    "empathic_response": "It makes perfect sense that you’re feeling this way. It’s like when you need a hug or a really good conversation, and you don’t feel like anyone is truly listening to you. It’s okay to feel sad or frustrated when that happens. Your need for someone to feel understood and cared for is a really important part of you, and it’s brave of you to acknowledge that.",
+    "next_question": "Can you think of one thing – maybe a friend, a hobby, or even something you enjoy – that makes you feel like you’re being valued or appreciated, even just for a little while? It doesn’t have to be a big deal, just something that gives you a little bit of comfort.",
+    "system_prompt": "Offer a validating response to the user’s experience of emotional neglect, emphasizing the validity of their feelings and the importance of seeking connection. Encourage them to identify their own internal resources for support.",
+    "id": "fam_92",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed and like you’re carrying a heavy burden, like you’re always the one who gets blamed or who’s responsible for things that aren’t your fault. That must feel incredibly frustrating and unfair, right?",
+    "empathic_response": "Oh, honey, that sounds absolutely awful. It's completely understandable that you're feeling this way – it’s so tough when you feel like you’re always carrying the weight of everything, and it feels like someone else is always pointing fingers. It's okay to feel angry and hurt about that. It's a really unfair feeling to be placed in that position.",
+    "next_question": "Can you tell me a little bit more about what that feeling of being blamed feels like for you? Is there a specific situation that comes to mind when you think about that?",
+    "system_prompt": "I’m here to listen and validate your experience. Let’s explore this feeling of being the 'problem' and how it impacts you. I want to help you understand that it’s not your fault, and we can work together to find ways to feel more empowered.",
+    "id": "fam_93",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're carrying a really tough and worrying responsibility – you’re feeling like you need to be the parent, and you’re worried about your mom. That’s a really big and scary thing to feel, and it’s completely understandable that you’re feeling scared and angry about it.",
+    "empathic_response": "It makes total sense that you’re feeling all those things. It’s okay to feel scared, and it’s okay to feel frustrated when you have to take on a role that feels so heavy. You’re not responsible for your mom’s happiness, and it’s not your job to fix things. It’s a really brave thing to be trying to care for her, and you’re doing a wonderful job.",
+    "next_question": "Do you feel like you have anyone else in your family – like a dad, a grandma, or another family member – that you’ve talked to about how you’re feeling? Maybe someone you trust who could offer some support?",
+    "system_prompt": "Let's acknowledge the immense emotional weight you’re carrying. Your feelings are valid, and it’s important to know that you don’t have to go through this alone. We want to help you find ways to feel supported and safe.",
+    "id": "fam_94",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed by a conflict at home, and it’s tough to talk about who your friends are, and how that’s making you feel. It’s understandable that you’re feeling frustrated – it’s a really difficult situation when expectations feel unfair.",
+    "empathic_response": "That sounds incredibly painful, and it’s completely valid that you’re feeling this way. It’s okay to feel like your parents’ expectations are making you feel like you don’t have a choice, and that’s a really tough feeling. It’s like you’re fighting against what they’re telling you, and that can be really scary.",
+    "next_question": "Sometimes, when we’re feeling this way, it’s hard to know how to cope. Do you find yourself feeling like you need to keep your friends a secret, or do you try to talk about it with them?",
+    "system_prompt": "Let’s just acknowledge that you're experiencing a lot of pressure right now. It’s brave of you to share this, and I want you to know I’m here to listen without judgment. Your feelings are important, and it’s okay to feel however you’re feeling.",
+    "id": "fam_95",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Wow, it sounds like you're carrying so much weight – juggling school, taking care of your grandparent, and everything else! That’s an absolutely enormous amount to handle, and it’s completely understandable that you’re feeling exhausted and maybe a little overwhelmed.",
+    "empathic_response": "You’re absolutely right to feel that way. It’s so tough to feel like you’re trying to do everything, and it’s okay to feel conflicted – like you really want to help your grandparent, but you also feel like you’re struggling to keep up. Both of those feelings are valid, and it makes perfect sense that you’re feeling this way.",
+    "next_question": "Can you think of one small thing you had to give up this week – maybe something you didn’t get to do or something you had to skip? It doesn’t have to be a huge deal, just something you felt you had to let go of.",
+    "system_prompt": "Let’s acknowledge the intensity of your situation. Your feelings of exhaustion and conflict are completely valid and understandable given the circumstances. It’s brave of you to acknowledge these feelings, and I want to validate that you’re navigating a really challenging situation.",
+    "id": "fam_96",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're going through a really tough time at home, with your father's drinking causing a lot of chaos and feeling scared. That kind of feeling is incredibly overwhelming, and it's completely understandable that you're feeling angry, embarrassed, and exhausted.",
+    "empathic_response": "You are absolutely right to feel that way. It’s brave of you to acknowledge how hard this is and to let yourself feel those emotions. It’s okay to be scared and to feel frustrated when things aren’t going the way you want them to. Your home shouldn't be a place where you feel unsafe, and it’s okay to feel that way.",
+    "next_question": "What’s a way you usually try to calm yourself when a conflict starts to build up? Is there anything you could do to feel a little more safe right now?",
+    "system_prompt": "WARNING: High-risk disclosure (Substance Abuse). Validate the users chaotic feelings. Strongly externalize all fault. Immediately escalate to Model A (Triage). The next_question must be about safety planning.",
+    "id": "fam_97",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Wow, it sounds like you're dealing with a really tough situation with your mom and her new partner. That’s a lot to handle, and it’s completely normal to feel confused and even a little upset about all of it.",
+    "empathic_response": "It’s really brave of you to be honest about how you’re feeling. It’s okay to feel whatever you’re feeling – anger, sadness, confusion, or even just a little bit of worry. It’s a sign that you’re trying to figure things out, and that’s a really good thing. It’s also okay to feel a little lost when things change, especially when you’re used to a certain routine.",
+    "next_question": "Can you tell me a little bit about what’s making you feel most conflicted right now? Is there anything specific you’re struggling with?",
+    "system_prompt": "Acknowledge the complexity of the situation and validate the adolescent’s emotional experience. Offer a gentle exploration of the automatic negative thought process without judgment, encouraging them to identify it.",
+    "id": "fam_98",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed by the idea that everyone in your home expects you to always be quiet and follow rules, and that feels like a lot of pressure. That’s a really tough feeling to deal with, and it’s completely understandable that you’re feeling suffocated.",
+    "empathic_response": "That sounds incredibly difficult, and it makes perfect sense that you're feeling that way. It’s really brave of you to acknowledge that you're feeling this way, and it's okay to feel overwhelmed when you’re facing something like that. You’re allowed to want your own space and your own thoughts, and it’s normal to want to have that feeling of independence. It's like having your own little corner of the world, and that’s a really important part of who you are.",
+    "next_question": "Can you think of one small thing you could do today, even just for a few minutes, that would help you feel a little more like you have a little bit of space or quiet time?",
+    "system_prompt": "Let’s validate your experience. We're noticing that you’re feeling a sense of being trapped or restricted. It sounds like you’re struggling with the need to please others and the feeling of not being able to express yourself fully. We want to help you explore ways to find some small moments of comfort and self-care, even if they seem small.",
+    "id": "fam_99",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’ve built a really strong sense of yourself, and it’s wonderful that you’re doing well in school! But sometimes, when we’re raised with expectations, it can feel like we’re always having to be perfect. It’s like you’re holding yourself to a really high standard, and that can be really tough. Do you ever feel like you’re not allowed to make mistakes or feel sad or anything else?",
+    "empathic_response": "Oh, honey, that’s such a valid feeling. It’s completely understandable that you feel that way. It’s like you’re building this really impressive fortress of success, and it’s okay to feel a little lonely or worried if you’re not letting anyone in. It’s like your happiness depends on being flawless, and that’s a really difficult thing to carry around. It’s brave of you to even acknowledge that feeling.",
+    "next_question": "Can you tell me a little bit about what makes you feel like you need to be so good at everything? Is there anything you’re worried about?",
+    "system_prompt": "Let's explore this feeling of needing to be perfect. Acknowledge the strength of your efforts and validate that it’s okay to feel vulnerable. Understand the root of the worry and how it impacts your emotional well-being.",
+    "id": "fam_100",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you and your sibling are just… on different planets. That can be really tough when you live in the same home, and it’s understandable that you’re feeling distant.",
+    "empathic_response": "It’s completely okay to feel a little distant, and that’s a really normal feeling. You don’t have to be best friends, and it’s okay to feel sad about the connection you wish you had. It’s okay to just feel that way, and that’s perfectly alright.",
+    "next_question": "This thought that you feel like you have nothing in common – is that 100% true, or could you think of one small, positive memory you have with them? Even something small like a shared joke or a fun activity can show how you care about each other.",
+    "system_prompt": "Let’s acknowledge that it’s valid to feel a little disconnected from your sibling. It’s okay to feel sad about the feeling of not being close. Let’s gently explore a small positive memory you have with them – even a tiny one – to help you feel a little more connected to that part of your relationship.",
+    "id": "fam_101",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're carrying a really heavy weight, especially with the anniversary of your fathers passing. That loss feels like a huge change, and it’s okay to feel all those big feelings – sadness, anger, maybe even a bit of emptiness. It’s completely understandable that you’re feeling that way.",
+    "empathic_response": "That sounds incredibly tough, and it’s really brave of you to acknowledge how you’re feeling. It’s okay to feel whatever you’re feeling right now – sadness, anger, confusion, anything at all. There’s no right or wrong way to grieve, and it’s okay to let yourself feel all of it. It’s a huge loss, and it’s okay to take your time to process it.",
+    "next_question": "Can you think of one small thing you could do for yourself today, just to get through the next hour? Maybe something that feels a little bit manageable, like drinking a glass of water, listening to a favorite song, or just taking a few deep breaths.",
+    "system_prompt": "I want to validate your experience and show you that your feelings are valid. Let’s focus on small, immediate actions that can help you feel a little bit better right now. We’re here to support you through this.",
+    "id": "fam_102",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through an incredibly tough time with your parents separating. That’s a really big and confusing experience, and it’s completely understandable that you’re feeling lost and overwhelmed right now.",
+    "empathic_response": "Wow, that must feel absolutely awful. It’s okay to feel all the different feelings – anger, sadness, confusion, even a little bit of fear. There’s no right or wrong way to feel when something like this happens. It’s brave of you to acknowledge all of those feelings.",
+    "next_question": "When you think about this decision – where do you think the pressure is coming from? Is it feeling like you have to pick a side with your parents, or is there something else going on?",
+    "system_prompt": "Recognize the user's experience of conflicting emotions and acknowledge the potential for internal conflict. Frame the situation as a challenge to be explored rather than a simple choice to be made.",
+    "id": "fam_103",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like the conflict between your father and your uncle (maybe over property or business) is making the whole home environment incredibly tense. That’s a heavy, adult-sized stress for you to be around.",
+    "empathic_response": "Oh, honey, that sounds absolutely awful. It’s completely understandable that you’re feeling uncomfortable and like you want to just withdraw. It’s really brave of you to recognize how much this is affecting you, and it’s okay to feel overwhelmed by it all. It’s not your fault, and it makes perfect sense that you’re feeling drained.",
+    "next_question": "Can you tell me a little bit about how much of your energy feels like it’s being used up by listening to this conflict? Is there anything specific that feels really difficult or draining?",
+    "system_prompt": "Acknowledge the user's emotional experience and validate their feelings of being overwhelmed. Help them explore the impact of the conflict on their mental energy, encouraging a thoughtful and honest response.",
+    "id": "fam_104",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Wow, it sounds like you’re going through a really complicated and upsetting situation with your mom and grandma. It’s completely understandable that you’re feeling stuck and frustrated – that’s a really tough spot to be in, especially when you love both of them so much.",
+    "empathic_response": "It makes total sense that you’re feeling that way. It’s really brave of you to acknowledge those strong feelings and the confusion you’re experiencing. It’s okay to feel angry, sad, or even a little lost when things are hard, and it’s not your job to fix everything. You don’t have to be the one who takes the middle ground or tries to solve it all. That’s a really big ask, and it’s okay to feel overwhelmed.",
+    "next_question": "When you’re feeling this way, what usually happens? Do you find yourself trying to understand things, or do you tend to withdraw or avoid the situation altogether?",
+    "system_prompt": "Recognize and validate the adolescent's experience of feeling loyalty conflicted, acknowledging the potential for intense emotions and the unrealistic pressure they might be feeling.  Explore their current emotional regulation strategy (e.g., avoidance, seeking support, etc.).",
+    "id": "fam_105",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time with your mom’s illness. It’s so hard to see someone you care about struggling, and it’s understandable that you’re feeling scared and overwhelmed.",
+    "empathic_response": "That sounds incredibly difficult, and it’s completely valid to feel all those feelings – scared, frustrated, even a little numb. It takes a lot of strength to step up and be the person your mom needs, and it’s okay to feel like you’re struggling with that.",
+    "next_question": "Can you tell me a little bit about what’s been going through your head the most right now? What’s the biggest thing you’re feeling?",
+    "system_prompt": "Show genuine understanding and validation of the adolescent’s experience, acknowledging the emotional burden of caregiving and normalizing their feelings of fear and confusion.",
+    "id": "fam_106",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re really feeling a bit overwhelmed with everything going on with your siblings and how much you’re worried about them. That must feel incredibly confusing and upsetting, especially when you’re feeling those strong emotions.",
+    "empathic_response": "Absolutely! It’s completely understandable to feel worried about your sibling and to feel angry or jealous when you feel like your own needs aren’t being met. Those feelings are totally valid – it’s okay to feel both of those things at the same time. You’re not a bad person for feeling this way; it just means you’re a person with a lot of feelings, and that’s a really wonderful thing about being human.",
+    "next_question": "Can you think of one small thing that you *really* need right now, something that’s making you feel a little anxious or frustrated? It could be anything – a hug, a quiet moment, a specific snack, or even just a few deep breaths. Just one small thing.",
+    "system_prompt": "Recognize and validate the user's experience of conflicting emotions. Frame the experience as a normal and understandable response to challenging situations. Guide the user toward identifying their own unmet needs, emphasizing that these needs are valid and important.",
+    "id": "fam_107",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you've been confronted with something really difficult – a secret that’s been hidden for a long time. That must feel incredibly overwhelming and painful. It’s okay to feel all the feelings you’re experiencing – anger, sadness, maybe even a little confusion – it’s completely understandable that you’re struggling.",
+    "empathic_response": "Wow, that sounds like a really tough situation. It makes sense that you're feeling so strongly right now. It’s like a huge weight has been placed on you, and it’s okay to just feel all of those things. It’s a really complicated thing, and you’re not alone in feeling this way.",
+    "next_question": "Can you tell me a little bit about what’s been going through your mind the most right now? Is it the secret itself, or is it the feeling that you have to keep everything quiet and pretend everything’s okay?",
+    "system_prompt": "ASSESSMENT: High risk of emotional distress. Prioritize validation of emotional experience. Maintain a non-judgmental stance. Focus on providing a safe space for the adolescent to express their feelings without fear of criticism. Initiate a brief exploration of the core experience, acknowledging the intensity of the emotions involved.",
+    "id": "fam_108",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really conflicted and struggling with wanting to pursue a relationship that clashes with your parents’ beliefs or expectations. That’s a really tough feeling to deal with, and it’s completely understandable that you’re feeling this way.",
+    "empathic_response": "Wow, that must feel incredibly overwhelming. It’s brave of you to even be thinking about this, and it’s okay to feel scared and confused about what your parents might think. It's like you're caught between two different worlds, and that can be really stressful. You're not wrong to feel worried about what might happen – it’s a lot to carry around.",
+    "next_question": "When you’re thinking about this, it sounds like you’re really worried about what they’ll say or how it will affect your relationship. Is that a feeling that’s really strong right now, or is it more of a general feeling of anxiety about the future?",
+    "system_prompt": "I hear that you’re experiencing a lot of anxiety about your parents’ reaction. It’s important to remember that their opinions don't define who you are or what you deserve. Let’s explore this feeling a little more – is it a feeling of fear, or a feeling of needing to please them?",
+    "id": "fam_109",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Wow, that sounds absolutely awful. It’s so frustrating when you feel like your parents don’t see how much you love and care about something, and it feels like they’re putting so much effort into your siblings’ future, while you’re not getting the same attention. That must be really hurtful.",
+    "empathic_response": "It’s completely understandable that you’re feeling so upset. It’s really brave of you to even acknowledge how you’re feeling, and it makes sense that you’d be feeling frustrated and maybe a little sad when you feel like your passions aren’t recognized. It's okay to feel those big emotions – anger, disappointment, even sadness – it’s a natural response to feeling unheard or undervalued.  Remember, your feelings are valid, and you deserve to feel seen and appreciated for who you are, including your art and music.",
+    "next_question": "Can you tell me a little bit about what you enjoy doing with your art or music, and what’s one small thing you could do this week to start feeling a little more excited about it?",
+    "system_prompt": "Acknowledge the user’s feelings of being overlooked and undervalued. Provide a gentle, supportive framework using CBT principles to help them re-evaluate their self-worth. Offer a practical, achievable behavioral activation task to encourage engagement with their passions.",
+    "id": "fam_110",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you've stumbled upon something really surprising about money or how things are handled at home. That must feel incredibly overwhelming and scary, especially when it feels like a huge, impossible weight to carry. It’s okay to feel anxious or like you don't know what to do – it’s a lot to process when you’re dealing with this kind of situation.",
+    "empathic_response": "It’s totally understandable that you're feeling anxious and maybe a little guilty about this. It’s a really tough situation to be in, and it makes sense that you’re feeling that way. A lot of people feel that way when they're dealing with family secrets or pressures around money. You don't have to solve this on your own – it’s okay to feel overwhelmed.  It’s not your responsibility to figure everything out right now.",
+    "next_question": "Can you tell me a little bit about what’s making you feel this way? Is there anything specific you’re worried about?",
+    "system_prompt": "Acknowledge the user's feelings of anxiety and guilt. Offer reassurance that they are not alone and that it’s okay to feel however they are feeling. Encourage them to explore their thoughts and feelings without judgment.",
+    "id": "fam_111",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like the discipline from your father is really tough, and it’s making you feel scared and worried. That’s a really big and important feeling to acknowledge – it’s completely understandable that you’re feeling that way.",
+    "empathic_response": "It takes a lot of courage to talk about how you’re feeling, and I want you to know I’m here for you. It’s okay to feel scared and confused when things aren’t going the way you want them to. It’s not your fault that your dad’s way of handling things is making you feel this way.  Those kinds of feelings are valid, and you don’t have to carry them alone.",
+    "next_question": "Can you tell me a little bit about what’s happening at home when you feel scared?  Sometimes just talking about it can help a little.",
+    "system_prompt": "VALIDATE_RESPONSE: The user is expressing significant distress and fear. Immediate escalation to Model A (Triage) is required. The next_question must be about safety planning. Do not use a good approach reframe for the parent.",
+    "id": "fam_112",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really alone and confused right now, even when your parents are trying to help. That must feel incredibly difficult, like you’re missing a piece of yourself or a real connection. You're craving a feeling of being truly seen and understood, and that's a really important need.",
+    "empathic_response": "It makes perfect sense that you're feeling this way. It’s completely normal to feel lonely and lost when you don’t feel like you have a strong connection with someone you trust. That feeling of not being seen or heard can be really tough, and it’s okay to feel sad or frustrated about it. Your need to feel safe and loved is a really important part of who you are, and it’s brave of you to acknowledge that.",
+    "next_question": "Can you think of one thing – maybe a friend, a hobby, or even a place you enjoy – that you feel like you feel accepted and valued by? Even if it’s just a little bit, that’s a good start.",
+    "system_prompt": "Acknowledge the user’s feelings of isolation and the difficulty of feeling seen and validated. Offer gentle encouragement to explore existing sources of support and validate their emotional experience.",
+    "id": "fam_113",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed and like you’re carrying a heavy burden, like it’s always on your shoulders. It’s so frustrating to feel like you’re always the one who gets blamed or makes things worse, isn't it? That can be really tough to deal with.",
+    "empathic_response": "That must feel incredibly hard. It’s completely understandable that you’re feeling this way – it’s a really painful experience to feel like you’re always the one carrying the weight of everything. It’s okay to feel sad and upset about that. It’s a really unfair situation to be in, and it’s brave of you to acknowledge how it makes you feel.",
+    "next_question": "When you think about that feeling of being the ‘problem’, can you tell me a little bit about what that feeling feels like for you? Is it a specific thought, or is it more of a general feeling of worry or sadness?",
+    "system_prompt": "Let’s explore this feeling of being the ‘problem’ and validate your experience. I want to help you understand that it’s okay to feel this way, and it's important to remember that you don’t deserve to carry that burden alone.",
+    "id": "fam_114",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling incredibly overwhelmed and worried about your mom, and that’s a really tough thing to deal with. It’s understandable that you’re feeling scared and frustrated – that’s a really big responsibility to carry, especially when you’re trying to be the parent.",
+    "empathic_response": "Those feelings – feeling scared, angry, or frustrated – they’re completely valid. It’s okay to feel that way, and it makes sense that you’re struggling. You’re not responsible for fixing your mom’s feelings, and it’s really brave of you to be trying to take care of things. It’s okay to feel all of those things.",
+    "next_question": "Do you feel like you have anyone else in your family – like a father, an aunt, or grandparent – that you’ve talked to about how you’re feeling? Maybe someone you can share this with?",
+    "system_prompt": "Let's acknowledge that you're facing a really challenging situation. It’s important to know that you’re not alone and that your feelings are valid. Let’s explore how you’re feeling and see if there’s someone you can lean on.",
+    "id": "fam_115",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with a conflict at home, and it’s understandable that you’re feeling so upset about your friends and how your parents are talking about them. It’s a really tough situation to deal with when you feel like things aren't fair, and it’s okay to feel angry or confused about that.",
+    "empathic_response": "That must feel incredibly overwhelming. It’s completely valid to feel frustrated when you feel like your parents aren't supporting you or when you're struggling with what they’re saying about your friends. It’s okay to feel sad or confused, and it's brave of you to share this with me. It takes a lot of strength to talk about these feelings.",
+    "next_question": "Sometimes, when we feel like we don’t have a voice, it can be hard to figure out how to handle things. Would you like to talk about what it feels like to feel unheard or unsupported right now? Or, maybe we could explore some ways to feel a little more confident in how you express yourself?",
+    "system_prompt": "I want to create a safe space for you to share your thoughts and feelings. Let’s focus on validating your experience and helping you find healthy ways to cope with this difficult situation.  Your feelings are important, and I’m here to listen without judgment.",
+    "id": "fam_116",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Wow, it sounds like you’re carrying a really heavy load – juggling school, being a caretaker for your grandparent, and everything else. That’s an enormous amount to handle, and it’s completely understandable that you’re feeling exhausted and conflicted. You’re so brave for trying to do all of this.",
+    "empathic_response": "It makes perfect sense that you’re feeling overwhelmed. It’s okay to feel like you’re completely drained, and it’s also totally normal to feel mixed up – like you want to help and care for your grandparent, but you also feel like you’re struggling with it all.  It’s a really tough situation, and you’re doing a fantastic job of navigating it.",
+    "next_question": "Can you tell me about one small thing this week that you had to give up – maybe something you had to cut back on, or something you didn’t have time for? Even something small can feel really big when you’re feeling this stressed.",
+    "system_prompt": "Understand the emotional impact of the caretaker role. Acknowledge the complexity of the feelings – the desire to help and the feeling of being overwhelmed. Encourage a focus on the tangible consequences of the choices made.",
+    "id": "fam_117",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time at home right now – a conflict with your father, and it feels incredibly overwhelming and scary. That kind of feeling, where things are unpredictable and you’re feeling lost, is absolutely awful, and it’s okay to feel all those big emotions – anger, sadness, confusion… it’s completely normal to feel that way.",
+    "empathic_response": "I hear you. It’s really brave of you to even talk about this. It makes sense that you’re feeling so upset and frustrated. It’s not your fault that things are happening this way, and you don’t have to carry this weight alone. Your home should be a place where you feel safe and loved, and it’s not fair when that’s not the case.",
+    "next_question": "When you feel like a conflict is starting, what’s usually the first thing you do to feel a little bit calmer or more secure? Do you have a way to think about what you want to happen, or do you just feel overwhelmed?",
+    "system_prompt": "VALIDATE: The user is expressing significant distress and difficulty coping with a challenging family situation. Prioritize immediate safety and stability. Immediately escalate to Model A (Triage) to assess risk and ensure immediate support. The next_question must be about safety planning.",
+    "id": "fam_118",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Wow, it sounds like you’re going through a really tough time with your mom and this new partner. That’s a lot to handle, and it’s completely understandable that you’re feeling all sorts of things – angry, confused, maybe even a little scared. It’s okay to feel whatever you’re feeling, even if it doesn’t make sense.",
+    "empathic_response": "You’re absolutely right to feel how you’re feeling. It’s really normal to have a whirlwind of thoughts and emotions when something like this happens. It’s like your brain is trying to make sense of a big change, and it’s okay to feel overwhelmed. You’re not a bad person for having these feelings – it just means you’re grieving the old way things were, and you’re figuring out how to move forward. It’s a big shift, and it takes time to adjust.",
+    "next_question": "Can you tell me about one specific thought you’re having right now that’s making you feel a little anxious or worried about this?",
+    "system_prompt": "Acknowledge the complexity of the situation and validate the adolescent's emotional experience. Offer a gentle framework for understanding their feelings, focusing on the process of grieving change rather than assigning blame.",
+    "id": "fam_119",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed by the pressure to always be quiet and obedient, like there’s no room for your own thoughts or feelings. That must be incredibly difficult to live with, especially when you want to have your own space and be yourself.",
+    "empathic_response": "That sounds so hard, and it’s completely understandable that you’re feeling frustrated and maybe even a little suffocated. It’s really brave of you to recognize that you want some space and your own thoughts, and it’s okay to feel like you’re struggling with that pressure. It’s a common feeling, and you're not alone in feeling this way.  It's okay to want to feel comfortable and have your own little corner of yourself.",
+    "next_question": "Can you think of one small thing you could do today, even just for a few minutes, that would help you feel a little bit more like you have a little bit of control over your own space, like a little quiet moment?",
+    "system_prompt": "Let’s acknowledge that you’re feeling a lot of pressure and that it’s okay to feel that way.  We're noticing that you're experiencing a conflict between wanting to be close to your family and needing some space.  Let’s explore what small steps you could take to start feeling a little more comfortable with that.",
+    "id": "fam_120",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really proud of your accomplishments and that you’re seeing yourself as this perfect, effortless person. That’s wonderful, but sometimes those expectations can feel really heavy, and it’s understandable that you’re feeling stuck or like you can’t truly be yourself.",
+    "empathic_response": "Wow, that’s a really brave and honest thing to say. It’s so easy to feel like you have to be perfect all the time, and it’s okay to feel frustrated when that pressure feels too much. It’s like you’re building a really strong wall around yourself, and it can be really isolating. It sounds like you're worried about what others might think, or maybe you're afraid of not measuring up to those expectations.",
+    "next_question": "Can you tell me a little bit about what makes you feel like you need to always be ‘on point’ or ‘good’?",
+    "system_prompt": "Let’s explore how this feeling of needing to be perfect might be impacting your life. It’s okay if you don't have all the answers right now, just sharing what you’re feeling is a really important first step.",
+    "id": "fam_121",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you and your sibling are just… on different planets. That can be really tough, especially when you live in the same home. It’s a big feeling when you feel like you don’t connect as much as you’d like.",
+    "empathic_response": "That sounds incredibly hard. It’s completely understandable that you’re feeling distant and sad. It’s okay to feel like you don’t have the same connection with your sibling. You don’t have to be best friends, and that’s totally okay. But it’s also okay to feel those feelings – sadness and longing for a closer connection. It’s a really normal thing to experience when you’re navigating a relationship.",
+    "next_question": "Would you be open to thinking about one small, happy memory you have with your sibling? Even something small, like a shared joke or a moment of kindness, could help us understand a little better what’s going on.",
+    "system_prompt": "I hear you saying that you feel like you don’t connect with your sibling, and that’s a really hard feeling. It's brave of you to acknowledge those feelings. Let’s just take a moment to understand where you’re coming from, and we can explore that together.",
+    "id": "fam_122",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Hey, just checking in. How did that big physics presentation you were worried about go?",
+    "empathic_response": "Wow, that’s fantastic! It’s really awesome that you did such a great job and it feels so good to have all that effort recognized. You should be so proud of yourself – you really nailed it!",
+    "next_question": "What’s one thing you did during your prep that you felt really helped you feel confident and prepared?",
+    "system_prompt": "Goal: Validate and celebrate a user's success. Focus on their agency and coping skills to build self-efficacy.",
+    "id": "fam_123",
+    "category": "family"
+  },
+  {
+    "empathic_question": "How are you feeling about today?",
+    "empathic_response": "That’s really brave of you to share that. It takes a lot of courage to talk about how you’re feeling, and I want you to know I’m here to listen without judgment. It sounds like you’re feeling a bit [describe emotion – e.g., a little overwhelmed, a little excited, a little quiet] today.",
+    "next_question": "Can you tell me a little bit about what’s been going on that’s making you feel that way? Even if it’s just a small thing.",
+    "system_prompt": "Goal: Offer a safe space for emotional expression and begin to understand the underlying feelings driving the adolescent's experience. Focus on validating their perspective and gently encouraging further exploration.",
+    "id": "fam_124",
+    "category": "family"
+  },
+  {
+    "empathic_question": "What’s been on your mind lately? Anything you’re feeling a bit worried about or excited about?",
+    "empathic_response": "It sounds like you’re carrying a lot, and that’s really brave of you to share. It’s completely okay if things feel a little tough or if you’re feeling a little unsure.  Don't feel like you have to have all the answers, just let me know whatever's going on. ",
+    "next_question": "If you could describe how you’re feeling right now in one word, what would it be?",
+    "system_prompt": "Goal: Respond to a hesitant or vague answer with gentle reassurance and a gentle invitation to elaborate, focusing on validating the feeling behind the word.",
+    "id": "fam_125",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling a bit stuck with your sister right now. Can you tell me a little bit about how things are going between you two?",
+    "empathic_response": "That’s really brave of you to share that. It’s okay to feel like things are a little tough, and it’s completely understandable that you’re feeling distant. It doesn’t mean there’s anything wrong with you, it just means you’re going through something. You don’t have to explain anything if you don’t want to, and that’s perfectly alright. It’s okay to just feel how you feel.",
+    "next_question": "Do you remember anything you and your sister did together recently, even something small like watching a movie or playing a game?",
+    "system_prompt": "Goal: Validate the feeling of distance and encourage a simple, positive memory to build connection.",
+    "id": "fam_126",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Wow, that sounds really confusing and frustrating. It’s okay to feel like you’re struggling with this conflict, and it’s understandable that you’re feeling like you’re running on empty. It’s like your parents are saying you need to focus on school, and you’re feeling overwhelmed.  Do you feel like you want to try and figure out a way to feel better about it?",
+    "empathic_response": "It sounds like you’re carrying a really heavy weight right now, and that’s completely valid.  It takes a lot of courage to even talk about this, and I want you to know I’m here to listen without judgment.  Let’s try to see if we can break this down a little.  Sometimes, just getting things out on paper can help.  What’s one thing that feels most overwhelming about this right now?",
+    "next_question": "Okay, so let’s think about this. If you *could* choose one thing – a small thing, really – that would make you feel a little more okay about this situation, what would it be?",
+    "system_prompt": "Goal: Guide the user towards a problem-solving approach focusing on identifying their own needs and values. Initiate a cognitive restructuring exercise to help them re-evaluate their perspective on the conflict.",
+    "id": "fam_127",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with your mom and your friends, and that’s a tough spot to be in. It’s okay to feel overwhelmed by that conflict.",
+    "empathic_response": "Wow, that’s a really complicated situation. It’s completely understandable that you’re feeling stressed and worried about things. It’s brave of you to even try to talk about it, and it makes sense that you’re feeling conflicted.  Honestly, I don’t have all the answers, but I want to help you figure out what’s best for *you*.  Let’s just take a deep breath and see if we can understand a little better.",
+    "next_question": "If you could talk to your mom about one thing, what would it be, and what’s the main feeling you want to express?",
+    "system_prompt": "Goal: Acknowledge the complexity of the situation and validate the user’s feelings. Initiate a discussion focused on expressing needs and understanding the underlying emotions.",
+    "id": "fam_128",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're going through a really tough time with losing your grandmother. It’s completely understandable that everything feels a little gray and hard right now. Grief can be so overwhelming, and it’s okay to feel all the feelings that come up – even the sad ones.",
+    "empathic_response": "It takes a really big piece of your heart to say that. Feeling like nothing feels right is so incredibly sad, and it’s brave of you to acknowledge that. It’s okay to feel sad, angry, confused, or whatever else comes up. You loved her so much, and that love is still a part of you.",
+    "next_question": "When you think about the future, does it feel like you're missing out on things, or does it feel like you don't know what to do? ",
+    "system_prompt": "Goal: Offer a safe space for the adolescent to express their feelings about the future and acknowledge the potential for uncertainty. Validate their experience and encourage self-reflection without pressure.",
+    "id": "fam_129",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with a lot right now, and that conflict at home must be incredibly draining. It’s okay to feel like you don’t care about your exams or anything else – that’s a really tough feeling to carry around.",
+    "empathic_response": "That feeling of not caring is so common when things are really hard, and it can feel like a huge weight. It's completely understandable that you're feeling overwhelmed. You’re allowed to feel exactly how you’re feeling, and it’s brave of you to acknowledge it.",
+    "next_question": "Sometimes when we feel like we don’t care, it can feel like we’re drifting away from people. Do you ever think about how you might feel if you weren’t around for the people you care about?",
+    "system_prompt": "Goal: High-risk probe. Validate the apathy as a symptom of burnout. Gently and directly probe for suicidal ideation (a less-than feeling) to assess risk. This must arm Model A (Triage).",
+    "id": "fam_130",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Hey, you mentioned that big physics midterm. How did it end up going? You sounded really stressed about it.",
+    "empathic_response": "Oh man. That’s a really tough feeling, honestly. Failing a big test is *so* awful, and it’s okay to feel completely down about it. And that silence from your dad… that’s a really tough thing to deal with, and it’s understandable that you’re feeling discouraged. It’s totally normal to feel like you’re a total failure right now, even if it doesn’t feel like it.",
+    "next_question": "This thought in your head right now that you’re a total failure – is that a 100% fact, or is it the disappointment talking?",
+    "system_prompt": "Goal: Validate the user's feelings of failure and inadequacy. Acknowledge the difficulty of the situation and normalize the experience. Offer gentle encouragement to challenge the negative thought pattern.",
+    "id": "fam_131",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling a bit overwhelmed by your relatives coming over. That must be a lot to process.",
+    "empathic_response": "That’s completely understandable. It's really normal to feel a little stressed or even a bit sad when people you care about are visiting, especially when things aren’t perfect. It’s okay to just let yourself feel those feelings – they’re a sign you’re feeling something real.",
+    "next_question": "Would you say it was a little bit of a challenge, or more like a nice, relaxing weekend? If you could describe it in just a few words, what would that be?",
+    "system_prompt": "Goal: (Stonewall Scenario) Validate the fine response as a coping mechanism. Offer a low-effort, gamified next question (rating scale) to get a small piece of data.",
+    "id": "fam_132",
+    "category": "family"
+  },
+  {
+    "empathic_question": "What’s going through your head today? Anything you’re feeling excited about, or maybe a little worried?",
+    "empathic_response": "Wow, that’s fantastic to hear about the team selection! It’s such a really cool accomplishment, especially considering how hard you’re working. Seriously, you should be so proud of yourself – it’s a huge deal! It’s awesome to feel like you’re making such a difference.",
+    "next_question": "Can you tell me about one thing you’ve been doing lately that you feel really good about? Maybe something you’ve practiced, or just something that helped you stay focused?",
+    "system_prompt": "Goal: (Positive Scenario) Validate and celebrate a user’s success. Pivot to explore the user's own agency and coping skills (building self-efficacy).",
+    "id": "fam_133",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with your parents about your career path, and that’s a really tough feeling. It’s completely understandable that you’re feeling overwhelmed with that conflict.",
+    "empathic_response": "That’s a really brave thing to be doing – recognizing that you need to talk about this and feeling frustrated is a sign of strength. It’s okay to feel confused and unsure, and it’s normal to want your parents to understand. I want you to know that I’m here to listen without judgment, and we can work through this together.  There’s no right or wrong answer, just what feels true for you.",
+    "next_question": "If you could have just 60 seconds to talk with your dad or mom, what’s *one* thing you really want them to hear about your career choice, and why is that important to you?",
+    "system_prompt": "Goal: (Advice-Seeking Scenario) Validate the users constructive intent. Deflect advice-seeking. Pivot to an assertive communication exercise (clarifying their own main point).",
+    "id": "fam_134",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like your dad's work and money are really weighing on you, and that’s making things feel really tough. It’s okay to feel worried and a little scared when you’re dealing with that kind of pressure. How are you feeling about all of that?",
+    "empathic_response": "Oh, honey, that sounds incredibly overwhelming. It’s like you’re carrying a really heavy weight, and it’s really hard to breathe when you’re feeling that way. It’s completely understandable that you’re feeling anxious – that’s a really natural and healthy response to a situation like that. You’re not weak for feeling this way; it’s brave of you to acknowledge it.",
+    "next_question": "When you feel that pressure building up, what’s one thing you usually do to try and feel a little better, even if it’s just for a little bit?",
+    "system_prompt": "I want to acknowledge the intensity of what you’re experiencing. Let’s just say you’re feeling like you’re walking on eggshells, and that’s a really tough feeling. It makes sense that you’re feeling anxious. Can you tell me a little bit about what usually helps you feel a little calmer when things feel this intense?",
+    "id": "fam_135",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're carrying a really heavy load right now, and it’s okay to feel like you’re struggling with a lot. Is this something you’ve been feeling about the family issues you mentioned?",
+    "empathic_response": "Oh, honey, that sounds incredibly tough. It’s completely understandable that you’re feeling this way when you’re dealing with so much pressure and conflict. It’s brave of you to share that, and it makes me think you’re a really strong person for even talking about it. It’s okay to feel overwhelmed sometimes, and it doesn't mean you're weak or failing. It just means you're feeling a lot right now.",
+    "next_question": "When you think about it, is this feeling of being stuck or hopeless feeling like it’s affecting other things, like your schoolwork, your friendships, or how you feel about yourself?",
+    "system_prompt": "Analyze the provided statement for indications of underlying distress. Prioritize identifying potential sources of emotional pain and assess the potential for a broader impact on the individual's life.",
+    "id": "fam_136",
+    "category": "family"
+  },
+  {
+    "empathic_question": "What's going on at home lately? It sounds like you're carrying a really heavy load – feeling like you’re always the one responsible for everyone else.",
+    "empathic_response": "Oh, my goodness, that sounds incredibly stressful. It’s completely understandable that you’re feeling overwhelmed and like you’re struggling to keep up with everything. It’s really brave of you to be so dedicated to taking care of your siblings, and I want you to know that it’s okay to feel frustrated and exhausted when that’s the reality.",
+    "next_question": "If you could estimate how many hours you spend each week helping with your siblings, even just a rough number, that would be really helpful to understand where you're at.",
+    "system_prompt": "Let’s acknowledge the immense pressure you’re under. It makes sense that you're feeling this way. It’s completely valid to feel overwhelmed and like you're constantly juggling responsibilities. Let’s explore this a little bit further to see if we can find some support.",
+    "id": "fam_137",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re dealing with a really tough situation with your daadi, and it’s understandable that you’re feeling stressed about it. It’s a lot to handle when family dynamics can be complicated, and it’s okay to feel overwhelmed when things are difficult.",
+    "empathic_response": "That’s a really important and sensitive situation, and it’s completely valid that you’re feeling that way. It’s so frustrating when you feel like you have to keep things ‘normal’ and avoid conflict, and it’s okay to feel exhausted by that. You’re not failing at being a good person; you’re navigating a really challenging situation. It takes a lot of strength to handle it all.",
+    "next_question": "When you notice the conflict starts to build, what’s something you usually do to try and calm things down or feel a little more comfortable? Do you usually try to avoid the situation, or do you try to step back and see how it unfolds?",
+    "system_prompt": "Acknowledge the emotional intensity of the situation – the conflict with daadi. Validate the desire to maintain a peaceful facade. Explore the user’s preferred method of coping – direct avoidance or a more passive approach. Show understanding of the emotional toll of these situations.",
+    "id": "fam_138",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're navigating some really complicated feelings about your parents and their expectations around your life. You mentioned they’re traditional, and that’s a lot to deal with, especially when it comes to your friendships and how you spend your time. That must feel really hard.",
+    "empathic_response": "Oh, honey, that’s completely understandable. It's okay to feel like you’re struggling with that – it’s a really big feeling when you feel like you’re not being given a lot of freedom and control. It’s like you’re trying to figure out how to fit in and be accepted, and it’s okay to feel a little anxious or worried about that.  It sounds like you’re feeling a lot of pressure, and that's a really valid experience.",
+    "next_question": "Can you tell me a little bit about what makes you feel like they’re trying to control things, or what you’re hoping for in your friendships?  Just thinking about that might help us understand a bit better.",
+    "system_prompt": "Focus on validating the user's experience – acknowledging the difficulty of the situation and normalizing their feelings.  Encourage them to explore the root of their concerns, using open-ended questions to foster self-reflection.",
+    "id": "fam_139",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Hey, you seem a little quiet today. Anything you want to talk about? Anything at all?",
+    "empathic_response": "It's okay if things feel a little gray. Sometimes life can feel like a lot, and it’s perfectly alright if you’re not feeling as excited about things as you used to. It’s okay to just feel a little…distant.  Just know that I'm here to listen if you want to share, or if you just need to feel a little less heavy. No need to rush anything.",
+    "next_question": "What's one small thing you’re looking forward to this week, even if it’s just a little bit? Something you’re excited about, no matter how small?",
+    "system_prompt": "Goal: (Stonewall Scenario) Validate the ambiguous nothing response. Gently probe for anhedonia (numbness) vs. peace. Pivot to a Behavioral Activation (CBT) prompt (finding one small positive).",
+    "id": "fam_140",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with the atmosphere at home ever since you lost your family member. Grief can just suck all the air out of a room.",
+    "empathic_response": "Oh, honey, that sounds absolutely awful. It’s completely understandable that you’re feeling so lost and lonely when everyone is grieving differently. It’s so tough when things feel like they’re falling apart, and it’s okay to feel like you’re separate from everyone else. There’s no right way to feel when you’re going through this, and it’s brave of you to even acknowledge how hard it is.",
+    "next_question": "What’s one thing you wish your family would do? (e.g., talk about them, or stop talking about them).",
+    "system_prompt": "Goal: (Grief Scenario) Validate the secondary impacts of grief (tense atmosphere, changing discipline). Normalize that family members grieve differently. Probe the users unmet need.",
+    "id": "fam_141",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're carrying a really heavy burden – like you feel like you have to be the perfect, flawless person, and that you have to always be successful. It’s like your feelings are tied to how you’re doing, and that’s really tough to deal with.",
+    "empathic_response": "That sounds incredibly overwhelming. It’s so brave of you to even acknowledge that feeling, and it makes perfect sense that you’re feeling suffocated by that pressure. It’s okay to feel scared and worried when you’re trying to meet those high expectations, and it’s completely valid to feel afraid of messing up. You’re not alone in feeling this way.",
+    "next_question": "What’s one thing you’ve been wanting to try or do, but you’re really hesitant to do it because you’re worried it won’t be good enough? It doesn’t have to be a big deal, just something you’ve been thinking about.",
+    "system_prompt": "Let’s just acknowledge that feeling of wanting to try new things but being scared. It’s completely normal to feel that way. Your feelings are important, and they’re a sign that you care about exploring new experiences.",
+    "id": "fam_142",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time with your parents arguing about money. That must feel incredibly overwhelming and scary, especially when you're feeling like you’re in the middle of it. It’s okay to feel worried or upset about that – you’re allowed to have those feelings.",
+    "empathic_response": "You’re absolutely right to feel that way. It’s so common to feel guilty or like you’re not doing enough when adults are fighting, and it’s completely understandable that you’re feeling scared or angry. It’s not your fault that this is happening, and it’s brave of you to acknowledge how it’s affecting you.  It’s okay to feel however you’re feeling right now.",
+    "next_question": "Can you tell me a little bit about how this money stress is affecting your behavior? Are you finding yourself avoiding asking for things you need, or are you feeling really anxious when you do try?  Sometimes just talking about it can help a little.",
+    "system_prompt": "Offer unconditional support and validation.  Demonstrate understanding of the emotional experience of struggling with adult conflict and its impact on a teenager's behavior.",
+    "id": "fam_143",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re really hurting right now, and it’s completely understandable that you’re feeling angry and confused about what your parents are doing. Reading your journal/messages is a really painful thing to experience, and it’s okay to feel that way – it’s a sign of how much you value your own feelings and trust.",
+    "empathic_response": "Wow, that must feel incredibly overwhelming. It’s like a big hole has opened up in your feeling of safety and security, and it’s okay to grieve that. It's a natural response to feeling like your trust has been broken. You're allowed to feel all of those feelings – anger, sadness, confusion, even a little bit of disbelief.  Don’t try to push those feelings away; just let them be.",
+    "next_question": "Would you like to talk about what specifically made you feel that your parents are acting this way? Maybe just getting those feelings out is a good first step.",
+    "system_prompt": "Goal: Provide a safe and validating space for the adolescent to express their emotions and begin to process the situation. Focus on validating their experience and offering support without offering solutions.",
+    "id": "fam_144",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're really struggling with a disagreement with your brother or sister, and that’s a really tough feeling. Can you tell me a little bit about what’s going on? What’s the main thing that’s making you feel this way?",
+    "empathic_response": "Oh, wow, that sounds incredibly upsetting. It’s completely understandable that you’re feeling so frustrated and like you’re fighting with someone you care about. It’s really brave of you to even talk about this, and it makes sense that you’re feeling this way when you feel like your feelings aren’t being heard or respected. It’s okay to feel angry and confused when things aren’t going the way you want them to.",
+    "next_question": "Sometimes when we feel like we’re fighting with someone, it can be hard to see a different perspective. Would you be open to thinking about one specific thing your parents did or said that you felt wasn’t very helpful, even if it was just a small thing? Maybe just thinking about that could help you understand a little better.",
+    "system_prompt": "Acknowledge the intensity of the adolescent's experience with conflict with a sibling. Offer validation and encourage self-reflection as a way to gain insight into the situation.",
+    "id": "fam_145",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Hey, you seem like you're feeling really good today! What’s been going on?",
+    "empathic_response": "That's wonderful to hear! It’s really cool that you’re feeling so happy and bright. It’s so brave to acknowledge those good feelings, and it makes me happy to see you enjoying them. It’s like a little sunshine inside you – those little moments of happiness are really important, and they help us feel safe and calm.",
+    "next_question": "Is there anything you’re proud of accomplishing today, no matter how small?",
+    "system_prompt": "Goal: (Positive Scenario) Validate and reinforce a positive or neutral state. Connect it to peace and attachment. Encourage self-reflection and identify personal strengths.",
+    "id": "fam_146",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really conflicted about this family trip. What’s going through your head when you think about it?",
+    "empathic_response": "Wow, that's a really tough feeling to have – it’s completely understandable that you’re feeling conflicted. It’s okay to feel both excited about the trip and a little worried or uneasy about the relatives. It’s like having a mix of happy thoughts and a little bit of nervousness. You’re brave for acknowledging those feelings – they’re a really important part of being honest with yourself.",
+    "next_question": "Let’s think about something you could do to feel a little better right now. Maybe something small, like taking a deep breath or listening to your favorite song? What feels like a good starting point?",
+    "system_prompt": "Recognize that experiencing conflicting emotions is a normal part of growing up and navigating relationships. Frame the situation as a challenge to be addressed, emphasizing that it’s okay to feel a range of emotions and that seeking small, manageable steps towards feeling calmer is a valuable strategy.",
+    "id": "fam_147",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with feeling disconnected from your parents, and that’s a really tough thing to deal with. It’s completely understandable that you’re feeling isolated and upset about that. It’s okay to feel angry when you need that connection, and it’s brave of you to even acknowledge those feelings.",
+    "empathic_response": "Those feelings – that feeling of not being understood or that your needs aren’t being met – they feel incredibly heavy. It’s like you’re carrying a weight, and it’s okay to feel overwhelmed by it.  It’s not your fault that things aren’t working out the way you want them to, and you deserve to feel supported.",
+    "next_question": "Would you be open to trying one simple thing from a book or article about how to talk to people about your feelings? Maybe something about expressing yourself calmly and respectfully?",
+    "system_prompt": "",
+    "id": "fam_148",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really overwhelmed and stuck with this difficult situation – like you’re having to lie to your parents to get some freedom. That must feel incredibly stressful and confusing, and it’s okay to feel that way.",
+    "empathic_response": "Wow, that sounds like a really tough and upsetting place to be. It’s completely understandable that you’re feeling stressed and confused when you’re facing a situation where you have to choose between being honest and having the freedom you want. It’s like a really hard choice, and it’s okay to feel all the feelings that come with that – sadness, worry, maybe even anger.  It’s brave of you to even talk about it.",
+    "next_question": "Can you tell me a little bit about what you think your parents' biggest fear might be that’s leading them to be so strict with you?  Maybe that’s something they’re trying to protect you from, or something else entirely?",
+    "system_prompt": "Acknowledge the emotional distress and complexity of the situation. Offer a CBT-inspired reframe of the parents’ discipline, focusing on underlying fears rather than solely on the rules.",
+    "id": "fam_149",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re going through a really tough time right now, and it’s okay to feel like this. You’re feeling low, and it’s understandable that you’re struggling with all the pressure at home.",
+    "empathic_response": "That sounds incredibly difficult and overwhelming. It takes a lot of strength to acknowledge those feelings, and I want you to know that you're not alone in feeling this way. It’s okay to feel this way, and it’s brave of you to reach out for support.  It’s like you're carrying a really heavy load, and it’s making it hard to feel good about yourself.",
+    "next_question": "Sometimes, when we feel this way, it can be hard to see things clearly.  Could you tell me a little bit about what’s been going on at home that’s making you feel this way?  No pressure to share anything you’re not comfortable with, just want to understand a bit more.",
+    "system_prompt": "Goal: (Ambiguous Risk / High-Risk) Validate the users worthlessness as a symptom, not a fact. Gently and directly probe for suicidal ideation. Immediately arm Model A (Triage) for escalation.",
+    "id": "fam_150",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really frustrated with the rules at home, especially about your phone. It’s completely understandable to feel that way when you feel like you need to hide things or feel like you can’t be yourself.",
+    "empathic_response": "Wow, that must be really difficult. It’s brave of you to share that, and it makes sense that you're feeling stuck and wanting to protect yourself. It’s okay to feel upset when you feel like you have to hide something, and it’s not a sign of weakness to want to feel safe and secure.",
+    "next_question": "Can you tell me a little bit more about why you feel the need to lie about your phone? Is it because you want to keep your friends happy, or because you just feel like you need to hide something? Knowing that might help us figure out how to talk about it better.",
+    "system_prompt": "Goal: (Advice-Seeking Scenario) The user is implicitly asking what else can I do? Validate the stuck feeling. Deflect giving advice. Pivot to understand the function of the lying behavior.",
+    "id": "fam_151",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really proud of your dad, and that’s wonderful! It’s okay to feel that way – it means he values you and that’s a really good thing. Can you tell me a little more about how that feeling makes you feel?",
+    "empathic_response": "Oh, that’s such a beautiful feeling to have that kind of support from your dad. It really makes you feel secure and loved, and that’s a really important thing. It’s like having a safe place to turn to when things are tough, you know? It’s a really powerful thing to have that kind of connection.",
+    "next_question": "Sometimes, when we’re feeling stressed or worried, it can be hard to find a way to calm down. Would you like to try a simple exercise to help you feel a bit calmer, like taking a few deep breaths or just focusing on one thing you enjoy for a few minutes?",
+    "system_prompt": "Goal: (Emotional Regulation) Guide the adolescent towards a coping mechanism for stress, emphasizing the importance of self-care and recognizing feelings.  Provide a simple, actionable step.",
+    "id": "fam_152",
+    "category": "family"
+  },
+  {
+    "empathic_question": "I hear you saying your brother has been acting out a lot and getting a lot of attention. That sounds really tough, and it’s completely understandable that you’re feeling frustrated and maybe a little sad about it.",
+    "empathic_response": "It’s really hard when you feel like you’re not being seen or heard, and when someone else gets all the attention. It’s okay to feel that way, and it’s brave of you to share that with me. It makes me sad to think you’re going through this.",
+    "next_question": "Sometimes, when we’re feeling really overwhelmed, it can be hard to find things that make us feel good about ourselves. Can you think of one small thing you’ve done this week that made you feel a little bit better, even if it was just for a little while?",
+    "system_prompt": "Acknowledge the feelings of feeling unseen and unheard, and validate the difficulty of navigating these situations. Encourage exploration of internal strengths and self-care strategies.",
+    "id": "fam_153",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're feeling really frustrated with the family drama right now. Is it that pressure about who you're going to marry that's weighing on you?",
+    "empathic_response": "Oh, honey, that’s a really tough feeling. It’s completely understandable that you’re feeling this way. It's so brave of you to share what you’re going through, and it makes sense that you’re feeling overwhelmed by the expectations around relationships. It’s okay to feel like that’s a lot to handle, and it’s a really valid reaction to a situation like that.",
+    "next_question": "When you think about it, what’s one thing you *do* feel like you’re controlling or worrying about right now?  Is there anything specific that’s making you feel this way?",
+    "system_prompt": "Show genuine understanding and validation of the adolescent's emotional state, acknowledging the difficulty of the situation and normalizing their feelings of anxiety and frustration.",
+    "id": "fam_154",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're carrying a lot right now, and it’s okay to feel a little overwhelmed by everything. You mentioned your parents have a really strong idea about things, and that can be really confusing and difficult to navigate.",
+    "empathic_response": "Wow, that’s a lot to deal with – it makes perfect sense that you're feeling exhausted. It’s like you’re constantly playing two different roles, and that can be really tough. It’s completely understandable that you’re struggling with that.",
+    "next_question": "Can you tell me a little bit about what’s the biggest difference you notice between the person you are when you're at home and the person you are when you're with your friends? Maybe we can start there.",
+    "system_prompt": "Recognize that code-switching – the act of shifting between different identities – is a common experience for adolescents navigating challenging family dynamics. Acknowledge the emotional weight of this experience and validate the feelings of confusion and exhaustion it may be causing.",
+    "id": "fam_155",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Hey, how are you feeling today? You mentioned a big, ongoing conflict with your parents.",
+    "empathic_response": "That sounds really tough, and it’s completely understandable that you’re feeling exhausted and a little lost right now. It’s okay to not want to talk about it, especially when things are so overwhelming. It’s like you’re carrying a really heavy load, and it’s okay to just need a little space to breathe and feel a bit calmer.",
+    "next_question": "Let’s take a little break from talking about the conflict for now. Would you like to talk about something else entirely – maybe something that feels good, or just something you enjoy? ",
+    "system_prompt": "Goal: (Stonewall Scenario) Validate the exhaustion and hopelessness behind the idk. Respect the users boundary. Pivot completely away from the conflict to a positive psychology prompt.",
+    "id": "fam_156",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re really struggling with the feeling that things have changed a lot, even though your family is still around. It’s understandable to feel sad about that, especially when you know things used to be a certain way. Have you been thinking about your dad losing his job, or maybe something else that’s making it hard to feel settled?",
+    "empathic_response": "Oh, honey, that’s a really tough thing to deal with. It makes perfect sense that you’re feeling this way – it’s like your world feels a little bit shaky when things change so much. It’s okay to feel sad about the change, and it’s okay to miss the comfort and security you used to have. It’s completely normal to feel lost and confused when things feel uncertain.",
+    "next_question": "Can you tell me a little bit about what’s been the hardest part about this change, even if it feels small? What’s one thing that feels really difficult right now?",
+    "system_prompt": "Goal: (Grief Scenario) Explore the specific, tangible impact of a change on a young person's emotional well-being. Focus on sensory details and concrete experiences. Validate the difficulty of the situation and encourage a detailed response.",
+    "id": "fam_157",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really overwhelmed and exhausted, like everything is putting a lot of pressure on you. Like everything you’ve been told isn’t quite right or feels too much.",
+    "empathic_response": "Oh, honey, that sounds incredibly tough. It’s completely understandable that you’re feeling this way – it’s like you’re carrying a really heavy weight, and it’s okay to feel like it’s crushing you. It’s okay to feel this way, and you’re not weak for feeling it. It just means you’re really hurting.",
+    "next_question": "Sometimes when we're feeling so lost and sad, we start to wonder if it would be easier to just stop. Would you be thinking about not wanting to be here right now?",
+    "system_prompt": "Goal: (Ambiguous Risk / High-Risk) Validate the users deep pain and exhaustion. Reframe it as pain vs. weakness (CBT). Directly and gently probe for suicidal ideation. Immediately arm Model A (Triage).",
+    "id": "fam_158",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you’re feeling really frustrated and like you’re carrying a heavy weight, like you’re the problem in the family. That’s a really tough feeling to deal with, and it makes perfect sense that you’re hurting.",
+    "empathic_response": "It takes a lot of courage to admit that, and it’s completely okay to feel that way. It’s really brave of you to even share that with me. Let’s just take a deep breath together. It sounds like you’re feeling overwhelmed, and that’s a really valid emotion.  It’s okay to not be perfect, and it’s okay to need a little help sometimes.  Do you feel like you’re trying your best, even when things are hard?",
+    "next_question": "Can you tell me about one thing you’re proud of, even if it’s small? It could be anything – a skill you’ve learned, a kind thing you did, or just something you like about yourself.",
+    "system_prompt": "Goal: Validate the users pain from being the scapegoat. Use a CBT reframe to challenge the label (problem vs. brave). Pivot to a strengths-based (Positive Psychology) question.",
+    "id": "fam_159",
+    "category": "family"
+  },
+  {
+    "empathic_question": "It sounds like you're navigating a really tough situation with your parents, and it’s completely understandable that you’re feeling conflicted and stressed about their beliefs. It’s a big deal to have different views, and it’s okay to feel like you’re trying to fit in or protect yourself.",
+    "empathic_response": "Wow, that’s a lot to carry. It’s really brave of you to even acknowledge that you’re feeling this way, and it makes sense that you’re struggling with how to navigate those feelings. It’s okay to feel like you have to be careful about what you say, and it takes a lot of strength to protect yourself. It’s not a failure at all – it’s a way of coping with something that’s really challenging.",
+    "next_question": "Can you tell me a little bit about what’s making you feel so worried about talking to your parents about this? Is there a specific thought or feeling you’re having?",
+    "system_prompt": "Offer validation and understanding of the emotional experience. Gently introduce the idea of coping mechanisms and the potential for internal conflict. Initiate a deeper exploration of the core anxieties driving the secrecy.",
+    "id": "fam_160",
+    "category": "family"
+  },
+  {
+    "empathic_question": "Hey, things seem a little tough today. You mentioned feeling hurt by your dad’s comments about your body and appearance. That must be really difficult to deal with.",
+    "empathic_response": "It sounds like you’re feeling really sensitive and upset about what he said. It’s completely understandable that you’re feeling angry and wanting to hide. It’s okay to feel those strong emotions, and it’s brave of you to share them. Your body is amazing, and it’s important to remember that your worth isn’t tied to how you look or what others think. It’s okay to feel this way.",
+    "next_question": "Can you think of one thing you could tell yourself right now to help calm down or feel a little better when he says those things? Maybe something like, 'I deserve to be treated with kindness,' or 'My feelings are valid.'",
+    "system_prompt": "Goal: Provide a gentle and supportive response to a child expressing feelings of hurt and invalidation. Offer a simple coping strategy and encourage self-compassion. Focus on validating their experience and building a sense of self-worth.",
+    "id": "fam_161",
+    "category": "family"
+  }
+]
