@@ -38,3 +38,5 @@ sse-starlette
 deepagents
 
 psutil
+
+langchain-nvidia-ai-endpoints
