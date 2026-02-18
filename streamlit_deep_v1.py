@@ -13,7 +13,8 @@ from datetime import datetime
 
 # ─── Config ──────────────────────────────────────────────────────────────────
 
-API_BASE_URL = "http://localhost:8000"   # change if backend is remote
+# API_BASE_URL = "http://localhost:8000"   # change if backend is remote
+API_BASE_URL = "https://mental-study-chat-1.onrender.com"   # change if backend is remote
 
 # ─── Page setup ──────────────────────────────────────────────────────────────
 
