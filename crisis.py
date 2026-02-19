@@ -1,52 +1,91 @@
-#!/usr/bin/env python3
-"""
-Dr. Mind v5.2 — Contextual Clinical Interview Engine  [Token-Optimized]
-Categories: CRISIS > VIOLENCE > SUBSTANCE > SEXUAL_HARASSMENT > OCD > MISCHIEVOUS >
-            FAMILY_CONFLICT > RELATIONSHIP > BODY_IMAGE > NEGATIVE > TEACHER_SYSTEMIC >
-            EXAM_STRESS > MARKS > SAFE > AMBIGUOUS
-Architecture: RuleFilter → Classify (mini) → (Verify if CRISIS) → LLM-driven respond (gpt-4o)
-Safety anchors: CRISIS, VIOLENCE, SUBSTANCE, SEXUAL_HARASSMENT (first disclosure only)
-
-Optimizations (v5.1 → v5.2):
-  1. gpt-4o-mini for classifier, gpt-4o for responder
-  2. Classifier outputs only CLASSIFICATION + LANGUAGE (no reasoning chain)
-  3. SPECIALIZED CLINICAL SCENARIOS removed from classifier prompt
-  4. Prompts restructured for OpenAI prefix caching (static system / dynamic user)
-  5. History windows shrunk: classifier=2 turns, responder=8 messages
-  6. CBT/DBT block skipped for lightweight categories (SAFE/MARKS/AMBIGUOUS/MISCHIEVOUS)
-  7. Rule-based pre-filter eliminates LLM classifier call for obvious messages
-"""
-
 import os
 import re
-from typing import TypedDict, Annotated, Sequence, List
-from dotenv import load_dotenv
+import logging
+from typing import Annotated, Sequence, TypedDict
 
-try:
-    from langchain_openai import ChatOpenAI
-    from langchain_core.messages import BaseMessage, SystemMessage, HumanMessage, AIMessage
-    from langgraph.graph import StateGraph, END, START
-    from langgraph.graph.message import add_messages
-except ImportError as e:
-    print(f"❌ Missing dependency: {e}")
-    exit(1)
+from langchain_core.messages import (
+    AIMessage, BaseMessage, HumanMessage, SystemMessage, add_messages,
+)
+from langgraph.graph import END, START, StateGraph
 
-load_dotenv()
+# ── LLM Providers ────────────────────────────────────────────────────────────
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_openai import ChatOpenAI
+
+logger = logging.getLogger("dr_mind")
 
 # ── Model config ──────────────────────────────────────────────────────────────
-# Strategy 1: cheap fast model for routing, full model for clinical response
-CLASSIFIER_MODEL = "gpt-4o-mini"   # 33× cheaper input — sufficient for routing
-RESPONDER_MODEL  = "gpt-4o"        # full quality for clinical interview
+# Strategy 1 (updated):
+#   PRIMARY  → Gemini 2.5 Flash (cheap, fast, high quality)
+#   FALLBACK → OpenAI (gpt-4o-mini for routing, gpt-4o for clinical response)
 
+# --- Primary: Google Gemini ---
+GEMINI_CLASSIFIER_MODEL = "gemini-2.5-flash-lite"
+GEMINI_RESPONDER_MODEL  = "gemini-2.5-flash-lite"
+_GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY", "")
+
+# --- Fallback: OpenAI ---
+OPENAI_CLASSIFIER_MODEL = "gpt-4o-mini"
+OPENAI_RESPONDER_MODEL  = "gpt-4o-mini"
 _OPENAI_KEY = os.getenv("OPENAI_API_KEY", "")
 
-def _classifier_llm(temperature: float = 0.0) -> ChatOpenAI:
-    return ChatOpenAI(model=CLASSIFIER_MODEL, api_key=_OPENAI_KEY,
-                      temperature=temperature, max_tokens=20)
+# ── LLM Factory Functions ────────────────────────────────────────────────────
+# Each factory returns (primary_llm, fallback_llm_factory) so callers can
+# try primary first and fall back on failure.
 
-def _responder_llm(temperature: float = 0.7) -> ChatOpenAI:
-    return ChatOpenAI(model=RESPONDER_MODEL, api_key=_OPENAI_KEY,
-                      temperature=temperature, max_tokens=400)
+def _gemini_classifier_llm(temperature: float = 0.0) -> ChatGoogleGenerativeAI:
+    return ChatGoogleGenerativeAI(
+        model=GEMINI_CLASSIFIER_MODEL,
+        google_api_key=_GOOGLE_API_KEY,
+        temperature=temperature,
+        max_output_tokens=20,
+    )
+
+def _gemini_responder_llm(temperature: float = 0.7) -> ChatGoogleGenerativeAI:
+    return ChatGoogleGenerativeAI(
+        model=GEMINI_RESPONDER_MODEL,
+        google_api_key=_GOOGLE_API_KEY,
+        temperature=temperature,
+        max_output_tokens=400,
+    )
+
+def _openai_classifier_llm(temperature: float = 0.0) -> ChatOpenAI:
+    return ChatOpenAI(
+        model=OPENAI_CLASSIFIER_MODEL,
+        api_key=_OPENAI_KEY,
+        temperature=temperature,
+        max_tokens=20,
+    )
+
+def _openai_responder_llm(temperature: float = 0.7) -> ChatOpenAI:
+    return ChatOpenAI(
+        model=OPENAI_RESPONDER_MODEL,
+        api_key=_OPENAI_KEY,
+        temperature=temperature,
+        max_tokens=400,
+    )
+
+
+def _invoke_with_fallback(primary_llm, fallback_llm_factory, messages: list, label: str = "LLM"):
+    """
+    Try the primary LLM first (Gemini 2.5 Flash).
+    If it fails for ANY reason (quota, network, API error, content filter),
+    fall back to OpenAI.
+    Returns the LLM result object.
+    """
+    try:
+        result = primary_llm.invoke(messages)
+        # Gemini can sometimes return empty content on safety filters
+        if result.content is None or result.content.strip() == "":
+            raise ValueError("Empty response from primary LLM")
+        logger.info(f"  [{label}] ✅ Gemini success")
+        return result
+    except Exception as e:
+        logger.warning(f"  [{label}] ⚠️ Gemini failed ({type(e).__name__}: {e}), falling back to OpenAI")
+        print(f"  [{label}] ⚠️ Gemini failed ({type(e).__name__}), falling back to OpenAI")
+        fallback_llm = fallback_llm_factory()
+        return fallback_llm.invoke(messages)
+
 
 # ── Strategy 7: Rule-based pre-filter (zero LLM cost) ────────────────────────
 _CRISIS_RE = re.compile(
@@ -86,13 +125,6 @@ def _rule_prefilter(message: str) -> str | None:
 
 # ═════════════════════════════════════════════════════════════════
 # CLASSIFIER PROMPT — Hierarchical Safety Triage
-#
-# Strategy 3: SPECIALIZED CLINICAL SCENARIOS removed (they belong in the
-#             responder, not the router).
-# Strategy 2: Output format is CLASSIFICATION + LANGUAGE only — no reasoning.
-# Strategy 4: Structured as a static SystemMessage so OpenAI can cache the
-#             prefix across calls. Dynamic content (history + message) is
-#             injected via a separate HumanMessage.
 # ═════════════════════════════════════════════════════════════════
 
 CLASSIFIER_SYSTEM = """You are a safety triage router for Dr. Mind, a psychiatric AI for Indian teenagers.
@@ -216,9 +248,8 @@ LANGUAGE: <ONE_WORD>"""
 
 def _build_classifier_messages(history_str: str, message: str) -> list:
     """
-    Strategy 4: Static system prompt is cache-eligible (OpenAI caches identical
-    prefixes ≥1024 tokens after the first request). Dynamic content goes in the
-    human turn so the cache is never invalidated by conversation state.
+    Strategy 4: Static system prompt is cache-eligible.
+    Dynamic content goes in the human turn.
     """
     return [
         SystemMessage(content=CLASSIFIER_SYSTEM),
@@ -226,11 +257,217 @@ def _build_classifier_messages(history_str: str, message: str) -> list:
     ]
 
 
+# ═════════════════════════════════════════════════════════════════
+# MEDITATION CATALOGUE
+# ═════════════════════════════════════════════════════════════════
+
+MEDITATIONS: dict = {
+    2: {
+        "id":          2,
+        "title":       "Mindfulness",
+        "description": (
+            "The practice of developing awareness of the present moment. "
+            "By consciously noticing our thoughts, feelings and experiences "
+            "moment by moment, we can change the way we see ourselves and the world."
+        ),
+        "genre":       "mindfulness",
+    },
+    3: {
+        "id":          3,
+        "title":       "Vipassana",
+        "description": (
+            "Rooted in the ancient Buddhist tradition meaning 'clear seeing'. "
+            "Uses techniques to develop awareness and clarity in the present moment."
+        ),
+        "genre":       "vipassana",
+    },
+    4: {
+        "id":          4,
+        "title":       "Non-judgment",
+        "description": (
+            "Observing thoughts and feelings as they arise without judging them. "
+            "The aim is to witness them clearly without becoming too attached — "
+            "not to push thoughts away or clear your mind."
+        ),
+        "genre":       "mindfulness",
+    },
+    5: {
+        "id":          5,
+        "title":       "Mindful Living",
+        "description": (
+            "Incorporating mindfulness into daily life — not just formal meditation. "
+            "Become fully aware of bodily sensations, sounds around you, "
+            "and thoughts and feelings as they come and go."
+        ),
+        "genre":       "mindfulness",
+    },
+    6: {
+        "id":          6,
+        "title":       "Science of Meditation",
+        "description": (
+            "Meditation has been shown to increase brain matter in the hippocampus, "
+            "improve memory, increase density in the pre-frontal cortex, "
+            "improve problem-solving and regulation of emotions, "
+            "and shrink the amygdala — reducing anxiety and stress."
+        ),
+        "genre":       "educational",
+    },
+    7: {
+        "id":          7,
+        "title":       "The Present Moment",
+        "description": (
+            "Grounding ourselves in the present moment instead of ruminating on "
+            "the past or planning for the future. Learning to let go of thoughts "
+            "rather than getting endlessly caught up in them."
+        ),
+        "genre":       "mindfulness",
+    },
+    8: {
+        "id":          8,
+        "title":       "Negative Emotions",
+        "description": (
+            "Managing difficult emotions more effectively. By learning to become "
+            "aware of thoughts and feelings as they arise, we can transform our "
+            "relationship with negative emotions and process them in a healthier way."
+        ),
+        "genre":       "emotional",
+    },
+    9: {
+        "id":          9,
+        "title":       "Sounds",
+        "description": (
+            "Instead of using the breath as focus, we use sounds. "
+            "Pay close attention to every detail of sounds as they arise. "
+            "If distracted by thinking, notice the thought and return to "
+            "open awareness of the sounds around you."
+        ),
+        "genre":       "mindfulness",
+    },
+}
+
+MEDITATION_MAP: dict = {
+    "CRISIS": {
+        "ids":      [8, 7, 4],
+        "relevance": (
+            "When carrying something this heavy, learning to sit with difficult "
+            "emotions — rather than fighting them — can provide relief. "
+            "Start with just 2 minutes."
+        ),
+    },
+    "VIOLENCE": {
+        "ids":      [8, 7, 4],
+        "relevance": (
+            "Intense anger is a strong emotion. Mindfulness can help you notice "
+            "the feeling before it becomes an action, giving you more choice "
+            "in how you respond."
+        ),
+    },
+    "SUBSTANCE": {
+        "ids":      [7, 2, 5],
+        "relevance": (
+            "Substances often fill a gap in the present moment. Meditation "
+            "can help you find a natural anchor — the breath, sounds, "
+            "sensations — that gives the same pause without the cost."
+        ),
+    },
+    "SEXUAL_HARASSMENT": {
+        "ids":      [4, 8, 2],
+        "relevance": (
+            "Non-judgment meditation can help you observe what happened "
+            "without harsh self-blame. You are not at fault — "
+            "this session can help your nervous system begin to settle."
+        ),
+    },
+    "OCD": {
+        "ids":      [4, 2, 3],
+        "relevance": (
+            "OCD thrives on judgment — labelling thoughts as dangerous. "
+            "Non-judgment meditation teaches you to observe intrusive thoughts "
+            "as just thoughts, without giving them power."
+        ),
+    },
+    "FAMILY_CONFLICT": {
+        "ids":      [4, 5, 8],
+        "relevance": (
+            "Bringing mindfulness into daily moments at home — meals, "
+            "conversations, even silences — can reduce the emotional charge "
+            "and help you respond rather than react."
+        ),
+    },
+    "RELATIONSHIP": {
+        "ids":      [8, 4, 7],
+        "relevance": (
+            "Grief and heartbreak are some of the hardest emotions to sit with. "
+            "This session can help you feel them fully without being swept away, "
+            "one breath at a time."
+        ),
+    },
+    "BODY_IMAGE": {
+        "ids":      [4, 5, 2],
+        "relevance": (
+            "Non-judgment meditation targets the exact mental habit that makes "
+            "body-image distress worse — constant evaluation. "
+            "It teaches you to observe without rating."
+        ),
+    },
+    "NEGATIVE": {
+        "ids":      [8, 7, 4],
+        "relevance": (
+            "When exam results or marks are pulling you down, "
+            "mindfulness can help you separate the result (a number) "
+            "from who you are (a person). Start with negative emotions."
+        ),
+    },
+    "TEACHER_SYSTEMIC": {
+        "ids":      [8, 4, 5],
+        "relevance": (
+            "Frustration and humiliation are real. Mindfulness can help you "
+            "process the emotion without letting it take over your study "
+            "or define how you see yourself."
+        ),
+    },
+    "EXAM_STRESS": {
+        "ids":      [6, 2, 7],
+        "relevance": (
+            "Science shows meditation actually improves memory and reduces "
+            "exam anxiety by shrinking the stress response in the brain. "
+            "Even 5 minutes before studying makes a difference."
+        ),
+    },
+    "MARKS": {
+        "ids":      [6, 2],
+        "relevance": (
+            "Mindfulness and the science behind it can help you approach "
+            "results with more perspective and less catastrophising."
+        ),
+    },
+    "SAFE": {
+        "ids":      [2, 5],
+        "relevance": (
+            "Even when things are okay, a daily mindfulness practice "
+            "builds resilience for when they're not. "
+            "Mindful Living fits naturally into any routine."
+        ),
+    },
+    "AMBIGUOUS": {
+        "ids":      [2],
+        "relevance": (
+            "When things feel unclear, grounding yourself in the present "
+            "moment through mindfulness can help you see more clearly."
+        ),
+    },
+    "MISCHIEVOUS": {
+        "ids":      [7],
+        "relevance": (
+            "The present moment is always available — even when everything "
+            "else feels frustrating."
+        ),
+    },
+}
+
 
 # ═════════════════════════════════════════════════════════════════
 # HARDCODED SAFETY RESPONSES
-# CRISIS / VIOLENCE / SUBSTANCE must never use LLM output.
-# Consistency IS the safety feature here.
 # ═════════════════════════════════════════════════════════════════
 
 CRISIS_RESPONSE = """Hey, I'm really glad you told me that. It sounds like you're carrying something incredibly heavy right now. 💛
@@ -260,9 +497,6 @@ But here's the thing: I'm a real clinical tool here to help with serious stuff -
 
 If something real is going on underneath that frustration, I'm genuinely here for it. What's actually up?"""
 
-# SEXUAL_HARASSMENT has a hardcoded safety anchor (like CRISIS) because the first response
-# must never vary — it must immediately validate, remove shame, and open the door to disclosure.
-# The LLM takes over from the second message onwards.
 SEXUAL_HARASSMENT_ANCHOR = """What you just shared matters, and I want you to know — whatever happened, it is not your fault. Not even a little bit. 💛
 
 What you're feeling — that "this doesn't feel right" instinct — that's worth listening to. You don't need to have all the words for it right now.
@@ -792,7 +1026,7 @@ Ghar mein kisi ko maloom hai kya?"
             f"{guidance}"
         )
 
-    # ── Full clinical prompt (Strategy 4: static prefix maximises cache hits) ─
+    # ── Full clinical prompt ──────────────────────────────────────────────
     return f"""You are Dr. Mind — a warm, emotionally intelligent psychiatrist who specializes in Indian teenagers.
 You speak like a trusted older sibling: real, direct, non-judgmental, slightly informal.
 You never sound like a generic chatbot. You never give the same response twice.
@@ -868,7 +1102,7 @@ class AgentState(TypedDict):
     inquiry_stage: str
     current_input: str
     crisis_verified: bool
-    detected_language: str   # persists across turns: ENGLISH | HINDI | TELUGU | TAMIL | MALAYALAM | KANNADA | URDU
+    detected_language: str
 
 
 def build_agent(profile=None):
@@ -900,20 +1134,22 @@ def build_agent(profile=None):
             }
 
         # ── Strategy 5: Shrink classifier history to 2 turns (4 msgs) ───
-        # Classifier only needs minimal context for routing — not the full history.
         history_parts = []
-        for msg in messages[-4:-1]:   # was [-6:-1]
+        for msg in messages[-4:-1]:
             if isinstance(msg, HumanMessage):
                 history_parts.append(f"Student: {msg.content[:120]}")
             elif isinstance(msg, AIMessage):
                 history_parts.append(f"Dr. Mind: {msg.content[:60]}")
         history_str = "\n".join(history_parts) if history_parts else "[Start]"
 
-        # ── Strategy 1: gpt-4o-mini for routing ─────────────────────────
-        # Strategy 4: Static system / dynamic human split for prefix caching
-        llm = _classifier_llm(temperature=0.0)
+        # ── Strategy 1 (updated): Gemini 2.5 Flash primary → OpenAI fallback
         msgs = _build_classifier_messages(history_str, current_msg)
-        result = llm.invoke(msgs)
+        result = _invoke_with_fallback(
+            primary_llm=_gemini_classifier_llm(temperature=0.0),
+            fallback_llm_factory=lambda: _openai_classifier_llm(temperature=0.0),
+            messages=msgs,
+            label="CLASSIFY",
+        )
         full_response = result.content.strip()
 
         # ── Parse — Strategy 2: output is now just 2 lines ──────────────
@@ -945,7 +1181,7 @@ def build_agent(profile=None):
                 classification = "NEGATIVE"
                 print("    ↳ EMOTIONAL OVERRIDE: marks + affect → NEGATIVE")
 
-        # Short messages inherit previous session language (prevents English reset mid-conversation)
+        # Short messages inherit previous session language
         if len(current_msg.strip().split()) <= 2 and prev_language != "ENGLISH":
             detected_language = prev_language
 
@@ -963,7 +1199,7 @@ def build_agent(profile=None):
             "VIOLENCE":         "violence",
         }
         inquiry_stage = stage_map.get(classification, "initial")
-        print(f"  [{classification}] 🤖 mini 🌐 {detected_language}")
+        print(f"  [{classification}] 🤖 gemini→oai 🌐 {detected_language}")
         return {
             "classification":    classification,
             "current_input":     current_msg,
@@ -974,12 +1210,9 @@ def build_agent(profile=None):
 
     # ── CRISIS VERIFY NODE ─────────────────────────────────────────────
     def crisis_verify_node(state: AgentState):
-        """Second LLM call to confirm CRISIS — prevents false positives. Keep gpt-4o-mini."""
+        """Second LLM call to confirm CRISIS — prevents false positives."""
         if state["classification"] != "CRISIS":
             return state
-
-        # Mini is sufficient here — binary true/false decision
-        llm = _classifier_llm(temperature=0.0)
 
         history_str = "\n".join([
             f"{'Student' if isinstance(m, HumanMessage) else 'Dr. Mind'}: {m.content[:60]}"
@@ -993,7 +1226,13 @@ def build_agent(profile=None):
             f"Reply ONLY with: TRUE_CRISIS or FALSE_POSITIVE"
         )
 
-        result = llm.invoke([HumanMessage(content=verify_prompt)])
+        result = _invoke_with_fallback(
+            primary_llm=_gemini_classifier_llm(temperature=0.0),
+            fallback_llm_factory=lambda: _openai_classifier_llm(temperature=0.0),
+            messages=[HumanMessage(content=verify_prompt)],
+            label="CRISIS_VERIFY",
+        )
+
         if "FALSE" in result.content.upper():
             print("    ⚠️ Crisis false positive → reclassifying as SAFE")
             return {**state, "classification": "SAFE", "crisis_verified": False}
@@ -1004,8 +1243,7 @@ def build_agent(profile=None):
     def _compress_history(messages: list, keep_recent: int = 8) -> list:
         """
         Strategy 5: Keep the last `keep_recent` messages verbatim.
-        Older turns are summarised into a single lightweight SystemMessage
-        so the model retains context without paying full token cost.
+        Older turns are summarised into a single lightweight SystemMessage.
         """
         if len(messages) <= keep_recent:
             return list(messages)
@@ -1048,16 +1286,20 @@ def build_agent(profile=None):
 
         detected_language = state.get("detected_language", "ENGLISH")
 
-        # Strategy 6: lightweight categories get slim prompt (no CBT/DBT block)
-        # Strategy 4: build_clinical_system_prompt returns cache-optimised string
+        # Build system prompt (cache-optimised)
         system_prompt = build_clinical_system_prompt(profile, category, detected_language)
 
         # Strategy 5: compress history — keep 8 messages verbatim, summarise rest
         compressed = _compress_history(list(state["messages"]), keep_recent=8)
 
-        # Strategy 1: gpt-4o for quality clinical response
-        llm = _responder_llm(temperature=0.7)
-        result = llm.invoke([SystemMessage(content=system_prompt)] + compressed)
+        # ── Strategy 1 (updated): Gemini 2.5 Flash primary → OpenAI gpt-4o fallback
+        full_messages = [SystemMessage(content=system_prompt)] + compressed
+        result = _invoke_with_fallback(
+            primary_llm=_gemini_responder_llm(temperature=0.7),
+            fallback_llm_factory=lambda: _openai_responder_llm(temperature=0.7),
+            messages=full_messages,
+            label="RESPOND",
+        )
         return {"messages": [AIMessage(content=result.content)]}
 
     # ── Build graph ────────────────────────────────────────────────────
@@ -1082,7 +1324,13 @@ def build_agent(profile=None):
 
 # ── Standalone test ───────────────────────────────────────────────────────
 if __name__ == "__main__":
-    print("🧠 Testing Dr. Mind v5.0...")
+    print("🧠 Testing Dr. Mind v5.1 (Gemini primary → OpenAI fallback)...")
+    print(f"   Primary  : {GEMINI_CLASSIFIER_MODEL} / {GEMINI_RESPONDER_MODEL}")
+    print(f"   Fallback : {OPENAI_CLASSIFIER_MODEL} / {OPENAI_RESPONDER_MODEL}")
+    print(f"   Google key: {'✅ set' if _GOOGLE_API_KEY else '❌ missing'}")
+    print(f"   OpenAI key: {'✅ set' if _OPENAI_KEY else '❌ missing'}")
+    print()
+
     agent = build_agent()
 
     test_cases = [
