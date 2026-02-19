@@ -43,7 +43,7 @@ class _MongoConn:
     @classmethod
     def get(cls) -> AsyncIOMotorDatabase:
         if cls._db is None:
-            uri    = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
+            uri    = os.getenv("MONGODB_URI")
             dbname = os.getenv("MONGODB_DB",  "zenark")
             cls._client = AsyncIOMotorClient(uri)
             cls._db     = cls._client[dbname]

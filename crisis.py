@@ -4,8 +4,9 @@ import logging
 from typing import Annotated, Sequence, TypedDict
 
 from langchain_core.messages import (
-    AIMessage, BaseMessage, HumanMessage, SystemMessage, add_messages,
+    AIMessage, BaseMessage, HumanMessage, SystemMessage
 )
+from langgraph.graph.message import add_messages
 from langgraph.graph import END, START, StateGraph
 
 # ── LLM Providers ────────────────────────────────────────────────────────────
