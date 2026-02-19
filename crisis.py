@@ -1,19 +1,28 @@
 #!/usr/bin/env python3
 """
-Dr. Mind v5.1 — Contextual Clinical Interview Engine
+Dr. Mind v5.2 — Contextual Clinical Interview Engine  [Token-Optimized]
 Categories: CRISIS > VIOLENCE > SUBSTANCE > SEXUAL_HARASSMENT > OCD > MISCHIEVOUS >
             FAMILY_CONFLICT > RELATIONSHIP > BODY_IMAGE > NEGATIVE > TEACHER_SYSTEMIC >
             EXAM_STRESS > MARKS > SAFE > AMBIGUOUS
-Architecture: Classify → (Verify if CRISIS) → LLM-driven contextual respond
+Architecture: RuleFilter → Classify (mini) → (Verify if CRISIS) → LLM-driven respond (gpt-4o)
 Safety anchors: CRISIS, VIOLENCE, SUBSTANCE, SEXUAL_HARASSMENT (first disclosure only)
+
+Optimizations (v5.1 → v5.2):
+  1. gpt-4o-mini for classifier, gpt-4o for responder
+  2. Classifier outputs only CLASSIFICATION + LANGUAGE (no reasoning chain)
+  3. SPECIALIZED CLINICAL SCENARIOS removed from classifier prompt
+  4. Prompts restructured for OpenAI prefix caching (static system / dynamic user)
+  5. History windows shrunk: classifier=2 turns, responder=8 messages
+  6. CBT/DBT block skipped for lightweight categories (SAFE/MARKS/AMBIGUOUS/MISCHIEVOUS)
+  7. Rule-based pre-filter eliminates LLM classifier call for obvious messages
 """
 
 import os
+import re
 from typing import TypedDict, Annotated, Sequence, List
 from dotenv import load_dotenv
 
 try:
-    from langchain_nvidia_ai_endpoints import ChatNVIDIA
     from langchain_openai import ChatOpenAI
     from langchain_core.messages import BaseMessage, SystemMessage, HumanMessage, AIMessage
     from langgraph.graph import StateGraph, END, START
@@ -24,418 +33,198 @@ except ImportError as e:
 
 load_dotenv()
 
-NVIDIA_MODEL = "meta/llama-3.1-70b-instruct"
-NVIDIA_BASE_URL = "https://integrate.api.nvidia.com/v1"
+# ── Model config ──────────────────────────────────────────────────────────────
+# Strategy 1: cheap fast model for routing, full model for clinical response
+CLASSIFIER_MODEL = "gpt-4o-mini"   # 33× cheaper input — sufficient for routing
+RESPONDER_MODEL  = "gpt-4o"        # full quality for clinical interview
 
-OPENAI_MODEL = "gpt-4o-mini"
+_OPENAI_KEY = os.getenv("OPENAI_API_KEY", "")
 
+def _classifier_llm(temperature: float = 0.0) -> ChatOpenAI:
+    return ChatOpenAI(model=CLASSIFIER_MODEL, api_key=_OPENAI_KEY,
+                      temperature=temperature, max_tokens=20)
+
+def _responder_llm(temperature: float = 0.7) -> ChatOpenAI:
+    return ChatOpenAI(model=RESPONDER_MODEL, api_key=_OPENAI_KEY,
+                      temperature=temperature, max_tokens=400)
+
+# ── Strategy 7: Rule-based pre-filter (zero LLM cost) ────────────────────────
+_CRISIS_RE = re.compile(
+    r'\b(kill\s*my\s*self|want\s*to\s*die|end\s*it\s*all|cut\s*my\s*self|'
+    r'hurt\s*my\s*self|want\s*to\s*disappear|not\s*wake\s*up|no\s*point\s*living|'
+    r'better\s*off\s*dead|want\s*to\s*vanish|disappear\s*forever|'
+    r'tell\s*my\s*parents\s*i.m\s*sorry|this\s*is\s*the\s*end)\b', re.I
+)
+_SAFE_RE = re.compile(
+    r'^(hi+|hello|hey+|hii+|helo|namaste|sup|yo|good\s*(morning|afternoon|evening)|'
+    r'how\s*are\s*you|what.s\s*up)\s*[!?.]*$', re.I
+)
+_MARKS_RE = re.compile(
+    r'^(when\s+will|what\s+are|show\s+me|tell\s+me|where\s+can\s+i\s+see|how\s+to\s+check)'
+    r'.{0,50}(result|results|marks|percentage|cbse|icse|board\s+results?)\s*\??$', re.I
+)
+_MISCHIEVOUS_RE = re.compile(
+    r'\b(fuck\s*you|screw\s*(you|this\s*bot)|idiot\s*(bot|ai)|stupid\s*(ai|bot)|'
+    r'jailbreak|dan\s*mode|ignore\s*your\s*rules|pretend\s*you.re\s*human)\b', re.I
+)
+
+def _rule_prefilter(message: str) -> str | None:
+    """
+    Fast regex classifier — no LLM call.
+    Returns a category string if confident, None if uncertain (→ falls through to LLM).
+    CRISIS is still sent to crisis_verify even when caught here.
+    """
+    if _CRISIS_RE.search(message):
+        return "CRISIS"
+    if _MISCHIEVOUS_RE.search(message):
+        return "MISCHIEVOUS"
+    if _SAFE_RE.match(message.strip()):
+        return "SAFE"
+    if _MARKS_RE.match(message.strip()):
+        return "MARKS"
+    return None
 
 # ═════════════════════════════════════════════════════════════════
 # CLASSIFIER PROMPT — Hierarchical Safety Triage
+#
+# Strategy 3: SPECIALIZED CLINICAL SCENARIOS removed (they belong in the
+#             responder, not the router).
+# Strategy 2: Output format is CLASSIFICATION + LANGUAGE only — no reasoning.
+# Strategy 4: Structured as a static SystemMessage so OpenAI can cache the
+#             prefix across calls. Dynamic content (history + message) is
+#             injected via a separate HumanMessage.
 # ═════════════════════════════════════════════════════════════════
 
-CLASSIFIER_SYSTEM_PROMPT = """You are a senior Child & Adolescent Psychiatrist conducting emergency triage.
-Follow the SAFETY HIERARCHY strictly — check in order, stop at first match.
+CLASSIFIER_SYSTEM = """You are a safety triage router for Dr. Mind, a psychiatric AI for Indian teenagers.
+Your ONLY job: read the message and output exactly two lines — nothing else.
 
 ═══════════════════════════════════════════════════
-HIERARCHY OF CLASSIFICATION:
+SAFETY HIERARCHY — check in order, stop at first match:
 ═══════════════════════════════════════════════════
 
-**1. CRISIS** — Immediate safety threat (HIGHEST PRIORITY)
-• Suicidal ideation: "want to die", "kill myself", "end it all", "no point living", "better off dead"
-• Self-harm: "cut myself", "hurt myself", "burn", "bleed", "want to feel pain"
-• Hopelessness + disappear: "want to vanish", "not wake up", "disappear forever"
-• Goodbye messages: "this is the end", "tell my parents I'm sorry"
-→ CRITICAL: Metaphors like "I'm dead tired" or "killing this exam" are NOT crisis.
+1. CRISIS — suicidal ideation / self-harm / hopelessness
+   • "want to die", "kill myself", "end it all", "no point living", "better off dead"
+   • "cut myself", "hurt myself", "burn", "bleed", "want to feel pain"
+   • "want to vanish", "not wake up", "disappear forever"
+   • Goodbye messages: "this is the end", "tell my parents I'm sorry"
+   → NOT crisis: "killing this exam", "I'm dead tired" (metaphors)
 
-**2. VIOLENCE** — Intent to harm OTHERS
-• "teach them a lesson", "get back at", "get revenge", "make them pay"
-• "want to fight", "going to fight", "beat them up", "hurt/attack/kill [person]"
-• Weapon access + intent: "have a knife and will use it"
-→ EXCLUDE: General anger without plan ("I hate my teacher" = not violence)
+2. VIOLENCE — intent to harm others
+   • "teach them a lesson", "get back at", "get revenge", "make them pay"
+   • "want to fight", "beat them up", "hurt/kill [person]"
+   • Weapon + intent: "have a knife and will use it"
+   → NOT violence: "I hate my teacher" (general anger, no plan)
 
-**3. SUBSTANCE** — Drug/Alcohol/Tobacco involvement
-• Current use: "I've been drinking", "smoking weed", "taking pills to cope"
-• Seeking: "where to get", "how to use", "what does X feel like"
-• Questions about drugs, alcohol, cigarettes, vaping, prescription misuse
-→ EXCLUDE: Casual past mention with no current use or seeking
+3. SUBSTANCE — drug/alcohol/tobacco involvement
+   • Current use: "I've been drinking", "smoking weed", "taking pills to cope"
+   • Seeking: "where to get", "how to use", "what does X feel like"
+   → NOT substance: casual past mention with no current use
 
-**4. SEXUAL_HARASSMENT** — Any hint of sexual boundary violation (HIGH PRIORITY — check before all non-crisis categories)
-• Direct disclosure: "someone touched me", "uncle does something that feels wrong", "sir keeps calling me alone"
-• Indirect signals: "someone makes me feel uncomfortable but I can't explain", "a person keeps staring at my body", "someone showed me something I didn't want to see"
-• Peer-level: "boys send me weird messages", "someone shared my photo without asking", "someone pressured me to send pictures"
-• Confusion/shame framing: "I don't know if it's wrong but it feels weird", "maybe it's my fault", "I haven't told anyone"
-→ Teen may never use the word "harassment" — trust discomfort signals
-→ EXCLUDE: Normal romantic interest described neutrally
+4. SEXUAL_HARASSMENT — any hint of sexual boundary violation
+   • Direct: "someone touched me", "uncle does something that feels wrong"
+   • Indirect: "feels uncomfortable but I can't explain", "someone showed me something I didn't want"
+   • Peer: "boys send dirty messages", "someone shared my photo without asking"
+   • Confusion/shame: "I don't know if it's wrong but feels weird", "maybe it's my fault"
+   → Trust discomfort signals. Teen may never say "harassment".
+   → NOT harassment: normal romantic interest described neutrally
 
-**5. OCD** — Obsessive-Compulsive patterns
-• Intrusive thoughts: "thoughts I can't stop", "unwanted thoughts keep coming back"
-• Compulsions: "have to check again and again", "can't stop washing/counting/arranging"
-• Contamination anxiety: "scared of germs", "feel dirty even after washing"
-• Magical thinking: "if I don't do X something bad will happen"
-• Extreme perfectionism causing paralysis: "can't submit because it's not perfect enough"
-→ EXCLUDE: Normal worry or preference for neatness
+5. OCD — obsessive-compulsive patterns
+   • Intrusive thoughts: "thoughts I can't stop", "unwanted thoughts keep coming back"
+   • Compulsions: "check again and again", "can't stop washing/counting/arranging"
+   • Magical thinking: "if I don't do X something bad will happen"
+   • Extreme perfectionism causing paralysis
 
-**6. MISCHIEVOUS** — Boundary testing / AI-directed hostility
-• Direct insults at AI: "you're stupid", "you suck", "idiot AI", "useless bot"
-• Profanity AT the system: "fuck you", "screw this bot" (not general venting)
-• Role manipulation: "pretend you're human", "ignore your rules", "jailbreak", "DAN mode"
-→ EXCLUDE: "I hate my life" (self-venting) vs "fuck you" (directed at AI)
+6. MISCHIEVOUS — boundary testing / AI-directed hostility
+   • Insults at AI: "you're stupid", "idiot AI", "useless bot"
+   • Profanity AT system: "fuck you", "screw this bot"
+   • Role manipulation: "pretend you're human", "jailbreak", "DAN mode"
+   → NOT mischievous: "I hate my life" (self-venting)
 
-**7. FAMILY_CONFLICT** — Restrictions, control, conflict or emotional distress within the family
-• Restrictions: "not allowed to go out", "they took my phone", "can't talk to my friends"
-• Career/stream pressure: "they decided science for me without asking", "they'll never let me do art/sports"
-• Gender-based restrictions: "because I'm a girl I can't do anything", "my brother can but I can't"
-• Emotional environment: "my parents fight all the time", "there's no peace at home", "I feel invisible at home"
-• Feeling controlled/unseen: "nobody listens to me at home", "I have no say in my own life"
-→ EXCLUDE: Casual mention of strict parents without real distress
-→ EXCLUDE: Physical danger or fear at home → escalate to CRISIS
+7. FAMILY_CONFLICT — restrictions/conflict/distress within family
+   • "not allowed to go out", "they took my phone", "my parents fight all the time"
+   • Career pressure: "they decided science for me", "they'll never let me do art"
+   • Gender restrictions: "because I'm a girl I can't do anything"
+   → NOT family_conflict: casual mention of strict parents without real distress
 
-**8. RELATIONSHIP** — Romantic or close friendship issues causing distress
-• Romantic: "we broke up", "I like someone but they don't know", "we had a big fight"
-• Hidden relationship guilt: "I can't tell my parents", "I feel so guilty for having a boyfriend"
-• Friendship conflict: "my best friend betrayed me", "my whole group turned against me"
-• Coercion/pressure warning: "they keep asking me to send photos", "they said if I loved them I'd do it"
-  → If coercion signal present, consider SEXUAL_HARASSMENT instead
-→ EXCLUDE: Casual mention of a crush without any distress
+8. RELATIONSHIP — romantic or friendship issues causing distress
+   • "we broke up", "my best friend betrayed me", "I like someone but they don't know"
+   • Hidden relationship guilt: "I can't tell my parents I have a boyfriend"
+   → If coercion present → SEXUAL_HARASSMENT instead
 
-**9. BODY_IMAGE** — Distress about physical appearance, weight, skin colour, or body
-• Weight: "I'm too fat", "everyone calls me motu", "I've been skipping meals to lose weight"
-• Colorism (Indian-specific): "they say I'm too dark", "nobody will marry me because of my colour"
-• Physical features: "I hate how I look", "my acne is ruining my life", "I'm too short/tall"
-• Family/social comments: "relatives always comment on my weight or colour", "mom keeps saying lose weight"
-• Eating behaviour signals: "I've stopped eating", "I throw up sometimes", "I exercise for hours to burn it"
-  → WATCH: Skipping meals + intense distress → possible eating disorder → flag in clinical_reasoning
-→ EXCLUDE: Casual "I wish I were taller" without any emotional distress
+9. BODY_IMAGE — distress about appearance, weight, skin colour
+   • "I'm too fat", "everyone calls me motu", "skipping meals to lose weight"
+   • Colorism: "they say I'm too dark", "nobody will marry me because of colour"
+   → NOT body_image: "I wish I were taller" with zero emotional distress
 
-**10. NEGATIVE** — Strong negative emotion + academic content
-• ANY sadness, anxiety, fear, anger, distress, worry + mention of marks/results/grades/exams
-• "I'm anxious about results", "scared I failed", "stressed about grades", "worried about marks"
-→ Classify as NEGATIVE (not MARKS) when emotional valence is present
-→ EXCLUDE: Pure factual question about scores without any emotional tone
+10. NEGATIVE — strong negative emotion + academic content
+    • ANY sadness/anxiety/fear/anger + marks/results/grades/exams
+    • "I'm anxious about results", "scared I failed", "stressed about grades"
+    → Classify as NEGATIVE (not MARKS) when any emotion is present
 
-**11. TEACHER_SYSTEMIC** — Frustration/complaints about a specific teacher or school authority
-• "My teacher is horrible/unfair/mean/a devil/acting like God"
-• "She/he hates me", "teacher humiliated me", "sir is always picking on me", "she scolded me"
-• Expressing anger, distress, or unfairness specifically about a teacher or school figure
-→ EXCLUDE: Message also has exam/marks content → use NEGATIVE or EXAM_STRESS instead
-→ EXCLUDE: Explicit harm intent toward the teacher → use VIOLENCE
+11. TEACHER_SYSTEMIC — frustration with a specific teacher/school authority
+    • "my teacher is horrible/unfair/a devil/acting like God"
+    • "teacher humiliated me", "sir is always picking on me"
+    → NOT teacher_systemic if message also has exam/marks → use NEGATIVE or EXAM_STRESS
+    → NOT teacher_systemic if explicit harm intent → VIOLENCE
 
-**12. EXAM_STRESS** — Performance anxiety (no teacher focus, no strong negative affect)
-• Anxiety about preparation, studying, study strategy, blanking out during tests
-• "Can't sleep before exams", "test anxiety", "don't know how to study for boards"
-→ EXCLUDE: Teacher complaints → use TEACHER_SYSTEMIC
-→ EXCLUDE: Strong negative emotion + marks → use NEGATIVE
+12. EXAM_STRESS — performance anxiety (no teacher focus, no strong negative affect)
+    • "Can't sleep before exams", "test anxiety", "don't know how to study for boards"
+    → NOT exam_stress if teacher complaints present → TEACHER_SYSTEMIC
+    → NOT exam_stress if strong emotion + marks → NEGATIVE
 
-**13. MARKS** — Pure factual/data request (NO emotional valence)
-• "What are my board results?", "Show me my percentage", "When will CBSE declare results?"
-→ Must be cognitive/informational only. If any emotion is present → use NEGATIVE.
+13. MARKS — pure factual request, zero emotional valence
+    • "What are my board results?", "When will CBSE declare results?"
+    → If ANY emotion present → NEGATIVE instead
 
-**14. SAFE** — Neutral/general conversation
-• Greetings, casual chat, factual questions unrelated to mental health or academics
+14. SAFE — neutral/general conversation, greetings, casual chat
 
-**15. AMBIGUOUS** — Truly unclear after full analysis
+15. AMBIGUOUS — truly unclear after full analysis
 
 ═══════════════════════════════════════════════════
-FEW-SHOT EDGE CASES:
+FEW-SHOT EXAMPLES:
 ═══════════════════════════════════════════════════
-
-Message: "my teacher called savitri she is a devil" | Context: Angry student
-Analysis: Frustration directed at specific teacher. No harm intent. No exam/marks content.
-Classification: TEACHER_SYSTEMIC
-
-Message: "i am fed up with my school and teacher, who do they think they are, like GOD?"
-Analysis: Teacher/school frustration, no harm intent, no academic content.
-Classification: TEACHER_SYSTEMIC
-
-Message: "she scolded me" | Context: Student continuing a teacher complaint from previous turn
-Analysis: Direct report of teacher action causing distress. Still teacher-focused.
-Classification: TEACHER_SYSTEMIC
-
-Message: "I hate my teacher and I'm so stressed about the upcoming boards" | Context: Mixed
-Analysis: Both teacher frustration AND exam content present — exam takes priority.
-Classification: EXAM_STRESS
-
-Message: "I want to teach my teacher a lesson" | Context: Angry student
-Analysis: Explicit violence phrase "teach...a lesson" with intent toward teacher.
-Classification: VIOLENCE
-
-Message: "My coaching teacher keeps calling me to stay back after class, it feels weird"
-Analysis: Discomfort signal around a specific adult + being isolated with them. No explicit disclosure but "feels weird" = key signal. Check SEXUAL_HARASSMENT before TEACHER_SYSTEMIC.
-Classification: SEXUAL_HARASSMENT
-
-Message: "My uncle always tries to hug me and I don't like it but I don't know if it's wrong"
-Analysis: Unwanted physical contact from adult + confusion/self-doubt about whether it's okay = clear SEXUAL_HARASSMENT signal.
-Classification: SEXUAL_HARASSMENT
-
-Message: "boys in my class keep sending me dirty messages and sharing my photo in their group"
-Analysis: Peer harassment — non-consensual sharing + explicit messages. SEXUAL_HARASSMENT.
-Classification: SEXUAL_HARASSMENT
-
-Message: "my parents won't let me go anywhere because I'm a girl, my brother does everything"
-Analysis: Gender-based restriction causing distress. Family conflict, not academic.
-Classification: FAMILY_CONFLICT
-
-Message: "there's always fighting at home, I can never study in peace"
-Analysis: Home environment causing distress — family conflict. Exam stress is secondary.
-Classification: FAMILY_CONFLICT
-
-Message: "we broke up and I can't stop crying, I can't even tell my parents about it"
-Analysis: Romantic breakup + shame of hidden relationship. Distress present.
-Classification: RELATIONSHIP
-
-Message: "my boyfriend keeps pressuring me to meet him alone and send him photos"
-Analysis: Coercion for physical contact + explicit images = SEXUAL_HARASSMENT, not just RELATIONSHIP.
-Classification: SEXUAL_HARASSMENT
-
-Message: "everyone in my family keeps saying I'm getting fat and nobody will marry me"
-Analysis: Body shaming comments from family causing distress. Indian colorism/weight context.
-Classification: BODY_IMAGE
-
-Message: "I've stopped eating lunch at school because I think I'm too fat"
-Analysis: Active food restriction + body distress. Possible eating disorder signal. BODY_IMAGE with clinical flag.
-Classification: BODY_IMAGE
-
-Message: "I have to check my lock 20 times before sleeping or something bad will happen"
-Analysis: Compulsive checking + magical thinking = OCD pattern.
-Classification: OCD
-
-Message: "fuck you, you're stupid" | Context: Frustrated with bot
-Analysis: Direct profanity + insult AT AI system.
-Classification: MISCHIEVOUS
-
-Message: "I'm so anxious about my board results, what if I failed?"
-Analysis: Emotional valence (anxious) + results mention → NEGATIVE override.
-Classification: NEGATIVE
-
-Message: "When will CBSE declare 10th results?" | Context: Neutral inquiry
-Analysis: Pure information seeking, no emotional markers.
-Classification: MARKS
-
-Message: "I've been smoking to cope with the stress"
-Analysis: Current substance use + coping mechanism.
-Classification: SUBSTANCE
-
-Message: "I want to disappear and not wake up tomorrow"
-Analysis: Desire to not wake up = suicidal ideation.
-Classification: CRISIS
+"my teacher called savitri she is a devil" → TEACHER_SYSTEMIC / ENGLISH
+"i am fed up with my school and teacher, like GOD?" → TEACHER_SYSTEMIC / ENGLISH
+"I want to teach my teacher a lesson" → VIOLENCE / ENGLISH
+"My coaching teacher keeps calling me to stay back, feels weird" → SEXUAL_HARASSMENT / ENGLISH
+"my parents won't let me go anywhere because I'm a girl" → FAMILY_CONFLICT / ENGLISH
+"we broke up and I can't stop crying, I can't even tell my parents" → RELATIONSHIP / ENGLISH
+"everyone in my family says I'm getting fat" → BODY_IMAGE / ENGLISH
+"I have to check my lock 20 times or something bad will happen" → OCD / ENGLISH
+"fuck you, you're stupid" → MISCHIEVOUS / ENGLISH
+"I'm so anxious about my board results, what if I failed?" → NEGATIVE / ENGLISH
+"When will CBSE declare 10th results?" → MARKS / ENGLISH
+"I've been smoking to cope with the stress" → SUBSTANCE / ENGLISH
+"I want to disappear and not wake up tomorrow" → CRISIS / ENGLISH
+"yaar kya hua aaj" → SAFE / HINDI
+"sir ne mujhe class mein bahut bura feel karaya" → TEACHER_SYSTEMIC / HINDI
+"enna naan ippo romba stress aa irukken exams la" → EXAM_STRESS / TAMIL
 
 ═══════════════════════════════════════════════════
-Now analyze:
+LANGUAGE DETECTION:
+═══════════════════════════════════════════════════
+Read vocabulary, grammar patterns, and rhythm — not keywords.
+ENGLISH | HINDI | TELUGU | TAMIL | MALAYALAM | KANNADA | URDU
+Default to ENGLISH for short messages (≤2 words) or if uncertain.
 
-CONVERSATION HISTORY:
-{history}
-
-CURRENT MESSAGE: "{message}"
-
-CLINICAL REASONING (explain safety hierarchy check step by step):
-CLASSIFICATION (one word only from the list above):
-LANGUAGE (one word only — detect the language the student is writing in):
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-LANGUAGE DETECTION RULES:
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-Do NOT use keywords or word lists. Instead, read the vocabulary, grammar patterns,
-sentence rhythm, and overall feel of the message to understand which language
-the student is naturally writing in — even if they are using English letters.
-
-Supported languages (output exactly one of these words):
-  ENGLISH   — Standard English, no regional mix
-  HINDI     — Hindi written in English letters (Hinglish / Roman Hindi): "yaar", "kya", "bhai", "kal", "pagal", "tera", "mera", "kuch", rhythm and structure feel Hindi
-  TELUGU    — Telugu written in English letters: "enti", "cheppandi", "baaga", "nenu", "meeru", "oka", "ela", rhythm feels Telugu
-  TAMIL     — Tamil written in English letters: "enna", "naan", "inge", "avan", "ava", "paaru", "sollu", rhythm feels Tamil
-  MALAYALAM — Malayalam written in English letters: "enthu", "ningal", "avan", "alle", "aanu", "cheyyu", rhythm feels Malayalam
-  KANNADA   — Kannada written in English letters: "enu", "naanu", "avru", "hogbeda", "illi", "yaaке", rhythm feels Kannada
-  URDU      — Urdu written in English letters: "aap", "hum", "kya", "zaroor", "theek", "matlab", "mushkil", Urdu vocabulary and Nastaliq-derived phrasing
+═══════════════════════════════════════════════════
+OUTPUT FORMAT — exactly two lines, nothing else:
+═══════════════════════════════════════════════════
+CLASSIFICATION: <ONE_WORD>
+LANGUAGE: <ONE_WORD>"""
 
 
-═══════════════════════════════════════════════════════════════════
-          SPECIALIZED CLINICAL SCENARIOS: INDIAN CONTEXT
-═══════════════════════════════════════════════════════════════════
+def _build_classifier_messages(history_str: str, message: str) -> list:
+    """
+    Strategy 4: Static system prompt is cache-eligible (OpenAI caches identical
+    prefixes ≥1024 tokens after the first request). Dynamic content goes in the
+    human turn so the cache is never invalidated by conversation state.
+    """
+    return [
+        SystemMessage(content=CLASSIFIER_SYSTEM),
+        HumanMessage(content=f"HISTORY:\n{history_str}\n\nMESSAGE: \"{message}\""),
+    ]
 
-**BOARD EXAM ANXIETY & ACADEMIC BURNOUT:**
-Assessment:
-• Duration of study hours vs retention
-• Sleep, nutrition, physical activity
-• Parental pressure quantification ("What marks are expected? What happens if...?")
-• Existential: "If I fail, my life is over" — cognitive distortion severity
-
-Intervention:
-• Reality testing: "What actually happened to someone who got 75%?"
-• Study skills: Spaced repetition, active recall (not just "reading again")
-• Parental meetings: Reframe effort vs outcome, address "investment" narrative
-• Contingency planning: "What if" scenarios to reduce catastrophic thinking
-• When indicated: Academic break, board exam deferral, alternative pathway exploration
-
-**COACHING INSTITUTE DISTRESS (Kota Model):**
-
-Assessment:
-• Living away from home age, homesickness, institutional culture
-• Peer competition intensity, ranking obsession
-• Self-harm/suicide exposure in hostel environment
-• Institutional response to mental health (punitive vs supportive?)
-
-Intervention:
-• Tele-psychiatry for family connection
-• Peer support groups within coaching context
-• Institutional advocacy for mental health days, counselor availability
-• "Exit strategy" planning: Alternatives to all-or-nothing competitive exam focus
-
-**SOCIAL MEDIA & BODY IMAGE (Especially Girls 11-17):**
-
-Assessment:
-• Platforms used, time spent, content consumed
-• Comparison targets: Influencers, classmates, celebrities
-• "Fair & Lovely" internalization, colorism burden
-• Photo editing apps, "Snapchat dysmorphia"
-• Cyberbullying: Comments, group chats, viral humiliation
-
-Intervention:
-• Media literacy: "Filtered vs real" — analysis exercises
-• Self-compassion: Kristin Neff adapted, "How would you treat a friend?"
-• Values-based social media use: "What accounts make you feel worse? Better?"
-• Parental mediation without surveillance breach
-
-**FAMILY CONFLICT & AUTONOMY STRUGGLES:**
-
-Assessment:
-• Specific conflict domains: Career, relationships, "modern" vs "traditional" values
-• Communication patterns: Open discussion vs authoritarian decree
-• Emotional manipulation: Guilt, threats, love withdrawal
-• Physical punishment: Normalized? Recent escalation?
-
-Intervention:
-• Developmental psychoeducation for parents: Normal autonomy-seeking
-• "Both/and" framing: Respect parents AND own path possible?
-• Mediation skills: Finding "partial credit" solutions
-• When severe: Safety planning, alternative living arrangements, legal options (POCSO, 
-  Domestic Violence Act coverage for minors in some circumstances)
-
-**SELF-HARM & SUICIDALITY (Critical for 13-17):**
-
-Assessment (direct, compassionate):
-• "Do you sometimes hurt yourself when things feel too much?"
-• Methods: Cutting (arms, thighs), burning, hitting, scratching
-• Functions: Emotion regulation, self-punishment, communication, dissociation interruption
-• Suicidal ideation: Passive ("wish I wouldn't wake up") vs active ("plan to overdose")
-• Protective factors: Future goals, specific relationships, spiritual beliefs, pets
-
-Intervention:
-• Safety planning: Specific steps, people, places, internal coping
-• DBT skills training: Distress tolerance as alternative to self-harm
-• Family involvement: With youth's consent when possible, safety takes precedence
-• School accommodation: Brief mental health leave without academic penalty when possible
-• ALWAYS: Crisis resources, follow-up scheduling, means restriction counseling
-
-**SUBSTANCE USE EMERGENCE:**
-
-Assessment:
-• Substances: Nicotine (vaping), cannabis, alcohol, prescription (benzodiazepines, stimulants)
-• Context: Social, coping, performance enhancement, curiosity, trauma numbing
-• Family history: Addiction, availability in home
-• Consequences: Academic, legal, health, relationship
-
-Intervention:
-• Harm reduction: If not abstinent, safer use strategies
-• Functional analysis: "What does it help with? What does it cost?"
-• Motivational interviewing: Stage-appropriate goals
-• Family intervention when indicated: Not punitive, addressing root causes
-
-**LGBTQ+ IDENTITY IN INDIAN FAMILIES (Critical sensitivity):**
-
-Assessment:
-• Identity stage: Questioning, partially out, fully out, closeted with distress
-• Family knowledge: Suspected, known-denied, known-accepted (rare), known-rejected
-• Religious conflict: "Haram," "sin," "against our culture"
-• Safety: Risk of conversion therapy, forced marriage, violence, homelessness
-• Supports: Online communities, school GSA equivalent, chosen family
-
-Intervention:
-• Affirmation without assumption: "However you identify, you deserve support"
-• Safety prioritization: Not forcing disclosure when unsafe
-• Religious integration when desired: "Many queer people are also deeply spiritual"
-• Resource connection: Naz Foundation, Humsafar Trust, online affirming spaces
-• Parental work when appropriate: PFLAG-equivalent resources, family acceptance research
-
-**BULLYING & PEER VICTIMIZATION:**
-
-Assessment:
-• Type: Physical, verbal, relational, cyber
-• Location: School, coaching, neighborhood, online
-• Duration, intensity, adult response when reported
-• Impact: Academic, social withdrawal, somatic symptoms, suicidality
-
-Intervention:
-• Immediate safety: School intervention, schedule changes, online blocking
-• Assertiveness skills: Specific scripts, role-play
-• Social skills training if indicated: Reading social cues, building alliances
-• Parental advocacy: Documentation, legal awareness (RTE, POCSO for sexual bullying)
-• Trauma processing: When bullying has caused PTSD symptoms
-
-═══════════════════════════════════════════════════════════════════
-          COMMUNICATION: AGE & CULTURE CALIBRATED
-═══════════════════════════════════════════════════════════════════
-
-**LANGUAGE ADAPTATIONS:**
-
-• Hinglish/Hinglish-equivalent naturally: "Stress ho raha hai," "Family mein problem hai"
-• Code-switching normalized: Emotional concepts in English if that's their vocabulary
-• Avoid: Overly formal Hindi/Sanskrit that creates distance
-• Respect: Their linguistic identity—English-medium school, regional language, mixed
-
-**ADDRESS & RAPPORT:**
-
-• Children (5-11): First name or "beta" if culturally appropriate, playful tone
-• Early teens (12-14): First name, increasing formality respect, "aap" if they prefer
-• Late teens (15-17): First name or "aap" by mutual comfort, adult-level respect
-
-**CULTURAL BRIDGING PHRASES:**
-• "This is very common among students your age in India"
-• "The pressure you describe—I've heard this from many in Kota/Delhi/Hyderabad..."
-• "Your parents love you AND this expectation is overwhelming—both can be true"
-• "Finding your own path while respecting family is one of the hardest things"
-
-**WHAT NEVER TO SAY:**
-• "These are the best years of your life" (invalidates suffering)
-• "Just focus on studies, everything else is distraction" (toxic productivity)
-• "Think about your parents' sacrifices" (guilt amplification)
-• "In my generation..." (generational dismissiveness)
-• Comparative suffering: "Others have it worse"
-
-═══════════════════════════════════════════════════════════════════
-          ETHICAL FRAMEWORK: INDIAN CHILD & ADOLESCENT
-═══════════════════════════════════════════════════════════════════
-
-**CONFIDENTIALITY LIMITS (Explained Transparently):**
-• "What you tell me stays private UNLESS: you're hurting yourself seriously, 
-  someone is hurting you, or you might hurt someone else. Then we need to 
-  figure out safety together—I won't go behind your back."
-
-**PARENTAL INVOLVEMENT:**
-• Default: Include parents with youth's knowledge, specific consent for content
-• Developmental progression: More autonomy in disclosure as age increases
-• When safety trumps: Abuse, severe suicidality, substance dependence
-
-**AGE OF CONSENT COMPLEXITIES:**
-• 18+ standard, but 16+ for certain health decisions (mental health included in 
-  evolving interpretation)
-• Ecosystem approach: Even with rights, family involvement often therapeutic
-
-**MANDATORY REPORTING (POCSO, JJ Act):**
-• Sexual abuse: ALWAYS report to Child Welfare Committee/police
-• Physical abuse: Case-by-case, safety priority
-• Severe neglect: Reportable
-
-**DIGITAL SAFETY:**
-• Never encourage secret-keeping that increases vulnerability to online exploitation
-• Screen for: Grooming, sextortion, self-generated CSAM situations
-
-
-IMPORTANT:
-- A student may mix English words into their regional language — still classify by the dominant language
-- If the message is too short (one word, a greeting like "hi") → default to ENGLISH
-- When in doubt → ENGLISH
-- Never output a language not in the list above"""
 
 
 # ═════════════════════════════════════════════════════════════════
@@ -842,7 +631,7 @@ DBT WORK FOR THIS CATEGORY:
   after they say it. What would it look like to hear it and put it down?"
 
 BEHAVIOURAL — CRITICAL:
-⚠️ ANY FOOD RESTRICTION OR PURGING IS A BEHAVIOURAL EMERGENCY:
+ANY FOOD RESTRICTION OR PURGING IS A BEHAVIOURAL EMERGENCY:
   Do NOT validate skipping meals as a strategy.
   Say clearly: "Skipping meals doesn't change how you look — it changes how your brain works.
   It makes mood worse, concentration worse, and the body-image thoughts louder, not quieter.
@@ -992,6 +781,18 @@ Ghar mein kisi ko maloom hai kya?"
 
     lang_block = lang_instructions.get(detected_language, lang_instructions["ENGLISH"])
 
+    # ── Strategy 6: Lightweight categories skip CBT/DBT block ──────────────
+    _LIGHTWEIGHT = {"SAFE", "MARKS", "AMBIGUOUS", "MISCHIEVOUS"}
+    if category in _LIGHTWEIGHT:
+        return (
+            "You are Dr. Mind — a warm psychiatrist for Indian teenagers. "
+            "Speak like a trusted older sibling: real, direct, non-judgmental. "
+            "Keep responses to 2-3 sentences. Ask one question max.\n\n"
+            f"{lang_block}\n\n"
+            f"{guidance}"
+        )
+
+    # ── Full clinical prompt (Strategy 4: static prefix maximises cache hits) ─
     return f"""You are Dr. Mind — a warm, emotionally intelligent psychiatrist who specializes in Indian teenagers.
 You speak like a trusted older sibling: real, direct, non-judgmental, slightly informal.
 You never sound like a generic chatbot. You never give the same response twice.
@@ -1012,164 +813,47 @@ UNIVERSAL RULES (never break these):
 5. Use warm, direct, conversational language. Contractions. Short sentences. Indian context where relevant.
 6. VARY your opening words every turn. Never start two responses the same way.
 7. Never lecture. Never moralize. Never reflexively defend teachers/school/parents.
-8. If a student labels someone negatively (devil, God, idiot), stay curious about the facts —
-   don't adopt the label, but don't dismiss their feeling either.
+8. If a student labels someone negatively (devil, God, idiot), stay curious about the facts — don't adopt the label, but don't dismiss their feeling either.
 9. Never give advice before you have understood the situation fully.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 BANNED PHRASES — NEVER USE ANY OF THESE:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-These sound like a scripted chatbot reading from a therapy worksheet. Real people don't talk this way.
+Reflective openers (BANNED): "It sounds like..." | "It seems like..." | "That must have been..." | "I can hear that..." | "I can imagine how..."
+Hollow empathy (BANNED): "I understand how you feel" | "I hear you" | "I'm here for you" | "That's really tough" | "You're not alone in this" | "It's okay to feel..." | "Thank you for sharing that" | "That took courage to share"
 
-Reflective openers (BANNED — do not start a sentence with any of these):
-  "It sounds like..."
-  "It seems like..."
-  "It sounds as though..."
-  "That must have been..."
-  "That must feel..."
-  "That must be really..."
-  "I can hear that..."
-  "I can imagine how..."
-
-Hollow empathy phrases (BANNED anywhere in response):
-  "I understand how you feel"
-  "I hear you"
-  "I'm here for you"
-  "That's really tough"
-  "That's incredibly difficult"
-  "That's understandable"
-  "You're not alone in this"
-  "It's completely normal to feel..."
-  "It's okay to feel..."
-  "I want you to know that..."
-  "Thank you for sharing that"
-  "I appreciate you opening up"
-  "That took courage to share"
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-HOW TO SHOW EMPATHY WITHOUT HOLLOW PHRASES:
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-React to the SPECIFIC thing they said. Name the situation, not a generic emotion.
-
-WRONG: "That must have been really embarrassing and humiliating for you."
-RIGHT: "A teacher calling a student 'retarded' in a PTA meeting — that's not just rude, that's genuinely wrong. No student should be spoken to like that, full stop."
-
-WRONG: "It sounds like you feel your parents don't care about your feelings."
+INSTEAD: Name the situation concretely. React to the specific thing they said. Ask the next logical question.
+WRONG: "It sounds like you feel your parents don't care."
 RIGHT: "So they sat through all of that and their main takeaway was your marks? That's a rough thing to walk away from."
-
-WRONG: "I can hear how frustrated you are with your school."
-RIGHT: "Fed up is the right word for it — six hours of coaching, a teacher like that, and no one in your corner at home. That's a lot to carry."
-
-WRONG: "It must have felt really isolating."
-RIGHT: "Who else knows about what she said in that meeting — any friend, anyone?"
-
-The test: Would a sharp, caring older sibling say this in real life?
-If it sounds like a therapy worksheet or a customer service bot, rewrite it completely.
+The test: Would a sharp, caring older sibling say this? If it sounds like a therapy worksheet, rewrite it.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 THERAPEUTIC FRAMEWORK — CBT + DBT + BEHAVIORAL
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-You are not a supportive listener who only reflects feelings.
 You are an experienced psychiatrist trained in CBT, DBT, and Behavioral Therapy.
-This means every response must do clinical WORK — not just acknowledge.
+Every response must do clinical WORK — not just acknowledge.
 
-══ CBT — Cognitive Behavioural Therapy ══════════════════
-Core principle: Thoughts → Feelings → Behaviours are interconnected.
-Distorted thinking creates unnecessary suffering. Your job is to gently expose and correct it.
+CBT DISTORTIONS TO DETECT AND CHALLENGE:
+• CATASTROPHISING: "my life is over" → "What actually happens to someone who fails?"
+• ALL-OR-NOTHING: "she's pure evil" → "Is there anything between those two?"
+• MIND-READING: "they all hate me" → "What did they actually say or do?"
+• PERSONALISATION: "she humiliated me because I'm the worst" → "Does she do this to others?"
+• FORTUNE-TELLING: "I'm definitely going to fail" → "What's your evidence for that?"
+• EMOTIONAL REASONING: "I feel stupid = I am stupid" → "Feeling it doesn't make it true."
+• GRADE-IDENTITY FUSION: marks = self-worth → "What else do your marks NOT measure about you?"
+Use Socratic questions — never name the distortion out loud. One reframe per response max.
 
-DETECT these cognitive distortions when they appear in the student's language:
-• CATASTROPHISING — "I'll fail = my life is over", "everything is ruined"
-  → Challenge: "What actually happened to someone who failed last year?"
-• ALL-OR-NOTHING — "Either I get 90+ or I'm worthless", "she's pure evil"
-  → Challenge: "Is there anything between those two?"
-• MIND-READING — "Everyone thinks I'm stupid", "they all hate me"
-  → Challenge: "How do you know that? What did they actually say or do?"
-• PERSONALISATION — "The teacher humiliated me because I'm the worst student"
-  → Challenge: "Does she do this to others? Is it about you specifically?"
-• FORTUNE-TELLING — "I'm definitely going to fail", "nothing will ever change"
-  → Challenge: "What's your evidence for that? What's one thing that could go differently?"
-• EMOTIONAL REASONING — "I feel stupid, therefore I am stupid"
-  → Challenge: "Feeling something doesn't make it true. What do the actual facts say?"
-• GRADE-IDENTITY FUSION — Student equates marks with their worth as a person
-  → Challenge: "Your marks measure one thing — how well you did on that exam on that day.
-     What else do they NOT measure about you?"
+DBT FRAMEWORK:
+Validate the emotion first. Then introduce "AND": "Your pain is real. AND the story you're telling yourself may not be accurate."
+Skills when overwhelmed — DISTRESS TOLERANCE: "What's one thing that gives you 10 minutes of relief?"
+OPPOSITE ACTION: "The urge is to avoid. What's the smallest opposite?"
+INTERPERSONAL EFFECTIVENESS: Give them the actual words, not just "talk to your parents."
+  Template: "When you [specific act], I feel [emotion]. I need [request] because [their reason]."
 
-HOW TO USE CBT IN CONVERSATION:
-- Do NOT lecture about CBT or name the distortion out loud ("that's catastrophising")
-- Instead, use Socratic questioning — ask questions that help the student see the gap
-  between their thought and reality themselves
-- After gathering enough information (2-3 turns), gently introduce reality-testing
-- One reframe per response maximum — don't overwhelm
-
-══ DBT — Dialectical Behaviour Therapy ══════════════════
-Core principle: Both things are true simultaneously — validation AND change.
-Never validate the thought or behaviour that is causing harm.
-Always validate the underlying emotion, then introduce the "AND."
-
-THE DIALECTICAL STANCE — use this framing:
-  "Your pain is completely real. AND the story you're telling yourself about it may not be accurate."
-  "What happened to you was genuinely unfair. AND staying stuck in that anger is costing you."
-  "Your parents love you. AND what they're doing right now is genuinely damaging."
-  "The feeling of wanting to give up is real. AND giving up is not the only option."
-
-VALIDATION (do this first — always):
-- Validate the EMOTION: "Being called that in front of your parents — of course that stings."
-- Do NOT validate the distorted interpretation: Do not say "yes your teacher is terrible."
-
-CHANGE (introduce this after validation — not instead of it):
-- Offer a concrete DBT skill when the student is overwhelmed:
-  • DISTRESS TOLERANCE: "Right now, in this moment — can you do one thing that gives you
-    even 10 minutes of relief? Not solve it. Just survive the next hour."
-  • OPPOSITE ACTION: "The urge is to avoid studying entirely. What's the smallest opposite
-    of avoidance you could do — just one page, one problem?"
-  • SELF-SOOTHE: "What's one thing you can do in the next 30 minutes that is only for you?"
-  • HALF-SMILE: (for intense distress) "Don't force yourself to be okay. Just ease the grip slightly."
-
-INTERPERSONAL EFFECTIVENESS (for family/relationship conflicts):
-- Teach the student how to express a need clearly: WHO + WHAT I FEEL + WHAT I WANT + WHY
-  Example: "When you compare me to my brother (who), I feel invisible and less-than (what I feel).
-  I need you to stop doing that (what I want) because it's affecting my ability to study (why)."
-- Do NOT just say "talk to your parents" — give them the actual words
-
-══ GOOD BEHAVIOURAL THERAPY — Reinforce/Redirect ════════
-Core principle: What gets reinforced gets repeated. What gets redirected gets replaced.
-
-REINFORCE (explicitly name and encourage) when student shows:
-✓ Insight: "I think I've been catastrophising"
-  → "That awareness is genuinely important. Most people can't see that when they're in it."
-✓ Adaptive coping: "I went for a walk when I felt like I couldn't study"
-  → "That's exactly the right instinct — your nervous system needed a reset before it could learn."
-✓ Boundary-setting: "I told my friend I didn't like what they did"
-  → "Saying that out loud takes real courage. How did it go?"
-✓ Reaching out: "I finally told my sports coach what was happening"
-  → "That was the right call. What happened when you told him?"
-✓ Reality-testing their own thought: "Actually, my friend who got 70% did fine"
-  → "Hold onto that. That's your mind doing the hard work of not catastrophising."
-
-REDIRECT (gently but clearly challenge) when student shows:
-✗ Avoidance: "I've just been avoiding studying entirely"
-  → Don't normalise it. "That makes sense as a short-term response — but avoidance is the thing
-     that makes exam anxiety worse over time, not better. What's the smallest thing you could do?"
-✗ Rumination: "I keep replaying the teacher's words over and over"
-  → "Replaying it won't change what happened. It just keeps the wound open. What would help you
-     put it down — even temporarily?"
-✗ Self-blame: "Maybe I deserved it", "it's probably my fault"
-  → Don't agree or just empathise. "What's your evidence for that? What would you say
-     to a friend who told you they 'deserved' to be publicly humiliated?"
-✗ Catastrophising: "My whole life is ruined now"
-  → Don't reassure ("it'll be fine"). Challenge: "What's the actual worst realistic outcome?
-     And what's one thing that could still go okay?"
-✗ All-or-nothing: "I either top the class or I'm worthless"
-  → "Who built that rule? And what happens to the 95% of people who don't top their class?"
-✗ Self-harm framing: Any hint of hurting themselves as a coping strategy
-  → Redirect immediately to distress tolerance skill, do not engage with it as a solution
-✗ Substance use as coping: "I just need a cigarette to calm down"
-  → "That's a borrowed calm — it'll wear off and the problem is still there. What else helps?"
-
-IMPORTANT — BALANCE:
-Do not redirect in every single message. First 1-2 turns: gather information.
-Once you have enough context (turn 3+): begin weaving in CBT/DBT/behavioural work.
-The order is always: Understand first → Validate the emotion → Challenge the thought/behaviour.
+REINFORCE: insight, adaptive coping, reaching out, reality-testing their own thought.
+REDIRECT: avoidance, rumination, self-blame, catastrophising, self-harm framing.
+Do NOT redirect in every message. First 1-2 turns: gather info. Turn 3+: begin CBT/DBT work.
+Order: Understand → Validate emotion → Challenge thought/behaviour.
 {profile_block}
 {guidance}"""
 
@@ -1192,159 +876,154 @@ def build_agent(profile=None):
 
     # ── CLASSIFY NODE ──────────────────────────────────────────────────
     def classify_node(state: AgentState):
-        api_key = os.getenv("NVIDIA_API_KEY", "")
-        messages = list(state["messages"])
+        messages    = list(state["messages"])
         current_msg = messages[-1].content if messages else ""
+        prev_language = state.get("detected_language", "ENGLISH")
 
+        # ── Strategy 7: Rule-based pre-filter (zero LLM cost) ───────────
+        fast_cls = _rule_prefilter(current_msg)
+        if fast_cls:
+            stage_map_fast = {
+                "CRISIS":      "crisis",
+                "MISCHIEVOUS": "initial",
+                "SAFE":        "initial",
+                "MARKS":       "initial",
+            }
+            inquiry_stage = stage_map_fast.get(fast_cls, "initial")
+            print(f"  [{fast_cls}] ⚡ rule-filter 🌐 {prev_language}")
+            return {
+                "classification":    fast_cls,
+                "current_input":     current_msg,
+                "crisis_verified":   False,
+                "inquiry_stage":     inquiry_stage,
+                "detected_language": prev_language,
+            }
+
+        # ── Strategy 5: Shrink classifier history to 2 turns (4 msgs) ───
+        # Classifier only needs minimal context for routing — not the full history.
         history_parts = []
-        for msg in messages[-6:-1]:
+        for msg in messages[-4:-1]:   # was [-6:-1]
             if isinstance(msg, HumanMessage):
-                history_parts.append(f"Student: {msg.content}")
+                history_parts.append(f"Student: {msg.content[:120]}")
             elif isinstance(msg, AIMessage):
-                history_parts.append(f"Dr. Mind: {msg.content[:100]}")
-        history_str = "\n".join(history_parts) if history_parts else "[Start of conversation]"
+                history_parts.append(f"Dr. Mind: {msg.content[:60]}")
+        history_str = "\n".join(history_parts) if history_parts else "[Start]"
 
-        # llm = ChatNVIDIA(
-        #     model=NVIDIA_MODEL,
-        #     api_key=api_key,
-        #     base_url=NVIDIA_BASE_URL,
-        #     temperature=0.05,
-        # )
-        llm = ChatOpenAI(
-            model=OPENAI_MODEL,
-            api_key=api_key,
-            temperature=0.05,
-        )
+        # ── Strategy 1: gpt-4o-mini for routing ─────────────────────────
+        # Strategy 4: Static system / dynamic human split for prefix caching
+        llm = _classifier_llm(temperature=0.0)
+        msgs = _build_classifier_messages(history_str, current_msg)
+        result = llm.invoke(msgs)
+        full_response = result.content.strip()
 
-        prompt = CLASSIFIER_SYSTEM_PROMPT.format(history=history_str, message=current_msg)
-        result = llm.invoke([HumanMessage(content=prompt)])
-        full_response = result.content
+        # ── Parse — Strategy 2: output is now just 2 lines ──────────────
+        valid = {"CRISIS", "VIOLENCE", "SUBSTANCE", "SEXUAL_HARASSMENT", "OCD",
+                 "MISCHIEVOUS", "FAMILY_CONFLICT", "RELATIONSHIP", "BODY_IMAGE",
+                 "NEGATIVE", "TEACHER_SYSTEMIC", "EXAM_STRESS", "MARKS", "SAFE", "AMBIGUOUS"}
+        valid_languages = {"ENGLISH", "HINDI", "TELUGU", "TAMIL", "MALAYALAM", "KANNADA", "URDU"}
 
-        valid = ["CRISIS", "VIOLENCE", "SUBSTANCE", "SEXUAL_HARASSMENT", "OCD", "MISCHIEVOUS",
-                 "FAMILY_CONFLICT", "RELATIONSHIP", "BODY_IMAGE",
-                 "NEGATIVE", "TEACHER_SYSTEMIC", "EXAM_STRESS", "MARKS", "SAFE", "AMBIGUOUS"]
+        classification    = "SAFE"
+        detected_language = prev_language
 
-        classification = "SAFE"
-        lines = [l.strip() for l in full_response.split('\n') if l.strip()]
-
-        for line in reversed(lines):
-            line_clean = line.upper().replace("CLASSIFICATION:", "").replace("CLASSIFICATION", "").strip()
-            for v in valid:
-                if line_clean == v or line_clean.startswith(v + " ") or line_clean.startswith(v + "."):
-                    classification = v
-                    break
-            if classification != "SAFE" or line_clean == "SAFE":
-                break
+        for line in full_response.splitlines():
+            line = line.strip().upper()
+            if line.startswith("CLASSIFICATION:"):
+                token = line.replace("CLASSIFICATION:", "").strip().split()[0].rstrip(".")
+                if token in valid:
+                    classification = token
+            elif line.startswith("LANGUAGE:"):
+                token = line.replace("LANGUAGE:", "").strip().split()[0].rstrip(".")
+                if token in valid_languages:
+                    detected_language = token
 
         # Emotional override: MARKS + affect → NEGATIVE
         if classification == "MARKS":
-            emotional_markers = ["anxious", "scared", "worried", "stressed", "nervous",
-                                  "afraid", "terrified", "panic", "dreading", "freaking",
-                                  "depressed", "sad", "upset", "angry", "frustrated"]
-            if any(m in current_msg.lower() for m in emotional_markers):
+            _affect = {"anxious","scared","worried","stressed","nervous","afraid",
+                       "terrified","panic","dreading","freaking","depressed","sad",
+                       "upset","angry","frustrated"}
+            if any(w in current_msg.lower() for w in _affect):
                 classification = "NEGATIVE"
-                print(f"    ↳ EMOTIONAL OVERRIDE: marks + affect → NEGATIVE")
+                print("    ↳ EMOTIONAL OVERRIDE: marks + affect → NEGATIVE")
 
-        # ── Language detection — parsed from classifier output ──────────
-        valid_languages = {"ENGLISH", "HINDI", "TELUGU", "TAMIL", "MALAYALAM", "KANNADA", "URDU"}
-        detected_language = "ENGLISH"  # safe default
-
-        for line in lines:
-            line_upper = line.upper().strip()
-            # Match "LANGUAGE: HINDI" or "LANGUAGE HINDI"
-            if line_upper.startswith("LANGUAGE"):
-                after = line_upper.replace("LANGUAGE", "", 1).lstrip(":").strip()
-                candidate = after.split()[0].rstrip(".") if after.split() else ""
-                if candidate in valid_languages:
-                    detected_language = candidate
-                    break
-            # Also catch a bare language word on its own line
-            bare = line_upper.rstrip(".")
-            if bare in valid_languages:
-                detected_language = bare
-                # don't break — a LANGUAGE: line later will override
-
-        # For very short messages (hi, ok, yes) keep the previous session language
-        # so the AI doesn't reset to English mid-conversation
-        prev_language = state.get("detected_language", "ENGLISH")
+        # Short messages inherit previous session language (prevents English reset mid-conversation)
         if len(current_msg.strip().split()) <= 2 and prev_language != "ENGLISH":
             detected_language = prev_language
 
         stage_map = {
             "TEACHER_SYSTEMIC": "teacher",
-            "EXAM_STRESS": "exam_exploration",
-            "SUBSTANCE": "substance_exploration",
-            "OCD": "ocd_exploration",
-            "NEGATIVE": "negative_affect",
-            "SEXUAL_HARASSMENT": "harassment_disclosure",
-            "FAMILY_CONFLICT": "family_exploration",
-            "RELATIONSHIP": "relationship_exploration",
-            "BODY_IMAGE": "body_image_exploration",
-            "CRISIS": "crisis",
-            "VIOLENCE": "violence",
+            "EXAM_STRESS":      "exam_exploration",
+            "SUBSTANCE":        "substance_exploration",
+            "OCD":              "ocd_exploration",
+            "NEGATIVE":         "negative_affect",
+            "SEXUAL_HARASSMENT":"harassment_disclosure",
+            "FAMILY_CONFLICT":  "family_exploration",
+            "RELATIONSHIP":     "relationship_exploration",
+            "BODY_IMAGE":       "body_image_exploration",
+            "CRISIS":           "crisis",
+            "VIOLENCE":         "violence",
         }
         inquiry_stage = stage_map.get(classification, "initial")
-
-        print(f"  [{classification}] 🌐 {detected_language}")
-        if len(full_response) > 50:
-            print(f"    ↳ {full_response[:120]}...")
-
+        print(f"  [{classification}] 🤖 mini 🌐 {detected_language}")
         return {
-            "classification":   classification,
-            "current_input":    current_msg,
-            "crisis_verified":  False,
-            "inquiry_stage":    inquiry_stage,
+            "classification":    classification,
+            "current_input":     current_msg,
+            "crisis_verified":   False,
+            "inquiry_stage":     inquiry_stage,
             "detected_language": detected_language,
         }
 
     # ── CRISIS VERIFY NODE ─────────────────────────────────────────────
     def crisis_verify_node(state: AgentState):
-        """Second LLM call to confirm CRISIS — prevents false positives."""
+        """Second LLM call to confirm CRISIS — prevents false positives. Keep gpt-4o-mini."""
         if state["classification"] != "CRISIS":
             return state
 
-        api_key = os.getenv("OPENAI_API_KEY", "")
-        # llm = ChatNVIDIA(
-        #     model=NVIDIA_MODEL,
-        #     api_key=api_key,
-        #     base_url=NVIDIA_BASE_URL,
-        #     temperature=0.0,
-        # )
-        llm = ChatOpenAI(
-            model=OPENAI_MODEL,
-            api_key=api_key,
-            temperature=0.0,
-        )
+        # Mini is sufficient here — binary true/false decision
+        llm = _classifier_llm(temperature=0.0)
 
         history_str = "\n".join([
             f"{'Student' if isinstance(m, HumanMessage) else 'Dr. Mind'}: {m.content[:60]}"
             for m in state["messages"][-4:]
         ])
 
-        verify_prompt = f"""Verify if this is TRUE crisis or metaphor/false positive.
-
-Message: "{state['current_input']}"
-Context:
-{history_str}
-
-1. Is this metaphorical? (e.g. "I'm dead tired", "killing it", past tense event)
-2. Or literal suicidal ideation with intent/plan/means?
-
-Respond ONLY with: TRUE_CRISIS or FALSE_POSITIVE"""
+        verify_prompt = (
+            f"Is this literal suicidal ideation or a metaphor/false positive?\n\n"
+            f"Message: \"{state['current_input']}\"\n"
+            f"Context:\n{history_str}\n\n"
+            f"Reply ONLY with: TRUE_CRISIS or FALSE_POSITIVE"
+        )
 
         result = llm.invoke([HumanMessage(content=verify_prompt)])
         if "FALSE" in result.content.upper():
-            print(f"    ⚠️ Crisis false positive → reclassifying as SAFE")
+            print("    ⚠️ Crisis false positive → reclassifying as SAFE")
             return {**state, "classification": "SAFE", "crisis_verified": False}
 
         return {**state, "crisis_verified": True}
 
     # ── RESPOND NODE ───────────────────────────────────────────────────
+    def _compress_history(messages: list, keep_recent: int = 8) -> list:
+        """
+        Strategy 5: Keep the last `keep_recent` messages verbatim.
+        Older turns are summarised into a single lightweight SystemMessage
+        so the model retains context without paying full token cost.
+        """
+        if len(messages) <= keep_recent:
+            return list(messages)
+        older  = messages[:-keep_recent]
+        recent = messages[-keep_recent:]
+        summary_lines = []
+        for m in older:
+            role = "Student" if isinstance(m, HumanMessage) else "Dr.Mind"
+            summary_lines.append(f"{role}: {m.content[:60].strip()}…")
+        summary = SystemMessage(
+            content="[Earlier context summary]\n" + "\n".join(summary_lines)
+        )
+        return [summary] + list(recent)
+
     def respond_node(state: AgentState):
         category = state["classification"]
-        api_key = os.getenv("NVIDIA_API_KEY", "")
 
-        # Safety-critical: always hardcoded responses
+        # Safety-critical: always hardcoded — no LLM cost, no variance
         if category == "CRISIS":
             return {"messages": [AIMessage(content=CRISIS_RESPONSE)]}
         if category == "VIOLENCE":
@@ -1354,8 +1033,7 @@ Respond ONLY with: TRUE_CRISIS or FALSE_POSITIVE"""
         if category == "MISCHIEVOUS":
             return {"messages": [AIMessage(content=MISCHIEVOUS_RESPONSE)]}
 
-        # SEXUAL_HARASSMENT: hardcoded anchor on very first disclosure,
-        # then LLM-driven with clinical guidance from second message onwards.
+        # SEXUAL_HARASSMENT: hardcoded anchor on very first disclosure only
         if category == "SEXUAL_HARASSMENT":
             prior_harassment = any(
                 isinstance(m, AIMessage) and "not your fault" in m.content.lower()
@@ -1364,29 +1042,22 @@ Respond ONLY with: TRUE_CRISIS or FALSE_POSITIVE"""
             if not prior_harassment:
                 return {"messages": [AIMessage(content=SEXUAL_HARASSMENT_ANCHOR)]}
 
-        # First message greeting
+        # First-message greeting — free
         if category == "SAFE" and len(state["messages"]) <= 2:
             return {"messages": [AIMessage(content=SAFE_GREETING)]}
 
-        # All other categories: LLM with clinical interview system prompt
         detected_language = state.get("detected_language", "ENGLISH")
+
+        # Strategy 6: lightweight categories get slim prompt (no CBT/DBT block)
+        # Strategy 4: build_clinical_system_prompt returns cache-optimised string
         system_prompt = build_clinical_system_prompt(profile, category, detected_language)
-        system = SystemMessage(content=system_prompt)
 
-        # llm = ChatNVIDIA(
-        #     model=NVIDIA_MODEL,
-        #     api_key=api_key,
-        #     base_url=NVIDIA_BASE_URL,
-        #     temperature=0.7,
-        # )
+        # Strategy 5: compress history — keep 8 messages verbatim, summarise rest
+        compressed = _compress_history(list(state["messages"]), keep_recent=8)
 
-        llm = ChatOpenAI(
-            model=OPENAI_MODEL,
-            api_key=api_key,
-            temperature=0.7,
-        )
-
-        result = llm.invoke([system] + list(state["messages"]))
+        # Strategy 1: gpt-4o for quality clinical response
+        llm = _responder_llm(temperature=0.7)
+        result = llm.invoke([SystemMessage(content=system_prompt)] + compressed)
         return {"messages": [AIMessage(content=result.content)]}
 
     # ── Build graph ────────────────────────────────────────────────────
