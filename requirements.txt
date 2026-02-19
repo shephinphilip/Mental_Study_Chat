@@ -11,13 +11,14 @@ langgraph
 
 langchain-openai
 langsmith
+langchain-google-genai
 
 # FastAPI
 fastapi
 uvicorn[standard]
 pydantic
 pydantic-settings
-
+bson
 # Async
 httpx
 aiohttp
