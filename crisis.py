@@ -14,6 +14,7 @@ from dotenv import load_dotenv
 
 try:
     from langchain_nvidia_ai_endpoints import ChatNVIDIA
+    from langchain_openai import ChatOpenAI
     from langchain_core.messages import BaseMessage, SystemMessage, HumanMessage, AIMessage
     from langgraph.graph import StateGraph, END, START
     from langgraph.graph.message import add_messages
@@ -25,6 +26,9 @@ load_dotenv()
 
 NVIDIA_MODEL = "meta/llama-3.1-70b-instruct"
 NVIDIA_BASE_URL = "https://integrate.api.nvidia.com/v1"
+
+OPENAI_MODEL = "gpt-4o-mini"
+
 
 # ═════════════════════════════════════════════════════════════════
 # CLASSIFIER PROMPT — Hierarchical Safety Triage
@@ -1200,10 +1204,15 @@ def build_agent(profile=None):
                 history_parts.append(f"Dr. Mind: {msg.content[:100]}")
         history_str = "\n".join(history_parts) if history_parts else "[Start of conversation]"
 
-        llm = ChatNVIDIA(
-            model=NVIDIA_MODEL,
+        # llm = ChatNVIDIA(
+        #     model=NVIDIA_MODEL,
+        #     api_key=api_key,
+        #     base_url=NVIDIA_BASE_URL,
+        #     temperature=0.05,
+        # )
+        llm = ChatOpenAI(
+            model=OPENAI_MODEL,
             api_key=api_key,
-            base_url=NVIDIA_BASE_URL,
             temperature=0.05,
         )
 
@@ -1294,11 +1303,16 @@ def build_agent(profile=None):
         if state["classification"] != "CRISIS":
             return state
 
-        api_key = os.getenv("NVIDIA_API_KEY", "")
-        llm = ChatNVIDIA(
-            model=NVIDIA_MODEL,
+        api_key = os.getenv("OPENAI_API_KEY", "")
+        # llm = ChatNVIDIA(
+        #     model=NVIDIA_MODEL,
+        #     api_key=api_key,
+        #     base_url=NVIDIA_BASE_URL,
+        #     temperature=0.0,
+        # )
+        llm = ChatOpenAI(
+            model=OPENAI_MODEL,
             api_key=api_key,
-            base_url=NVIDIA_BASE_URL,
             temperature=0.0,
         )
 
@@ -1359,10 +1373,16 @@ Respond ONLY with: TRUE_CRISIS or FALSE_POSITIVE"""
         system_prompt = build_clinical_system_prompt(profile, category, detected_language)
         system = SystemMessage(content=system_prompt)
 
-        llm = ChatNVIDIA(
-            model=NVIDIA_MODEL,
+        # llm = ChatNVIDIA(
+        #     model=NVIDIA_MODEL,
+        #     api_key=api_key,
+        #     base_url=NVIDIA_BASE_URL,
+        #     temperature=0.7,
+        # )
+
+        llm = ChatOpenAI(
+            model=OPENAI_MODEL,
             api_key=api_key,
-            base_url=NVIDIA_BASE_URL,
             temperature=0.7,
         )
 

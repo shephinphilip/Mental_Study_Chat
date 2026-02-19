@@ -48,8 +48,8 @@ log = logging.getLogger("dr_mind")
 
 # ─── GPT-4o pricing (USD per token) ──────────────────────────────────────────
 # https://openai.com/pricing  (gpt-4o as of 2024-11)
-GPT4O_INPUT_COST_PER_TOKEN  = 5.00  / 1_000_000   # $5.00  / 1M input tokens
-GPT4O_OUTPUT_COST_PER_TOKEN = 15.00 / 1_000_000   # $15.00 / 1M output tokens
+GPT4O_INPUT_COST_PER_TOKEN  = 0.15 / 1_000_000   # $0.15  / 1M input tokens
+GPT4O_OUTPUT_COST_PER_TOKEN = 0.60 / 1_000_000   # $0.60 / 1M output tokens
 
 
 # ─── Token tracker callback ───────────────────────────────────────────────────
