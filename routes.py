@@ -86,7 +86,7 @@ from crisis import (
     _rule_prefilter,
     _thread_pool,
 )
-from db import db
+from database import db
 
 load_dotenv()
 
