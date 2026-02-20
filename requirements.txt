@@ -19,7 +19,11 @@ uvicorn[standard]
 pydantic
 pydantic-settings
 # bson 
+fastapi
+uvicorn
+motor
 pymongo
+openai
 # Async
 httpx
 aiohttp
