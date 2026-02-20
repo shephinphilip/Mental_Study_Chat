@@ -18,7 +18,7 @@ fastapi
 uvicorn[standard]
 pydantic
 pydantic-settings
-bson 
+# bson 
 pymongo
 # Async
 httpx
